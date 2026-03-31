@@ -1,0 +1,15 @@
+# Security: Never commit credentials
+*.json
+.env
+credentials/
+
+# Databases: Ignore local databases
+*.sqlite
+*.db
+
+# Python caches
+__pycache__/
+*.pyc
+
+# Optional: Ignore data files if they get too large
+# *.csv

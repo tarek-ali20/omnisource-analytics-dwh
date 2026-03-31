@@ -1,0 +1,24 @@
+Google Sheets (Customers)
+        → Python → raw_customers
+
+CSV/Excel (Transactions)
+        → Python → raw_transactions
+
+Web Scraping (Product Prices)
+        → Python (BeautifulSoup) → raw_prices
+
+Public API (Currency / External Signals)
+        → Python (requests) → raw_external
+
+PostgreSQL (Orders DB)
+        → Python / SQL → raw_orders
+
+-----------------------------------------
+
+raw_* → (SQL cleaning) → staging_*
+
+staging_* → (business logic) → warehouse_*
+
+warehouse_* → (aggregation) → mart_*
+
+mart_* → Power BI

@@ -1,0 +1,16 @@
+customer_id,first_name,last_name,email,phone,country,city,registration_date,customer_segment,status
+C001,Ahmed,Ali,ahmed.ali@example.com,+971501234567,UAE,Dubai,2022-05-10,Premium,Active
+C002,Sara,Khalid,sara.k@example.com,+971509876543,UAE,Abu Dhabi,2023-01-15,Basic,Active
+C003,John,Smith,j.smith@example.com,+12025550123,USA,New York,2022-11-05,VIP,Active
+C004,Fatima,Hassan,f.hassan@example.com,+966501112222,KSA,Riyadh,2023-08-20,Premium,Active
+C005,Omar,Farooq,omar.f@example.com,+201012345678,Egypt,Cairo,2024-01-10,Basic,Inactive
+C006,Emma,Watson,emma.w@example.com,+447911123456,UK,London,2021-09-30,VIP,Active
+C007,Tariq,Mansour,t.mansour@example.com,+971561122334,UAE,Sharjah,2023-12-05,Basic,Active
+C008,Laila,Mahmoud,laila.m@example.com,+966551239876,KSA,Jeddah,2022-03-18,VIP,Active
+C009,David,Clark,david.c@example.com,+14155550198,USA,San Francisco,2023-07-22,Basic,Active
+C010,Mona,Zaki,mona.z@example.com,+97455667788,Qatar,Doha,2024-02-01,Premium,Active
+C011,Youssef,Ibrahim,youssef.i@example.com,+96512345678,Kuwait,Kuwait City,2023-10-11,Basic,Active
+C012,Sophie,Martin,sophie.m@example.com,+33123456789,France,Paris,2022-01-25,Premium,Inactive
+C013,Zainab,Al-Fayed,zainab.a@example.com,+97333445566,Bahrain,Manama,2023-05-14,Basic,Active
+C014,Michael,Brown,michael.b@example.com,+13125550199,USA,Chicago,2021-11-11,VIP,Active
+C015,Nour,Eldin,nour.e@example.com,+201122334455,Egypt,Alexandria,2024-03-05,Basic,Active
