@@ -1,12 +1,17 @@
 import sqlite3
 import pandas as pd
 from google.cloud import bigquery
+from pathlib import Path
+
+
+ROOT_DIR = Path(__file__).resolve().parents[2]
+RAW_DB_PATH = ROOT_DIR / "data" / "raw" / "operational_db.sqlite"
 
 def load_sqlite_to_bq():
     print("🚀 Starting Database Extraction (SQLite -> BigQuery)...")
     
     # الخطوة الأولى: الاتصال بقاعدة البيانات المحلية
-    db_file = 'operational_db.sqlite'
+    db_file = RAW_DB_PATH
     
     try:
         conn = sqlite3.connect(db_file)

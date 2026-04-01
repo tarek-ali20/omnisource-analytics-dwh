@@ -1,16 +1,1001 @@
-customer_id,first_name,last_name,email,phone,country,city,registration_date,customer_segment,status
-C001,Ahmed,Ali,ahmed.ali@example.com,+971501234567,UAE,Dubai,2022-05-10,Premium,Active
-C002,Sara,Khalid,sara.k@example.com,+971509876543,UAE,Abu Dhabi,2023-01-15,Basic,Active
-C003,John,Smith,j.smith@example.com,+12025550123,USA,New York,2022-11-05,VIP,Active
-C004,Fatima,Hassan,f.hassan@example.com,+966501112222,KSA,Riyadh,2023-08-20,Premium,Active
-C005,Omar,Farooq,omar.f@example.com,+201012345678,Egypt,Cairo,2024-01-10,Basic,Inactive
-C006,Emma,Watson,emma.w@example.com,+447911123456,UK,London,2021-09-30,VIP,Active
-C007,Tariq,Mansour,t.mansour@example.com,+971561122334,UAE,Sharjah,2023-12-05,Basic,Active
-C008,Laila,Mahmoud,laila.m@example.com,+966551239876,KSA,Jeddah,2022-03-18,VIP,Active
-C009,David,Clark,david.c@example.com,+14155550198,USA,San Francisco,2023-07-22,Basic,Active
-C010,Mona,Zaki,mona.z@example.com,+97455667788,Qatar,Doha,2024-02-01,Premium,Active
-C011,Youssef,Ibrahim,youssef.i@example.com,+96512345678,Kuwait,Kuwait City,2023-10-11,Basic,Active
-C012,Sophie,Martin,sophie.m@example.com,+33123456789,France,Paris,2022-01-25,Premium,Inactive
-C013,Zainab,Al-Fayed,zainab.a@example.com,+97333445566,Bahrain,Manama,2023-05-14,Basic,Active
-C014,Michael,Brown,michael.b@example.com,+13125550199,USA,Chicago,2021-11-11,VIP,Active
-C015,Nour,Eldin,nour.e@example.com,+201122334455,Egypt,Alexandria,2024-03-05,Basic,Active
+customer_id,first_name,last_name,email,phone,country,city,registration_date,customer_segment,status,loyalty_tier,gender,preferred_language,acquisition_channel,marketing_opt_in,credit_score_band,birth_date,last_login_at,avg_order_value,lifetime_value
+C0001,Fatima,Ali,fatima.ali1@example.com,+971583197857,UK,London,2022-04-03,Basic,Suspended,Platinum,Male,Arabic,Organic,true,Low,1997-09-01,2024-05-22T23:06:00+00:00,824.97,24749.10
+C0002,Ava,Ali,ava.ali2@example.com,+971547338124,USA,Austin,2024-08-23,Basic,Active,Platinum,Female,English,Paid Search,true,Medium,1979-08-02,2025-12-19T17:26:00+00:00,295.71,5914.20
+C0003,John,Thomas,john.thomas3@example.com,+971581971316,KSA,Jeddah,2022-12-06,Basic,Inactive,Bronze,Female,Bilingual,Social Media,false,High,1983-08-17,2025-09-10T08:51:00+00:00,90.40,1446.40
+C0004,John,Khalid,john.khalid4@example.com,+971558966946,USA,Chicago,2021-06-13,Premium,Active,Gold,Male,Bilingual,Referral,true,High,2003-06-26,2024-08-26T03:24:00+00:00,362.45,7973.90
+C0005,Lina,Young,lina.young5@example.com,+971539476249,USA,New York,2023-08-05,VIP,Active,Silver,Male,English,Partner,false,Low,1984-06-18,2025-01-23T08:59:00+00:00,782.40,14865.60
+C0006,Khalid,Wilson,khalid.wilson6@example.com,+971543101783,USA,Austin,2023-10-20,VIP,Suspended,Platinum,Female,English,Paid Search,true,High,1997-02-19,2025-02-09T20:29:00+00:00,205.73,1234.38
+C0007,John,Khalid,john.khalid7@example.com,+971561220073,KSA,Riyadh,2024-07-09,Enterprise,Suspended,Gold,Male,Bilingual,Direct,true,High,1999-02-01,2024-06-12T21:27:00+00:00,731.83,10245.62
+C0008,Noor,Wilson,noor.wilson8@example.com,+971545351479,KSA,Jeddah,2023-06-10,Premium,Suspended,Bronze,Female,Bilingual,Social Media,true,Low,1991-10-10,2024-06-10T14:00:00+00:00,1146.43,34392.90
+C0009,Lina,Young,lina.young9@example.com,+971551273847,UAE,Sharjah,2022-10-26,Premium,Active,Silver,Male,Arabic,Direct,false,Low,1998-11-23,2025-05-15T00:07:00+00:00,1117.75,33532.50
+C0010,Omar,Brown,omar.brown10@example.com,+971536998038,Bahrain,Manama,2022-06-27,VIP,Inactive,Gold,Female,Bilingual,Partner,true,Low,1985-01-29,2025-06-24T19:27:00+00:00,1158.66,22014.54
+C0011,John,Wilson,john.wilson11@example.com,+971594705205,UAE,Sharjah,2024-02-09,Basic,Active,Bronze,Male,English,Organic,true,Medium,2005-01-03,2024-08-23T18:14:00+00:00,48.34,1160.16
+C0012,Sophia,Mansour,sophia.mansour12@example.com,+971564634663,Egypt,Giza,2024-03-15,Premium,Active,Bronze,Female,English,Partner,false,Medium,2007-09-15,2025-08-13T15:15:00+00:00,950.16,25654.32
+C0013,Sara,Hassan,sara.hassan13@example.com,+971570211891,UAE,Abu Dhabi,2025-01-31,Premium,Inactive,Silver,Female,English,Paid Search,true,Medium,1999-09-08,2024-12-13T03:15:00+00:00,262.24,4982.56
+C0014,Fatima,Khalid,fatima.khalid14@example.com,+971563826716,UAE,Dubai,2022-04-30,Basic,Active,Platinum,Male,English,Referral,false,Medium,1993-12-22,2024-06-19T13:31:00+00:00,598.38,17353.02
+C0015,Leen,White,leen.white15@example.com,+971552091325,Egypt,Cairo,2022-08-31,Basic,Active,Platinum,Male,Arabic,Social Media,true,Low,1978-01-27,2024-08-10T01:37:00+00:00,893.46,2680.38
+C0016,Ava,Smith,ava.smith16@example.com,+971521003626,USA,Chicago,2021-09-03,Enterprise,Suspended,Gold,Female,Arabic,Direct,false,Low,1986-11-30,2025-08-06T07:37:00+00:00,729.64,15322.44
+C0017,Layla,Brown,layla.brown17@example.com,+971523419256,UK,Manchester,2022-10-10,Basic,Suspended,Silver,Female,Arabic,Referral,true,Low,1991-07-30,2024-03-15T00:29:00+00:00,760.54,15210.80
+C0018,Ali,Johnson,ali.johnson18@example.com,+971550181935,Bahrain,Riffa,2024-06-06,Basic,Active,Gold,Male,Arabic,Direct,true,Medium,1987-08-22,2025-10-31T16:00:00+00:00,814.72,15479.68
+C0019,Ava,Mansour,ava.mansour19@example.com,+971516818112,Qatar,Doha,2024-11-08,Basic,Inactive,Gold,Male,Arabic,Referral,true,High,1986-10-01,2025-10-11T08:32:00+00:00,606.70,18201.00
+C0020,Lina,Anderson,lina.anderson20@example.com,+971559555330,Kuwait,Kuwait City,2021-08-18,Premium,Inactive,Silver,Male,English,Referral,true,Medium,1984-06-03,2024-03-18T22:57:00+00:00,212.90,638.70
+C0021,Yousef,Hassan,yousef.hassan21@example.com,+971533763566,Qatar,Al Rayyan,2024-06-25,Enterprise,Active,Silver,Female,English,Direct,true,Medium,1982-02-21,2024-06-07T07:55:00+00:00,228.50,6169.50
+C0022,Fatima,Thomas,fatima.thomas22@example.com,+971540547349,UAE,Abu Dhabi,2022-04-01,Premium,Active,Silver,Female,English,Referral,true,Medium,1990-10-02,2024-07-23T14:22:00+00:00,394.02,10638.54
+C0023,Zain,Thomas,zain.thomas23@example.com,+971515134794,Qatar,Doha,2021-08-25,Basic,Suspended,Platinum,Female,Bilingual,Referral,false,High,1997-12-10,2024-09-24T05:37:00+00:00,1156.54,11565.40
+C0024,Fatima,Thomas,fatima.thomas24@example.com,+971536445607,USA,Chicago,2021-04-01,VIP,Inactive,Bronze,Female,Bilingual,Referral,true,High,1988-06-21,2025-03-22T00:33:00+00:00,1113.67,21159.73
+C0025,Zain,Clark,zain.clark25@example.com,+971599245317,Kuwait,Hawalli,2023-04-05,Enterprise,Active,Gold,Female,Bilingual,Organic,false,Medium,1984-06-05,2025-12-14T09:35:00+00:00,187.65,2814.75
+C0026,David,Hill,david.hill26@example.com,+971532775593,Qatar,Al Rayyan,2023-06-24,Basic,Active,Gold,Male,Arabic,Direct,false,Low,1983-12-07,2025-03-28T21:13:00+00:00,632.96,17089.92
+C0027,Omar,Ali,omar.ali27@example.com,+971587265240,UAE,Dubai,2023-09-01,Premium,Inactive,Platinum,Female,Arabic,Paid Search,true,Low,1994-01-26,2025-09-17T02:29:00+00:00,520.75,11456.50
+C0028,Yousef,Johnson,yousef.johnson28@example.com,+971599600766,Bahrain,Manama,2024-02-16,VIP,Inactive,Platinum,Female,Arabic,Direct,false,Medium,1986-08-17,2024-09-12T03:29:00+00:00,194.67,3114.72
+C0029,Yousef,Miller,yousef.miller29@example.com,+971555076693,Bahrain,Manama,2022-07-17,VIP,Suspended,Bronze,Male,Arabic,Paid Search,false,High,1981-11-08,2025-03-26T02:45:00+00:00,371.44,3714.40
+C0030,Mona,Smith,mona.smith30@example.com,+971566390708,Kuwait,Hawalli,2022-11-09,Enterprise,Suspended,Bronze,Female,English,Organic,false,Medium,1992-06-29,2025-07-09T14:26:00+00:00,112.23,3142.44
+C0031,David,Young,david.young31@example.com,+971599774697,USA,Chicago,2022-03-26,Enterprise,Active,Platinum,Male,Bilingual,Social Media,true,Medium,2001-07-20,2024-10-06T13:31:00+00:00,73.67,884.04
+C0032,Khalid,Ali,khalid.ali32@example.com,+971553936531,KSA,Dammam,2023-05-28,Premium,Inactive,Gold,Female,English,Referral,false,Medium,1978-09-03,2024-05-18T14:11:00+00:00,98.33,1376.62
+C0033,Sophia,Ali,sophia.ali33@example.com,+971514164775,UAE,Abu Dhabi,2022-04-05,Premium,Active,Bronze,Male,Arabic,Paid Search,false,High,1980-02-18,2025-10-27T02:49:00+00:00,1150.45,3451.35
+C0034,Khalid,Mansour,khalid.mansour34@example.com,+971525372341,Bahrain,Riffa,2023-01-26,Premium,Active,Bronze,Male,English,Social Media,false,Medium,2007-01-27,2024-06-20T19:38:00+00:00,1157.93,27790.32
+C0035,Mona,Smith,mona.smith35@example.com,+971585958181,USA,New York,2024-11-28,Basic,Active,Platinum,Female,Arabic,Social Media,false,Low,1993-11-04,2024-11-04T21:38:00+00:00,974.41,26309.07
+C0036,Sophia,Hassan,sophia.hassan36@example.com,+971580027662,Kuwait,Hawalli,2024-07-25,VIP,Suspended,Platinum,Female,English,Direct,false,Medium,1986-01-05,2025-04-15T22:09:00+00:00,545.17,13629.25
+C0037,John,Miller,john.miller37@example.com,+971576344695,Bahrain,Manama,2023-08-10,VIP,Active,Platinum,Male,English,Referral,false,Medium,2001-09-28,2025-08-06T19:42:00+00:00,479.63,959.26
+C0038,Noor,Young,noor.young38@example.com,+971542255732,UAE,Sharjah,2022-01-27,Enterprise,Inactive,Platinum,Male,Arabic,Referral,true,Medium,2006-01-12,2024-03-28T07:46:00+00:00,511.46,9717.74
+C0039,Yousef,Clark,yousef.clark39@example.com,+971554398056,Qatar,Al Rayyan,2024-02-08,VIP,Inactive,Gold,Female,English,Paid Search,true,High,1983-08-22,2025-06-27T11:27:00+00:00,1196.09,22725.71
+C0040,Mariam,Hassan,mariam.hassan40@example.com,+971580415568,Egypt,Cairo,2022-03-20,VIP,Active,Silver,Female,Arabic,Referral,true,Medium,1975-08-20,2025-05-10T08:46:00+00:00,723.92,18821.92
+C0041,Leen,Brown,leen.brown41@example.com,+971575884623,UK,London,2021-04-22,Basic,Active,Gold,Female,English,Partner,false,Low,1977-04-21,2025-07-20T09:44:00+00:00,1135.14,24973.08
+C0042,Noor,White,noor.white42@example.com,+971530364454,KSA,Riyadh,2023-04-01,Premium,Suspended,Gold,Male,Arabic,Organic,false,High,2001-09-27,2025-05-18T02:36:00+00:00,770.16,2310.48
+C0043,Ava,Saleh,ava.saleh43@example.com,+971518083974,Kuwait,Hawalli,2023-06-26,Basic,Active,Silver,Female,Bilingual,Organic,true,Low,1982-10-18,2024-10-31T18:27:00+00:00,394.24,8279.04
+C0044,Leen,Smith,leen.smith44@example.com,+971541068214,Egypt,Cairo,2023-04-17,VIP,Active,Platinum,Male,Bilingual,Paid Search,false,High,2001-06-16,2025-04-06T22:38:00+00:00,585.10,1755.30
+C0045,Mona,Martin,mona.martin45@example.com,+971519584466,KSA,Dammam,2022-04-06,Basic,Active,Gold,Female,English,Organic,false,High,1988-08-22,2025-10-25T04:58:00+00:00,348.13,2088.78
+C0046,Layla,Miller,layla.miller46@example.com,+971591029073,Bahrain,Riffa,2021-06-14,VIP,Active,Bronze,Male,Bilingual,Social Media,true,High,1987-02-02,2025-09-04T01:56:00+00:00,541.15,6493.80
+C0047,Khalid,Khalid,khalid.khalid47@example.com,+971568503492,Egypt,Alexandria,2023-11-29,Enterprise,Active,Platinum,Female,English,Referral,false,High,1979-09-10,2025-10-29T14:58:00+00:00,362.66,7253.20
+C0048,Lina,Wilson,lina.wilson48@example.com,+971571045700,Kuwait,Hawalli,2022-08-14,Basic,Active,Gold,Female,Arabic,Partner,true,High,1999-05-04,2025-11-09T12:52:00+00:00,922.18,2766.54
+C0049,Ethan,Martin,ethan.martin49@example.com,+971516927215,UAE,Dubai,2023-11-28,Premium,Active,Silver,Female,English,Direct,false,Low,1976-04-17,2025-01-05T19:48:00+00:00,618.25,9892.00
+C0050,Ava,Saleh,ava.saleh50@example.com,+971525228493,Egypt,Alexandria,2024-02-03,Enterprise,Active,Silver,Female,Bilingual,Referral,false,Medium,1996-08-23,2024-01-15T17:26:00+00:00,148.12,4147.36
+C0051,Sophia,Saleh,sophia.saleh51@example.com,+971519369750,Bahrain,Manama,2023-02-25,VIP,Inactive,Gold,Female,Arabic,Referral,false,High,2001-01-05,2024-07-14T19:32:00+00:00,905.70,5434.20
+C0052,Sophia,Brown,sophia.brown52@example.com,+971553188224,Bahrain,Riffa,2022-12-08,Premium,Active,Platinum,Male,English,Organic,false,High,1996-03-20,2024-12-06T17:48:00+00:00,670.38,10726.08
+C0053,Layla,Thomas,layla.thomas53@example.com,+971569096899,Egypt,Alexandria,2021-03-17,Basic,Suspended,Platinum,Male,Bilingual,Paid Search,false,High,1981-12-04,2024-05-09T16:37:00+00:00,425.11,2125.55
+C0054,John,White,john.white54@example.com,+971581621574,UK,Manchester,2024-06-30,Enterprise,Active,Platinum,Male,Bilingual,Organic,true,High,2005-09-13,2025-12-10T12:41:00+00:00,133.17,1598.04
+C0055,Ali,Saleh,ali.saleh55@example.com,+971550193656,KSA,Jeddah,2021-07-21,Basic,Active,Gold,Male,English,Referral,false,Medium,1981-07-13,2025-10-10T22:55:00+00:00,156.59,1096.13
+C0056,Yousef,Moore,yousef.moore56@example.com,+971542323627,Kuwait,Kuwait City,2021-12-15,Enterprise,Suspended,Silver,Male,English,Direct,false,Medium,1986-06-15,2024-06-28T02:39:00+00:00,1050.17,22053.57
+C0057,Ahmed,Anderson,ahmed.anderson57@example.com,+971550151803,UK,Birmingham,2024-01-25,Enterprise,Active,Platinum,Female,Arabic,Partner,false,Low,1985-08-22,2024-06-10T02:28:00+00:00,1136.47,22729.40
+C0058,Layla,Hill,layla.hill58@example.com,+971511086890,Qatar,Al Rayyan,2024-12-03,Basic,Suspended,Platinum,Female,Arabic,Social Media,false,Low,2003-07-23,2024-10-29T00:53:00+00:00,803.55,8035.50
+C0059,Mona,King,mona.king59@example.com,+971594216001,UK,Birmingham,2025-01-16,Basic,Active,Platinum,Male,Bilingual,Referral,true,Low,1988-03-28,2025-11-06T21:53:00+00:00,198.66,993.30
+C0060,Mariam,Martin,mariam.martin60@example.com,+971532084778,Egypt,Cairo,2021-09-28,VIP,Inactive,Gold,Female,Arabic,Partner,true,Low,1985-02-13,2025-07-06T11:33:00+00:00,622.08,6220.80
+C0061,Layla,Young,layla.young61@example.com,+971545186708,Qatar,Doha,2023-03-20,Enterprise,Active,Bronze,Male,English,Organic,false,High,1984-12-05,2024-01-15T08:34:00+00:00,183.36,2383.68
+C0062,John,Anderson,john.anderson62@example.com,+971576118957,UK,Birmingham,2023-04-17,Basic,Active,Silver,Male,English,Partner,false,High,2006-03-30,2024-04-29T04:02:00+00:00,1137.66,12514.26
+C0063,Leen,Martin,leen.martin63@example.com,+971514391105,Egypt,Alexandria,2024-09-03,VIP,Active,Platinum,Female,Arabic,Referral,true,High,1991-06-24,2024-04-11T15:39:00+00:00,513.41,5134.10
+C0064,Leen,Taylor,leen.taylor64@example.com,+971598955314,UAE,Abu Dhabi,2022-07-20,Premium,Suspended,Bronze,Male,English,Paid Search,true,High,1984-03-16,2024-07-13T03:54:00+00:00,996.06,3984.24
+C0065,John,Young,john.young65@example.com,+971589991301,USA,Austin,2022-03-19,Basic,Active,Silver,Male,Bilingual,Referral,true,Low,2004-08-26,2024-08-26T10:49:00+00:00,211.16,6334.80
+C0066,Ahmed,Brown,ahmed.brown66@example.com,+971527013243,UAE,Abu Dhabi,2022-05-03,Enterprise,Suspended,Bronze,Male,English,Partner,false,High,2001-08-18,2025-08-25T10:01:00+00:00,242.13,726.39
+C0067,Fatima,Anderson,fatima.anderson67@example.com,+971518163847,USA,Austin,2021-03-30,Enterprise,Inactive,Platinum,Male,English,Direct,false,Low,1978-08-16,2025-11-05T16:19:00+00:00,571.33,1142.66
+C0068,Mariam,King,mariam.king68@example.com,+971553645651,Egypt,Cairo,2021-09-16,Enterprise,Suspended,Gold,Female,Bilingual,Social Media,false,Low,2006-06-24,2024-10-08T19:40:00+00:00,719.02,17256.48
+C0069,Fatima,Young,fatima.young69@example.com,+971565833185,USA,Chicago,2023-07-14,Basic,Active,Platinum,Female,Bilingual,Referral,false,Low,2005-10-22,2024-08-21T13:21:00+00:00,999.81,13997.34
+C0070,Sophia,Smith,sophia.smith70@example.com,+971527463800,KSA,Riyadh,2021-07-10,Basic,Suspended,Gold,Male,English,Referral,false,High,1977-04-22,2025-03-18T03:47:00+00:00,897.00,24219.00
+C0071,Ali,King,ali.king71@example.com,+971540097636,UK,Manchester,2021-08-01,Basic,Active,Gold,Male,English,Social Media,true,Medium,2000-02-29,2025-08-14T16:13:00+00:00,219.49,3731.33
+C0072,Ava,King,ava.king72@example.com,+971551471222,UAE,Sharjah,2024-09-09,VIP,Active,Bronze,Male,Arabic,Social Media,false,Low,1981-05-13,2025-12-11T08:01:00+00:00,249.28,5982.72
+C0073,Ahmed,Smith,ahmed.smith73@example.com,+971553537934,USA,Chicago,2023-05-10,Basic,Active,Silver,Male,Bilingual,Organic,true,Medium,1994-11-16,2025-04-09T10:10:00+00:00,469.26,11731.50
+C0074,David,White,david.white74@example.com,+971548016697,Bahrain,Riffa,2022-07-14,Enterprise,Suspended,Gold,Male,Arabic,Partner,true,Low,1984-03-03,2024-08-08T16:07:00+00:00,440.40,2202.00
+C0075,Ali,Mansour,ali.mansour75@example.com,+971533581357,Egypt,Alexandria,2022-08-16,Premium,Inactive,Silver,Female,Arabic,Partner,true,Medium,1975-11-04,2024-12-01T03:00:00+00:00,616.97,9254.55
+C0076,Ethan,Smith,ethan.smith76@example.com,+971564362516,Qatar,Al Rayyan,2024-03-20,Basic,Active,Silver,Female,Bilingual,Referral,true,Medium,1979-10-01,2025-02-18T22:40:00+00:00,524.52,2622.60
+C0077,Yousef,Martin,yousef.martin77@example.com,+971532566390,Kuwait,Kuwait City,2023-03-22,Basic,Suspended,Bronze,Male,English,Referral,true,Low,1979-08-12,2024-11-13T23:21:00+00:00,297.02,7722.52
+C0078,Omar,Miller,omar.miller78@example.com,+971594281857,USA,New York,2024-05-18,Enterprise,Inactive,Platinum,Female,Bilingual,Referral,true,Medium,1978-01-23,2024-06-05T20:04:00+00:00,245.49,6382.74
+C0079,Sophia,Anderson,sophia.anderson79@example.com,+971570654852,UK,Manchester,2024-04-26,Basic,Active,Gold,Female,Arabic,Direct,true,High,2001-08-25,2024-02-27T11:32:00+00:00,126.06,2016.96
+C0080,Zain,Thomas,zain.thomas80@example.com,+971577292380,Bahrain,Manama,2023-07-11,Premium,Active,Platinum,Male,English,Direct,true,High,2003-12-26,2025-08-08T20:12:00+00:00,412.97,7020.49
+C0081,Lina,Khalid,lina.khalid81@example.com,+971560043345,USA,Austin,2023-06-16,VIP,Inactive,Platinum,Female,Bilingual,Social Media,true,High,2004-01-14,2025-03-25T16:33:00+00:00,747.37,9715.81
+C0082,Mariam,Smith,mariam.smith82@example.com,+971598122539,Qatar,Doha,2024-02-17,Premium,Active,Bronze,Male,English,Referral,false,Low,2001-09-10,2025-11-25T12:18:00+00:00,332.32,9637.28
+C0083,John,Clark,john.clark83@example.com,+971580651318,Kuwait,Hawalli,2021-09-19,Basic,Inactive,Gold,Male,English,Referral,true,Low,1990-04-30,2025-11-17T22:53:00+00:00,1138.65,26188.95
+C0084,Sophia,Mansour,sophia.mansour84@example.com,+971582446804,USA,New York,2021-11-14,Basic,Active,Silver,Female,Arabic,Paid Search,true,High,2003-01-09,2024-03-20T09:54:00+00:00,954.22,17175.96
+C0085,Lina,Anderson,lina.anderson85@example.com,+971548242379,UAE,Abu Dhabi,2023-01-17,Enterprise,Active,Silver,Female,English,Paid Search,false,High,2000-08-02,2025-11-23T23:15:00+00:00,1164.72,24459.12
+C0086,Ethan,Anderson,ethan.anderson86@example.com,+971591156554,UK,Manchester,2023-10-27,Premium,Active,Bronze,Female,English,Social Media,true,High,1998-02-21,2025-06-24T13:10:00+00:00,987.59,26664.93
+C0087,Fatima,Clark,fatima.clark87@example.com,+971539801436,KSA,Riyadh,2022-07-13,Enterprise,Active,Bronze,Female,Arabic,Partner,false,Low,1992-04-27,2025-04-05T16:09:00+00:00,1004.01,4016.04
+C0088,John,Taylor,john.taylor88@example.com,+971528468304,USA,New York,2022-10-15,Basic,Active,Platinum,Male,Bilingual,Partner,false,High,1975-03-28,2024-04-11T22:41:00+00:00,428.94,2573.64
+C0089,John,Ali,john.ali89@example.com,+971548668339,UK,London,2021-11-03,Premium,Active,Bronze,Male,Arabic,Partner,false,Low,1979-12-22,2025-07-15T23:38:00+00:00,652.21,3261.05
+C0090,Sophia,King,sophia.king90@example.com,+971510209961,UAE,Sharjah,2023-11-22,VIP,Active,Platinum,Male,Bilingual,Direct,true,High,1991-03-06,2025-08-11T07:45:00+00:00,206.55,3098.25
+C0091,John,Moore,john.moore91@example.com,+971512179995,UAE,Abu Dhabi,2023-08-21,VIP,Active,Gold,Male,Bilingual,Direct,true,High,1989-11-30,2024-02-14T20:24:00+00:00,1178.01,11780.10
+C0092,Omar,Khalid,omar.khalid92@example.com,+971594790150,Qatar,Al Rayyan,2024-08-09,Premium,Active,Bronze,Female,Arabic,Referral,true,Low,1983-12-13,2024-06-28T21:29:00+00:00,1177.75,20021.75
+C0093,Sara,Wilson,sara.wilson93@example.com,+971535649468,UK,Birmingham,2023-03-27,VIP,Active,Bronze,Female,English,Organic,false,Medium,1992-12-10,2025-07-10T15:16:00+00:00,82.48,1814.56
+C0094,Ethan,Thomas,ethan.thomas94@example.com,+971545798645,Qatar,Doha,2023-10-14,Basic,Inactive,Bronze,Female,Bilingual,Paid Search,false,Medium,1979-08-08,2025-12-09T15:23:00+00:00,1112.20,20019.60
+C0095,John,Wilson,john.wilson95@example.com,+971557183837,UK,Manchester,2023-07-03,Enterprise,Active,Gold,Female,English,Direct,true,Low,2005-02-08,2025-09-09T22:27:00+00:00,233.31,3732.96
+C0096,Layla,Taylor,layla.taylor96@example.com,+971519023909,Egypt,Cairo,2021-10-20,Premium,Active,Gold,Female,Bilingual,Organic,true,High,1995-03-08,2025-09-14T21:50:00+00:00,548.28,3289.68
+C0097,Hassan,Taylor,hassan.taylor97@example.com,+971547405107,Bahrain,Manama,2024-03-21,Premium,Active,Bronze,Male,English,Social Media,false,High,1980-04-13,2024-05-20T16:23:00+00:00,501.72,11037.84
+C0098,Noor,Miller,noor.miller98@example.com,+971526460116,Bahrain,Manama,2024-06-07,Premium,Active,Platinum,Male,Bilingual,Partner,true,High,1989-05-03,2024-10-19T22:58:00+00:00,1198.41,9587.28
+C0099,Hassan,Smith,hassan.smith99@example.com,+971540097200,UK,Manchester,2021-11-19,Basic,Active,Silver,Male,English,Organic,false,High,2000-09-02,2025-12-18T20:11:00+00:00,960.69,17292.42
+C0100,Hassan,Anderson,hassan.anderson100@example.com,+971574245343,Egypt,Giza,2021-06-26,Enterprise,Inactive,Bronze,Male,English,Direct,true,Medium,1995-11-24,2024-03-08T09:25:00+00:00,1199.53,29988.25
+C0101,Zain,Taylor,zain.taylor101@example.com,+971577493234,Egypt,Giza,2024-08-03,Basic,Active,Silver,Female,Arabic,Paid Search,false,High,1985-02-11,2025-08-24T05:49:00+00:00,1160.87,17413.05
+C0102,Hassan,Moore,hassan.moore102@example.com,+971550644430,UK,London,2022-05-29,Basic,Suspended,Silver,Male,Arabic,Direct,false,High,1976-11-05,2024-07-20T20:35:00+00:00,358.36,7883.92
+C0103,Ahmed,Smith,ahmed.smith103@example.com,+971592961108,UAE,Sharjah,2024-03-27,Basic,Inactive,Gold,Female,English,Paid Search,false,Medium,1995-05-06,2024-09-28T20:13:00+00:00,929.67,13945.05
+C0104,John,Khalid,john.khalid104@example.com,+971551954112,Egypt,Alexandria,2023-05-02,VIP,Active,Platinum,Male,English,Social Media,true,Medium,1985-11-04,2025-05-10T14:13:00+00:00,434.62,2607.72
+C0105,Ethan,Hassan,ethan.hassan105@example.com,+971592594562,UK,Manchester,2022-05-23,Enterprise,Active,Silver,Female,Bilingual,Direct,false,Low,1982-02-23,2024-05-24T03:03:00+00:00,376.65,5273.10
+C0106,Sophia,Moore,sophia.moore106@example.com,+971571368457,Bahrain,Riffa,2022-09-24,Premium,Active,Gold,Male,Arabic,Referral,false,High,2004-05-07,2025-05-24T00:05:00+00:00,1136.47,20456.46
+C0107,Sophia,Clark,sophia.clark107@example.com,+971559115280,UAE,Dubai,2023-06-02,Basic,Inactive,Bronze,Male,English,Social Media,false,Low,1992-04-30,2024-05-17T08:46:00+00:00,464.30,6500.20
+C0108,Zain,Anderson,zain.anderson108@example.com,+971560089832,UK,Birmingham,2024-10-25,VIP,Suspended,Gold,Male,Arabic,Social Media,false,High,1976-10-21,2025-09-17T03:08:00+00:00,1171.10,16395.40
+C0109,Sara,Khalid,sara.khalid109@example.com,+971579190008,Egypt,Giza,2022-11-14,Premium,Active,Gold,Male,English,Social Media,false,High,1990-02-02,2025-04-30T16:29:00+00:00,212.77,6383.10
+C0110,Zain,Moore,zain.moore110@example.com,+971588343175,Bahrain,Riffa,2023-08-31,VIP,Active,Platinum,Female,Bilingual,Social Media,true,High,1977-04-21,2024-01-18T11:21:00+00:00,821.62,12324.30
+C0111,Khalid,White,khalid.white111@example.com,+971514237322,Egypt,Giza,2024-07-12,Basic,Active,Bronze,Female,English,Partner,true,Medium,2005-12-22,2025-09-26T12:09:00+00:00,993.13,8938.17
+C0112,Mona,Martin,mona.martin112@example.com,+971574205866,Bahrain,Manama,2024-12-16,Enterprise,Active,Silver,Female,Bilingual,Referral,false,High,2007-05-04,2024-05-21T16:13:00+00:00,690.63,15884.49
+C0113,Noor,King,noor.king113@example.com,+971548789478,Bahrain,Manama,2022-05-20,Premium,Inactive,Gold,Female,English,Social Media,false,Medium,1980-06-19,2024-10-12T17:19:00+00:00,300.85,3309.35
+C0114,Khalid,Young,khalid.young114@example.com,+971520607151,Kuwait,Hawalli,2022-12-08,VIP,Inactive,Gold,Female,Arabic,Paid Search,false,High,2006-03-25,2024-05-29T09:02:00+00:00,373.65,8967.60
+C0115,Noor,Brown,noor.brown115@example.com,+971540289135,KSA,Dammam,2024-04-16,Premium,Active,Bronze,Female,English,Direct,false,Low,2005-07-22,2024-09-02T07:03:00+00:00,817.01,14706.18
+C0116,Omar,Ali,omar.ali116@example.com,+971553106399,Egypt,Alexandria,2024-08-30,VIP,Active,Bronze,Male,Bilingual,Direct,true,Low,1993-09-29,2025-05-02T15:41:00+00:00,271.37,2985.07
+C0117,Lina,Khalid,lina.khalid117@example.com,+971524401654,Kuwait,Hawalli,2022-01-17,VIP,Active,Platinum,Female,Arabic,Social Media,false,Medium,1983-08-26,2024-10-23T01:00:00+00:00,386.13,8108.73
+C0118,Fatima,Wilson,fatima.wilson118@example.com,+971555246430,Egypt,Giza,2023-07-29,VIP,Suspended,Silver,Male,Bilingual,Direct,false,Medium,1998-02-11,2025-10-25T08:45:00+00:00,255.99,6399.75
+C0119,Mariam,Smith,mariam.smith119@example.com,+971545002007,Kuwait,Kuwait City,2022-01-14,Enterprise,Active,Platinum,Female,English,Referral,true,Medium,2004-04-27,2024-05-23T15:20:00+00:00,1125.56,2251.12
+C0120,Hassan,Saleh,hassan.saleh120@example.com,+971551738753,UAE,Sharjah,2021-08-31,Basic,Active,Gold,Male,Arabic,Paid Search,false,Low,1995-05-30,2025-04-21T09:10:00+00:00,510.28,9185.04
+C0121,Ava,Taylor,ava.taylor121@example.com,+971589968863,Kuwait,Hawalli,2024-01-06,Basic,Suspended,Platinum,Female,Arabic,Social Media,true,Low,1999-07-26,2025-11-11T06:48:00+00:00,327.06,8503.56
+C0122,Zain,Mansour,zain.mansour122@example.com,+971588268756,Egypt,Cairo,2022-11-03,Enterprise,Active,Platinum,Male,English,Paid Search,false,Medium,2000-04-18,2025-06-16T14:07:00+00:00,829.14,19899.36
+C0123,Sara,Young,sara.young123@example.com,+971539246218,Bahrain,Riffa,2025-01-21,Basic,Active,Platinum,Female,Bilingual,Organic,true,Low,1996-03-05,2024-01-23T12:16:00+00:00,987.09,24677.25
+C0124,Sara,Clark,sara.clark124@example.com,+971561335545,Kuwait,Kuwait City,2021-10-05,Enterprise,Inactive,Platinum,Male,Bilingual,Direct,true,High,1990-08-07,2025-10-18T23:41:00+00:00,1157.99,15053.87
+C0125,Fatima,Johnson,fatima.johnson125@example.com,+971572143331,Kuwait,Kuwait City,2025-01-30,Enterprise,Suspended,Platinum,Male,Arabic,Partner,false,Low,1987-05-14,2024-08-16T00:48:00+00:00,66.37,730.07
+C0126,Mona,Hassan,mona.hassan126@example.com,+971589717834,UAE,Sharjah,2023-05-09,Basic,Inactive,Bronze,Male,Bilingual,Organic,false,Medium,1985-07-06,2025-09-21T00:15:00+00:00,279.05,1395.25
+C0127,Leen,Mansour,leen.mansour127@example.com,+971552802529,UAE,Dubai,2023-10-29,VIP,Active,Gold,Male,Bilingual,Social Media,true,Medium,1988-06-24,2024-10-23T07:52:00+00:00,1103.02,22060.40
+C0128,Noor,Khalid,noor.khalid128@example.com,+971596344420,Egypt,Giza,2024-10-22,Enterprise,Suspended,Gold,Female,English,Paid Search,false,Medium,1983-04-01,2025-03-13T17:31:00+00:00,94.39,1227.07
+C0129,Leen,White,leen.white129@example.com,+971565902739,USA,New York,2022-09-08,Premium,Inactive,Silver,Female,Arabic,Referral,true,Medium,1991-08-24,2024-05-27T14:58:00+00:00,106.84,1602.60
+C0130,John,Young,john.young130@example.com,+971519768947,USA,New York,2022-07-04,Premium,Suspended,Silver,Female,Arabic,Referral,false,Low,1984-07-02,2025-01-21T21:38:00+00:00,739.39,21442.31
+C0131,Mona,Hassan,mona.hassan131@example.com,+971584098828,Bahrain,Manama,2024-11-25,VIP,Active,Platinum,Female,Bilingual,Direct,false,Medium,1986-09-25,2025-09-10T22:13:00+00:00,500.09,4500.81
+C0132,Hassan,Moore,hassan.moore132@example.com,+971565556767,Bahrain,Riffa,2021-07-21,Basic,Suspended,Silver,Male,Arabic,Referral,false,Medium,1981-11-02,2025-04-25T10:58:00+00:00,275.63,3307.56
+C0133,Mona,Wilson,mona.wilson133@example.com,+971555307111,USA,Chicago,2024-03-12,VIP,Inactive,Platinum,Female,Arabic,Direct,false,Low,1981-04-12,2024-09-08T15:35:00+00:00,799.35,18385.05
+C0134,Leen,White,leen.white134@example.com,+971599686372,Egypt,Giza,2024-08-07,Basic,Active,Platinum,Male,Bilingual,Paid Search,true,High,1981-10-10,2024-03-01T16:02:00+00:00,1013.32,4053.28
+C0135,Ahmed,Mansour,ahmed.mansour135@example.com,+971598487646,Bahrain,Riffa,2021-05-04,Enterprise,Active,Bronze,Female,Arabic,Organic,false,High,1987-11-11,2025-09-24T20:42:00+00:00,1123.33,19096.61
+C0136,Ahmed,Moore,ahmed.moore136@example.com,+971580659726,Kuwait,Kuwait City,2021-08-08,VIP,Active,Gold,Female,Arabic,Referral,false,Medium,2000-05-05,2024-04-08T16:09:00+00:00,319.52,6709.92
+C0137,Yousef,Saleh,yousef.saleh137@example.com,+971560903955,UK,Birmingham,2021-06-15,Enterprise,Suspended,Platinum,Male,Bilingual,Organic,true,Low,1997-06-03,2025-10-31T20:48:00+00:00,76.75,1074.50
+C0138,David,Wilson,david.wilson138@example.com,+971586072480,KSA,Dammam,2021-03-29,Enterprise,Active,Bronze,Male,Bilingual,Referral,true,Low,1989-02-08,2024-08-23T06:57:00+00:00,1047.02,31410.60
+C0139,Ahmed,Mansour,ahmed.mansour139@example.com,+971562231715,Egypt,Giza,2023-03-27,VIP,Inactive,Silver,Male,Bilingual,Direct,false,Low,1979-05-20,2024-03-19T09:10:00+00:00,694.19,13883.80
+C0140,David,Saleh,david.saleh140@example.com,+971513976288,KSA,Jeddah,2024-05-24,VIP,Inactive,Platinum,Male,English,Social Media,false,Medium,1983-05-02,2025-09-20T19:25:00+00:00,1163.95,13967.40
+C0141,Khalid,Thomas,khalid.thomas141@example.com,+971561002735,KSA,Dammam,2022-08-28,Premium,Inactive,Gold,Female,Arabic,Organic,true,Medium,1994-12-13,2024-09-09T22:04:00+00:00,135.16,810.96
+C0142,Hassan,Miller,hassan.miller142@example.com,+971564766762,KSA,Riyadh,2021-06-28,Basic,Active,Bronze,Female,Bilingual,Organic,false,Medium,1975-07-22,2024-07-10T13:28:00+00:00,686.10,12349.80
+C0143,Ali,Martin,ali.martin143@example.com,+971561100987,Kuwait,Kuwait City,2025-01-24,Premium,Active,Gold,Female,English,Partner,true,Low,1982-07-02,2025-07-26T07:36:00+00:00,644.48,14823.04
+C0144,David,Miller,david.miller144@example.com,+971593890601,Kuwait,Hawalli,2023-09-19,Enterprise,Suspended,Silver,Female,Arabic,Paid Search,false,Low,1992-10-01,2024-03-19T11:16:00+00:00,1135.30,28382.50
+C0145,Mariam,King,mariam.king145@example.com,+971589778067,Kuwait,Hawalli,2023-06-21,Premium,Active,Gold,Male,English,Referral,true,Medium,1989-04-25,2024-12-08T13:52:00+00:00,995.30,21896.60
+C0146,Ali,White,ali.white146@example.com,+971536816708,USA,Chicago,2023-02-10,Premium,Suspended,Bronze,Female,Bilingual,Paid Search,false,Medium,2006-01-29,2024-10-14T12:23:00+00:00,172.11,3442.20
+C0147,John,Martin,john.martin147@example.com,+971566791272,Bahrain,Manama,2024-07-21,Enterprise,Active,Platinum,Female,Bilingual,Partner,false,High,1976-08-25,2024-11-06T07:16:00+00:00,804.05,19297.20
+C0148,Hassan,Young,hassan.young148@example.com,+971515945401,KSA,Riyadh,2022-05-24,Enterprise,Active,Platinum,Male,Arabic,Organic,false,Low,1997-11-27,2025-11-04T21:22:00+00:00,232.95,4891.95
+C0149,Zain,Young,zain.young149@example.com,+971577171380,USA,Chicago,2023-02-06,Premium,Active,Bronze,Female,Arabic,Referral,false,Low,1980-03-16,2025-02-04T14:49:00+00:00,828.28,19878.72
+C0150,Omar,Taylor,omar.taylor150@example.com,+971568809636,UK,Manchester,2023-07-22,Enterprise,Active,Bronze,Female,Arabic,Direct,true,Low,1990-05-22,2024-07-30T16:30:00+00:00,444.03,2220.15
+C0151,Fatima,Johnson,fatima.johnson151@example.com,+971541119124,USA,Austin,2021-12-24,Enterprise,Active,Silver,Female,English,Organic,true,Medium,2001-07-25,2025-07-19T05:21:00+00:00,689.42,11030.72
+C0152,David,Thomas,david.thomas152@example.com,+971518397164,UAE,Sharjah,2022-03-16,Basic,Suspended,Silver,Female,English,Paid Search,false,Low,1986-10-08,2024-07-29T08:48:00+00:00,856.36,23121.72
+C0153,Sophia,Moore,sophia.moore153@example.com,+971571453007,Qatar,Al Rayyan,2024-06-05,Premium,Active,Bronze,Male,English,Organic,true,Medium,1980-03-31,2025-02-05T18:07:00+00:00,443.59,12864.11
+C0154,Lina,Taylor,lina.taylor154@example.com,+971534931439,Egypt,Giza,2023-03-07,Enterprise,Suspended,Silver,Male,English,Referral,true,Low,1989-02-10,2025-03-04T19:08:00+00:00,706.78,10601.70
+C0155,Ethan,King,ethan.king155@example.com,+971577838742,UAE,Abu Dhabi,2021-01-20,Enterprise,Inactive,Platinum,Female,Bilingual,Partner,false,Low,1978-09-16,2025-05-11T04:12:00+00:00,985.65,18727.35
+C0156,Khalid,Ali,khalid.ali156@example.com,+971571380637,USA,Chicago,2021-03-08,Enterprise,Suspended,Bronze,Male,English,Social Media,false,High,1976-11-12,2024-10-08T07:34:00+00:00,374.86,9746.36
+C0157,Ethan,Young,ethan.young157@example.com,+971570362053,USA,Chicago,2021-07-29,VIP,Active,Bronze,Female,Arabic,Paid Search,true,High,2001-05-16,2025-10-31T07:19:00+00:00,1054.78,3164.34
+C0158,Hassan,King,hassan.king158@example.com,+971586514083,Kuwait,Kuwait City,2024-06-15,VIP,Suspended,Gold,Male,English,Direct,false,Medium,2000-09-09,2024-05-22T06:52:00+00:00,280.05,840.15
+C0159,Noor,Moore,noor.moore159@example.com,+971527809465,KSA,Riyadh,2023-04-23,Premium,Active,Gold,Male,Bilingual,Partner,false,Low,2000-11-25,2024-03-01T08:55:00+00:00,800.84,19220.16
+C0160,Noor,Martin,noor.martin160@example.com,+971559535894,Kuwait,Hawalli,2021-06-04,Enterprise,Inactive,Gold,Male,Bilingual,Organic,false,High,2004-10-16,2025-10-10T02:25:00+00:00,638.11,6381.10
+C0161,Hassan,Smith,hassan.smith161@example.com,+971555332729,Kuwait,Kuwait City,2023-05-30,Premium,Suspended,Platinum,Female,Bilingual,Organic,true,Low,2003-02-02,2024-08-04T15:17:00+00:00,414.52,4559.72
+C0162,Ethan,Ali,ethan.ali162@example.com,+971527705074,KSA,Riyadh,2023-06-23,VIP,Active,Gold,Male,Bilingual,Referral,false,Low,1991-09-06,2025-04-12T00:27:00+00:00,274.69,6592.56
+C0163,Lina,Khalid,lina.khalid163@example.com,+971522775337,Kuwait,Hawalli,2025-01-26,Basic,Active,Platinum,Male,Arabic,Social Media,true,High,2005-07-02,2025-12-17T07:27:00+00:00,800.36,19208.64
+C0164,Ethan,Ali,ethan.ali164@example.com,+971540728728,UAE,Sharjah,2022-12-05,Enterprise,Active,Bronze,Male,English,Referral,false,Low,1992-03-02,2024-05-03T13:44:00+00:00,193.32,773.28
+C0165,Omar,Brown,omar.brown165@example.com,+971538595818,KSA,Dammam,2024-02-28,Premium,Inactive,Platinum,Male,Arabic,Organic,true,Low,2001-06-12,2024-01-09T19:41:00+00:00,230.38,2994.94
+C0166,Layla,Taylor,layla.taylor166@example.com,+971590664728,Kuwait,Hawalli,2021-10-14,VIP,Active,Gold,Male,Bilingual,Social Media,true,High,1992-07-28,2024-09-10T08:41:00+00:00,137.73,2616.87
+C0167,Ali,Khalid,ali.khalid167@example.com,+971580905413,USA,Chicago,2023-03-02,Basic,Active,Gold,Male,English,Social Media,false,Medium,1999-07-05,2024-04-25T07:31:00+00:00,780.18,3120.72
+C0168,Lina,White,lina.white168@example.com,+971563415303,KSA,Riyadh,2024-04-17,VIP,Suspended,Platinum,Female,Bilingual,Partner,true,High,1999-01-26,2024-03-10T00:16:00+00:00,290.26,870.78
+C0169,Leen,King,leen.king169@example.com,+971530854365,Egypt,Alexandria,2021-06-21,VIP,Inactive,Bronze,Female,Bilingual,Partner,true,Low,1985-12-19,2024-11-13T02:32:00+00:00,1108.27,29923.29
+C0170,John,Martin,john.martin170@example.com,+971533574794,KSA,Jeddah,2024-06-07,Basic,Active,Silver,Male,Arabic,Partner,false,High,1998-03-15,2025-09-15T01:19:00+00:00,812.65,18690.95
+C0171,Noor,Johnson,noor.johnson171@example.com,+971580310522,Qatar,Doha,2022-07-05,Basic,Active,Bronze,Female,English,Social Media,false,Low,1997-05-30,2024-04-30T00:21:00+00:00,976.25,9762.50
+C0172,Khalid,Johnson,khalid.johnson172@example.com,+971578293320,Qatar,Doha,2022-06-07,Basic,Active,Bronze,Male,Arabic,Partner,false,Medium,1981-09-24,2024-04-15T18:43:00+00:00,878.42,7905.78
+C0173,Lina,Khalid,lina.khalid173@example.com,+971520453825,Kuwait,Kuwait City,2022-10-22,VIP,Active,Bronze,Male,Arabic,Social Media,true,Medium,1978-02-03,2024-09-11T13:58:00+00:00,875.53,8755.30
+C0174,Ethan,Clark,ethan.clark174@example.com,+971585672859,UK,Manchester,2021-06-26,VIP,Suspended,Silver,Female,English,Social Media,false,Low,2007-11-09,2025-07-20T14:00:00+00:00,467.95,5147.45
+C0175,Leen,Saleh,leen.saleh175@example.com,+971511287794,Egypt,Cairo,2023-04-20,VIP,Active,Platinum,Female,Arabic,Paid Search,true,Medium,1997-01-26,2024-01-25T07:34:00+00:00,441.85,12371.80
+C0176,Sara,Brown,sara.brown176@example.com,+971571533194,UK,London,2021-03-31,Basic,Suspended,Bronze,Male,Bilingual,Partner,true,High,2000-06-21,2024-08-25T16:26:00+00:00,852.98,11088.74
+C0177,Sara,Martin,sara.martin177@example.com,+971553788744,Egypt,Cairo,2022-08-21,VIP,Inactive,Gold,Male,Arabic,Paid Search,true,High,1979-11-21,2024-09-24T10:59:00+00:00,968.95,23254.80
+C0178,Omar,Hassan,omar.hassan178@example.com,+971537868462,Egypt,Alexandria,2023-08-13,Enterprise,Active,Platinum,Female,Arabic,Organic,true,High,1988-08-24,2024-11-17T13:07:00+00:00,661.67,17203.42
+C0179,Ava,Khalid,ava.khalid179@example.com,+971578915391,USA,Chicago,2021-10-31,Basic,Active,Gold,Male,Arabic,Partner,false,High,1999-09-05,2024-04-03T22:15:00+00:00,1163.34,16286.76
+C0180,Yousef,Hassan,yousef.hassan180@example.com,+971527544302,Bahrain,Manama,2021-10-14,Premium,Inactive,Gold,Male,Bilingual,Social Media,false,Low,1975-12-24,2024-05-04T00:03:00+00:00,1003.23,9029.07
+C0181,John,Mansour,john.mansour181@example.com,+971532547129,Bahrain,Manama,2021-07-08,Enterprise,Inactive,Platinum,Male,English,Direct,false,Low,1990-11-17,2024-12-05T03:02:00+00:00,1133.05,3399.15
+C0182,Mona,Johnson,mona.johnson182@example.com,+971596876236,UK,Manchester,2023-07-03,VIP,Inactive,Platinum,Female,Arabic,Organic,false,Medium,1981-02-26,2024-06-01T01:39:00+00:00,758.24,6824.16
+C0183,David,Mansour,david.mansour183@example.com,+971583083942,USA,Austin,2024-01-19,Enterprise,Active,Gold,Female,English,Paid Search,true,Medium,2001-10-14,2024-01-20T12:50:00+00:00,867.51,14747.67
+C0184,Yousef,Ali,yousef.ali184@example.com,+971531424479,UK,London,2023-08-25,Basic,Active,Silver,Female,Bilingual,Direct,true,Low,2000-10-28,2025-06-26T11:49:00+00:00,717.43,6456.87
+C0185,Layla,Taylor,layla.taylor185@example.com,+971589398174,Egypt,Cairo,2022-04-30,Basic,Active,Silver,Male,English,Social Media,false,Low,1996-12-31,2025-08-29T10:51:00+00:00,896.20,11650.60
+C0186,Sara,Smith,sara.smith186@example.com,+971592427773,UAE,Dubai,2024-05-17,Premium,Active,Gold,Male,English,Organic,true,Low,2001-04-25,2024-08-12T00:33:00+00:00,594.47,7133.64
+C0187,Omar,Hassan,omar.hassan187@example.com,+971553299069,Qatar,Doha,2023-02-05,Premium,Active,Platinum,Female,Bilingual,Referral,true,High,2000-03-17,2025-11-09T12:37:00+00:00,157.20,1729.20
+C0188,Ava,Taylor,ava.taylor188@example.com,+971527092408,USA,Austin,2024-04-21,Premium,Active,Platinum,Male,Arabic,Social Media,false,High,1984-11-28,2024-06-28T12:19:00+00:00,891.43,9805.73
+C0189,Khalid,Hassan,khalid.hassan189@example.com,+971595387542,Bahrain,Manama,2022-11-10,Basic,Active,Platinum,Male,English,Paid Search,true,High,1978-01-15,2024-03-20T07:22:00+00:00,1179.56,8256.92
+C0190,Hassan,Miller,hassan.miller190@example.com,+971565568711,KSA,Dammam,2021-01-03,Enterprise,Inactive,Gold,Female,Arabic,Partner,true,Low,1995-03-30,2024-02-19T12:28:00+00:00,889.80,6228.60
+C0191,John,Khalid,john.khalid191@example.com,+971560393104,UK,London,2022-10-15,Premium,Active,Bronze,Female,Bilingual,Social Media,false,High,1976-05-22,2024-09-24T03:04:00+00:00,436.50,13095.00
+C0192,David,Johnson,david.johnson192@example.com,+971584371711,Kuwait,Kuwait City,2021-04-20,VIP,Active,Gold,Male,Arabic,Organic,false,High,1999-08-28,2024-04-13T10:13:00+00:00,1170.30,17554.50
+C0193,Sophia,Brown,sophia.brown193@example.com,+971590559564,UAE,Abu Dhabi,2021-01-08,Enterprise,Active,Bronze,Male,Arabic,Paid Search,false,Low,1996-03-29,2025-03-13T02:18:00+00:00,995.72,21905.84
+C0194,Fatima,Clark,fatima.clark194@example.com,+971534814337,Kuwait,Hawalli,2023-09-29,VIP,Inactive,Gold,Male,English,Organic,false,Medium,1995-11-11,2025-11-07T08:05:00+00:00,784.57,10983.98
+C0195,Noor,Saleh,noor.saleh195@example.com,+971556142898,UK,Birmingham,2021-05-07,Enterprise,Suspended,Silver,Male,English,Social Media,false,High,2005-10-26,2024-06-03T22:42:00+00:00,152.18,3500.14
+C0196,Sophia,Hill,sophia.hill196@example.com,+971577390918,USA,Chicago,2022-09-05,Premium,Active,Platinum,Male,Arabic,Paid Search,true,Low,1976-11-30,2024-03-21T12:57:00+00:00,1030.57,3091.71
+C0197,David,Smith,david.smith197@example.com,+971518994192,Kuwait,Kuwait City,2024-07-08,Basic,Inactive,Platinum,Female,English,Social Media,false,Low,2006-06-02,2024-05-31T19:16:00+00:00,410.91,10272.75
+C0198,Ava,Hill,ava.hill198@example.com,+971523449152,Kuwait,Kuwait City,2023-04-29,Basic,Suspended,Bronze,Female,Bilingual,Referral,false,Medium,1992-03-07,2024-06-02T04:36:00+00:00,722.00,18772.00
+C0199,Sophia,Hill,sophia.hill199@example.com,+971563917932,Bahrain,Manama,2021-12-19,Basic,Inactive,Gold,Male,Arabic,Direct,false,Medium,1991-09-16,2024-10-09T12:09:00+00:00,757.16,17414.68
+C0200,Ahmed,Wilson,ahmed.wilson200@example.com,+971540595926,UK,Manchester,2022-07-29,Premium,Active,Platinum,Female,English,Direct,false,High,2003-12-16,2025-05-18T22:43:00+00:00,153.93,4463.97
+C0201,John,Mansour,john.mansour201@example.com,+971579158328,Bahrain,Manama,2023-04-14,Premium,Active,Gold,Female,Arabic,Social Media,true,Low,1983-08-25,2025-05-11T16:55:00+00:00,473.74,1421.22
+C0202,Mona,Khalid,mona.khalid202@example.com,+971572306347,USA,New York,2023-07-24,Enterprise,Active,Bronze,Male,English,Partner,false,Low,1996-04-15,2024-02-21T11:45:00+00:00,270.97,3522.61
+C0203,Khalid,Young,khalid.young203@example.com,+971513684342,Qatar,Al Rayyan,2021-12-01,Enterprise,Active,Silver,Male,Arabic,Direct,true,High,1984-04-10,2024-09-21T23:53:00+00:00,839.07,9229.77
+C0204,Noor,Martin,noor.martin204@example.com,+971511135982,UAE,Sharjah,2021-01-19,Premium,Active,Gold,Female,English,Partner,false,Medium,1986-04-21,2025-04-30T04:41:00+00:00,240.91,6504.57
+C0205,Mona,Anderson,mona.anderson205@example.com,+971598899843,UK,Birmingham,2023-12-03,VIP,Suspended,Gold,Female,Bilingual,Organic,false,Low,1990-01-31,2025-09-30T12:37:00+00:00,158.68,2856.24
+C0206,Noor,Wilson,noor.wilson206@example.com,+971542252798,UK,Manchester,2024-09-05,Basic,Suspended,Platinum,Female,Bilingual,Paid Search,true,High,1997-04-23,2025-10-29T09:12:00+00:00,213.92,5561.92
+C0207,Ali,Miller,ali.miller207@example.com,+971535489981,Kuwait,Hawalli,2023-03-07,VIP,Active,Platinum,Female,Bilingual,Referral,true,High,2000-01-16,2024-02-06T18:45:00+00:00,1193.91,33429.48
+C0208,Lina,Clark,lina.clark208@example.com,+971555047826,KSA,Jeddah,2021-09-20,Basic,Active,Gold,Male,Bilingual,Referral,false,Medium,1991-09-03,2024-09-21T23:51:00+00:00,688.48,4819.36
+C0209,Noor,Hill,noor.hill209@example.com,+971593302863,UK,Manchester,2021-08-30,Basic,Inactive,Silver,Male,Bilingual,Partner,false,Medium,1977-06-04,2025-04-26T01:55:00+00:00,775.90,15518.00
+C0210,Omar,Brown,omar.brown210@example.com,+971534207075,USA,Chicago,2023-04-19,Basic,Inactive,Gold,Male,English,Direct,true,Low,1995-04-12,2025-08-06T14:09:00+00:00,407.00,9768.00
+C0211,Noor,Mansour,noor.mansour211@example.com,+971567634397,Egypt,Giza,2021-11-21,Enterprise,Inactive,Platinum,Female,Arabic,Organic,true,High,1991-09-26,2025-05-16T02:08:00+00:00,752.80,16561.60
+C0212,Ahmed,Wilson,ahmed.wilson212@example.com,+971556217844,USA,New York,2024-10-17,VIP,Active,Bronze,Female,Bilingual,Social Media,false,Low,1977-12-05,2024-01-05T20:46:00+00:00,328.63,7887.12
+C0213,Sara,Clark,sara.clark213@example.com,+971527956913,UK,Manchester,2025-01-30,VIP,Inactive,Gold,Male,Arabic,Partner,true,Low,1985-01-23,2025-06-16T19:33:00+00:00,431.89,12956.70
+C0214,Omar,Mansour,omar.mansour214@example.com,+971515014834,UAE,Sharjah,2023-10-31,Enterprise,Active,Bronze,Male,Bilingual,Organic,true,Low,2005-12-09,2024-06-22T03:23:00+00:00,864.89,23352.03
+C0215,Fatima,Martin,fatima.martin215@example.com,+971594598956,Bahrain,Riffa,2021-09-11,Basic,Active,Platinum,Male,Bilingual,Social Media,false,High,2002-03-02,2025-07-14T08:30:00+00:00,854.17,6833.36
+C0216,Omar,Martin,omar.martin216@example.com,+971576805406,KSA,Dammam,2025-01-12,Premium,Suspended,Silver,Female,Bilingual,Paid Search,false,High,1993-05-19,2025-09-24T03:18:00+00:00,172.25,861.25
+C0217,Ali,Johnson,ali.johnson217@example.com,+971510367488,UAE,Sharjah,2023-10-14,Basic,Active,Bronze,Female,Arabic,Organic,true,High,2007-06-17,2024-07-31T22:59:00+00:00,597.57,5378.13
+C0218,Fatima,Miller,fatima.miller218@example.com,+971515294153,USA,Chicago,2022-08-30,VIP,Active,Gold,Female,Bilingual,Organic,true,Low,1975-06-08,2024-09-27T14:03:00+00:00,155.78,1090.46
+C0219,Omar,Johnson,omar.johnson219@example.com,+971555999465,Qatar,Al Rayyan,2023-06-16,Premium,Active,Platinum,Female,English,Referral,false,High,1996-06-14,2025-09-28T08:56:00+00:00,890.36,11574.68
+C0220,David,Johnson,david.johnson220@example.com,+971574783521,KSA,Riyadh,2024-11-26,Enterprise,Active,Platinum,Female,Bilingual,Organic,true,Medium,1996-11-23,2024-03-01T05:06:00+00:00,522.59,10451.80
+C0221,Fatima,Martin,fatima.martin221@example.com,+971580439867,Bahrain,Manama,2021-05-10,Premium,Active,Bronze,Female,Bilingual,Direct,true,Medium,1990-07-05,2024-09-24T20:20:00+00:00,54.34,1575.86
+C0222,Layla,Brown,layla.brown222@example.com,+971532200132,UAE,Dubai,2024-08-10,Basic,Inactive,Gold,Male,English,Referral,true,High,1984-12-27,2024-06-09T16:54:00+00:00,584.38,9934.46
+C0223,Leen,Thomas,leen.thomas223@example.com,+971576901651,Kuwait,Kuwait City,2021-06-11,Enterprise,Active,Bronze,Female,Bilingual,Direct,true,Low,1993-02-04,2025-04-15T14:51:00+00:00,704.72,2818.88
+C0224,David,Khalid,david.khalid224@example.com,+971537763104,UAE,Dubai,2024-05-22,Enterprise,Active,Gold,Male,Arabic,Partner,false,High,2002-10-20,2025-09-25T20:19:00+00:00,1072.53,20378.07
+C0225,Ava,White,ava.white225@example.com,+971595048563,Qatar,Al Rayyan,2021-08-22,VIP,Suspended,Gold,Male,Arabic,Paid Search,false,Low,2007-02-26,2024-04-09T21:14:00+00:00,42.55,553.15
+C0226,David,Hassan,david.hassan226@example.com,+971571343676,UK,Birmingham,2022-02-06,Premium,Active,Bronze,Female,Arabic,Direct,true,Medium,1995-07-08,2024-07-11T03:59:00+00:00,1028.55,8228.40
+C0227,Khalid,Moore,khalid.moore227@example.com,+971588533572,Egypt,Alexandria,2021-01-09,Enterprise,Suspended,Silver,Male,Bilingual,Paid Search,true,Medium,2004-06-29,2025-06-27T23:03:00+00:00,681.74,10226.10
+C0228,Ava,King,ava.king228@example.com,+971556017729,Qatar,Al Rayyan,2023-05-08,VIP,Inactive,Silver,Male,English,Social Media,false,High,1999-07-29,2025-09-15T22:48:00+00:00,327.96,4591.44
+C0229,Mariam,Young,mariam.young229@example.com,+971527806897,USA,New York,2022-03-06,Premium,Suspended,Gold,Male,English,Social Media,false,High,2000-08-06,2025-10-01T22:18:00+00:00,836.47,19238.81
+C0230,David,Young,david.young230@example.com,+971599959993,UK,Manchester,2021-01-27,Basic,Active,Gold,Male,English,Direct,false,Low,1977-10-13,2025-06-19T03:01:00+00:00,481.81,1445.43
+C0231,Ali,Mansour,ali.mansour231@example.com,+971540106027,UAE,Abu Dhabi,2023-07-16,Enterprise,Active,Gold,Male,English,Partner,false,High,1989-01-09,2024-04-14T19:55:00+00:00,823.61,15648.59
+C0232,Leen,Khalid,leen.khalid232@example.com,+971569467023,UAE,Sharjah,2022-05-30,Premium,Active,Silver,Male,English,Partner,true,High,1978-05-05,2024-07-26T19:55:00+00:00,945.87,27430.23
+C0233,Lina,Johnson,lina.johnson233@example.com,+971588381281,KSA,Jeddah,2021-03-25,VIP,Active,Gold,Female,Bilingual,Paid Search,true,Low,1989-06-21,2025-03-14T08:35:00+00:00,346.52,2425.64
+C0234,Ava,Khalid,ava.khalid234@example.com,+971580517332,UK,Manchester,2024-03-18,Premium,Active,Bronze,Male,English,Social Media,false,Low,1990-09-03,2025-07-17T11:04:00+00:00,949.48,11393.76
+C0235,Yousef,Mansour,yousef.mansour235@example.com,+971585341065,Qatar,Al Rayyan,2023-01-09,Basic,Active,Gold,Female,Arabic,Direct,true,Low,2005-08-13,2024-10-27T06:48:00+00:00,757.21,12872.57
+C0236,Mariam,Thomas,mariam.thomas236@example.com,+971560326016,KSA,Jeddah,2022-06-10,Enterprise,Inactive,Bronze,Female,Bilingual,Paid Search,false,High,1978-09-11,2025-07-07T23:18:00+00:00,68.66,1235.88
+C0237,Fatima,Johnson,fatima.johnson237@example.com,+971566936428,UAE,Sharjah,2021-05-15,Basic,Active,Platinum,Male,Bilingual,Direct,true,Low,1995-08-07,2024-08-03T21:40:00+00:00,937.36,27183.44
+C0238,Mariam,Khalid,mariam.khalid238@example.com,+971540554079,KSA,Riyadh,2021-04-22,VIP,Inactive,Platinum,Female,Bilingual,Partner,false,Medium,1975-10-04,2024-07-01T08:35:00+00:00,121.71,3407.88
+C0239,Layla,Hassan,layla.hassan239@example.com,+971519742790,UAE,Sharjah,2025-01-15,VIP,Suspended,Bronze,Female,Bilingual,Referral,true,Medium,1994-08-19,2025-09-25T02:48:00+00:00,905.30,2715.90
+C0240,Layla,Thomas,layla.thomas240@example.com,+971583245898,UAE,Abu Dhabi,2021-11-17,VIP,Active,Gold,Female,Arabic,Social Media,true,Low,1976-11-15,2025-06-30T07:08:00+00:00,906.23,24468.21
+C0241,Ahmed,Hill,ahmed.hill241@example.com,+971538418851,Kuwait,Kuwait City,2022-09-17,Enterprise,Suspended,Silver,Male,Arabic,Paid Search,false,Low,1980-02-21,2024-08-03T23:47:00+00:00,1088.11,14145.43
+C0242,Lina,Hill,lina.hill242@example.com,+971543646722,UAE,Sharjah,2023-08-03,Basic,Active,Platinum,Female,English,Paid Search,true,Low,1987-10-16,2025-10-22T17:04:00+00:00,377.16,1508.64
+C0243,Ava,Smith,ava.smith243@example.com,+971588405961,USA,Chicago,2023-09-23,Premium,Suspended,Gold,Female,English,Paid Search,true,Medium,1986-01-16,2025-04-06T10:39:00+00:00,804.93,19318.32
+C0244,Yousef,Martin,yousef.martin244@example.com,+971569774935,UK,Manchester,2021-10-03,VIP,Active,Platinum,Male,Arabic,Direct,true,Medium,1981-04-12,2025-11-26T23:21:00+00:00,1058.35,16933.60
+C0245,Leen,Mansour,leen.mansour245@example.com,+971578072320,UK,Birmingham,2024-07-07,Basic,Suspended,Platinum,Male,Arabic,Social Media,false,High,1999-03-18,2024-03-19T23:04:00+00:00,1074.84,31170.36
+C0246,Sophia,Brown,sophia.brown246@example.com,+971577259613,Qatar,Al Rayyan,2022-04-03,Basic,Inactive,Gold,Male,Bilingual,Paid Search,true,High,1981-04-18,2025-08-26T23:54:00+00:00,377.56,6040.96
+C0247,Ethan,Johnson,ethan.johnson247@example.com,+971515425057,Egypt,Giza,2024-03-04,Premium,Inactive,Silver,Male,English,Referral,true,Low,2004-12-28,2025-11-06T04:47:00+00:00,889.13,11558.69
+C0248,Mona,Moore,mona.moore248@example.com,+971523854626,Qatar,Al Rayyan,2023-08-20,VIP,Active,Silver,Female,Bilingual,Partner,false,High,2004-04-22,2025-04-10T01:02:00+00:00,1177.48,14129.76
+C0249,John,Moore,john.moore249@example.com,+971575345452,UK,Manchester,2022-04-02,Enterprise,Suspended,Bronze,Male,English,Paid Search,true,Low,1998-01-30,2025-06-12T12:22:00+00:00,987.99,12843.87
+C0250,Noor,Mansour,noor.mansour250@example.com,+971540916561,Egypt,Cairo,2021-11-19,Enterprise,Active,Bronze,Female,Bilingual,Partner,false,Low,2001-07-02,2025-01-05T19:45:00+00:00,987.67,22716.41
+C0251,Lina,Martin,lina.martin251@example.com,+971578805754,UAE,Dubai,2021-03-30,Basic,Suspended,Silver,Male,Arabic,Referral,true,High,1993-03-09,2024-05-10T18:37:00+00:00,226.91,4992.02
+C0252,Ava,Hill,ava.hill252@example.com,+971573272042,UAE,Sharjah,2025-01-30,Enterprise,Active,Silver,Female,Bilingual,Paid Search,true,High,2004-08-03,2025-11-08T09:05:00+00:00,291.25,6116.25
+C0253,Zain,Miller,zain.miller253@example.com,+971560762668,Egypt,Giza,2024-11-05,Enterprise,Active,Bronze,Male,Arabic,Social Media,false,Low,2002-02-28,2024-12-16T14:38:00+00:00,725.09,6525.81
+C0254,Fatima,Johnson,fatima.johnson254@example.com,+971590996996,Bahrain,Manama,2023-12-25,Basic,Inactive,Platinum,Female,Arabic,Direct,false,Low,1996-08-17,2025-05-30T03:05:00+00:00,599.40,3596.40
+C0255,Layla,Taylor,layla.taylor255@example.com,+971521249805,KSA,Jeddah,2021-10-02,VIP,Suspended,Platinum,Female,Arabic,Organic,true,High,1998-06-10,2024-09-17T15:49:00+00:00,309.71,8981.59
+C0256,Fatima,Moore,fatima.moore256@example.com,+971524305357,UAE,Abu Dhabi,2024-09-02,Premium,Inactive,Gold,Female,Bilingual,Partner,false,High,1987-05-12,2024-07-29T22:51:00+00:00,406.45,5283.85
+C0257,Layla,Mansour,layla.mansour257@example.com,+971587531025,Kuwait,Hawalli,2022-01-02,VIP,Inactive,Silver,Male,Bilingual,Paid Search,false,High,1982-04-04,2025-01-14T17:35:00+00:00,601.16,6612.76
+C0258,Fatima,Mansour,fatima.mansour258@example.com,+971562224611,Kuwait,Hawalli,2024-02-02,Basic,Active,Silver,Female,Bilingual,Partner,true,Low,1986-10-20,2025-09-20T22:43:00+00:00,859.88,6019.16
+C0259,Yousef,Taylor,yousef.taylor259@example.com,+971590191410,KSA,Dammam,2021-03-19,Basic,Active,Platinum,Female,Arabic,Paid Search,false,Low,1976-07-04,2025-01-28T12:39:00+00:00,801.16,8812.76
+C0260,Ava,Moore,ava.moore260@example.com,+971531131878,USA,Austin,2021-12-14,Basic,Active,Platinum,Female,Bilingual,Partner,false,High,1983-12-26,2025-11-21T01:23:00+00:00,317.54,635.08
+C0261,Zain,Ali,zain.ali261@example.com,+971556720553,KSA,Riyadh,2024-01-31,VIP,Active,Silver,Male,English,Partner,true,Medium,1982-11-07,2024-10-18T23:53:00+00:00,688.57,13771.40
+C0262,David,Moore,david.moore262@example.com,+971578892172,KSA,Dammam,2021-05-29,VIP,Suspended,Gold,Female,English,Social Media,false,Low,1990-03-28,2025-05-30T09:21:00+00:00,1138.54,30740.58
+C0263,Ethan,Anderson,ethan.anderson263@example.com,+971540860700,UAE,Abu Dhabi,2021-08-27,VIP,Inactive,Gold,Male,Bilingual,Referral,true,Medium,1979-03-04,2024-09-21T02:24:00+00:00,775.05,6975.45
+C0264,Layla,Wilson,layla.wilson264@example.com,+971546114740,KSA,Dammam,2022-01-01,Premium,Active,Platinum,Male,Arabic,Direct,true,Medium,1984-04-10,2025-05-02T10:22:00+00:00,293.54,5870.80
+C0265,Yousef,Mansour,yousef.mansour265@example.com,+971599043272,USA,Austin,2022-12-31,Enterprise,Suspended,Bronze,Male,English,Referral,false,Medium,2000-10-08,2024-06-08T03:07:00+00:00,1107.42,25470.66
+C0266,Noor,White,noor.white266@example.com,+971580563016,Egypt,Giza,2022-07-28,Enterprise,Inactive,Bronze,Female,English,Direct,true,Medium,1980-05-26,2025-02-11T07:48:00+00:00,708.93,2126.79
+C0267,Zain,Anderson,zain.anderson267@example.com,+971558533442,Qatar,Doha,2021-01-25,VIP,Active,Gold,Male,English,Partner,false,Medium,1983-04-02,2025-11-21T06:24:00+00:00,713.97,8567.64
+C0268,Sophia,Martin,sophia.martin268@example.com,+971534144323,USA,Chicago,2024-12-06,Premium,Suspended,Silver,Male,Bilingual,Referral,true,High,1994-05-22,2025-01-16T11:54:00+00:00,504.69,8075.04
+C0269,Layla,Mansour,layla.mansour269@example.com,+971594644676,Egypt,Giza,2021-11-03,VIP,Inactive,Gold,Female,Bilingual,Social Media,true,Medium,1979-06-10,2025-04-29T00:11:00+00:00,528.96,3173.76
+C0270,Lina,Khalid,lina.khalid270@example.com,+971558447502,USA,Chicago,2023-09-03,VIP,Suspended,Gold,Female,Arabic,Partner,true,Medium,2005-06-26,2025-10-06T03:28:00+00:00,903.73,9037.30
+C0271,Ava,Mansour,ava.mansour271@example.com,+971569985944,Egypt,Alexandria,2022-12-29,Basic,Inactive,Gold,Female,Bilingual,Paid Search,true,High,1990-02-18,2024-11-28T21:32:00+00:00,605.49,15137.25
+C0272,David,King,david.king272@example.com,+971549105187,Kuwait,Kuwait City,2021-06-12,VIP,Suspended,Platinum,Female,English,Referral,false,Medium,1982-07-04,2024-06-14T10:14:00+00:00,403.64,8880.08
+C0273,Lina,Ali,lina.ali273@example.com,+971538262427,Egypt,Giza,2022-04-26,Premium,Inactive,Bronze,Male,Arabic,Partner,true,Low,1992-10-22,2025-11-08T08:47:00+00:00,852.81,3411.24
+C0274,Zain,Smith,zain.smith274@example.com,+971551523026,KSA,Jeddah,2024-06-19,Premium,Active,Gold,Female,Bilingual,Paid Search,true,High,1982-08-27,2024-06-08T02:41:00+00:00,1120.64,15688.96
+C0275,Ahmed,Khalid,ahmed.khalid275@example.com,+971528134815,Qatar,Al Rayyan,2023-09-03,Premium,Suspended,Platinum,Female,Bilingual,Direct,false,Medium,1996-08-09,2025-04-23T17:59:00+00:00,356.00,5696.00
+C0276,Leen,Saleh,leen.saleh276@example.com,+971510012394,KSA,Jeddah,2022-09-23,Premium,Active,Gold,Female,Bilingual,Organic,false,Medium,1988-06-09,2025-01-09T13:16:00+00:00,220.63,441.26
+C0277,Ahmed,Martin,ahmed.martin277@example.com,+971585236332,UK,Birmingham,2022-04-19,Enterprise,Inactive,Silver,Male,Bilingual,Direct,false,Medium,1984-11-23,2024-01-08T17:23:00+00:00,258.74,7762.20
+C0278,Noor,Smith,noor.smith278@example.com,+971581396350,Kuwait,Kuwait City,2023-11-25,VIP,Inactive,Silver,Male,Arabic,Paid Search,false,Low,2003-07-27,2025-09-19T22:43:00+00:00,355.36,7817.92
+C0279,Ethan,King,ethan.king279@example.com,+971516661503,Bahrain,Riffa,2024-12-05,Basic,Active,Bronze,Female,English,Paid Search,false,High,1975-05-15,2025-09-29T15:12:00+00:00,411.95,2471.70
+C0280,Yousef,Smith,yousef.smith280@example.com,+971576893545,Egypt,Cairo,2023-10-08,VIP,Inactive,Bronze,Female,Arabic,Paid Search,true,Medium,1992-08-08,2024-08-10T10:26:00+00:00,401.43,10838.61
+C0281,John,Young,john.young281@example.com,+971543415162,Bahrain,Manama,2022-01-29,Enterprise,Inactive,Silver,Male,Arabic,Partner,true,High,2004-11-15,2024-09-13T12:53:00+00:00,54.63,1420.38
+C0282,Mona,White,mona.white282@example.com,+971579917538,Kuwait,Hawalli,2022-10-24,Basic,Active,Platinum,Female,Arabic,Referral,true,High,1984-10-08,2024-06-11T20:46:00+00:00,88.94,1689.86
+C0283,Fatima,Saleh,fatima.saleh283@example.com,+971542626898,Kuwait,Hawalli,2021-01-31,Basic,Active,Platinum,Male,English,Organic,true,Low,1997-06-04,2024-06-20T08:37:00+00:00,178.79,4827.33
+C0284,John,King,john.king284@example.com,+971524413864,Qatar,Doha,2021-05-03,Premium,Inactive,Silver,Female,Bilingual,Direct,false,Medium,1983-08-28,2024-12-30T20:09:00+00:00,853.54,23045.58
+C0285,Ahmed,Thomas,ahmed.thomas285@example.com,+971582844534,Qatar,Doha,2022-05-29,Enterprise,Active,Silver,Female,English,Direct,false,Medium,2001-11-08,2024-02-10T15:45:00+00:00,547.50,6022.50
+C0286,Leen,Johnson,leen.johnson286@example.com,+971570945449,KSA,Dammam,2021-11-14,Basic,Suspended,Platinum,Male,Arabic,Social Media,false,High,1985-09-17,2025-04-05T09:52:00+00:00,345.49,4491.37
+C0287,Mariam,Smith,mariam.smith287@example.com,+971548000942,Kuwait,Kuwait City,2023-12-10,VIP,Inactive,Gold,Male,Arabic,Social Media,true,Low,1980-10-27,2025-11-30T15:49:00+00:00,679.70,14273.70
+C0288,Lina,Khalid,lina.khalid288@example.com,+971562156850,USA,New York,2023-09-22,Enterprise,Suspended,Gold,Male,English,Paid Search,true,Low,1984-05-12,2024-07-15T03:02:00+00:00,702.37,19666.36
+C0289,Sophia,Smith,sophia.smith289@example.com,+971517824896,Bahrain,Manama,2023-01-10,VIP,Suspended,Bronze,Male,English,Organic,true,High,1979-05-11,2025-07-25T23:56:00+00:00,522.51,6792.63
+C0290,Fatima,Saleh,fatima.saleh290@example.com,+971584950330,Kuwait,Kuwait City,2022-01-31,Enterprise,Active,Gold,Female,Bilingual,Direct,false,Low,1982-06-26,2025-06-22T21:15:00+00:00,701.23,4908.61
+C0291,Lina,Young,lina.young291@example.com,+971552299387,Kuwait,Hawalli,2024-09-08,VIP,Active,Platinum,Female,Bilingual,Referral,true,High,1999-06-23,2024-06-10T17:38:00+00:00,553.89,7200.57
+C0292,Mona,Thomas,mona.thomas292@example.com,+971589961933,UK,Manchester,2023-07-16,Basic,Suspended,Silver,Female,Arabic,Referral,true,Low,1989-02-15,2025-04-03T12:00:00+00:00,882.52,9707.72
+C0293,Ahmed,Miller,ahmed.miller293@example.com,+971588135616,Egypt,Cairo,2021-03-19,Premium,Active,Gold,Female,Arabic,Social Media,false,High,1984-10-02,2025-04-16T11:09:00+00:00,200.55,2607.15
+C0294,John,Wilson,john.wilson294@example.com,+971589890579,Bahrain,Manama,2023-09-27,VIP,Active,Platinum,Male,Arabic,Referral,false,Medium,1993-09-07,2025-12-07T22:36:00+00:00,990.64,4953.20
+C0295,Fatima,Saleh,fatima.saleh295@example.com,+971582468141,UAE,Sharjah,2024-07-18,Premium,Active,Silver,Male,Arabic,Direct,false,Medium,2001-09-11,2025-01-26T01:19:00+00:00,648.28,7779.36
+C0296,Khalid,Moore,khalid.moore296@example.com,+971573868130,KSA,Riyadh,2023-06-04,Basic,Suspended,Platinum,Female,Arabic,Partner,false,High,1980-11-06,2024-10-23T12:09:00+00:00,193.34,773.36
+C0297,Omar,White,omar.white297@example.com,+971580363346,USA,Chicago,2023-03-21,Premium,Active,Bronze,Female,English,Referral,true,Low,2005-02-17,2025-10-29T18:12:00+00:00,690.95,17273.75
+C0298,David,Martin,david.martin298@example.com,+971550912093,Qatar,Al Rayyan,2022-01-26,Premium,Active,Platinum,Male,English,Organic,true,Low,2005-09-28,2024-11-24T11:38:00+00:00,800.28,20807.28
+C0299,Hassan,Brown,hassan.brown299@example.com,+971548612439,KSA,Riyadh,2021-04-22,Basic,Active,Bronze,Female,English,Partner,true,Medium,1984-05-17,2024-09-05T19:59:00+00:00,211.31,5916.68
+C0300,Leen,Mansour,leen.mansour300@example.com,+971599692417,USA,Austin,2023-12-08,Basic,Inactive,Bronze,Female,Arabic,Organic,false,Low,2006-03-30,2024-09-21T17:30:00+00:00,762.73,4576.38
+C0301,Ava,Miller,ava.miller301@example.com,+971598597172,UAE,Abu Dhabi,2024-09-02,VIP,Active,Bronze,Female,Bilingual,Partner,true,Medium,1997-10-23,2024-01-09T02:24:00+00:00,806.03,18538.69
+C0302,Fatima,Wilson,fatima.wilson302@example.com,+971512884132,Bahrain,Manama,2022-01-17,Basic,Active,Gold,Female,English,Partner,true,Low,1990-07-22,2024-07-22T16:29:00+00:00,690.40,16569.60
+C0303,Hassan,Taylor,hassan.taylor303@example.com,+971513954845,UK,London,2023-10-24,VIP,Active,Silver,Female,English,Direct,true,Low,2007-09-28,2024-10-09T01:40:00+00:00,338.91,4744.74
+C0304,Layla,Moore,layla.moore304@example.com,+971554195849,USA,Chicago,2022-05-08,Enterprise,Suspended,Silver,Male,Bilingual,Paid Search,true,Low,1988-11-10,2025-08-09T04:27:00+00:00,1165.82,24482.22
+C0305,Zain,Brown,zain.brown305@example.com,+971525889673,Kuwait,Kuwait City,2024-09-05,Premium,Active,Silver,Male,English,Partner,false,Medium,1994-11-15,2025-08-01T05:20:00+00:00,118.66,2254.54
+C0306,Noor,Brown,noor.brown306@example.com,+971545817693,USA,New York,2021-09-27,Premium,Suspended,Silver,Male,Bilingual,Organic,false,Low,2005-11-13,2024-07-08T00:48:00+00:00,1183.71,24857.91
+C0307,Sophia,Brown,sophia.brown307@example.com,+971540369856,Bahrain,Riffa,2022-01-12,Basic,Inactive,Bronze,Female,English,Paid Search,true,Low,1977-12-19,2025-01-31T15:30:00+00:00,199.51,1596.08
+C0308,Lina,Anderson,lina.anderson308@example.com,+971561052956,Bahrain,Riffa,2023-07-27,VIP,Inactive,Bronze,Male,English,Partner,true,Low,1998-04-08,2024-09-09T13:25:00+00:00,940.41,19748.61
+C0309,Leen,Thomas,leen.thomas309@example.com,+971563424009,UAE,Sharjah,2023-03-05,VIP,Active,Platinum,Male,English,Referral,true,High,1998-03-11,2025-06-12T20:03:00+00:00,260.23,4163.68
+C0310,Omar,Anderson,omar.anderson310@example.com,+971583337520,Bahrain,Manama,2025-01-19,Premium,Inactive,Platinum,Female,English,Organic,true,Medium,2001-06-24,2025-05-27T03:11:00+00:00,943.33,28299.90
+C0311,Mona,Anderson,mona.anderson311@example.com,+971526581824,KSA,Jeddah,2022-10-26,Basic,Active,Platinum,Female,Arabic,Social Media,false,High,1997-12-14,2025-12-09T20:58:00+00:00,865.30,6057.10
+C0312,Ava,Johnson,ava.johnson312@example.com,+971530144703,Kuwait,Hawalli,2021-03-31,Premium,Active,Silver,Male,English,Referral,false,High,1995-01-07,2024-06-23T10:36:00+00:00,1050.71,30470.59
+C0313,Ali,Johnson,ali.johnson313@example.com,+971576790446,KSA,Riyadh,2022-02-20,Enterprise,Suspended,Bronze,Female,Arabic,Paid Search,false,Medium,1993-05-25,2024-01-04T19:48:00+00:00,333.61,5337.76
+C0314,Ethan,Smith,ethan.smith314@example.com,+971537868647,UAE,Dubai,2024-01-26,Basic,Active,Silver,Male,Bilingual,Referral,true,Low,1976-06-15,2024-10-11T19:40:00+00:00,686.76,19229.28
+C0315,Khalid,King,khalid.king315@example.com,+971548168910,UK,Manchester,2021-06-29,Premium,Inactive,Gold,Male,Arabic,Referral,false,Medium,1991-12-31,2024-02-20T03:26:00+00:00,1192.73,8349.11
+C0316,John,Martin,john.martin316@example.com,+971580739820,KSA,Jeddah,2023-08-23,Enterprise,Suspended,Silver,Male,Bilingual,Organic,true,High,2007-09-25,2024-05-17T03:44:00+00:00,1036.91,12442.92
+C0317,Zain,Smith,zain.smith317@example.com,+971557493391,Bahrain,Riffa,2023-05-25,Premium,Suspended,Platinum,Female,English,Paid Search,true,High,1988-01-12,2025-09-15T10:16:00+00:00,649.45,13638.45
+C0318,Mona,Ali,mona.ali318@example.com,+971592585240,KSA,Riyadh,2023-08-11,Enterprise,Inactive,Bronze,Female,English,Social Media,true,Low,2003-09-26,2025-10-02T03:47:00+00:00,1023.76,27641.52
+C0319,Mona,Clark,mona.clark319@example.com,+971525278911,UK,London,2022-09-23,VIP,Active,Platinum,Male,Arabic,Paid Search,false,Medium,2005-03-01,2024-11-03T16:35:00+00:00,415.75,831.50
+C0320,Sophia,White,sophia.white320@example.com,+971582070563,UAE,Sharjah,2021-10-06,VIP,Inactive,Platinum,Male,Bilingual,Referral,false,High,1999-01-14,2025-05-08T04:40:00+00:00,574.32,16655.28
+C0321,Ahmed,Mansour,ahmed.mansour321@example.com,+971594088862,Qatar,Al Rayyan,2021-05-16,Premium,Suspended,Platinum,Male,Bilingual,Organic,false,High,1989-02-08,2024-06-01T08:53:00+00:00,76.16,1066.24
+C0322,Sara,Miller,sara.miller322@example.com,+971539009803,Kuwait,Kuwait City,2023-10-15,VIP,Active,Bronze,Female,Arabic,Paid Search,true,Medium,1997-09-12,2024-08-31T11:28:00+00:00,1002.17,11023.87
+C0323,Ahmed,White,ahmed.white323@example.com,+971553934556,Egypt,Cairo,2022-11-28,Premium,Active,Silver,Male,Bilingual,Organic,false,Medium,2007-01-05,2025-05-10T23:55:00+00:00,647.41,16832.66
+C0324,Zain,Hassan,zain.hassan324@example.com,+971516192775,UAE,Abu Dhabi,2021-04-01,Basic,Suspended,Gold,Male,Bilingual,Referral,true,Medium,1983-12-30,2025-12-04T19:55:00+00:00,141.01,2256.16
+C0325,Mona,Clark,mona.clark325@example.com,+971546726921,UK,Birmingham,2022-10-16,Basic,Active,Bronze,Male,Bilingual,Referral,false,Medium,1981-05-08,2025-03-27T21:07:00+00:00,356.28,2493.96
+C0326,Ali,Hill,ali.hill326@example.com,+971516808353,USA,New York,2021-05-26,Premium,Active,Platinum,Male,Arabic,Partner,true,Low,1994-02-17,2024-11-14T19:57:00+00:00,432.94,6927.04
+C0327,Layla,Johnson,layla.johnson327@example.com,+971581603135,Bahrain,Riffa,2022-10-02,Basic,Inactive,Silver,Male,Bilingual,Partner,true,Medium,1988-12-03,2024-12-06T06:45:00+00:00,919.75,24833.25
+C0328,Ethan,White,ethan.white328@example.com,+971599279031,USA,New York,2021-10-22,VIP,Active,Platinum,Female,Arabic,Organic,false,Low,1990-10-07,2025-09-23T08:58:00+00:00,461.60,3231.20
+C0329,Sophia,Anderson,sophia.anderson329@example.com,+971524358786,Egypt,Alexandria,2022-12-15,VIP,Suspended,Bronze,Female,Bilingual,Partner,false,High,1993-07-18,2025-09-10T18:08:00+00:00,629.22,8809.08
+C0330,Yousef,King,yousef.king330@example.com,+971589318677,USA,Austin,2021-11-22,Enterprise,Inactive,Gold,Male,Arabic,Direct,true,High,2006-12-07,2025-05-08T12:04:00+00:00,435.23,12186.44
+C0331,Khalid,White,khalid.white331@example.com,+971533645674,KSA,Dammam,2024-05-05,VIP,Inactive,Bronze,Male,Bilingual,Social Media,false,Medium,1997-03-04,2025-04-19T10:35:00+00:00,153.28,2452.48
+C0332,Sara,Smith,sara.smith332@example.com,+971570797197,USA,New York,2024-04-04,VIP,Inactive,Platinum,Male,Arabic,Direct,false,Medium,2000-07-31,2025-10-13T00:48:00+00:00,210.20,1261.20
+C0333,Ali,Martin,ali.martin333@example.com,+971549484797,Qatar,Doha,2024-04-08,Basic,Active,Bronze,Male,Bilingual,Social Media,false,Low,1987-08-29,2024-01-09T19:32:00+00:00,508.87,3053.22
+C0334,Ahmed,Saleh,ahmed.saleh334@example.com,+971583164605,Kuwait,Hawalli,2024-07-04,Premium,Active,Platinum,Male,Arabic,Social Media,false,Medium,1993-09-18,2024-11-21T22:24:00+00:00,511.00,7665.00
+C0335,Omar,Clark,omar.clark335@example.com,+971575323947,Egypt,Cairo,2021-01-24,Enterprise,Active,Bronze,Male,Bilingual,Partner,false,High,2002-02-10,2024-03-14T20:01:00+00:00,207.04,6211.20
+C0336,David,King,david.king336@example.com,+971540298433,Egypt,Alexandria,2023-11-10,Premium,Inactive,Bronze,Female,Bilingual,Paid Search,false,Medium,1999-07-02,2025-03-10T17:52:00+00:00,562.05,7306.65
+C0337,Khalid,Taylor,khalid.taylor337@example.com,+971520745888,UAE,Dubai,2024-03-09,Premium,Suspended,Gold,Female,Bilingual,Organic,true,Low,1996-03-11,2025-05-09T22:23:00+00:00,171.27,2911.59
+C0338,John,Young,john.young338@example.com,+971578808477,UK,Birmingham,2021-04-19,Enterprise,Suspended,Gold,Female,English,Referral,false,Low,1976-08-01,2024-12-17T17:49:00+00:00,52.51,840.16
+C0339,Ava,Clark,ava.clark339@example.com,+971549158452,UK,London,2024-07-12,Basic,Active,Platinum,Male,Arabic,Social Media,true,Medium,1986-04-22,2025-04-29T18:10:00+00:00,704.52,16203.96
+C0340,Omar,King,omar.king340@example.com,+971530285078,UK,Manchester,2022-06-11,Enterprise,Active,Silver,Female,Bilingual,Paid Search,false,Low,1998-08-28,2024-01-15T23:07:00+00:00,740.43,14808.60
+C0341,Sara,Wilson,sara.wilson341@example.com,+971561427803,KSA,Riyadh,2024-05-04,Premium,Inactive,Silver,Male,Bilingual,Direct,false,Low,2003-10-23,2024-06-06T15:48:00+00:00,1192.56,31006.56
+C0342,Noor,Hassan,noor.hassan342@example.com,+971581473736,UAE,Dubai,2023-08-09,Premium,Inactive,Platinum,Female,English,Paid Search,false,Low,1987-12-15,2025-02-12T15:19:00+00:00,592.47,15404.22
+C0343,Ethan,Thomas,ethan.thomas343@example.com,+971591937985,Qatar,Doha,2021-07-19,VIP,Active,Gold,Female,Arabic,Referral,false,Medium,2005-04-16,2025-06-28T20:22:00+00:00,1149.17,17237.55
+C0344,Yousef,Hill,yousef.hill344@example.com,+971511137651,USA,Austin,2022-11-23,Basic,Active,Platinum,Male,Bilingual,Organic,false,Medium,1984-11-03,2025-11-24T22:11:00+00:00,403.39,806.78
+C0345,Ali,Miller,ali.miller345@example.com,+971539101720,USA,New York,2021-02-18,Basic,Active,Bronze,Male,English,Direct,true,Low,2006-03-16,2025-09-26T02:03:00+00:00,1128.67,25959.41
+C0346,Lina,Miller,lina.miller346@example.com,+971567308741,UK,Manchester,2024-09-14,VIP,Active,Silver,Male,English,Organic,false,Medium,1989-12-03,2024-03-18T20:29:00+00:00,1110.33,11103.30
+C0347,Sara,Miller,sara.miller347@example.com,+971533950102,UK,London,2023-06-22,Enterprise,Active,Silver,Female,Arabic,Social Media,true,Medium,2007-02-03,2024-03-12T15:59:00+00:00,272.78,3818.92
+C0348,Noor,Hassan,noor.hassan348@example.com,+971576800348,UAE,Dubai,2021-05-25,Premium,Active,Bronze,Female,English,Paid Search,false,Medium,2000-10-10,2025-08-08T23:16:00+00:00,941.60,1883.20
+C0349,Ahmed,Moore,ahmed.moore349@example.com,+971582494849,Bahrain,Riffa,2023-06-13,Premium,Active,Platinum,Female,Arabic,Social Media,false,Medium,2005-08-02,2025-02-17T23:49:00+00:00,982.24,3928.96
+C0350,Ali,Thomas,ali.thomas350@example.com,+971520798726,UAE,Sharjah,2024-08-18,Enterprise,Active,Silver,Male,Bilingual,Organic,false,High,1983-07-27,2024-04-02T11:34:00+00:00,1029.88,12358.56
+C0351,Ali,Thomas,ali.thomas351@example.com,+971535429494,KSA,Dammam,2024-11-11,Premium,Active,Silver,Male,Bilingual,Social Media,true,Medium,1992-06-09,2025-01-02T15:05:00+00:00,1066.85,17069.60
+C0352,John,Young,john.young352@example.com,+971515746469,UK,Manchester,2023-12-30,Enterprise,Active,Silver,Female,Bilingual,Social Media,true,High,2000-12-27,2025-04-05T00:02:00+00:00,433.57,5202.84
+C0353,Yousef,Smith,yousef.smith353@example.com,+971516147399,UAE,Sharjah,2021-10-17,Premium,Active,Bronze,Male,Bilingual,Organic,false,Low,1995-06-19,2025-05-15T20:01:00+00:00,586.61,12318.81
+C0354,Ava,Johnson,ava.johnson354@example.com,+971537198033,KSA,Riyadh,2021-08-22,Enterprise,Active,Platinum,Female,Arabic,Direct,true,Medium,1984-07-25,2025-05-24T19:51:00+00:00,754.13,3016.52
+C0355,Sara,Hill,sara.hill355@example.com,+971559650807,Egypt,Alexandria,2021-05-10,Premium,Inactive,Silver,Male,Arabic,Organic,false,Low,1975-09-14,2024-05-03T08:09:00+00:00,918.76,6431.32
+C0356,Sophia,Smith,sophia.smith356@example.com,+971565864403,UAE,Dubai,2022-01-03,Enterprise,Active,Silver,Male,Bilingual,Referral,false,Medium,1985-09-24,2024-04-01T22:41:00+00:00,728.73,8016.03
+C0357,Lina,King,lina.king357@example.com,+971550426348,UAE,Sharjah,2022-01-04,VIP,Inactive,Bronze,Male,Arabic,Organic,true,High,1991-03-27,2025-05-26T19:05:00+00:00,767.54,20723.58
+C0358,Leen,Moore,leen.moore358@example.com,+971530027622,USA,Chicago,2024-07-06,Enterprise,Inactive,Silver,Male,Bilingual,Organic,true,High,1991-05-03,2025-11-06T06:17:00+00:00,101.56,507.80
+C0359,Ali,Mansour,ali.mansour359@example.com,+971582123324,Kuwait,Hawalli,2022-11-16,Premium,Active,Bronze,Female,Bilingual,Organic,true,Low,2007-05-12,2025-09-23T14:02:00+00:00,161.13,483.39
+C0360,Ethan,Hill,ethan.hill360@example.com,+971540572391,Qatar,Al Rayyan,2022-02-12,Basic,Active,Platinum,Male,English,Paid Search,true,Medium,2001-03-31,2025-11-24T10:14:00+00:00,943.61,11323.32
+C0361,Sophia,Khalid,sophia.khalid361@example.com,+971571436848,Kuwait,Kuwait City,2022-03-19,Premium,Active,Gold,Male,English,Paid Search,true,High,2000-07-05,2025-09-16T14:11:00+00:00,489.30,2935.80
+C0362,Sara,Miller,sara.miller362@example.com,+971549615907,Egypt,Cairo,2023-08-12,Premium,Suspended,Silver,Male,Arabic,Partner,false,Low,2001-07-15,2025-04-14T13:10:00+00:00,921.99,8297.91
+C0363,Sophia,Anderson,sophia.anderson363@example.com,+971568283876,UK,London,2025-02-04,Premium,Suspended,Silver,Male,English,Organic,true,Medium,1997-08-14,2025-03-14T23:55:00+00:00,326.12,3913.44
+C0364,Sara,Martin,sara.martin364@example.com,+971511667385,Kuwait,Hawalli,2024-11-27,Enterprise,Active,Silver,Female,English,Paid Search,true,Low,1996-07-09,2024-04-10T14:31:00+00:00,318.99,6060.81
+C0365,Ali,Johnson,ali.johnson365@example.com,+971559716992,Bahrain,Manama,2023-07-21,Enterprise,Active,Bronze,Female,Bilingual,Referral,true,Medium,1994-02-07,2025-04-19T04:55:00+00:00,855.64,5989.48
+C0366,Noor,King,noor.king366@example.com,+971558853980,USA,Austin,2021-06-15,Basic,Active,Platinum,Female,English,Social Media,true,Medium,1991-06-09,2025-09-27T10:47:00+00:00,1121.40,20185.20
+C0367,Lina,Young,lina.young367@example.com,+971597112459,KSA,Dammam,2024-12-23,Enterprise,Suspended,Silver,Male,English,Referral,false,High,2005-07-06,2024-07-28T04:21:00+00:00,316.81,1584.05
+C0368,David,Miller,david.miller368@example.com,+971526469781,UAE,Dubai,2023-02-03,Enterprise,Suspended,Gold,Female,Bilingual,Referral,true,Low,1995-07-16,2024-12-19T14:31:00+00:00,621.68,17407.04
+C0369,John,Smith,john.smith369@example.com,+971529858055,Kuwait,Kuwait City,2022-08-14,Enterprise,Active,Silver,Male,English,Partner,true,Medium,1990-07-21,2024-03-19T03:10:00+00:00,360.09,8642.16
+C0370,David,Anderson,david.anderson370@example.com,+971579742280,UAE,Abu Dhabi,2022-01-23,VIP,Inactive,Gold,Female,English,Social Media,false,Medium,1988-08-22,2024-03-05T00:55:00+00:00,970.31,27168.68
+C0371,Khalid,Brown,khalid.brown371@example.com,+971516351040,UK,London,2022-06-17,Premium,Active,Gold,Female,Arabic,Social Media,true,High,1999-01-05,2024-08-20T15:23:00+00:00,1166.04,30317.04
+C0372,Ali,Johnson,ali.johnson372@example.com,+971552496800,Egypt,Giza,2024-11-19,Premium,Inactive,Gold,Female,Arabic,Paid Search,true,High,1989-03-20,2025-11-13T04:10:00+00:00,315.97,947.91
+C0373,Hassan,Brown,hassan.brown373@example.com,+971564299436,Qatar,Al Rayyan,2024-01-11,Enterprise,Active,Platinum,Female,Arabic,Organic,false,High,2006-08-24,2024-06-15T17:19:00+00:00,180.93,361.86
+C0374,Ali,White,ali.white374@example.com,+971555457454,UK,Birmingham,2024-09-27,Basic,Inactive,Bronze,Male,Bilingual,Social Media,true,Medium,1976-02-11,2024-05-30T18:46:00+00:00,1091.98,17471.68
+C0375,Layla,King,layla.king375@example.com,+971588306842,USA,Chicago,2023-01-02,Premium,Active,Silver,Male,Arabic,Social Media,false,High,2005-02-14,2024-04-04T10:03:00+00:00,745.46,5963.68
+C0376,John,Moore,john.moore376@example.com,+971599491869,Kuwait,Kuwait City,2023-10-02,VIP,Inactive,Silver,Female,English,Partner,false,Low,1987-10-08,2024-11-21T19:38:00+00:00,633.40,1900.20
+C0377,Hassan,Taylor,hassan.taylor377@example.com,+971565782199,UK,Manchester,2024-02-23,Enterprise,Active,Silver,Female,Bilingual,Partner,true,High,2001-10-27,2024-03-30T06:46:00+00:00,1069.85,26746.25
+C0378,John,Brown,john.brown378@example.com,+971560435319,USA,Chicago,2023-08-31,Basic,Active,Platinum,Female,English,Paid Search,false,High,2000-06-22,2025-06-21T10:04:00+00:00,1122.46,22449.20
+C0379,Omar,Mansour,omar.mansour379@example.com,+971588545322,Egypt,Alexandria,2022-08-16,VIP,Inactive,Platinum,Male,Arabic,Organic,true,Medium,1988-06-18,2025-07-21T15:02:00+00:00,994.45,10938.95
+C0380,Sophia,Hassan,sophia.hassan380@example.com,+971547207440,UK,Manchester,2022-01-03,Enterprise,Active,Gold,Female,Bilingual,Partner,false,High,2005-10-07,2025-05-18T22:41:00+00:00,323.91,1619.55
+C0381,Sophia,Hassan,sophia.hassan381@example.com,+971528186152,Qatar,Doha,2022-06-16,VIP,Active,Bronze,Female,English,Partner,false,Low,1988-01-02,2024-06-15T18:03:00+00:00,209.52,3352.32
+C0382,Ali,Moore,ali.moore382@example.com,+971532432603,KSA,Dammam,2022-02-01,VIP,Active,Gold,Female,Bilingual,Direct,false,Low,1998-12-21,2025-10-05T05:48:00+00:00,149.63,3890.38
+C0383,Khalid,Taylor,khalid.taylor383@example.com,+971555676049,Egypt,Cairo,2021-10-08,Premium,Active,Silver,Male,Bilingual,Paid Search,true,High,2002-07-08,2025-06-14T09:23:00+00:00,943.42,14151.30
+C0384,Zain,Young,zain.young384@example.com,+971574359847,KSA,Jeddah,2023-08-02,VIP,Active,Gold,Male,English,Social Media,false,Low,2006-11-04,2024-03-19T03:52:00+00:00,192.23,384.46
+C0385,Ali,Ali,ali.ali385@example.com,+971538164383,KSA,Riyadh,2021-09-21,Premium,Active,Platinum,Male,Arabic,Organic,false,Medium,1976-11-27,2025-12-11T04:44:00+00:00,302.83,1816.98
+C0386,Mona,Hassan,mona.hassan386@example.com,+971515809144,UAE,Sharjah,2023-11-18,Basic,Active,Bronze,Male,Arabic,Social Media,true,High,1983-12-22,2025-08-30T01:30:00+00:00,177.95,1779.50
+C0387,Lina,Taylor,lina.taylor387@example.com,+971577194013,UAE,Dubai,2021-10-26,Premium,Suspended,Bronze,Male,Bilingual,Organic,true,High,1983-08-05,2024-10-11T18:22:00+00:00,448.56,13008.24
+C0388,Ali,Johnson,ali.johnson388@example.com,+971589105321,UAE,Sharjah,2021-07-22,Premium,Inactive,Bronze,Male,English,Partner,false,Low,1998-01-25,2024-08-07T16:54:00+00:00,861.00,11193.00
+C0389,Yousef,Martin,yousef.martin389@example.com,+971558486215,KSA,Jeddah,2021-09-11,VIP,Suspended,Bronze,Male,English,Partner,true,Medium,1987-09-21,2025-04-22T03:33:00+00:00,197.66,5139.16
+C0390,Ethan,King,ethan.king390@example.com,+971567440042,UK,Birmingham,2023-06-29,Premium,Active,Platinum,Female,Arabic,Organic,false,High,1979-09-20,2024-08-19T17:26:00+00:00,377.08,10935.32
+C0391,Layla,Anderson,layla.anderson391@example.com,+971532645646,KSA,Riyadh,2021-10-21,Basic,Active,Silver,Female,Arabic,Social Media,false,Low,1985-06-12,2025-02-08T12:44:00+00:00,725.05,3625.25
+C0392,David,White,david.white392@example.com,+971563718703,UK,Birmingham,2024-04-06,VIP,Inactive,Platinum,Female,Bilingual,Referral,true,Medium,1979-11-06,2025-08-30T08:48:00+00:00,955.81,21027.82
+C0393,Fatima,Miller,fatima.miller393@example.com,+971519157497,Bahrain,Riffa,2022-04-18,Enterprise,Active,Silver,Female,Bilingual,Direct,false,Low,1988-07-31,2025-10-05T04:01:00+00:00,155.54,466.62
+C0394,Ava,King,ava.king394@example.com,+971598864649,KSA,Riyadh,2024-09-15,Enterprise,Inactive,Gold,Female,Bilingual,Social Media,true,Low,1994-04-22,2025-06-16T15:50:00+00:00,580.59,6386.49
+C0395,Fatima,Thomas,fatima.thomas395@example.com,+971598504649,Bahrain,Riffa,2023-02-10,VIP,Active,Platinum,Female,Arabic,Referral,false,Medium,1979-11-28,2025-03-29T14:02:00+00:00,78.12,1484.28
+C0396,Khalid,White,khalid.white396@example.com,+971589328732,Bahrain,Riffa,2024-02-26,Enterprise,Suspended,Gold,Female,English,Organic,true,High,1977-01-09,2024-06-09T16:03:00+00:00,494.01,8398.17
+C0397,Omar,Taylor,omar.taylor397@example.com,+971565288255,Qatar,Doha,2024-07-04,VIP,Active,Silver,Male,Arabic,Direct,false,High,1978-10-23,2024-12-15T12:06:00+00:00,536.65,6976.45
+C0398,John,Clark,john.clark398@example.com,+971566703371,KSA,Jeddah,2021-12-14,Enterprise,Active,Bronze,Female,Bilingual,Organic,false,Medium,2000-08-01,2024-01-21T17:20:00+00:00,83.36,1917.28
+C0399,Layla,Wilson,layla.wilson399@example.com,+971599575241,KSA,Jeddah,2021-07-24,VIP,Active,Gold,Female,English,Paid Search,false,High,1978-05-19,2025-12-08T21:13:00+00:00,429.72,7734.96
+C0400,Leen,Mansour,leen.mansour400@example.com,+971522342371,UK,Manchester,2021-04-08,Basic,Suspended,Gold,Female,Arabic,Social Media,false,Medium,1984-05-29,2024-10-31T18:25:00+00:00,973.34,20440.14
+C0401,Hassan,Smith,hassan.smith401@example.com,+971563995920,UK,Birmingham,2022-09-07,VIP,Suspended,Platinum,Male,Arabic,Direct,true,High,1997-05-23,2025-03-19T21:34:00+00:00,403.49,6052.35
+C0402,Mona,Anderson,mona.anderson402@example.com,+971518037180,UK,Birmingham,2023-12-28,Premium,Active,Platinum,Male,Arabic,Paid Search,false,Medium,1993-05-27,2025-09-21T13:59:00+00:00,696.70,15327.40
+C0403,Mariam,Smith,mariam.smith403@example.com,+971541692809,USA,Chicago,2022-07-01,Enterprise,Active,Bronze,Male,Arabic,Organic,true,Medium,1995-10-27,2024-10-20T20:10:00+00:00,337.48,7087.08
+C0404,Sophia,Young,sophia.young404@example.com,+971544681437,Kuwait,Hawalli,2024-08-17,VIP,Suspended,Silver,Male,Bilingual,Partner,true,Low,1978-10-07,2024-02-07T06:10:00+00:00,356.35,712.70
+C0405,Mariam,King,mariam.king405@example.com,+971528865664,UK,London,2023-04-14,Premium,Active,Bronze,Female,English,Organic,true,High,1980-06-26,2025-01-07T21:42:00+00:00,1067.43,14944.02
+C0406,Mariam,Wilson,mariam.wilson406@example.com,+971568985391,Kuwait,Kuwait City,2023-05-17,Enterprise,Active,Bronze,Female,Bilingual,Referral,true,Medium,1999-06-25,2024-08-11T04:06:00+00:00,243.18,2431.80
+C0407,David,White,david.white407@example.com,+971512828532,USA,Chicago,2021-10-24,Basic,Active,Silver,Female,Bilingual,Partner,false,High,2006-06-05,2025-01-06T15:45:00+00:00,466.58,5132.38
+C0408,Hassan,Hassan,hassan.hassan408@example.com,+971550384524,USA,Chicago,2023-03-07,Basic,Active,Gold,Male,Arabic,Partner,false,High,1993-03-23,2024-01-09T12:59:00+00:00,1174.47,11744.70
+C0409,Sara,Miller,sara.miller409@example.com,+971523474864,KSA,Jeddah,2023-08-23,Premium,Active,Bronze,Female,English,Social Media,false,Medium,2006-03-09,2025-02-26T10:45:00+00:00,529.94,14838.32
+C0410,Ahmed,Khalid,ahmed.khalid410@example.com,+971551009896,Egypt,Giza,2023-06-28,VIP,Suspended,Bronze,Male,Arabic,Paid Search,true,High,2005-10-05,2025-10-18T04:00:00+00:00,504.77,11104.94
+C0411,David,Wilson,david.wilson411@example.com,+971547822197,Bahrain,Riffa,2021-10-01,Premium,Active,Platinum,Female,Arabic,Partner,false,High,1985-01-25,2024-09-23T05:43:00+00:00,727.90,8734.80
+C0412,Ahmed,Ali,ahmed.ali412@example.com,+971563825994,USA,New York,2023-08-06,Enterprise,Suspended,Gold,Male,Arabic,Referral,true,High,1980-04-06,2024-07-22T08:44:00+00:00,1028.12,3084.36
+C0413,Ahmed,Moore,ahmed.moore413@example.com,+971545729141,Kuwait,Hawalli,2024-10-11,VIP,Inactive,Platinum,Male,English,Paid Search,true,Medium,2007-08-07,2025-05-21T03:14:00+00:00,867.73,6941.84
+C0414,Mona,Martin,mona.martin414@example.com,+971543328672,Egypt,Alexandria,2021-10-26,VIP,Suspended,Platinum,Male,Arabic,Partner,true,Medium,2006-02-01,2024-01-30T09:16:00+00:00,313.16,5010.56
+C0415,Layla,Mansour,layla.mansour415@example.com,+971554676053,Kuwait,Hawalli,2024-05-08,Premium,Inactive,Gold,Male,Arabic,Referral,false,Medium,1992-09-14,2024-09-19T02:06:00+00:00,686.12,2058.36
+C0416,Hassan,Brown,hassan.brown416@example.com,+971572825287,UAE,Sharjah,2022-01-03,Premium,Active,Gold,Female,Arabic,Referral,true,Medium,1976-12-24,2024-09-23T05:32:00+00:00,611.69,7340.28
+C0417,Omar,White,omar.white417@example.com,+971545400991,UK,Birmingham,2023-01-09,VIP,Inactive,Silver,Female,Bilingual,Partner,true,High,2004-06-28,2025-03-16T09:57:00+00:00,1057.25,22202.25
+C0418,Ethan,Khalid,ethan.khalid418@example.com,+971572697508,USA,New York,2021-04-22,Enterprise,Active,Platinum,Male,English,Referral,false,Medium,1997-02-11,2024-08-23T05:02:00+00:00,585.49,4098.43
+C0419,Fatima,Brown,fatima.brown419@example.com,+971578281626,KSA,Jeddah,2021-07-11,VIP,Suspended,Silver,Male,Bilingual,Social Media,true,Medium,1978-06-12,2024-07-27T09:11:00+00:00,1008.55,25213.75
+C0420,Yousef,White,yousef.white420@example.com,+971589233891,KSA,Jeddah,2021-02-23,Basic,Active,Silver,Male,Arabic,Partner,false,Medium,2003-03-09,2024-10-18T21:43:00+00:00,181.51,2359.63
+C0421,Noor,King,noor.king421@example.com,+971586391152,UAE,Abu Dhabi,2021-03-31,Premium,Active,Bronze,Female,English,Organic,true,High,2002-01-06,2025-11-02T19:28:00+00:00,416.90,10422.50
+C0422,Layla,Smith,layla.smith422@example.com,+971531869528,Kuwait,Hawalli,2021-12-31,Enterprise,Inactive,Gold,Male,Arabic,Referral,false,Medium,1988-11-28,2024-09-02T12:05:00+00:00,63.79,510.32
+C0423,Ava,Brown,ava.brown423@example.com,+971573946652,Qatar,Doha,2023-01-23,VIP,Suspended,Platinum,Male,English,Referral,true,Medium,2003-04-17,2025-06-08T06:31:00+00:00,556.71,7793.94
+C0424,David,Smith,david.smith424@example.com,+971530813102,UAE,Sharjah,2022-12-01,Enterprise,Suspended,Bronze,Female,English,Partner,true,Medium,1988-06-22,2025-04-19T21:14:00+00:00,791.23,18989.52
+C0425,Omar,Brown,omar.brown425@example.com,+971516052535,UK,London,2023-12-08,Basic,Suspended,Platinum,Female,Arabic,Partner,false,Medium,1986-06-07,2025-03-13T09:36:00+00:00,95.36,381.44
+C0426,Khalid,Smith,khalid.smith426@example.com,+971516074522,UAE,Dubai,2024-09-16,Basic,Inactive,Gold,Female,Bilingual,Direct,false,High,1995-03-08,2025-04-18T05:50:00+00:00,251.36,3519.04
+C0427,Ava,Miller,ava.miller427@example.com,+971524271459,Qatar,Doha,2022-03-09,Enterprise,Suspended,Bronze,Male,English,Organic,true,Low,2004-06-01,2024-07-08T02:47:00+00:00,1179.34,11793.40
+C0428,Sophia,Anderson,sophia.anderson428@example.com,+971563015631,Kuwait,Hawalli,2022-09-13,VIP,Active,Silver,Male,Arabic,Paid Search,true,Low,2006-03-22,2025-09-25T19:23:00+00:00,841.17,20188.08
+C0429,Mona,Ali,mona.ali429@example.com,+971582287324,USA,Chicago,2024-08-21,Premium,Active,Gold,Female,Arabic,Partner,false,Low,1980-03-23,2024-05-28T20:15:00+00:00,545.51,12001.22
+C0430,Lina,Brown,lina.brown430@example.com,+971586427662,Bahrain,Riffa,2023-08-24,Enterprise,Active,Gold,Male,Arabic,Direct,false,Medium,1997-03-27,2024-01-21T14:37:00+00:00,321.45,3535.95
+C0431,Khalid,King,khalid.king431@example.com,+971575485030,UK,London,2023-09-26,Premium,Active,Bronze,Female,Bilingual,Referral,true,Medium,2004-01-30,2025-02-13T15:32:00+00:00,725.61,15237.81
+C0432,David,White,david.white432@example.com,+971531653807,KSA,Jeddah,2024-06-29,VIP,Active,Platinum,Female,English,Paid Search,true,High,2005-09-22,2025-10-23T11:28:00+00:00,849.12,1698.24
+C0433,Mariam,King,mariam.king433@example.com,+971558352683,Bahrain,Manama,2022-08-24,Enterprise,Active,Silver,Female,Bilingual,Direct,true,High,1996-08-29,2025-02-03T13:53:00+00:00,1131.79,24899.38
+C0434,Omar,Johnson,omar.johnson434@example.com,+971550755467,USA,New York,2024-05-25,Premium,Active,Bronze,Male,English,Referral,false,High,1982-02-11,2025-05-18T03:50:00+00:00,522.54,8883.18
+C0435,Lina,Moore,lina.moore435@example.com,+971540077607,UAE,Dubai,2022-11-23,Enterprise,Active,Gold,Female,Arabic,Social Media,false,Low,2005-12-16,2025-03-16T03:39:00+00:00,302.96,5756.24
+C0436,Zain,King,zain.king436@example.com,+971591949659,KSA,Dammam,2021-04-14,Basic,Suspended,Bronze,Male,Arabic,Direct,true,Low,1991-03-23,2025-03-24T14:53:00+00:00,916.69,4583.45
+C0437,Lina,Clark,lina.clark437@example.com,+971528491507,Bahrain,Riffa,2025-02-09,Basic,Active,Platinum,Female,Arabic,Paid Search,false,Medium,1987-11-12,2024-04-11T04:41:00+00:00,461.93,12934.04
+C0438,Zain,Johnson,zain.johnson438@example.com,+971581088456,KSA,Jeddah,2023-02-02,Enterprise,Active,Silver,Female,English,Partner,false,High,2005-08-08,2025-02-28T11:40:00+00:00,811.39,4868.34
+C0439,Hassan,Ali,hassan.ali439@example.com,+971532055285,Bahrain,Manama,2021-01-21,Enterprise,Active,Platinum,Male,Bilingual,Direct,true,High,1977-08-05,2025-06-13T02:05:00+00:00,432.43,6054.02
+C0440,Zain,Clark,zain.clark440@example.com,+971552103461,Kuwait,Hawalli,2024-10-26,VIP,Active,Gold,Male,Bilingual,Partner,false,High,1984-03-14,2025-12-18T17:55:00+00:00,393.01,9825.25
+C0441,Leen,King,leen.king441@example.com,+971582133102,Bahrain,Riffa,2024-08-21,VIP,Inactive,Silver,Female,Arabic,Organic,false,High,1990-04-14,2025-02-18T06:56:00+00:00,389.78,1169.34
+C0442,Lina,Ali,lina.ali442@example.com,+971566739991,UAE,Sharjah,2024-04-28,Basic,Active,Gold,Female,Bilingual,Social Media,false,Low,1977-02-21,2024-09-21T07:53:00+00:00,938.02,23450.50
+C0443,Fatima,Anderson,fatima.anderson443@example.com,+971585913174,UK,Birmingham,2021-01-11,Premium,Active,Gold,Female,Bilingual,Direct,true,High,1991-12-10,2025-04-09T10:15:00+00:00,974.25,19485.00
+C0444,Zain,Saleh,zain.saleh444@example.com,+971523151704,KSA,Jeddah,2023-11-24,Premium,Inactive,Platinum,Male,Arabic,Organic,false,Low,1996-05-12,2025-08-19T06:52:00+00:00,943.12,15089.92
+C0445,Mona,Anderson,mona.anderson445@example.com,+971562986806,KSA,Jeddah,2024-10-18,VIP,Suspended,Platinum,Female,English,Direct,false,High,1993-09-13,2025-06-22T12:37:00+00:00,688.40,17898.40
+C0446,Lina,Brown,lina.brown446@example.com,+971525845497,Egypt,Alexandria,2024-12-27,Premium,Inactive,Platinum,Male,Bilingual,Paid Search,false,Low,2001-12-26,2025-04-13T04:45:00+00:00,635.30,11435.40
+C0447,David,Hassan,david.hassan447@example.com,+971550926285,KSA,Jeddah,2024-03-16,VIP,Active,Gold,Female,Arabic,Paid Search,true,High,1993-12-02,2024-10-23T01:33:00+00:00,217.83,2831.79
+C0448,Sara,Clark,sara.clark448@example.com,+971515997180,UK,London,2022-01-10,Enterprise,Inactive,Gold,Female,English,Partner,false,High,2002-03-03,2025-05-15T00:07:00+00:00,675.14,2700.56
+C0449,Omar,Brown,omar.brown449@example.com,+971593855267,Bahrain,Riffa,2024-09-28,Enterprise,Inactive,Silver,Female,English,Social Media,true,High,1994-11-16,2025-04-04T04:55:00+00:00,884.32,3537.28
+C0450,Noor,Smith,noor.smith450@example.com,+971585302098,Egypt,Giza,2021-02-20,Basic,Suspended,Bronze,Male,Bilingual,Social Media,true,High,1998-05-28,2025-08-08T20:50:00+00:00,935.05,10285.55
+C0451,Mona,White,mona.white451@example.com,+971542921822,UAE,Dubai,2024-09-10,Enterprise,Active,Gold,Female,Bilingual,Organic,false,Low,1990-04-01,2025-06-28T05:01:00+00:00,358.96,2871.68
+C0452,David,Johnson,david.johnson452@example.com,+971582716383,Kuwait,Kuwait City,2023-12-18,Premium,Active,Silver,Male,English,Organic,true,Medium,1993-04-08,2024-11-20T12:16:00+00:00,145.59,727.95
+C0453,Lina,Khalid,lina.khalid453@example.com,+971565408139,Qatar,Doha,2021-02-25,VIP,Active,Platinum,Male,Arabic,Paid Search,true,High,2001-04-15,2024-02-29T09:24:00+00:00,154.54,927.24
+C0454,Yousef,White,yousef.white454@example.com,+971574984400,Kuwait,Kuwait City,2022-07-06,Basic,Inactive,Silver,Male,English,Social Media,true,Low,1999-11-19,2024-03-03T10:29:00+00:00,681.62,2726.48
+C0455,Omar,Clark,omar.clark455@example.com,+971560104178,Kuwait,Hawalli,2021-06-21,Premium,Active,Platinum,Female,Arabic,Organic,false,High,1987-12-23,2025-10-13T16:13:00+00:00,948.14,5688.84
+C0456,Lina,Ali,lina.ali456@example.com,+971594853379,UAE,Abu Dhabi,2022-07-14,Premium,Suspended,Gold,Male,Arabic,Direct,true,Medium,1979-01-09,2025-09-04T08:53:00+00:00,828.80,10774.40
+C0457,Layla,Hassan,layla.hassan457@example.com,+971552722031,Egypt,Giza,2024-02-14,VIP,Active,Platinum,Female,Arabic,Direct,false,Medium,1984-06-12,2024-10-13T13:13:00+00:00,748.12,20199.24
+C0458,Ethan,King,ethan.king458@example.com,+971510574350,Qatar,Doha,2024-11-17,Basic,Active,Platinum,Female,English,Social Media,true,High,2004-03-19,2024-05-16T20:59:00+00:00,42.38,720.46
+C0459,John,Young,john.young459@example.com,+971590706579,UAE,Sharjah,2023-07-01,VIP,Inactive,Silver,Male,Arabic,Partner,false,Low,1994-12-10,2025-11-19T03:22:00+00:00,1167.57,16345.98
+C0460,Ahmed,Saleh,ahmed.saleh460@example.com,+971550691933,UAE,Abu Dhabi,2024-10-25,Premium,Active,Platinum,Female,Arabic,Referral,false,High,2006-09-17,2025-01-01T06:05:00+00:00,986.89,21711.58
+C0461,Ava,Mansour,ava.mansour461@example.com,+971576305077,UAE,Dubai,2024-07-31,Premium,Suspended,Silver,Male,Arabic,Social Media,true,High,1977-12-01,2025-02-09T03:55:00+00:00,361.72,6510.96
+C0462,Omar,Miller,omar.miller462@example.com,+971581530199,USA,Austin,2025-02-01,VIP,Suspended,Platinum,Male,English,Direct,true,Medium,1994-05-27,2024-10-07T06:54:00+00:00,826.46,19835.04
+C0463,David,Miller,david.miller463@example.com,+971540138350,KSA,Dammam,2023-11-28,Basic,Active,Platinum,Female,English,Organic,false,Low,1990-01-05,2025-04-22T15:23:00+00:00,640.02,1920.06
+C0464,John,Hill,john.hill464@example.com,+971532076343,UAE,Sharjah,2022-04-08,VIP,Active,Bronze,Male,Arabic,Partner,false,Low,2001-07-31,2025-12-07T13:04:00+00:00,1103.71,8829.68
+C0465,Mariam,Miller,mariam.miller465@example.com,+971579749603,USA,New York,2023-08-28,Premium,Active,Platinum,Male,Bilingual,Partner,true,Low,1977-09-21,2024-09-01T10:53:00+00:00,103.14,1237.68
+C0466,Sara,Thomas,sara.thomas466@example.com,+971567960448,Qatar,Doha,2021-09-19,Basic,Active,Bronze,Male,English,Partner,false,Low,2002-09-09,2024-03-04T14:03:00+00:00,389.71,8573.62
+C0467,David,Saleh,david.saleh467@example.com,+971555582551,UAE,Abu Dhabi,2023-02-26,Basic,Inactive,Gold,Male,Arabic,Organic,true,High,2006-12-30,2025-04-20T13:56:00+00:00,759.44,3797.20
+C0468,John,Hill,john.hill468@example.com,+971593329195,USA,Austin,2021-09-16,Enterprise,Active,Silver,Male,Arabic,Organic,true,Medium,2001-03-21,2025-10-14T16:16:00+00:00,452.25,7688.25
+C0469,David,Moore,david.moore469@example.com,+971556023301,Qatar,Al Rayyan,2024-04-10,VIP,Active,Bronze,Male,Arabic,Paid Search,true,Medium,1990-06-04,2025-07-08T04:09:00+00:00,584.65,12277.65
+C0470,Mona,Mansour,mona.mansour470@example.com,+971590498733,USA,New York,2022-12-01,VIP,Suspended,Gold,Female,English,Referral,true,Low,1995-05-19,2024-07-12T21:30:00+00:00,845.95,13535.20
+C0471,Sara,White,sara.white471@example.com,+971542080592,USA,New York,2024-08-01,Enterprise,Active,Platinum,Male,English,Paid Search,true,Medium,1975-06-12,2024-08-16T22:14:00+00:00,581.18,4649.44
+C0472,John,Taylor,john.taylor472@example.com,+971558306200,UAE,Sharjah,2021-08-24,Basic,Active,Silver,Male,English,Paid Search,true,Medium,2007-03-31,2024-05-25T09:28:00+00:00,265.51,5310.20
+C0473,Lina,Wilson,lina.wilson473@example.com,+971512817734,USA,New York,2022-02-06,Premium,Inactive,Bronze,Female,Arabic,Referral,false,Low,1991-08-01,2024-01-23T05:53:00+00:00,343.67,1718.35
+C0474,Hassan,Johnson,hassan.johnson474@example.com,+971560760544,Kuwait,Kuwait City,2021-08-31,VIP,Active,Platinum,Male,Arabic,Social Media,true,High,1988-03-12,2024-05-27T04:50:00+00:00,259.98,4939.62
+C0475,Omar,Wilson,omar.wilson475@example.com,+971575631212,USA,New York,2024-07-13,Premium,Active,Platinum,Male,Arabic,Social Media,false,High,1997-11-03,2024-10-13T04:54:00+00:00,629.59,12591.80
+C0476,Hassan,White,hassan.white476@example.com,+971573586743,Bahrain,Manama,2022-10-22,VIP,Suspended,Platinum,Male,Arabic,Paid Search,true,Medium,1985-07-07,2025-01-17T16:44:00+00:00,600.62,10210.54
+C0477,Layla,Mansour,layla.mansour477@example.com,+971583893835,UK,Manchester,2023-02-12,Basic,Active,Bronze,Female,English,Social Media,false,Low,2001-03-12,2025-08-08T05:59:00+00:00,1017.22,10172.20
+C0478,Sara,Anderson,sara.anderson478@example.com,+971552549761,Qatar,Al Rayyan,2023-07-13,VIP,Inactive,Bronze,Male,English,Paid Search,false,High,1978-05-28,2025-04-23T13:26:00+00:00,466.31,7927.27
+C0479,Hassan,Smith,hassan.smith479@example.com,+971523208247,UK,Birmingham,2023-11-17,Basic,Active,Gold,Male,Bilingual,Paid Search,false,Low,2005-04-13,2025-07-13T20:05:00+00:00,951.61,8564.49
+C0480,Mariam,Miller,mariam.miller480@example.com,+971582897088,UK,Birmingham,2024-10-31,VIP,Active,Gold,Female,English,Partner,false,High,2004-05-24,2024-10-08T06:45:00+00:00,740.68,4444.08
+C0481,Ahmed,White,ahmed.white481@example.com,+971579232906,Egypt,Alexandria,2022-04-12,Enterprise,Inactive,Gold,Male,English,Paid Search,false,High,1993-09-26,2024-08-20T23:47:00+00:00,283.46,2551.14
+C0482,Mona,Anderson,mona.anderson482@example.com,+971511299382,Bahrain,Manama,2023-02-07,Enterprise,Active,Gold,Male,English,Partner,false,High,1999-02-12,2024-05-22T18:55:00+00:00,188.88,4722.00
+C0483,Ali,Wilson,ali.wilson483@example.com,+971590933663,UAE,Sharjah,2021-03-07,Enterprise,Inactive,Silver,Female,Arabic,Social Media,false,Low,1996-04-18,2024-05-22T04:21:00+00:00,699.10,18875.70
+C0484,Fatima,Wilson,fatima.wilson484@example.com,+971590982133,Bahrain,Riffa,2021-07-10,Enterprise,Active,Silver,Male,Arabic,Partner,false,Low,1985-06-15,2024-06-24T03:43:00+00:00,681.37,2044.11
+C0485,Ali,Moore,ali.moore485@example.com,+971565144861,KSA,Jeddah,2021-04-28,Enterprise,Active,Bronze,Male,Bilingual,Partner,false,High,1978-01-31,2025-01-12T16:00:00+00:00,239.32,6940.28
+C0486,Layla,Mansour,layla.mansour486@example.com,+971587187458,Egypt,Cairo,2022-09-27,VIP,Suspended,Silver,Female,English,Paid Search,true,Low,1994-12-29,2025-03-18T22:42:00+00:00,590.74,12405.54
+C0487,John,Thomas,john.thomas487@example.com,+971522227594,USA,Austin,2022-11-05,VIP,Inactive,Gold,Female,English,Social Media,true,Medium,1986-03-05,2025-08-05T15:29:00+00:00,576.73,1730.19
+C0488,Lina,King,lina.king488@example.com,+971515860545,Kuwait,Hawalli,2023-02-27,Premium,Active,Gold,Female,Bilingual,Organic,true,Medium,1993-06-13,2025-11-05T05:44:00+00:00,699.59,9794.26
+C0489,Leen,Hassan,leen.hassan489@example.com,+971537833011,Qatar,Doha,2021-08-04,Basic,Inactive,Bronze,Male,Bilingual,Direct,false,Medium,1990-06-01,2025-05-31T10:26:00+00:00,563.09,5630.90
+C0490,Layla,Mansour,layla.mansour490@example.com,+971599965548,Kuwait,Kuwait City,2021-01-22,Enterprise,Inactive,Platinum,Male,Arabic,Social Media,true,High,1994-08-20,2024-09-13T03:45:00+00:00,1103.88,13246.56
+C0491,Omar,White,omar.white491@example.com,+971581760022,UK,London,2021-12-16,Enterprise,Active,Bronze,Male,Bilingual,Referral,true,Medium,1991-01-23,2024-01-19T19:06:00+00:00,245.59,1227.95
+C0492,Lina,Mansour,lina.mansour492@example.com,+971580179022,UAE,Sharjah,2023-12-27,Basic,Inactive,Gold,Female,Arabic,Social Media,true,Low,1991-12-06,2024-08-09T14:44:00+00:00,95.40,2098.80
+C0493,Mona,Saleh,mona.saleh493@example.com,+971555247029,Qatar,Doha,2022-02-14,Premium,Active,Silver,Male,Bilingual,Paid Search,true,Low,1993-08-24,2024-04-03T00:26:00+00:00,72.42,144.84
+C0494,Zain,Hassan,zain.hassan494@example.com,+971563024581,Qatar,Al Rayyan,2024-02-26,Enterprise,Active,Silver,Male,Arabic,Referral,false,Low,1975-09-03,2025-10-03T06:39:00+00:00,280.26,5324.94
+C0495,Layla,Wilson,layla.wilson495@example.com,+971597234140,UAE,Abu Dhabi,2022-03-12,VIP,Active,Bronze,Male,English,Referral,false,Low,2006-12-18,2025-04-14T07:04:00+00:00,803.24,8032.40
+C0496,Leen,Hill,leen.hill496@example.com,+971527841755,Egypt,Alexandria,2021-07-14,VIP,Active,Gold,Female,Arabic,Referral,true,High,2001-03-30,2025-09-06T10:40:00+00:00,847.73,19497.79
+C0497,Ethan,Thomas,ethan.thomas497@example.com,+971526650536,USA,Austin,2024-04-18,VIP,Active,Platinum,Male,Bilingual,Organic,true,Low,1991-10-20,2024-01-14T07:01:00+00:00,754.96,22648.80
+C0498,Sophia,Clark,sophia.clark498@example.com,+971590272292,USA,New York,2023-02-09,Enterprise,Active,Silver,Female,English,Direct,true,High,1993-08-11,2024-07-28T20:02:00+00:00,316.15,7903.75
+C0499,Ali,Ali,ali.ali499@example.com,+971543331368,USA,Austin,2022-11-10,Premium,Suspended,Platinum,Female,Arabic,Partner,true,Low,1997-01-20,2024-12-16T07:13:00+00:00,665.60,15308.80
+C0500,John,Mansour,john.mansour500@example.com,+971537430524,UAE,Sharjah,2021-10-17,Premium,Suspended,Bronze,Female,Bilingual,Partner,false,Low,2007-05-16,2024-07-28T04:05:00+00:00,241.46,4587.74
+C0501,Mona,Saleh,mona.saleh501@example.com,+971537031585,Kuwait,Kuwait City,2024-05-25,VIP,Inactive,Bronze,Female,English,Partner,true,Medium,1994-10-19,2024-09-11T09:18:00+00:00,708.65,15590.30
+C0502,David,Moore,david.moore502@example.com,+971550296396,Kuwait,Kuwait City,2023-09-15,Premium,Suspended,Silver,Female,English,Partner,false,Medium,1987-09-15,2024-01-21T12:27:00+00:00,1030.69,26797.94
+C0503,Layla,Young,layla.young503@example.com,+971510561104,Bahrain,Manama,2022-11-14,Basic,Suspended,Gold,Female,English,Partner,false,High,1991-09-27,2024-05-19T22:30:00+00:00,267.03,2136.24
+C0504,Layla,White,layla.white504@example.com,+971561650472,UK,Birmingham,2024-04-19,Premium,Active,Platinum,Female,Bilingual,Referral,false,High,2005-11-19,2024-03-13T13:56:00+00:00,85.04,425.20
+C0505,Hassan,Khalid,hassan.khalid505@example.com,+971594685039,Kuwait,Hawalli,2022-05-21,Basic,Active,Gold,Female,Bilingual,Paid Search,false,Low,2002-01-04,2024-09-05T15:02:00+00:00,1108.90,14415.70
+C0506,Khalid,Johnson,khalid.johnson506@example.com,+971588673120,UAE,Dubai,2021-07-09,Basic,Suspended,Silver,Female,Arabic,Partner,false,High,1988-07-22,2025-10-21T22:58:00+00:00,485.84,11660.16
+C0507,Zain,Young,zain.young507@example.com,+971556223620,Kuwait,Hawalli,2023-04-23,Premium,Active,Silver,Female,Bilingual,Referral,true,Low,1997-01-21,2024-04-01T03:40:00+00:00,704.23,19014.21
+C0508,Ahmed,Hassan,ahmed.hassan508@example.com,+971532902142,KSA,Dammam,2023-05-06,Premium,Active,Silver,Male,Arabic,Partner,true,High,1979-12-12,2025-06-21T13:41:00+00:00,374.47,5617.05
+C0509,Ethan,Hill,ethan.hill509@example.com,+971544809624,USA,New York,2022-02-16,Enterprise,Inactive,Bronze,Male,Arabic,Referral,true,Medium,1980-08-04,2024-03-01T23:11:00+00:00,978.65,7829.20
+C0510,Noor,Smith,noor.smith510@example.com,+971511275951,Qatar,Doha,2024-04-14,Basic,Active,Bronze,Male,Arabic,Paid Search,true,Medium,2002-01-18,2024-08-28T15:31:00+00:00,820.45,4102.25
+C0511,Zain,Miller,zain.miller511@example.com,+971556047075,Bahrain,Riffa,2022-11-22,VIP,Active,Gold,Female,English,Social Media,true,Medium,1989-10-24,2025-09-10T13:21:00+00:00,470.11,14103.30
+C0512,Fatima,Ali,fatima.ali512@example.com,+971547509496,Bahrain,Riffa,2025-01-25,Premium,Active,Platinum,Female,Bilingual,Partner,true,Low,2003-08-16,2024-05-22T00:38:00+00:00,182.56,3286.08
+C0513,Mariam,Ali,mariam.ali513@example.com,+971592220752,Qatar,Doha,2022-10-29,Basic,Active,Platinum,Female,Bilingual,Direct,true,High,1992-04-06,2025-11-25T14:14:00+00:00,743.85,10413.90
+C0514,Ali,King,ali.king514@example.com,+971514260842,USA,Austin,2021-10-21,Premium,Inactive,Bronze,Female,Bilingual,Social Media,false,Low,1995-01-07,2025-06-16T18:50:00+00:00,1033.89,18610.02
+C0515,Fatima,White,fatima.white515@example.com,+971513922081,USA,New York,2022-03-10,Premium,Active,Platinum,Female,Arabic,Direct,false,High,1996-05-13,2024-06-23T21:44:00+00:00,143.74,2156.10
+C0516,Fatima,Brown,fatima.brown516@example.com,+971518679461,Bahrain,Manama,2024-11-17,VIP,Inactive,Platinum,Female,Arabic,Paid Search,false,Low,1988-01-20,2024-12-06T07:59:00+00:00,708.13,14870.73
+C0517,John,Hassan,john.hassan517@example.com,+971552060116,KSA,Jeddah,2024-04-27,Enterprise,Suspended,Bronze,Female,Arabic,Social Media,true,Medium,1994-01-02,2024-07-11T23:07:00+00:00,704.49,4226.94
+C0518,Mariam,Taylor,mariam.taylor518@example.com,+971582248455,Egypt,Giza,2024-09-21,Enterprise,Active,Silver,Female,Arabic,Partner,false,Low,2001-12-24,2025-09-08T18:14:00+00:00,163.64,327.28
+C0519,Ali,Brown,ali.brown519@example.com,+971587037211,UAE,Sharjah,2022-10-18,Enterprise,Active,Platinum,Female,Bilingual,Partner,true,Medium,1981-11-06,2024-11-12T16:44:00+00:00,183.22,5313.38
+C0520,Mona,Saleh,mona.saleh520@example.com,+971531366552,UAE,Dubai,2023-09-26,Basic,Suspended,Platinum,Female,English,Direct,false,Medium,1992-07-22,2025-02-05T09:52:00+00:00,804.73,23337.17
+C0521,Layla,Smith,layla.smith521@example.com,+971527569192,UK,Manchester,2024-11-27,VIP,Suspended,Bronze,Female,English,Direct,true,High,1981-03-03,2024-07-18T22:54:00+00:00,675.69,3378.45
+C0522,Ethan,White,ethan.white522@example.com,+971558617120,UK,London,2022-03-06,Basic,Active,Platinum,Female,Bilingual,Paid Search,true,Low,1990-12-13,2024-08-11T23:12:00+00:00,892.97,1785.94
+C0523,Sophia,Johnson,sophia.johnson523@example.com,+971594150830,UAE,Dubai,2023-11-22,Enterprise,Active,Bronze,Male,Arabic,Partner,false,Medium,2005-11-10,2025-10-27T10:37:00+00:00,543.23,3259.38
+C0524,Ava,Johnson,ava.johnson524@example.com,+971559301266,Kuwait,Kuwait City,2023-08-08,Basic,Active,Bronze,Male,Arabic,Partner,true,Low,2001-04-28,2025-10-27T12:17:00+00:00,773.51,12376.16
+C0525,Khalid,Hill,khalid.hill525@example.com,+971568204387,Bahrain,Riffa,2024-11-21,VIP,Suspended,Silver,Male,English,Organic,true,Medium,2006-06-07,2024-04-06T18:11:00+00:00,485.39,10678.58
+C0526,Ahmed,Thomas,ahmed.thomas526@example.com,+971526654987,Bahrain,Manama,2023-11-29,Premium,Active,Silver,Male,Arabic,Social Media,false,Medium,1980-07-08,2025-08-21T17:45:00+00:00,989.84,21776.48
+C0527,Sara,Brown,sara.brown527@example.com,+971521356205,USA,Austin,2021-11-27,Basic,Suspended,Gold,Female,Bilingual,Paid Search,false,High,1975-01-02,2024-03-30T17:16:00+00:00,1027.68,3083.04
+C0528,Yousef,Clark,yousef.clark528@example.com,+971552001565,UAE,Sharjah,2022-08-24,VIP,Suspended,Silver,Male,Bilingual,Organic,true,Low,1983-06-09,2025-11-05T17:28:00+00:00,202.23,3437.91
+C0529,Omar,Clark,omar.clark529@example.com,+971593525402,USA,New York,2024-05-18,Enterprise,Active,Gold,Female,English,Direct,true,Medium,1995-06-17,2025-07-19T06:37:00+00:00,456.52,2739.12
+C0530,John,Miller,john.miller530@example.com,+971596647103,Kuwait,Kuwait City,2024-01-03,Premium,Active,Silver,Female,Arabic,Referral,false,Medium,1976-02-29,2024-07-27T02:40:00+00:00,889.90,19577.80
+C0531,Ava,Saleh,ava.saleh531@example.com,+971554205616,KSA,Jeddah,2021-09-13,Basic,Active,Gold,Female,Arabic,Paid Search,false,Low,1979-05-24,2025-06-28T03:43:00+00:00,676.11,2704.44
+C0532,Layla,Saleh,layla.saleh532@example.com,+971575715496,Kuwait,Kuwait City,2021-09-10,Basic,Suspended,Gold,Female,Bilingual,Referral,true,Low,1982-08-29,2024-06-28T16:46:00+00:00,1055.59,21111.80
+C0533,Mariam,Thomas,mariam.thomas533@example.com,+971574003316,Egypt,Alexandria,2024-10-20,Premium,Active,Bronze,Male,Bilingual,Paid Search,true,Medium,2000-06-16,2025-06-28T17:38:00+00:00,1063.14,14883.96
+C0534,Noor,Khalid,noor.khalid534@example.com,+971557513265,Qatar,Doha,2024-10-20,Enterprise,Suspended,Gold,Female,English,Social Media,true,Medium,2003-07-07,2025-09-15T13:45:00+00:00,571.03,9136.48
+C0535,John,Clark,john.clark535@example.com,+971532161108,Kuwait,Hawalli,2021-07-04,Basic,Active,Gold,Female,Arabic,Partner,true,Medium,1997-05-01,2025-10-11T02:04:00+00:00,886.75,3547.00
+C0536,Zain,Young,zain.young536@example.com,+971567039703,KSA,Jeddah,2021-01-29,VIP,Active,Bronze,Female,Arabic,Direct,true,Low,1978-05-15,2025-09-23T06:58:00+00:00,1004.42,2008.84
+C0537,Hassan,Brown,hassan.brown537@example.com,+971555360034,Qatar,Doha,2023-05-16,Premium,Suspended,Bronze,Female,English,Partner,false,Medium,1984-07-22,2025-05-22T12:10:00+00:00,473.01,2365.05
+C0538,Ahmed,Hill,ahmed.hill538@example.com,+971592912825,Kuwait,Kuwait City,2022-09-17,Enterprise,Active,Gold,Male,Bilingual,Partner,false,Medium,1990-11-16,2025-10-20T16:52:00+00:00,1076.36,17221.76
+C0539,Fatima,Ali,fatima.ali539@example.com,+971521374117,Qatar,Doha,2023-04-04,Premium,Inactive,Bronze,Female,Arabic,Paid Search,false,Low,1996-02-11,2024-12-29T00:06:00+00:00,539.73,4317.84
+C0540,Layla,Taylor,layla.taylor540@example.com,+971598084362,UK,Manchester,2023-05-28,Enterprise,Active,Silver,Female,Bilingual,Partner,true,Medium,2006-10-24,2024-07-05T17:51:00+00:00,352.60,5641.60
+C0541,Mona,Hassan,mona.hassan541@example.com,+971514242158,USA,Chicago,2021-03-24,Premium,Active,Platinum,Female,Arabic,Partner,false,High,1997-03-25,2024-05-16T12:26:00+00:00,902.95,27088.50
+C0542,Omar,Wilson,omar.wilson542@example.com,+971556187078,Kuwait,Hawalli,2021-09-27,Basic,Active,Bronze,Female,English,Social Media,true,Medium,1996-07-16,2024-04-22T03:50:00+00:00,64.54,387.24
+C0543,Ali,Clark,ali.clark543@example.com,+971543482865,Bahrain,Manama,2023-05-29,VIP,Active,Gold,Male,Bilingual,Partner,true,Medium,2006-09-09,2024-09-10T19:09:00+00:00,885.93,6201.51
+C0544,Fatima,Moore,fatima.moore544@example.com,+971563859314,Egypt,Cairo,2024-04-25,Basic,Active,Silver,Male,English,Organic,true,Low,1977-04-14,2025-10-06T20:09:00+00:00,306.09,1836.54
+C0545,Layla,Martin,layla.martin545@example.com,+971578432746,UK,Birmingham,2024-07-21,Enterprise,Active,Gold,Male,English,Referral,false,Medium,2006-12-02,2024-08-24T07:21:00+00:00,534.25,1602.75
+C0546,David,Saleh,david.saleh546@example.com,+971538451145,Qatar,Doha,2022-01-08,VIP,Inactive,Gold,Male,English,Paid Search,false,Medium,1991-04-23,2024-02-11T00:03:00+00:00,806.10,9673.20
+C0547,Mariam,Clark,mariam.clark547@example.com,+971554454486,KSA,Riyadh,2024-10-02,VIP,Active,Gold,Male,Bilingual,Referral,true,High,1992-03-24,2024-01-14T21:35:00+00:00,933.74,5602.44
+C0548,John,Hassan,john.hassan548@example.com,+971597826062,Egypt,Giza,2024-05-17,Premium,Active,Platinum,Male,Arabic,Social Media,false,Medium,2007-07-16,2024-05-03T01:37:00+00:00,1163.26,34897.80
+C0549,Sophia,Mansour,sophia.mansour549@example.com,+971585208373,Egypt,Cairo,2021-09-19,VIP,Active,Platinum,Male,English,Organic,false,Medium,1998-06-30,2024-07-15T13:35:00+00:00,865.46,25963.80
+C0550,Zain,Ali,zain.ali550@example.com,+971518159550,Egypt,Giza,2022-07-16,Premium,Inactive,Platinum,Male,Arabic,Partner,false,High,1992-07-03,2025-12-14T04:18:00+00:00,92.72,1854.40
+C0551,Layla,King,layla.king551@example.com,+971511189346,UK,London,2022-01-12,Enterprise,Suspended,Gold,Female,Arabic,Referral,false,High,1980-05-05,2024-01-04T05:36:00+00:00,292.66,7023.84
+C0552,Lina,Saleh,lina.saleh552@example.com,+971547279846,UAE,Sharjah,2022-05-03,Premium,Active,Bronze,Male,Arabic,Social Media,true,Low,2004-02-05,2024-10-25T01:40:00+00:00,211.84,6355.20
+C0553,Hassan,King,hassan.king553@example.com,+971592071729,Qatar,Al Rayyan,2021-06-20,VIP,Active,Bronze,Male,English,Paid Search,false,Low,1986-06-26,2025-07-16T08:46:00+00:00,194.99,5849.70
+C0554,Ahmed,Young,ahmed.young554@example.com,+971591113368,KSA,Dammam,2024-11-10,Premium,Inactive,Silver,Female,English,Paid Search,false,Low,1995-01-04,2025-01-26T20:16:00+00:00,1049.23,23083.06
+C0555,Yousef,Martin,yousef.martin555@example.com,+971533637158,Qatar,Doha,2023-09-09,Premium,Suspended,Platinum,Male,Bilingual,Referral,true,Medium,1982-04-23,2024-04-05T15:11:00+00:00,572.89,16040.92
+C0556,Lina,Thomas,lina.thomas556@example.com,+971564023212,USA,New York,2021-10-21,Basic,Suspended,Silver,Male,Bilingual,Organic,false,Medium,1975-12-06,2024-03-14T13:15:00+00:00,567.83,12492.26
+C0557,Fatima,Ali,fatima.ali557@example.com,+971511811523,UAE,Dubai,2022-05-24,Basic,Active,Gold,Male,Arabic,Paid Search,false,High,1994-12-06,2024-03-26T08:09:00+00:00,1128.77,23704.17
+C0558,Lina,Clark,lina.clark558@example.com,+971582962489,Qatar,Al Rayyan,2021-11-13,Basic,Active,Bronze,Male,Bilingual,Referral,true,High,1993-08-18,2024-09-06T01:34:00+00:00,842.77,18540.94
+C0559,Omar,Ali,omar.ali559@example.com,+971540317689,USA,New York,2022-04-10,Enterprise,Active,Platinum,Male,Arabic,Paid Search,true,Medium,1991-01-11,2025-03-13T12:09:00+00:00,449.84,4948.24
+C0560,John,King,john.king560@example.com,+971581199906,Qatar,Doha,2023-01-09,VIP,Suspended,Silver,Female,Arabic,Direct,false,High,1987-11-16,2024-03-27T01:38:00+00:00,215.28,3229.20
+C0561,Hassan,Hassan,hassan.hassan561@example.com,+971520250139,UK,Manchester,2024-09-17,Basic,Active,Silver,Female,Arabic,Partner,false,High,1996-06-17,2025-01-12T08:51:00+00:00,1092.10,29486.70
+C0562,John,Hassan,john.hassan562@example.com,+971557326346,Kuwait,Hawalli,2021-10-24,VIP,Inactive,Platinum,Female,Bilingual,Partner,false,Low,2004-05-02,2024-04-02T10:08:00+00:00,250.97,3513.58
+C0563,Yousef,Thomas,yousef.thomas563@example.com,+971561623796,Kuwait,Hawalli,2024-01-09,Basic,Suspended,Platinum,Male,Bilingual,Organic,true,Medium,1975-02-16,2025-06-30T15:34:00+00:00,662.01,5958.09
+C0564,Mona,Ali,mona.ali564@example.com,+971528703143,Qatar,Al Rayyan,2021-10-01,VIP,Inactive,Silver,Female,Arabic,Paid Search,true,Low,1981-03-07,2024-04-22T01:58:00+00:00,445.24,12911.96
+C0565,Fatima,Brown,fatima.brown565@example.com,+971588061980,Kuwait,Kuwait City,2024-11-26,Basic,Inactive,Silver,Male,Arabic,Referral,true,Low,1985-12-28,2025-03-10T11:03:00+00:00,853.63,19633.49
+C0566,John,Ali,john.ali566@example.com,+971550199242,Kuwait,Kuwait City,2022-01-09,Enterprise,Inactive,Gold,Female,Bilingual,Direct,true,Medium,1979-12-28,2025-04-26T23:08:00+00:00,907.80,21787.20
+C0567,Omar,Khalid,omar.khalid567@example.com,+971570974645,UAE,Sharjah,2021-12-22,VIP,Suspended,Gold,Male,English,Paid Search,false,Low,1998-05-24,2025-05-30T05:00:00+00:00,499.81,7497.15
+C0568,Layla,Brown,layla.brown568@example.com,+971585067208,USA,Chicago,2024-06-21,Basic,Inactive,Platinum,Female,Bilingual,Direct,false,Medium,1982-05-24,2024-02-27T07:25:00+00:00,253.08,6327.00
+C0569,Sara,Taylor,sara.taylor569@example.com,+971555026244,Kuwait,Kuwait City,2022-07-07,Basic,Active,Gold,Male,Bilingual,Organic,true,Low,2001-10-14,2024-04-21T03:04:00+00:00,460.73,11978.98
+C0570,Ahmed,Clark,ahmed.clark570@example.com,+971585805745,USA,Austin,2022-02-18,Basic,Suspended,Platinum,Male,Arabic,Referral,true,Medium,1975-05-19,2025-10-15T01:15:00+00:00,352.23,7044.60
+C0571,Hassan,Clark,hassan.clark571@example.com,+971523070100,Kuwait,Kuwait City,2022-10-07,VIP,Inactive,Bronze,Male,Arabic,Social Media,false,Medium,2001-04-20,2025-02-04T23:22:00+00:00,1169.67,28072.08
+C0572,Sara,Clark,sara.clark572@example.com,+971541080809,Egypt,Cairo,2024-10-29,Premium,Active,Silver,Female,English,Paid Search,false,Medium,1991-03-01,2025-04-19T02:56:00+00:00,766.11,18386.64
+C0573,Ava,Martin,ava.martin573@example.com,+971520066099,UAE,Sharjah,2024-10-30,Premium,Suspended,Platinum,Male,Arabic,Paid Search,false,High,1978-11-29,2025-01-31T07:13:00+00:00,1196.53,25127.13
+C0574,Sophia,Hassan,sophia.hassan574@example.com,+971557428314,Bahrain,Riffa,2021-12-14,Basic,Active,Silver,Female,English,Partner,false,Medium,2004-03-03,2024-10-29T05:04:00+00:00,364.94,4744.22
+C0575,Omar,Hassan,omar.hassan575@example.com,+971527311971,Bahrain,Manama,2023-01-15,Enterprise,Active,Gold,Female,Arabic,Direct,false,High,1995-03-11,2024-10-20T12:26:00+00:00,1034.12,23784.76
+C0576,Noor,Khalid,noor.khalid576@example.com,+971549011805,UAE,Sharjah,2022-05-17,Enterprise,Active,Platinum,Male,Arabic,Partner,false,High,1979-03-12,2025-12-17T17:00:00+00:00,219.29,1096.45
+C0577,Hassan,Anderson,hassan.anderson577@example.com,+971568131630,Bahrain,Riffa,2021-08-12,Premium,Inactive,Gold,Male,English,Referral,false,Low,2006-07-03,2024-03-28T05:46:00+00:00,165.68,2319.52
+C0578,Sophia,Hassan,sophia.hassan578@example.com,+971552974720,UK,Manchester,2021-03-20,Basic,Suspended,Platinum,Male,English,Partner,false,Low,1977-06-05,2025-07-12T04:30:00+00:00,208.80,1670.40
+C0579,Mona,Ali,mona.ali579@example.com,+971564367371,Kuwait,Hawalli,2022-06-01,Basic,Active,Platinum,Female,Bilingual,Paid Search,false,Low,1977-05-30,2025-10-12T05:05:00+00:00,204.42,2044.20
+C0580,John,Martin,john.martin580@example.com,+971531567333,Qatar,Al Rayyan,2021-12-03,Enterprise,Active,Platinum,Male,Bilingual,Social Media,true,Low,2007-06-03,2024-07-22T11:26:00+00:00,598.69,11375.11
+C0581,Khalid,King,khalid.king581@example.com,+971577034462,Egypt,Alexandria,2024-09-22,VIP,Active,Platinum,Female,Bilingual,Direct,true,Medium,1980-08-21,2024-11-20T00:09:00+00:00,1079.94,6479.64
+C0582,Ethan,Hill,ethan.hill582@example.com,+971590657252,KSA,Riyadh,2022-03-24,Enterprise,Active,Gold,Male,Arabic,Direct,true,Medium,1991-04-27,2024-07-11T13:44:00+00:00,673.46,4714.22
+C0583,Ahmed,Clark,ahmed.clark583@example.com,+971565081185,UK,Birmingham,2021-09-13,VIP,Active,Platinum,Female,Arabic,Paid Search,false,Medium,1991-09-27,2025-12-17T15:41:00+00:00,1198.90,17983.50
+C0584,Lina,Young,lina.young584@example.com,+971568719406,Egypt,Giza,2023-06-12,VIP,Suspended,Bronze,Male,Arabic,Organic,true,High,1993-06-13,2025-01-25T09:54:00+00:00,805.14,18518.22
+C0585,Fatima,White,fatima.white585@example.com,+971566457460,KSA,Dammam,2023-06-29,Premium,Active,Platinum,Female,Arabic,Paid Search,false,Low,1990-09-23,2025-05-30T18:51:00+00:00,77.86,856.46
+C0586,Ethan,Martin,ethan.martin586@example.com,+971545500464,Kuwait,Kuwait City,2023-02-07,VIP,Inactive,Silver,Male,English,Organic,true,Low,1981-11-17,2024-08-17T16:18:00+00:00,350.43,8059.89
+C0587,Hassan,Moore,hassan.moore587@example.com,+971535858441,Qatar,Al Rayyan,2021-12-16,Enterprise,Active,Platinum,Male,Bilingual,Partner,true,Medium,1989-04-09,2025-08-08T13:15:00+00:00,684.66,9585.24
+C0588,Zain,Johnson,zain.johnson588@example.com,+971562614983,Kuwait,Kuwait City,2021-07-23,VIP,Suspended,Silver,Female,Arabic,Organic,true,Low,1994-08-15,2024-05-09T16:07:00+00:00,772.47,20856.69
+C0589,Ahmed,Hill,ahmed.hill589@example.com,+971527521857,Egypt,Cairo,2024-06-19,Enterprise,Active,Silver,Male,Bilingual,Paid Search,false,Low,1999-01-07,2025-07-10T02:36:00+00:00,483.59,12089.75
+C0590,Yousef,Thomas,yousef.thomas590@example.com,+971595682794,UK,Birmingham,2021-04-16,Basic,Active,Platinum,Male,Arabic,Paid Search,false,Medium,1983-02-07,2024-10-08T02:59:00+00:00,206.77,413.54
+C0591,John,Smith,john.smith591@example.com,+971519875199,Bahrain,Riffa,2022-03-02,Enterprise,Active,Silver,Female,English,Referral,false,Low,1983-01-24,2025-02-04T03:31:00+00:00,962.71,14440.65
+C0592,Ali,Ali,ali.ali592@example.com,+971556544523,Egypt,Giza,2024-03-07,Enterprise,Suspended,Bronze,Male,Bilingual,Direct,false,Low,1983-08-26,2025-10-08T19:54:00+00:00,76.48,917.76
+C0593,Ava,Ali,ava.ali593@example.com,+971539119581,UAE,Sharjah,2023-11-15,Basic,Active,Silver,Male,Arabic,Direct,true,Medium,1987-04-11,2024-06-05T06:55:00+00:00,463.27,13898.10
+C0594,Sophia,Mansour,sophia.mansour594@example.com,+971576545378,KSA,Jeddah,2024-12-21,Enterprise,Suspended,Platinum,Male,English,Paid Search,true,High,2007-03-07,2025-07-18T20:18:00+00:00,581.77,15707.79
+C0595,Noor,Thomas,noor.thomas595@example.com,+971575475674,KSA,Dammam,2024-04-18,Enterprise,Inactive,Platinum,Female,English,Social Media,true,High,1992-03-07,2024-11-15T05:50:00+00:00,278.76,6969.00
+C0596,David,Mansour,david.mansour596@example.com,+971543965629,Qatar,Al Rayyan,2024-07-19,Enterprise,Active,Gold,Female,Arabic,Organic,true,Medium,1994-04-06,2024-03-06T14:10:00+00:00,1071.76,19291.68
+C0597,Lina,Taylor,lina.taylor597@example.com,+971526415312,USA,New York,2022-03-17,Basic,Active,Bronze,Female,Arabic,Partner,false,Low,2000-03-11,2025-11-03T11:23:00+00:00,208.25,2499.00
+C0598,John,Thomas,john.thomas598@example.com,+971591591543,UK,Birmingham,2022-03-11,Basic,Suspended,Platinum,Female,English,Referral,true,Low,1977-03-24,2025-06-23T06:06:00+00:00,690.71,16577.04
+C0599,Sophia,White,sophia.white599@example.com,+971589345641,UAE,Abu Dhabi,2023-05-13,Enterprise,Active,Bronze,Female,Arabic,Direct,true,Medium,1987-10-04,2024-05-02T03:28:00+00:00,238.52,2862.24
+C0600,Omar,Thomas,omar.thomas600@example.com,+971522766765,UAE,Sharjah,2023-12-17,Enterprise,Active,Gold,Female,English,Partner,true,High,1989-01-18,2024-02-10T10:41:00+00:00,58.88,1000.96
+C0601,Sophia,King,sophia.king601@example.com,+971560184824,UAE,Abu Dhabi,2022-09-04,Basic,Active,Silver,Male,Arabic,Paid Search,true,Medium,2005-11-04,2025-12-14T14:31:00+00:00,1024.46,5122.30
+C0602,David,Saleh,david.saleh602@example.com,+971517045220,Egypt,Cairo,2022-01-27,VIP,Active,Bronze,Male,English,Organic,false,Medium,2005-11-09,2025-01-12T17:00:00+00:00,1123.57,32583.53
+C0603,Ava,Thomas,ava.thomas603@example.com,+971529864422,UK,Birmingham,2021-12-15,Enterprise,Inactive,Bronze,Male,Bilingual,Partner,false,Medium,1989-06-10,2024-05-21T18:29:00+00:00,179.09,2149.08
+C0604,Sophia,Saleh,sophia.saleh604@example.com,+971598514011,KSA,Jeddah,2022-08-30,Premium,Active,Bronze,Female,Arabic,Paid Search,true,High,1984-09-11,2024-03-25T11:35:00+00:00,1009.23,9083.07
+C0605,Ethan,Thomas,ethan.thomas605@example.com,+971578978156,USA,Chicago,2021-08-03,VIP,Active,Platinum,Male,Bilingual,Organic,true,Low,1991-04-24,2024-12-14T06:52:00+00:00,725.01,13050.18
+C0606,Layla,Anderson,layla.anderson606@example.com,+971587476147,USA,Chicago,2022-01-20,Basic,Active,Platinum,Male,Bilingual,Organic,true,Low,1995-09-03,2024-03-11T08:27:00+00:00,230.47,2535.17
+C0607,Lina,Miller,lina.miller607@example.com,+971521283250,UAE,Abu Dhabi,2024-09-17,VIP,Inactive,Silver,Male,English,Social Media,false,High,1989-12-20,2025-06-27T14:22:00+00:00,348.07,6613.33
+C0608,Sara,Anderson,sara.anderson608@example.com,+971536029062,UK,Manchester,2021-07-20,VIP,Active,Platinum,Male,Bilingual,Referral,false,High,1994-06-13,2024-02-20T20:24:00+00:00,889.12,13336.80
+C0609,Fatima,Khalid,fatima.khalid609@example.com,+971542046782,USA,New York,2022-03-26,Basic,Suspended,Bronze,Female,Arabic,Social Media,false,Medium,1992-08-16,2024-04-27T01:57:00+00:00,81.40,814.00
+C0610,Fatima,Saleh,fatima.saleh610@example.com,+971590035829,UK,Manchester,2022-02-26,VIP,Active,Bronze,Male,Bilingual,Direct,false,High,1988-09-11,2024-06-24T06:22:00+00:00,778.80,18691.20
+C0611,Yousef,Johnson,yousef.johnson611@example.com,+971599393218,Qatar,Doha,2021-12-08,Enterprise,Inactive,Gold,Male,Arabic,Referral,true,Low,2005-06-20,2024-07-10T10:57:00+00:00,568.05,1136.10
+C0612,Ahmed,King,ahmed.king612@example.com,+971516063489,Qatar,Al Rayyan,2024-04-09,Basic,Suspended,Gold,Male,Bilingual,Social Media,true,Low,1979-03-19,2024-01-02T15:55:00+00:00,327.11,1635.55
+C0613,Fatima,Clark,fatima.clark613@example.com,+971558894086,Qatar,Al Rayyan,2023-10-02,Enterprise,Active,Gold,Female,Bilingual,Referral,false,Low,1987-02-09,2024-12-25T17:16:00+00:00,809.55,8095.50
+C0614,Zain,Ali,zain.ali614@example.com,+971587522039,Egypt,Alexandria,2022-03-28,Enterprise,Active,Silver,Male,Arabic,Partner,true,Medium,2003-02-13,2025-11-06T04:22:00+00:00,617.49,5557.41
+C0615,Leen,Anderson,leen.anderson615@example.com,+971551516670,Egypt,Alexandria,2024-10-22,Premium,Active,Gold,Male,English,Partner,false,Medium,1979-12-11,2024-12-23T10:25:00+00:00,723.41,7234.10
+C0616,Ahmed,White,ahmed.white616@example.com,+971531824718,Egypt,Alexandria,2024-10-26,VIP,Inactive,Gold,Male,English,Organic,false,Low,1984-09-30,2024-06-02T16:18:00+00:00,763.60,17562.80
+C0617,Ali,Hill,ali.hill617@example.com,+971510086129,KSA,Riyadh,2023-09-28,Basic,Active,Silver,Female,English,Social Media,true,Low,2006-12-29,2024-11-09T00:27:00+00:00,448.62,12561.36
+C0618,Noor,Brown,noor.brown618@example.com,+971543383774,USA,Chicago,2024-04-13,Enterprise,Inactive,Platinum,Male,English,Referral,false,Low,2000-04-18,2024-03-23T09:14:00+00:00,77.28,1004.64
+C0619,David,Wilson,david.wilson619@example.com,+971550935883,Egypt,Giza,2022-02-13,Basic,Active,Platinum,Male,English,Partner,true,Low,1998-08-15,2024-09-13T04:26:00+00:00,682.97,7512.67
+C0620,Ethan,Wilson,ethan.wilson620@example.com,+971513714198,Qatar,Al Rayyan,2022-12-27,Basic,Inactive,Bronze,Male,Bilingual,Referral,true,High,1997-12-22,2025-03-13T14:26:00+00:00,1155.28,18484.48
+C0621,Hassan,Brown,hassan.brown621@example.com,+971579525894,UK,London,2023-03-16,Enterprise,Active,Bronze,Male,English,Direct,true,Medium,2001-08-29,2024-05-08T12:42:00+00:00,46.91,1266.57
+C0622,Fatima,Clark,fatima.clark622@example.com,+971517116259,Bahrain,Riffa,2021-05-05,Premium,Suspended,Silver,Female,Arabic,Paid Search,true,Medium,2003-03-08,2024-05-04T23:37:00+00:00,822.32,20558.00
+C0623,Ali,Ali,ali.ali623@example.com,+971579769403,Bahrain,Manama,2021-08-23,Basic,Active,Silver,Male,English,Organic,false,Medium,1977-06-30,2024-03-09T00:09:00+00:00,740.40,3702.00
+C0624,Fatima,Clark,fatima.clark624@example.com,+971568939010,Kuwait,Hawalli,2022-01-12,Basic,Inactive,Silver,Male,Arabic,Paid Search,true,Low,1997-12-11,2024-08-28T17:16:00+00:00,993.16,22842.68
+C0625,Leen,Mansour,leen.mansour625@example.com,+971559303460,Bahrain,Riffa,2022-08-17,VIP,Inactive,Platinum,Male,English,Partner,false,Low,1976-04-03,2024-10-23T21:06:00+00:00,1152.55,19593.35
+C0626,Ali,Anderson,ali.anderson626@example.com,+971598206742,KSA,Dammam,2023-03-09,Enterprise,Active,Gold,Male,English,Direct,false,Medium,1975-05-30,2024-01-12T18:19:00+00:00,79.54,1749.88
+C0627,Lina,Taylor,lina.taylor627@example.com,+971530320928,USA,Chicago,2024-12-17,VIP,Suspended,Gold,Female,Bilingual,Paid Search,false,High,1988-08-03,2025-06-21T12:32:00+00:00,112.81,2481.82
+C0628,Layla,Smith,layla.smith628@example.com,+971598436745,Bahrain,Riffa,2023-08-25,VIP,Active,Gold,Female,Bilingual,Social Media,false,Low,1977-01-06,2025-09-12T21:11:00+00:00,708.21,12747.78
+C0629,Ahmed,Johnson,ahmed.johnson629@example.com,+971541076043,USA,New York,2024-09-24,Premium,Active,Silver,Female,English,Organic,true,High,1986-03-27,2024-04-18T15:59:00+00:00,828.01,9936.12
+C0630,Fatima,Khalid,fatima.khalid630@example.com,+971553105260,KSA,Jeddah,2023-02-06,Basic,Inactive,Platinum,Male,Bilingual,Social Media,true,Low,1986-04-29,2025-09-13T20:53:00+00:00,74.17,519.19
+C0631,Sophia,Anderson,sophia.anderson631@example.com,+971535809507,UK,London,2022-02-17,Basic,Suspended,Bronze,Male,Arabic,Organic,true,Low,1991-02-17,2024-06-14T13:52:00+00:00,653.09,17633.43
+C0632,David,Hill,david.hill632@example.com,+971576595544,KSA,Jeddah,2022-01-15,Premium,Active,Platinum,Female,English,Social Media,true,Low,1994-09-08,2025-11-29T23:58:00+00:00,884.81,15926.58
+C0633,David,Thomas,david.thomas633@example.com,+971540947052,KSA,Dammam,2021-06-10,Basic,Suspended,Gold,Male,Arabic,Referral,false,Medium,2006-07-19,2024-05-10T16:19:00+00:00,157.06,2670.02
+C0634,Hassan,Smith,hassan.smith634@example.com,+971577115173,Egypt,Alexandria,2021-06-03,VIP,Inactive,Bronze,Male,Bilingual,Partner,false,High,1976-05-06,2025-07-01T18:15:00+00:00,1029.71,21623.91
+C0635,Sara,Wilson,sara.wilson635@example.com,+971554239393,Kuwait,Hawalli,2022-02-15,Basic,Active,Platinum,Male,Bilingual,Social Media,true,Medium,1978-03-05,2024-12-08T01:08:00+00:00,276.91,7753.48
+C0636,David,King,david.king636@example.com,+971576652083,KSA,Dammam,2023-09-08,Premium,Active,Platinum,Female,English,Paid Search,true,Low,1976-03-07,2024-05-12T08:46:00+00:00,88.42,265.26
+C0637,Mona,Young,mona.young637@example.com,+971526809078,Kuwait,Kuwait City,2024-02-06,Enterprise,Inactive,Silver,Male,English,Organic,false,Medium,1983-09-08,2025-05-08T01:24:00+00:00,928.19,22276.56
+C0638,Mariam,Martin,mariam.martin638@example.com,+971581969904,UAE,Dubai,2022-04-21,Basic,Active,Silver,Male,Arabic,Organic,true,Medium,1983-02-06,2024-04-04T18:00:00+00:00,303.47,7586.75
+C0639,Ali,Khalid,ali.khalid639@example.com,+971574250209,Qatar,Al Rayyan,2024-05-18,Basic,Active,Bronze,Female,Bilingual,Paid Search,false,High,1991-01-05,2025-11-01T07:18:00+00:00,190.47,2666.58
+C0640,Yousef,Anderson,yousef.anderson640@example.com,+971552796523,UK,Manchester,2024-02-04,Basic,Active,Gold,Female,Bilingual,Social Media,false,Medium,1978-07-09,2024-10-26T20:15:00+00:00,651.14,6511.40
+C0641,Mona,Brown,mona.brown641@example.com,+971529053714,USA,Chicago,2024-02-07,Basic,Active,Platinum,Female,Arabic,Organic,false,Low,1987-02-15,2024-08-03T03:23:00+00:00,880.90,23784.30
+C0642,Noor,Hill,noor.hill642@example.com,+971512529799,Kuwait,Hawalli,2021-06-23,Enterprise,Inactive,Platinum,Male,Arabic,Paid Search,false,Low,2004-08-08,2024-03-02T08:54:00+00:00,747.31,12704.27
+C0643,David,Young,david.young643@example.com,+971591703604,UAE,Sharjah,2022-09-17,VIP,Active,Silver,Male,English,Direct,false,Medium,2007-09-17,2024-02-02T17:48:00+00:00,443.45,886.90
+C0644,Sara,Hassan,sara.hassan644@example.com,+971579647305,Kuwait,Hawalli,2024-01-01,VIP,Active,Platinum,Female,Bilingual,Paid Search,true,Low,1987-08-04,2025-04-19T13:36:00+00:00,874.30,22731.80
+C0645,Noor,Smith,noor.smith645@example.com,+971558545863,USA,Austin,2022-08-29,VIP,Active,Bronze,Male,English,Social Media,false,Medium,1983-01-08,2024-12-11T18:25:00+00:00,84.78,847.80
+C0646,Ethan,Anderson,ethan.anderson646@example.com,+971584706716,UAE,Abu Dhabi,2021-01-19,Premium,Inactive,Bronze,Male,English,Social Media,false,Low,1994-10-04,2025-04-22T01:22:00+00:00,597.04,17314.16
+C0647,Lina,Miller,lina.miller647@example.com,+971592939751,UK,Manchester,2023-10-11,Basic,Active,Bronze,Male,Arabic,Direct,false,High,1989-03-27,2024-05-10T07:40:00+00:00,242.41,7029.89
+C0648,Sara,Young,sara.young648@example.com,+971557423826,USA,New York,2025-01-03,Basic,Suspended,Silver,Female,Arabic,Organic,false,Low,1997-12-03,2024-09-22T08:01:00+00:00,826.93,23980.97
+C0649,John,Saleh,john.saleh649@example.com,+971547994945,USA,Chicago,2024-03-14,Premium,Active,Gold,Female,English,Partner,false,Medium,1988-03-10,2025-01-15T21:26:00+00:00,122.82,1842.30
+C0650,Ava,Ali,ava.ali650@example.com,+971591743716,Egypt,Alexandria,2021-04-02,Premium,Active,Gold,Male,English,Social Media,true,High,2007-07-31,2024-10-24T04:58:00+00:00,725.82,3629.10
+C0651,Omar,Thomas,omar.thomas651@example.com,+971566113763,KSA,Riyadh,2022-04-05,Basic,Suspended,Bronze,Female,Bilingual,Social Media,false,Medium,1987-01-28,2025-08-01T16:36:00+00:00,771.18,19279.50
+C0652,Mona,Hill,mona.hill652@example.com,+971525490996,UK,London,2022-11-05,Premium,Inactive,Platinum,Female,Arabic,Referral,true,Medium,2004-04-22,2024-09-05T11:14:00+00:00,568.75,14218.75
+C0653,Sophia,King,sophia.king653@example.com,+971582157584,USA,Chicago,2023-05-08,Premium,Inactive,Silver,Female,English,Referral,false,Low,1978-08-28,2024-08-23T18:52:00+00:00,999.07,5994.42
+C0654,David,Martin,david.martin654@example.com,+971512082019,Egypt,Giza,2023-10-10,Premium,Active,Platinum,Female,Bilingual,Direct,false,High,1979-07-13,2025-10-09T06:57:00+00:00,248.70,3979.20
+C0655,Omar,Khalid,omar.khalid655@example.com,+971562091796,Kuwait,Kuwait City,2024-11-14,Enterprise,Active,Silver,Female,Bilingual,Social Media,true,High,1988-02-28,2024-06-19T02:08:00+00:00,637.28,11471.04
+C0656,Fatima,Wilson,fatima.wilson656@example.com,+971564878236,Qatar,Doha,2025-01-19,Enterprise,Inactive,Gold,Female,Bilingual,Paid Search,true,High,2001-06-12,2024-02-16T02:47:00+00:00,1108.04,17728.64
+C0657,Zain,Smith,zain.smith657@example.com,+971553008309,Egypt,Cairo,2024-04-30,Enterprise,Active,Gold,Male,Arabic,Referral,false,Medium,1977-03-02,2025-08-30T11:43:00+00:00,793.31,11106.34
+C0658,Khalid,Moore,khalid.moore658@example.com,+971515628343,Kuwait,Hawalli,2022-10-24,Premium,Inactive,Gold,Female,Arabic,Referral,false,Low,1980-04-26,2025-01-28T10:48:00+00:00,246.96,1481.76
+C0659,Ali,Miller,ali.miller659@example.com,+971524243111,Bahrain,Riffa,2022-04-04,Premium,Active,Silver,Male,Arabic,Social Media,true,Low,2001-11-04,2024-06-22T09:58:00+00:00,340.94,7159.74
+C0660,Sara,Young,sara.young660@example.com,+971567244204,USA,New York,2023-09-28,Enterprise,Suspended,Silver,Female,English,Organic,true,Medium,1994-05-23,2024-01-27T11:13:00+00:00,366.93,7338.60
+C0661,Sophia,Miller,sophia.miller661@example.com,+971539855629,KSA,Riyadh,2022-07-25,Basic,Active,Silver,Female,English,Partner,true,High,2005-11-10,2025-11-15T03:22:00+00:00,972.22,24305.50
+C0662,Mariam,Khalid,mariam.khalid662@example.com,+971594031142,Kuwait,Kuwait City,2024-12-15,Basic,Active,Silver,Male,Bilingual,Partner,true,High,1983-10-11,2025-06-17T10:12:00+00:00,1016.06,23369.38
+C0663,Noor,White,noor.white663@example.com,+971521906683,Egypt,Alexandria,2022-01-19,Premium,Active,Platinum,Male,English,Social Media,true,High,1982-12-28,2025-05-23T09:08:00+00:00,270.34,8110.20
+C0664,Sara,Martin,sara.martin664@example.com,+971581197288,UK,Birmingham,2023-02-18,Premium,Active,Silver,Female,Bilingual,Partner,false,High,1992-08-04,2025-10-08T18:15:00+00:00,779.75,13255.75
+C0665,Ava,Taylor,ava.taylor665@example.com,+971548556908,Bahrain,Riffa,2021-07-17,Enterprise,Inactive,Gold,Male,Bilingual,Partner,true,Low,1995-11-06,2024-08-12T03:56:00+00:00,1080.31,28088.06
+C0666,Mariam,Hassan,mariam.hassan666@example.com,+971590672745,Qatar,Al Rayyan,2024-12-14,Enterprise,Active,Bronze,Female,English,Social Media,true,Medium,1977-09-23,2024-05-11T15:53:00+00:00,973.48,16549.16
+C0667,Leen,Wilson,leen.wilson667@example.com,+971544990478,UK,Birmingham,2022-10-13,Basic,Active,Platinum,Male,English,Direct,true,Medium,1995-01-30,2025-02-25T12:51:00+00:00,552.66,7737.24
+C0668,David,Saleh,david.saleh668@example.com,+971591196518,Egypt,Giza,2022-02-27,Basic,Active,Platinum,Male,Bilingual,Referral,false,High,1977-11-05,2025-10-02T03:39:00+00:00,748.47,4490.82
+C0669,Sara,Moore,sara.moore669@example.com,+971540780751,USA,Chicago,2024-01-02,VIP,Active,Gold,Female,English,Paid Search,true,Low,1976-08-14,2024-07-22T05:53:00+00:00,661.41,19180.89
+C0670,Ahmed,Moore,ahmed.moore670@example.com,+971540870780,KSA,Dammam,2023-03-26,Premium,Active,Gold,Male,English,Direct,false,Low,1987-02-10,2025-05-11T01:10:00+00:00,368.38,736.76
+C0671,John,Smith,john.smith671@example.com,+971582705468,KSA,Dammam,2025-01-18,Premium,Active,Platinum,Male,Bilingual,Referral,false,Medium,1997-12-25,2025-12-21T23:26:00+00:00,63.38,1584.50
+C0672,Ahmed,Clark,ahmed.clark672@example.com,+971549089390,UK,Manchester,2022-02-20,Enterprise,Active,Silver,Female,Bilingual,Referral,false,Medium,2006-07-12,2024-04-12T08:41:00+00:00,708.39,9917.46
+C0673,Leen,Moore,leen.moore673@example.com,+971583360915,USA,Chicago,2021-02-05,Basic,Inactive,Silver,Male,English,Paid Search,false,Medium,1996-05-21,2025-05-23T23:25:00+00:00,1143.69,29735.94
+C0674,Khalid,Hassan,khalid.hassan674@example.com,+971575741381,UK,Manchester,2021-10-22,Premium,Active,Silver,Female,Bilingual,Partner,true,Low,1997-02-18,2025-10-07T02:06:00+00:00,690.63,5525.04
+C0675,Noor,Martin,noor.martin675@example.com,+971564564107,UK,Birmingham,2022-11-23,Basic,Active,Silver,Female,Bilingual,Partner,false,High,1985-07-29,2024-06-03T01:20:00+00:00,839.24,17624.04
+C0676,Mariam,Anderson,mariam.anderson676@example.com,+971511828652,Bahrain,Manama,2021-08-04,Premium,Suspended,Bronze,Male,Arabic,Partner,true,Low,1994-01-10,2025-03-11T22:04:00+00:00,475.80,12370.80
+C0677,Sophia,Johnson,sophia.johnson677@example.com,+971549490030,Bahrain,Manama,2024-01-26,VIP,Suspended,Gold,Female,Bilingual,Direct,true,Low,1988-01-07,2025-03-04T12:00:00+00:00,384.23,5763.45
+C0678,Zain,Mansour,zain.mansour678@example.com,+971528164926,Qatar,Al Rayyan,2023-08-25,Premium,Suspended,Platinum,Male,English,Partner,true,Low,1996-02-08,2025-04-18T06:59:00+00:00,423.01,10575.25
+C0679,John,Ali,john.ali679@example.com,+971522712374,UK,Birmingham,2022-01-20,Basic,Suspended,Platinum,Male,Arabic,Referral,true,Medium,2003-03-17,2024-07-23T22:06:00+00:00,663.77,7965.24
+C0680,Ahmed,Mansour,ahmed.mansour680@example.com,+971564125762,UK,Manchester,2023-05-23,VIP,Suspended,Silver,Male,Bilingual,Paid Search,true,High,1984-09-16,2025-08-21T23:19:00+00:00,466.04,12117.04
+C0681,Noor,Johnson,noor.johnson681@example.com,+971554313350,UK,Birmingham,2021-07-29,VIP,Suspended,Platinum,Male,Arabic,Organic,true,Low,1979-02-05,2024-05-09T16:37:00+00:00,788.00,11032.00
+C0682,Ava,Brown,ava.brown682@example.com,+971528384463,Egypt,Cairo,2023-09-01,Enterprise,Inactive,Platinum,Female,English,Social Media,true,Low,2000-02-16,2024-01-01T10:04:00+00:00,1079.31,3237.93
+C0683,Layla,Thomas,layla.thomas683@example.com,+971591252861,Kuwait,Hawalli,2022-12-29,Premium,Active,Gold,Male,English,Social Media,false,Medium,2006-03-07,2024-11-15T16:20:00+00:00,655.60,19668.00
+C0684,Noor,Hassan,noor.hassan684@example.com,+971556438200,Kuwait,Hawalli,2021-12-31,Enterprise,Active,Silver,Female,English,Paid Search,true,Low,1994-10-31,2024-01-26T11:54:00+00:00,580.65,13354.95
+C0685,Hassan,Moore,hassan.moore685@example.com,+971577483781,USA,New York,2024-04-15,Basic,Suspended,Gold,Male,Bilingual,Referral,false,Medium,1976-12-20,2024-11-13T10:06:00+00:00,1096.81,10968.10
+C0686,Noor,Miller,noor.miller686@example.com,+971573545170,UAE,Sharjah,2021-03-04,Basic,Active,Gold,Male,Bilingual,Direct,true,High,1982-12-08,2025-04-27T19:40:00+00:00,567.20,3970.40
+C0687,Omar,Smith,omar.smith687@example.com,+971583025649,Kuwait,Kuwait City,2021-04-25,VIP,Active,Bronze,Female,Bilingual,Referral,true,High,2007-05-24,2025-03-30T20:45:00+00:00,112.30,561.50
+C0688,Hassan,Moore,hassan.moore688@example.com,+971577313639,UAE,Sharjah,2023-04-06,Premium,Active,Bronze,Male,English,Organic,false,High,1983-11-30,2025-03-02T21:42:00+00:00,111.32,890.56
+C0689,Zain,Martin,zain.martin689@example.com,+971572579321,Egypt,Giza,2021-01-07,Basic,Suspended,Platinum,Male,Arabic,Organic,true,High,1978-11-16,2024-11-14T08:35:00+00:00,446.79,5361.48
+C0690,Lina,Wilson,lina.wilson690@example.com,+971543115824,UAE,Dubai,2021-01-22,VIP,Active,Silver,Female,Arabic,Partner,false,Low,1987-07-07,2024-08-10T20:23:00+00:00,574.00,17220.00
+C0691,Omar,Hill,omar.hill691@example.com,+971544809916,Qatar,Al Rayyan,2022-04-08,Enterprise,Active,Bronze,Female,English,Social Media,false,Medium,2003-10-16,2024-07-11T08:56:00+00:00,271.10,2982.10
+C0692,Zain,Anderson,zain.anderson692@example.com,+971568230817,Egypt,Cairo,2024-04-13,VIP,Active,Silver,Female,Bilingual,Social Media,false,Low,1998-01-09,2025-01-29T04:34:00+00:00,699.71,16793.04
+C0693,Mona,Miller,mona.miller693@example.com,+971573781582,USA,Chicago,2022-06-19,Premium,Inactive,Gold,Female,Bilingual,Partner,true,Medium,2006-06-16,2024-02-02T03:33:00+00:00,803.67,5625.69
+C0694,Fatima,Taylor,fatima.taylor694@example.com,+971535113682,UAE,Dubai,2023-05-14,VIP,Active,Silver,Female,Bilingual,Paid Search,true,Medium,2002-08-29,2025-05-01T10:21:00+00:00,791.54,3957.70
+C0695,Ethan,Hill,ethan.hill695@example.com,+971574767783,Kuwait,Hawalli,2023-08-28,Enterprise,Active,Bronze,Male,Bilingual,Organic,false,Medium,1987-01-31,2024-09-06T08:46:00+00:00,472.93,5675.16
+C0696,Khalid,Thomas,khalid.thomas696@example.com,+971580341559,UAE,Dubai,2023-11-15,Premium,Suspended,Silver,Male,Bilingual,Referral,true,Low,1988-11-15,2024-06-19T09:56:00+00:00,732.35,17576.40
+C0697,Omar,Taylor,omar.taylor697@example.com,+971533094634,Bahrain,Riffa,2021-12-05,VIP,Active,Bronze,Male,Arabic,Paid Search,false,Low,2007-06-26,2025-04-16T00:42:00+00:00,211.09,6332.70
+C0698,Yousef,Brown,yousef.brown698@example.com,+971562888132,Qatar,Doha,2023-09-05,Premium,Inactive,Platinum,Female,Bilingual,Paid Search,true,Medium,1980-10-06,2024-06-12T11:06:00+00:00,586.13,13480.99
+C0699,Mariam,Brown,mariam.brown699@example.com,+971581687725,Kuwait,Hawalli,2022-08-03,Basic,Active,Platinum,Male,Arabic,Social Media,true,Low,1991-07-23,2025-11-21T23:55:00+00:00,532.53,7455.42
+C0700,Hassan,Wilson,hassan.wilson700@example.com,+971535228980,UAE,Sharjah,2024-05-12,Basic,Active,Gold,Female,Arabic,Referral,false,High,1983-01-26,2025-02-11T02:41:00+00:00,306.89,5217.13
+C0701,David,Brown,david.brown701@example.com,+971534094492,UK,Manchester,2023-03-04,Premium,Inactive,Bronze,Female,Arabic,Referral,true,High,1993-02-21,2025-11-22T15:02:00+00:00,342.78,5141.70
+C0702,Ahmed,Johnson,ahmed.johnson702@example.com,+971597753863,Qatar,Doha,2024-03-22,Enterprise,Inactive,Bronze,Female,English,Referral,true,High,1995-03-14,2025-06-03T12:43:00+00:00,567.44,9646.48
+C0703,Zain,Taylor,zain.taylor703@example.com,+971581365126,Bahrain,Riffa,2024-01-01,Enterprise,Active,Silver,Male,English,Direct,false,Low,1998-02-05,2025-01-08T03:50:00+00:00,247.45,3711.75
+C0704,Ava,Anderson,ava.anderson704@example.com,+971559271881,Kuwait,Kuwait City,2023-08-10,Basic,Suspended,Gold,Female,English,Referral,false,Low,1999-05-07,2024-10-15T01:07:00+00:00,1046.76,16748.16
+C0705,Noor,Johnson,noor.johnson705@example.com,+971589964091,UK,Manchester,2023-05-05,Basic,Active,Bronze,Female,Arabic,Paid Search,true,High,1979-03-30,2024-01-18T14:20:00+00:00,385.31,1155.93
+C0706,Omar,Brown,omar.brown706@example.com,+971580270865,Bahrain,Riffa,2022-07-17,Enterprise,Active,Bronze,Female,English,Organic,true,High,2007-06-20,2024-12-19T14:44:00+00:00,756.00,21168.00
+C0707,Fatima,Thomas,fatima.thomas707@example.com,+971544474897,KSA,Jeddah,2024-07-28,Basic,Inactive,Bronze,Male,Bilingual,Referral,false,High,1998-01-22,2024-11-05T13:25:00+00:00,65.96,1649.00
+C0708,Leen,Saleh,leen.saleh708@example.com,+971534926040,UAE,Abu Dhabi,2024-03-20,VIP,Suspended,Bronze,Female,Arabic,Direct,false,Medium,1975-03-24,2025-04-29T06:48:00+00:00,1125.15,11251.50
+C0709,David,Mansour,david.mansour709@example.com,+971595209019,UAE,Abu Dhabi,2024-09-07,VIP,Active,Silver,Male,Arabic,Direct,false,Low,1977-11-10,2024-05-12T08:17:00+00:00,576.43,15563.61
+C0710,Ava,Clark,ava.clark710@example.com,+971511686744,Bahrain,Riffa,2024-07-24,VIP,Active,Gold,Female,English,Paid Search,false,High,1997-05-20,2025-09-01T10:34:00+00:00,491.29,9334.51
+C0711,Mona,Young,mona.young711@example.com,+971520550656,Egypt,Giza,2023-03-10,Enterprise,Suspended,Gold,Male,Arabic,Direct,false,Medium,1988-02-03,2024-09-18T12:02:00+00:00,806.41,16128.20
+C0712,Mariam,Anderson,mariam.anderson712@example.com,+971567919082,Bahrain,Manama,2021-11-16,Enterprise,Active,Gold,Female,Arabic,Partner,true,Medium,2002-03-27,2025-10-01T18:10:00+00:00,764.15,15283.00
+C0713,Fatima,Hassan,fatima.hassan713@example.com,+971563836946,Kuwait,Kuwait City,2022-03-09,Enterprise,Active,Silver,Female,Bilingual,Referral,false,Medium,2003-04-10,2024-04-23T18:18:00+00:00,247.20,1730.40
+C0714,Fatima,Wilson,fatima.wilson714@example.com,+971531067861,Kuwait,Kuwait City,2023-04-08,Premium,Inactive,Gold,Male,Bilingual,Referral,false,High,1982-09-23,2025-05-21T14:18:00+00:00,998.32,15973.12
+C0715,Fatima,Thomas,fatima.thomas715@example.com,+971591833362,Kuwait,Hawalli,2023-04-21,Basic,Suspended,Platinum,Male,English,Social Media,true,Low,2000-07-15,2024-07-12T20:01:00+00:00,757.90,4547.40
+C0716,Sophia,Smith,sophia.smith716@example.com,+971531659959,Qatar,Doha,2024-05-16,Enterprise,Active,Silver,Male,English,Direct,true,Medium,1980-12-13,2025-10-31T12:35:00+00:00,633.15,5065.20
+C0717,Ali,Smith,ali.smith717@example.com,+971542465073,UAE,Dubai,2024-03-28,Premium,Inactive,Bronze,Female,Arabic,Paid Search,false,High,1978-02-18,2025-04-17T14:15:00+00:00,833.06,13328.96
+C0718,Ahmed,Khalid,ahmed.khalid718@example.com,+971526237925,Kuwait,Hawalli,2023-03-01,Basic,Inactive,Platinum,Male,English,Partner,true,Medium,1992-12-01,2024-03-13T13:16:00+00:00,1064.69,20229.11
+C0719,Zain,Anderson,zain.anderson719@example.com,+971525003358,Kuwait,Kuwait City,2021-08-01,Premium,Active,Platinum,Female,Arabic,Paid Search,false,Low,1986-11-12,2024-05-29T08:48:00+00:00,997.27,25929.02
+C0720,Fatima,Wilson,fatima.wilson720@example.com,+971569682874,KSA,Jeddah,2024-12-23,VIP,Inactive,Gold,Female,Bilingual,Organic,true,Low,1998-05-28,2025-05-18T07:48:00+00:00,341.60,3757.60
+C0721,Ali,Ali,ali.ali721@example.com,+971531246994,USA,Chicago,2024-02-29,VIP,Inactive,Platinum,Female,Arabic,Direct,true,Low,2002-04-01,2025-01-06T22:18:00+00:00,395.73,9497.52
+C0722,Ali,Thomas,ali.thomas722@example.com,+971511619567,UK,Birmingham,2022-04-12,VIP,Active,Platinum,Female,Bilingual,Paid Search,false,High,1981-12-28,2024-01-29T06:37:00+00:00,391.43,7828.60
+C0723,Khalid,Moore,khalid.moore723@example.com,+971533540092,Qatar,Al Rayyan,2023-02-14,Enterprise,Inactive,Bronze,Male,English,Paid Search,false,Low,1985-01-23,2025-05-11T20:10:00+00:00,1050.11,17851.87
+C0724,Omar,Miller,omar.miller724@example.com,+971511637561,KSA,Dammam,2022-02-08,Premium,Active,Gold,Male,English,Direct,true,Medium,1997-10-05,2024-12-31T15:29:00+00:00,700.51,15411.22
+C0725,John,Miller,john.miller725@example.com,+971534519519,KSA,Riyadh,2023-07-04,Premium,Active,Platinum,Male,Arabic,Social Media,false,High,1987-06-13,2025-08-03T16:15:00+00:00,323.84,8743.68
+C0726,John,Mansour,john.mansour726@example.com,+971588016797,KSA,Riyadh,2023-12-07,Enterprise,Inactive,Bronze,Male,English,Direct,true,Low,1996-06-15,2024-11-06T01:13:00+00:00,304.00,6080.00
+C0727,Fatima,Anderson,fatima.anderson727@example.com,+971550260078,KSA,Jeddah,2022-02-09,Basic,Suspended,Platinum,Male,Bilingual,Partner,true,High,2003-06-25,2024-04-12T17:37:00+00:00,289.39,4919.63
+C0728,Ava,Anderson,ava.anderson728@example.com,+971578087711,UAE,Abu Dhabi,2023-04-14,Enterprise,Suspended,Gold,Female,English,Social Media,true,Medium,1987-05-08,2025-09-07T08:31:00+00:00,772.11,9265.32
+C0729,Leen,Moore,leen.moore729@example.com,+971578390365,UK,Birmingham,2023-06-21,Enterprise,Inactive,Silver,Male,Arabic,Partner,false,Low,1994-11-18,2024-04-24T05:31:00+00:00,47.56,1426.80
+C0730,Mariam,Young,mariam.young730@example.com,+971581189018,Egypt,Cairo,2021-08-11,Enterprise,Active,Gold,Male,Bilingual,Direct,true,Medium,1982-01-06,2024-08-25T06:19:00+00:00,622.06,7464.72
+C0731,Mona,Thomas,mona.thomas731@example.com,+971597710027,Egypt,Cairo,2024-06-03,Enterprise,Active,Silver,Female,English,Referral,false,Low,1988-09-26,2025-11-09T05:20:00+00:00,1149.78,19546.26
+C0732,Mariam,Taylor,mariam.taylor732@example.com,+971564234848,Qatar,Al Rayyan,2022-09-23,Basic,Inactive,Gold,Male,English,Referral,true,High,1984-01-27,2025-03-11T18:25:00+00:00,924.73,1849.46
+C0733,Mona,Miller,mona.miller733@example.com,+971585158204,UK,Manchester,2021-02-18,Premium,Active,Platinum,Female,Arabic,Organic,true,Low,1989-08-07,2024-11-25T13:50:00+00:00,483.59,9188.21
+C0734,Sophia,Hill,sophia.hill734@example.com,+971547600104,Bahrain,Manama,2024-09-12,Enterprise,Active,Bronze,Male,Bilingual,Referral,false,High,1991-07-29,2025-02-03T22:58:00+00:00,859.53,7735.77
+C0735,Ethan,Clark,ethan.clark735@example.com,+971530370571,KSA,Jeddah,2021-10-03,Premium,Suspended,Gold,Male,Bilingual,Organic,false,Low,1989-09-15,2024-03-16T10:49:00+00:00,889.64,24909.92
+C0736,Khalid,Young,khalid.young736@example.com,+971519127329,UK,Birmingham,2023-12-24,VIP,Active,Platinum,Male,Arabic,Referral,false,Low,1995-09-02,2024-10-25T22:01:00+00:00,202.94,5276.44
+C0737,Hassan,Wilson,hassan.wilson737@example.com,+971528826712,USA,Austin,2024-12-12,Basic,Inactive,Platinum,Female,English,Organic,true,High,1991-10-03,2024-09-22T08:38:00+00:00,907.27,1814.54
+C0738,Ahmed,Hill,ahmed.hill738@example.com,+971595144216,Kuwait,Kuwait City,2023-10-30,Basic,Active,Bronze,Male,Bilingual,Paid Search,true,High,1996-01-06,2024-11-30T17:31:00+00:00,367.87,4414.44
+C0739,Ava,Mansour,ava.mansour739@example.com,+971530428651,KSA,Dammam,2023-06-02,VIP,Active,Silver,Female,English,Social Media,false,Low,1993-01-03,2024-10-10T14:28:00+00:00,1071.65,26791.25
+C0740,Khalid,Clark,khalid.clark740@example.com,+971544742654,UAE,Sharjah,2023-03-10,Premium,Suspended,Gold,Female,Bilingual,Direct,true,High,1990-11-28,2024-01-20T00:14:00+00:00,413.97,2483.82
+C0741,Khalid,Brown,khalid.brown741@example.com,+971515295236,USA,New York,2022-02-27,Premium,Suspended,Gold,Male,English,Referral,true,High,1984-05-14,2024-11-11T05:06:00+00:00,70.42,1478.82
+C0742,Mona,Clark,mona.clark742@example.com,+971569007608,Egypt,Alexandria,2022-07-10,Basic,Inactive,Bronze,Female,Bilingual,Direct,true,Medium,1977-03-17,2024-08-26T06:49:00+00:00,452.20,2713.20
+C0743,Ethan,Anderson,ethan.anderson743@example.com,+971578008569,Kuwait,Kuwait City,2022-02-26,Basic,Active,Silver,Male,English,Direct,false,High,1989-03-19,2025-01-24T18:52:00+00:00,184.59,1292.13
+C0744,David,Mansour,david.mansour744@example.com,+971512167007,USA,New York,2023-11-05,Basic,Inactive,Platinum,Female,Arabic,Referral,false,Medium,1977-12-05,2025-01-03T15:16:00+00:00,630.13,10082.08
+C0745,David,Clark,david.clark745@example.com,+971512127354,USA,Austin,2021-06-22,VIP,Active,Bronze,Male,Arabic,Paid Search,true,Low,1998-04-07,2025-10-28T20:51:00+00:00,492.04,8364.68
+C0746,Omar,Brown,omar.brown746@example.com,+971559889271,Bahrain,Manama,2021-05-06,Enterprise,Active,Platinum,Male,Arabic,Social Media,true,High,2004-12-29,2025-09-02T06:55:00+00:00,898.23,9880.53
+C0747,Lina,Taylor,lina.taylor747@example.com,+971545592037,KSA,Riyadh,2021-03-03,VIP,Active,Bronze,Female,Arabic,Partner,true,High,1981-06-22,2025-05-24T06:19:00+00:00,508.24,6607.12
+C0748,David,Khalid,david.khalid748@example.com,+971566355725,Kuwait,Kuwait City,2021-11-20,Basic,Active,Platinum,Female,English,Social Media,false,Low,2002-01-22,2024-04-12T00:22:00+00:00,1080.74,4322.96
+C0749,Ahmed,Clark,ahmed.clark749@example.com,+971599715417,Bahrain,Riffa,2022-06-11,Basic,Inactive,Platinum,Male,Arabic,Paid Search,true,Low,1985-02-12,2024-05-11T10:42:00+00:00,666.38,13993.98
+C0750,John,Hassan,john.hassan750@example.com,+971598499057,Kuwait,Hawalli,2024-06-13,VIP,Active,Platinum,Female,Arabic,Referral,false,Medium,2004-08-29,2024-04-17T07:14:00+00:00,330.78,8269.50
+C0751,Omar,Hill,omar.hill751@example.com,+971511922230,UAE,Sharjah,2023-02-28,Premium,Active,Silver,Male,English,Referral,true,High,1996-07-26,2025-10-09T01:50:00+00:00,269.56,1886.92
+C0752,Sophia,Taylor,sophia.taylor752@example.com,+971583266696,USA,Austin,2024-03-28,Enterprise,Active,Gold,Female,English,Paid Search,false,Medium,1996-11-10,2025-02-19T14:13:00+00:00,565.70,5657.00
+C0753,Leen,Anderson,leen.anderson753@example.com,+971596207066,KSA,Dammam,2022-12-03,Basic,Suspended,Silver,Male,Arabic,Partner,true,Low,1999-09-10,2025-06-15T08:04:00+00:00,947.07,14206.05
+C0754,Ali,Brown,ali.brown754@example.com,+971534509818,Qatar,Al Rayyan,2023-07-16,Enterprise,Suspended,Silver,Male,Bilingual,Paid Search,true,Low,1990-11-16,2025-03-22T17:05:00+00:00,1160.90,20896.20
+C0755,Zain,King,zain.king755@example.com,+971540926924,Egypt,Giza,2023-12-23,Premium,Active,Silver,Male,Bilingual,Paid Search,true,High,1981-10-27,2025-06-21T01:51:00+00:00,658.46,12510.74
+C0756,Leen,King,leen.king756@example.com,+971566541115,Kuwait,Kuwait City,2022-07-25,Enterprise,Inactive,Gold,Male,Bilingual,Referral,true,Low,1986-04-10,2024-02-20T12:18:00+00:00,492.14,8858.52
+C0757,Leen,Clark,leen.clark757@example.com,+971529299377,USA,Austin,2024-06-09,Enterprise,Active,Silver,Female,Arabic,Direct,false,Medium,2001-07-12,2025-08-31T02:03:00+00:00,916.00,5496.00
+C0758,Mona,Saleh,mona.saleh758@example.com,+971588642156,Qatar,Doha,2022-04-09,Premium,Active,Platinum,Male,Bilingual,Referral,false,Low,2003-07-25,2024-10-09T04:57:00+00:00,505.67,12641.75
+C0759,Fatima,Moore,fatima.moore759@example.com,+971550107238,UK,Birmingham,2021-07-30,Basic,Suspended,Platinum,Male,Arabic,Direct,false,Medium,1976-11-02,2025-10-05T19:30:00+00:00,309.33,4949.28
+C0760,Layla,Miller,layla.miller760@example.com,+971575404850,KSA,Dammam,2023-08-14,VIP,Active,Bronze,Male,Bilingual,Social Media,false,Low,2004-10-28,2025-03-12T18:10:00+00:00,1056.44,25354.56
+C0761,Sophia,Martin,sophia.martin761@example.com,+971543778683,Kuwait,Kuwait City,2024-07-30,VIP,Inactive,Gold,Female,Arabic,Organic,true,High,1996-10-12,2024-04-17T08:53:00+00:00,879.90,8799.00
+C0762,Yousef,Hill,yousef.hill762@example.com,+971575479724,Bahrain,Manama,2024-04-25,Enterprise,Suspended,Platinum,Male,Bilingual,Organic,true,High,1979-04-05,2025-03-20T21:17:00+00:00,160.60,4175.60
+C0763,Fatima,Saleh,fatima.saleh763@example.com,+971571839874,Qatar,Al Rayyan,2023-03-18,Basic,Inactive,Platinum,Male,Arabic,Social Media,true,Low,2003-04-14,2024-02-10T11:41:00+00:00,954.24,27672.96
+C0764,Mariam,Hassan,mariam.hassan764@example.com,+971557295434,UK,Manchester,2021-02-28,Premium,Active,Platinum,Male,English,Partner,false,Low,1984-05-23,2025-04-12T08:22:00+00:00,989.31,12861.03
+C0765,Leen,Young,leen.young765@example.com,+971592732173,Qatar,Al Rayyan,2022-12-15,Premium,Active,Gold,Male,Bilingual,Organic,false,Medium,2002-11-22,2024-06-25T15:54:00+00:00,143.09,1860.17
+C0766,Sophia,Johnson,sophia.johnson766@example.com,+971558514771,Kuwait,Kuwait City,2022-06-27,Premium,Active,Gold,Male,Arabic,Paid Search,false,High,2006-05-30,2025-05-12T11:21:00+00:00,974.84,29245.20
+C0767,Leen,Clark,leen.clark767@example.com,+971590258091,Egypt,Alexandria,2024-06-20,Enterprise,Active,Silver,Female,Bilingual,Referral,false,Low,1992-04-12,2025-12-13T02:12:00+00:00,148.30,3559.20
+C0768,Fatima,Clark,fatima.clark768@example.com,+971546747243,KSA,Jeddah,2022-04-06,Basic,Inactive,Silver,Male,Arabic,Paid Search,false,High,1984-09-08,2025-03-29T01:15:00+00:00,675.67,15540.41
+C0769,Omar,Ali,omar.ali769@example.com,+971583984321,UK,London,2021-02-12,Premium,Inactive,Silver,Female,Bilingual,Social Media,false,High,1986-09-24,2025-09-18T15:53:00+00:00,549.18,10434.42
+C0770,Hassan,Miller,hassan.miller770@example.com,+971528051318,Kuwait,Hawalli,2023-01-17,VIP,Active,Silver,Male,Bilingual,Direct,false,High,1989-01-23,2024-08-28T10:34:00+00:00,454.21,10901.04
+C0771,Fatima,King,fatima.king771@example.com,+971572449688,USA,Austin,2022-12-15,VIP,Suspended,Bronze,Female,Bilingual,Partner,false,High,1994-07-26,2025-12-19T20:35:00+00:00,992.45,8932.05
+C0772,John,Johnson,john.johnson772@example.com,+971529848134,UAE,Sharjah,2023-07-08,Basic,Active,Bronze,Female,Bilingual,Referral,true,High,2001-10-24,2025-07-26T20:03:00+00:00,1079.18,18346.06
+C0773,Sophia,Martin,sophia.martin773@example.com,+971550890916,Egypt,Alexandria,2022-03-17,VIP,Active,Platinum,Male,Bilingual,Direct,false,Low,2002-05-06,2025-11-08T14:19:00+00:00,664.54,15284.42
+C0774,Sara,Taylor,sara.taylor774@example.com,+971536121315,KSA,Riyadh,2024-06-11,Premium,Suspended,Silver,Male,Arabic,Direct,false,High,1980-05-11,2024-03-06T16:26:00+00:00,887.24,22181.00
+C0775,Mariam,Smith,mariam.smith775@example.com,+971573673905,KSA,Jeddah,2024-03-21,Premium,Active,Silver,Male,English,Referral,true,High,1994-04-22,2025-12-18T21:24:00+00:00,973.70,13631.80
+C0776,Noor,White,noor.white776@example.com,+971594960805,KSA,Riyadh,2022-06-18,Basic,Active,Platinum,Male,Bilingual,Referral,true,High,1977-09-24,2025-02-15T06:14:00+00:00,447.39,9842.58
+C0777,Leen,Khalid,leen.khalid777@example.com,+971551106043,Qatar,Doha,2021-12-12,Basic,Suspended,Gold,Male,Arabic,Paid Search,false,Low,1999-01-03,2024-01-02T16:00:00+00:00,45.41,635.74
+C0778,Mona,Taylor,mona.taylor778@example.com,+971533822574,KSA,Dammam,2021-11-13,Premium,Inactive,Bronze,Male,Bilingual,Organic,false,Medium,1979-11-01,2025-09-06T11:36:00+00:00,245.24,3923.84
+C0779,Hassan,Johnson,hassan.johnson779@example.com,+971571024383,Egypt,Cairo,2023-10-17,Enterprise,Inactive,Bronze,Male,English,Paid Search,false,Low,1985-09-28,2024-07-16T19:09:00+00:00,1196.92,14363.04
+C0780,Sophia,Mansour,sophia.mansour780@example.com,+971589340557,Kuwait,Kuwait City,2023-01-04,Basic,Suspended,Bronze,Female,Bilingual,Social Media,false,High,2003-11-08,2024-03-01T15:51:00+00:00,1018.58,23427.34
+C0781,Mona,Clark,mona.clark781@example.com,+971560609069,Qatar,Doha,2023-07-07,Basic,Inactive,Bronze,Female,Arabic,Referral,false,High,1992-06-10,2024-07-21T09:40:00+00:00,534.53,8017.95
+C0782,Ali,White,ali.white782@example.com,+971551220925,UK,Birmingham,2024-12-02,Premium,Active,Bronze,Male,Arabic,Referral,false,Low,1990-10-12,2024-02-26T16:53:00+00:00,88.29,353.16
+C0783,Leen,Khalid,leen.khalid783@example.com,+971523240677,Kuwait,Kuwait City,2023-11-08,Enterprise,Active,Silver,Female,Arabic,Direct,true,Medium,1984-04-10,2025-01-14T21:44:00+00:00,91.88,735.04
+C0784,Khalid,King,khalid.king784@example.com,+971542264248,UAE,Dubai,2023-02-21,VIP,Active,Platinum,Male,English,Partner,true,Low,1981-05-10,2024-07-29T22:07:00+00:00,1112.20,2224.40
+C0785,Ava,Saleh,ava.saleh785@example.com,+971537498028,UK,Manchester,2024-10-25,VIP,Inactive,Bronze,Female,English,Partner,false,Low,1996-11-24,2025-08-07T22:55:00+00:00,1086.42,11950.62
+C0786,Noor,King,noor.king786@example.com,+971598981391,UAE,Sharjah,2024-11-19,Premium,Active,Bronze,Male,Arabic,Partner,true,Low,1999-02-01,2025-02-08T01:44:00+00:00,929.87,5579.22
+C0787,Mariam,Johnson,mariam.johnson787@example.com,+971586518645,UK,Birmingham,2025-01-04,VIP,Active,Bronze,Female,Arabic,Organic,false,Low,1980-09-13,2025-12-12T12:18:00+00:00,662.06,7282.66
+C0788,Zain,Khalid,zain.khalid788@example.com,+971521221679,Bahrain,Riffa,2021-08-12,Basic,Active,Platinum,Female,English,Direct,true,Medium,2001-10-12,2024-04-24T07:02:00+00:00,1006.39,7044.73
+C0789,Sara,Moore,sara.moore789@example.com,+971555814884,USA,New York,2025-01-24,VIP,Active,Gold,Female,Arabic,Direct,true,Medium,1992-01-18,2024-11-21T01:36:00+00:00,56.48,338.88
+C0790,Omar,Clark,omar.clark790@example.com,+971513397006,KSA,Riyadh,2022-01-12,Enterprise,Active,Silver,Female,Bilingual,Paid Search,true,High,1989-03-30,2025-10-04T06:21:00+00:00,803.29,12852.64
+C0791,Sara,Hassan,sara.hassan791@example.com,+971553171972,KSA,Jeddah,2023-11-27,VIP,Active,Silver,Male,Bilingual,Paid Search,true,Medium,1975-02-26,2025-07-01T00:39:00+00:00,875.76,21894.00
+C0792,Khalid,Khalid,khalid.khalid792@example.com,+971597088867,Kuwait,Kuwait City,2022-04-05,Enterprise,Suspended,Platinum,Female,Bilingual,Social Media,false,Medium,1985-08-29,2025-10-05T01:36:00+00:00,672.88,1345.76
+C0793,Sophia,King,sophia.king793@example.com,+971582001727,UK,Manchester,2024-07-27,VIP,Active,Silver,Female,Bilingual,Direct,true,Medium,1986-07-16,2025-04-10T15:58:00+00:00,1082.35,17317.60
+C0794,Lina,Taylor,lina.taylor794@example.com,+971582678701,UAE,Abu Dhabi,2022-09-07,Premium,Inactive,Silver,Female,Arabic,Partner,false,Medium,1995-08-30,2024-05-27T01:29:00+00:00,516.03,15480.90
+C0795,Ethan,Anderson,ethan.anderson795@example.com,+971581126909,Kuwait,Hawalli,2023-01-15,Premium,Active,Silver,Male,Bilingual,Paid Search,false,Medium,1999-08-04,2024-12-11T10:42:00+00:00,502.70,12567.50
+C0796,David,Taylor,david.taylor796@example.com,+971550308304,UK,London,2023-03-16,Enterprise,Active,Silver,Male,English,Social Media,true,High,1992-03-28,2024-05-24T15:06:00+00:00,669.68,10714.88
+C0797,Zain,Martin,zain.martin797@example.com,+971546684386,Egypt,Alexandria,2021-02-18,Premium,Inactive,Silver,Male,English,Referral,false,Low,1980-11-09,2025-12-11T06:24:00+00:00,698.18,4887.26
+C0798,Sophia,Wilson,sophia.wilson798@example.com,+971517080348,UAE,Sharjah,2021-07-18,VIP,Active,Gold,Female,Arabic,Direct,true,Low,1988-10-18,2024-03-07T02:01:00+00:00,50.06,1451.74
+C0799,John,Taylor,john.taylor799@example.com,+971585415271,Qatar,Al Rayyan,2023-08-31,Premium,Active,Silver,Female,Arabic,Social Media,false,Low,2000-03-12,2024-12-12T22:11:00+00:00,376.10,1880.50
+C0800,Leen,White,leen.white800@example.com,+971515285272,UK,Birmingham,2022-05-26,Premium,Inactive,Platinum,Female,English,Paid Search,true,High,2005-11-13,2024-04-26T21:09:00+00:00,1094.65,5473.25
+C0801,Hassan,Anderson,hassan.anderson801@example.com,+971521409917,Egypt,Alexandria,2021-02-10,VIP,Active,Silver,Male,Bilingual,Referral,false,Low,1979-12-24,2025-05-18T21:36:00+00:00,438.84,5266.08
+C0802,Mona,Wilson,mona.wilson802@example.com,+971589231776,UK,Birmingham,2021-06-20,Enterprise,Active,Gold,Female,Arabic,Social Media,false,High,1976-01-20,2024-12-29T19:51:00+00:00,613.91,12892.11
+C0803,Sophia,Wilson,sophia.wilson803@example.com,+971555300876,Egypt,Cairo,2024-08-22,Basic,Active,Platinum,Male,English,Social Media,true,Low,2002-12-31,2024-09-01T22:19:00+00:00,345.21,5178.15
+C0804,Ahmed,Hill,ahmed.hill804@example.com,+971546276862,UAE,Abu Dhabi,2023-02-19,Enterprise,Active,Gold,Female,English,Direct,false,Low,1990-07-13,2024-07-23T15:24:00+00:00,490.54,11772.96
+C0805,Noor,Young,noor.young805@example.com,+971521381032,USA,Chicago,2022-07-31,VIP,Suspended,Bronze,Male,Arabic,Organic,true,Low,1982-12-11,2024-09-30T02:58:00+00:00,561.85,12922.55
+C0806,Hassan,Smith,hassan.smith806@example.com,+971555786338,Egypt,Giza,2022-05-01,Basic,Active,Platinum,Female,Bilingual,Organic,true,Low,2006-08-02,2024-03-30T02:00:00+00:00,878.80,21970.00
+C0807,Omar,Mansour,omar.mansour807@example.com,+971538215122,KSA,Riyadh,2021-07-07,Basic,Active,Platinum,Female,Bilingual,Social Media,true,Medium,1983-11-07,2024-04-03T00:27:00+00:00,958.25,8624.25
+C0808,Sophia,King,sophia.king808@example.com,+971534820595,Egypt,Alexandria,2022-08-13,Basic,Active,Silver,Male,English,Paid Search,true,High,1980-07-24,2025-11-23T18:55:00+00:00,1038.64,16618.24
+C0809,John,Mansour,john.mansour809@example.com,+971590739206,Egypt,Alexandria,2022-04-12,Enterprise,Suspended,Gold,Male,English,Referral,false,High,1985-10-19,2024-06-15T12:40:00+00:00,1009.81,11107.91
+C0810,Zain,Ali,zain.ali810@example.com,+971518107284,UK,Manchester,2021-11-27,Enterprise,Active,Platinum,Male,Bilingual,Direct,true,Medium,2001-05-20,2024-03-07T01:04:00+00:00,612.95,18388.50
+C0811,Hassan,King,hassan.king811@example.com,+971559720070,KSA,Dammam,2022-06-22,Enterprise,Active,Platinum,Female,Bilingual,Direct,true,Low,2001-05-05,2024-11-22T14:22:00+00:00,900.94,15315.98
+C0812,Lina,Khalid,lina.khalid812@example.com,+971572226540,Qatar,Al Rayyan,2023-08-11,Enterprise,Inactive,Silver,Male,Bilingual,Partner,false,Low,1981-04-03,2025-04-17T10:59:00+00:00,963.65,13491.10
+C0813,Mariam,Thomas,mariam.thomas813@example.com,+971533190132,Egypt,Alexandria,2023-01-19,Premium,Suspended,Silver,Male,Arabic,Organic,false,Medium,1981-09-21,2024-01-15T13:50:00+00:00,988.19,29645.70
+C0814,Noor,Wilson,noor.wilson814@example.com,+971583729641,USA,New York,2023-10-16,VIP,Active,Silver,Female,Bilingual,Direct,false,Medium,1994-07-08,2025-02-05T05:19:00+00:00,1002.54,29073.66
+C0815,Lina,White,lina.white815@example.com,+971528988828,UAE,Abu Dhabi,2021-08-06,Premium,Suspended,Platinum,Male,English,Partner,true,Medium,2003-04-30,2024-03-09T10:45:00+00:00,592.97,6522.67
+C0816,Lina,Wilson,lina.wilson816@example.com,+971547835591,UK,Birmingham,2024-06-20,VIP,Active,Silver,Female,Bilingual,Partner,true,Low,1995-01-20,2025-03-15T19:07:00+00:00,734.97,13229.46
+C0817,Hassan,Martin,hassan.martin817@example.com,+971595076782,USA,New York,2022-10-31,Enterprise,Active,Gold,Female,Bilingual,Paid Search,true,Medium,2003-05-19,2025-12-05T07:58:00+00:00,1051.37,12616.44
+C0818,Khalid,Saleh,khalid.saleh818@example.com,+971522828887,USA,New York,2023-09-28,Enterprise,Active,Gold,Male,Bilingual,Partner,false,High,2007-08-25,2025-07-30T15:56:00+00:00,62.50,1125.00
+C0819,Noor,Smith,noor.smith819@example.com,+971517921698,Bahrain,Riffa,2022-01-31,Enterprise,Active,Silver,Male,English,Referral,false,High,1981-07-22,2024-10-09T22:09:00+00:00,461.99,12011.74
+C0820,Noor,Wilson,noor.wilson820@example.com,+971590206794,Bahrain,Riffa,2024-05-23,Basic,Active,Bronze,Male,Bilingual,Social Media,false,Low,1991-11-13,2025-07-03T06:52:00+00:00,980.45,7843.60
+C0821,David,Ali,david.ali821@example.com,+971566562468,UK,Manchester,2022-02-23,Basic,Active,Platinum,Male,English,Direct,false,High,1982-01-15,2024-05-27T09:01:00+00:00,73.43,1615.46
+C0822,Ava,Anderson,ava.anderson822@example.com,+971548220213,Qatar,Doha,2022-07-15,Premium,Suspended,Silver,Female,Arabic,Organic,true,Medium,1999-10-15,2025-04-11T08:12:00+00:00,859.30,13748.80
+C0823,Sophia,Taylor,sophia.taylor823@example.com,+971553471005,Egypt,Alexandria,2025-01-15,Enterprise,Active,Gold,Male,Bilingual,Referral,false,High,2000-07-02,2025-01-19T17:01:00+00:00,769.51,16929.22
+C0824,Sara,Moore,sara.moore824@example.com,+971530343371,UAE,Sharjah,2025-01-08,Basic,Suspended,Silver,Male,Arabic,Referral,false,Medium,1978-08-22,2024-05-15T15:04:00+00:00,1115.26,6691.56
+C0825,David,Wilson,david.wilson825@example.com,+971563148900,KSA,Jeddah,2023-04-01,Premium,Suspended,Bronze,Male,English,Paid Search,true,Medium,1985-03-14,2025-07-12T01:33:00+00:00,522.97,14120.19
+C0826,Yousef,Khalid,yousef.khalid826@example.com,+971541227854,UAE,Dubai,2024-08-09,Premium,Active,Gold,Female,English,Direct,false,Low,1997-11-20,2025-12-15T07:30:00+00:00,89.18,802.62
+C0827,Ali,White,ali.white827@example.com,+971589143988,UAE,Sharjah,2025-01-03,Basic,Active,Silver,Female,Arabic,Referral,true,High,1991-07-07,2025-12-14T13:35:00+00:00,118.84,950.72
+C0828,Zain,Johnson,zain.johnson828@example.com,+971547771170,Kuwait,Kuwait City,2021-11-08,VIP,Suspended,Gold,Female,Arabic,Paid Search,false,Medium,1983-10-13,2025-07-03T00:58:00+00:00,768.11,16130.31
+C0829,Mariam,Miller,mariam.miller829@example.com,+971578693318,Kuwait,Kuwait City,2024-08-25,Enterprise,Active,Silver,Male,Arabic,Partner,true,High,1984-03-22,2024-10-19T14:01:00+00:00,556.83,12250.26
+C0830,Mona,Hill,mona.hill830@example.com,+971517297089,UK,Birmingham,2024-10-12,Premium,Suspended,Gold,Male,Bilingual,Organic,false,Low,1984-09-15,2024-08-07T18:52:00+00:00,391.91,6270.56
+C0831,Lina,Wilson,lina.wilson831@example.com,+971590773970,USA,Chicago,2025-01-14,Premium,Inactive,Platinum,Female,Bilingual,Paid Search,true,High,1979-10-24,2025-02-01T23:20:00+00:00,571.15,7996.10
+C0832,Ahmed,Ali,ahmed.ali832@example.com,+971531406009,UAE,Dubai,2022-07-16,Basic,Active,Gold,Male,Bilingual,Paid Search,false,High,1991-09-22,2024-01-01T09:28:00+00:00,482.45,9649.00
+C0833,John,Miller,john.miller833@example.com,+971537469800,Kuwait,Kuwait City,2022-09-02,Basic,Active,Platinum,Male,Arabic,Organic,true,High,1985-07-14,2024-02-05T03:19:00+00:00,204.53,3272.48
+C0834,Ethan,Hill,ethan.hill834@example.com,+971530574887,UK,Manchester,2021-02-16,Premium,Active,Platinum,Female,Arabic,Organic,false,Medium,1995-11-22,2025-12-20T18:30:00+00:00,113.41,2721.84
+C0835,David,Johnson,david.johnson835@example.com,+971547791498,UAE,Sharjah,2021-04-01,Enterprise,Active,Gold,Male,Bilingual,Referral,true,Low,2005-12-08,2025-11-03T02:49:00+00:00,1056.60,25358.40
+C0836,Ethan,Ali,ethan.ali836@example.com,+971516347764,UAE,Sharjah,2023-06-11,VIP,Active,Bronze,Female,English,Partner,true,Medium,2004-07-17,2025-07-26T22:31:00+00:00,958.68,23008.32
+C0837,Hassan,Young,hassan.young837@example.com,+971572744663,Egypt,Alexandria,2024-08-02,VIP,Active,Silver,Female,Bilingual,Social Media,false,Medium,1994-05-14,2024-12-21T13:11:00+00:00,713.05,9269.65
+C0838,John,King,john.king838@example.com,+971532048771,UK,London,2022-11-13,Basic,Active,Silver,Female,Bilingual,Direct,true,High,1981-04-04,2025-01-02T20:29:00+00:00,562.89,10694.91
+C0839,Mona,Thomas,mona.thomas839@example.com,+971510542306,KSA,Jeddah,2021-08-18,VIP,Suspended,Silver,Male,Bilingual,Direct,false,Medium,1980-03-30,2025-05-28T17:02:00+00:00,642.70,12854.00
+C0840,Mariam,Taylor,mariam.taylor840@example.com,+971524284340,Kuwait,Hawalli,2022-03-25,Premium,Inactive,Silver,Male,Bilingual,Organic,true,Medium,1981-06-23,2025-08-13T11:47:00+00:00,513.28,13345.28
+C0841,John,Clark,john.clark841@example.com,+971535636468,USA,Chicago,2022-09-13,Basic,Active,Bronze,Female,Arabic,Paid Search,true,High,1978-03-14,2024-08-02T17:40:00+00:00,152.04,4257.12
+C0842,John,Miller,john.miller842@example.com,+971550294239,Bahrain,Manama,2023-05-15,VIP,Inactive,Gold,Male,English,Partner,false,High,2002-07-30,2025-01-01T21:25:00+00:00,52.26,1097.46
+C0843,Khalid,Khalid,khalid.khalid843@example.com,+971561506760,Bahrain,Manama,2023-10-21,Basic,Inactive,Gold,Female,Arabic,Partner,true,Medium,1978-11-23,2024-11-23T11:01:00+00:00,336.71,5724.07
+C0844,Sophia,Miller,sophia.miller844@example.com,+971542397292,KSA,Riyadh,2022-05-18,Enterprise,Active,Gold,Female,Bilingual,Direct,false,Low,2002-07-13,2025-10-08T03:29:00+00:00,480.63,5767.56
+C0845,David,Hassan,david.hassan845@example.com,+971569650381,UAE,Sharjah,2021-09-20,Basic,Suspended,Silver,Female,English,Direct,false,High,2004-04-28,2025-08-30T21:49:00+00:00,72.75,1309.50
+C0846,Sara,Miller,sara.miller846@example.com,+971531843423,KSA,Dammam,2023-11-25,Basic,Active,Gold,Female,Arabic,Direct,true,Low,1983-12-07,2025-05-17T05:57:00+00:00,564.00,16356.00
+C0847,Sophia,White,sophia.white847@example.com,+971534518599,USA,New York,2023-03-05,Premium,Active,Platinum,Male,Bilingual,Partner,true,Low,1982-05-18,2025-10-31T05:49:00+00:00,476.99,5246.89
+C0848,Omar,Brown,omar.brown848@example.com,+971559430818,UAE,Abu Dhabi,2023-10-14,Basic,Inactive,Platinum,Male,English,Partner,false,Low,1977-12-03,2025-01-10T22:27:00+00:00,63.82,1148.76
+C0849,John,Miller,john.miller849@example.com,+971526241805,Qatar,Al Rayyan,2023-04-02,Basic,Active,Bronze,Male,Bilingual,Paid Search,false,High,1999-06-28,2025-06-03T07:58:00+00:00,1116.33,6697.98
+C0850,Hassan,Young,hassan.young850@example.com,+971515335928,UK,Manchester,2021-05-17,Premium,Active,Silver,Female,Arabic,Direct,false,Low,1991-09-06,2025-11-03T05:37:00+00:00,519.38,9868.22
+C0851,Sara,Moore,sara.moore851@example.com,+971528396122,UAE,Dubai,2023-12-11,VIP,Active,Platinum,Male,Arabic,Direct,false,Medium,1996-06-22,2025-11-12T08:37:00+00:00,655.40,7209.40
+C0852,Mona,Hassan,mona.hassan852@example.com,+971529610873,Egypt,Alexandria,2024-02-07,Premium,Suspended,Silver,Male,English,Social Media,true,High,1982-05-22,2025-10-10T20:34:00+00:00,1036.08,4144.32
+C0853,Yousef,Martin,yousef.martin853@example.com,+971553015114,Qatar,Doha,2022-06-22,Enterprise,Active,Silver,Female,English,Partner,true,High,1980-09-17,2025-02-20T01:48:00+00:00,540.97,15688.13
+C0854,Sophia,King,sophia.king854@example.com,+971568081584,Kuwait,Kuwait City,2022-05-10,Basic,Inactive,Bronze,Male,Bilingual,Paid Search,true,Medium,1987-06-11,2025-09-05T16:18:00+00:00,616.67,2466.68
+C0855,Layla,Miller,layla.miller855@example.com,+971573070505,Bahrain,Riffa,2022-09-14,Enterprise,Inactive,Silver,Female,English,Organic,false,Medium,1998-11-24,2025-07-02T19:20:00+00:00,1106.42,32086.18
+C0856,Zain,King,zain.king856@example.com,+971540580466,KSA,Jeddah,2024-07-12,VIP,Active,Silver,Male,English,Referral,true,Medium,1998-03-22,2024-10-01T08:55:00+00:00,375.18,6753.24
+C0857,David,Miller,david.miller857@example.com,+971528693532,UK,Birmingham,2023-05-19,VIP,Active,Gold,Female,Arabic,Partner,true,Low,2007-07-03,2025-11-16T21:12:00+00:00,931.24,27937.20
+C0858,Ali,Saleh,ali.saleh858@example.com,+971560331463,USA,Austin,2024-07-21,Premium,Inactive,Platinum,Female,Bilingual,Partner,false,Low,1986-06-05,2024-12-11T05:56:00+00:00,791.07,13448.19
+C0859,Ava,Smith,ava.smith859@example.com,+971544200134,UK,London,2023-02-11,Enterprise,Inactive,Gold,Female,Arabic,Referral,true,Medium,2003-03-05,2025-07-17T12:00:00+00:00,117.19,3164.13
+C0860,Sophia,King,sophia.king860@example.com,+971558497553,KSA,Jeddah,2023-06-15,Basic,Active,Bronze,Female,Arabic,Social Media,false,Low,1979-04-21,2025-01-31T10:07:00+00:00,202.08,1010.40
+C0861,David,Mansour,david.mansour861@example.com,+971547201638,UAE,Sharjah,2024-03-06,VIP,Inactive,Silver,Male,Arabic,Social Media,false,High,1990-11-10,2024-03-02T00:07:00+00:00,431.62,9064.02
+C0862,Yousef,Brown,yousef.brown862@example.com,+971561441896,UAE,Sharjah,2024-04-11,Premium,Suspended,Bronze,Male,Arabic,Social Media,false,Medium,1980-08-02,2024-11-20T07:10:00+00:00,974.62,27289.36
+C0863,Fatima,Saleh,fatima.saleh863@example.com,+971547509920,Kuwait,Kuwait City,2022-05-11,Basic,Active,Silver,Female,English,Social Media,false,Medium,1984-07-28,2025-04-15T19:10:00+00:00,1074.59,9671.31
+C0864,Yousef,Hassan,yousef.hassan864@example.com,+971592551005,KSA,Jeddah,2024-12-30,Enterprise,Active,Gold,Male,Bilingual,Partner,false,High,1990-05-10,2025-03-30T14:09:00+00:00,897.43,12564.02
+C0865,Mariam,Ali,mariam.ali865@example.com,+971590658619,Bahrain,Riffa,2023-06-25,Enterprise,Active,Platinum,Male,Arabic,Referral,false,Medium,1987-04-19,2025-09-13T06:23:00+00:00,207.64,830.56
+C0866,Yousef,Clark,yousef.clark866@example.com,+971596634490,USA,Chicago,2024-05-14,Basic,Inactive,Bronze,Female,Bilingual,Referral,false,Medium,1975-12-02,2025-04-25T00:43:00+00:00,1124.91,10124.19
+C0867,Sophia,Martin,sophia.martin867@example.com,+971544877696,Bahrain,Riffa,2021-07-03,Enterprise,Active,Silver,Male,Bilingual,Direct,true,Low,1992-02-10,2025-03-23T08:22:00+00:00,305.13,3966.69
+C0868,Hassan,Khalid,hassan.khalid868@example.com,+971543606927,USA,New York,2024-12-19,Basic,Suspended,Gold,Female,Arabic,Referral,true,Medium,1987-06-30,2024-06-11T02:39:00+00:00,846.56,2539.68
+C0869,Lina,Saleh,lina.saleh869@example.com,+971516998989,Kuwait,Hawalli,2021-12-08,Premium,Active,Platinum,Female,Arabic,Paid Search,true,Low,2002-01-12,2025-06-17T02:14:00+00:00,1051.30,22077.30
+C0870,John,Smith,john.smith870@example.com,+971559517025,KSA,Jeddah,2022-01-02,Premium,Active,Silver,Male,Arabic,Referral,true,Medium,1998-01-09,2025-06-30T03:49:00+00:00,576.54,14990.04
+C0871,Ahmed,Moore,ahmed.moore871@example.com,+971542470699,UAE,Abu Dhabi,2021-10-04,VIP,Suspended,Gold,Female,Arabic,Partner,true,High,1979-12-06,2024-06-20T01:30:00+00:00,220.85,1325.10
+C0872,Yousef,Johnson,yousef.johnson872@example.com,+971575760850,UAE,Dubai,2023-02-12,Enterprise,Suspended,Platinum,Female,Bilingual,Social Media,false,High,2000-11-26,2024-05-19T00:18:00+00:00,574.50,15511.50
+C0873,Layla,Miller,layla.miller873@example.com,+971590503553,Kuwait,Kuwait City,2023-10-28,VIP,Active,Bronze,Female,English,Partner,false,Medium,1976-01-27,2025-05-26T04:51:00+00:00,82.24,328.96
+C0874,Mariam,White,mariam.white874@example.com,+971589246161,USA,New York,2022-03-18,Premium,Active,Platinum,Male,Arabic,Organic,true,Medium,1986-05-06,2025-03-21T20:48:00+00:00,210.72,6110.88
+C0875,Sophia,Thomas,sophia.thomas875@example.com,+971542932467,Bahrain,Riffa,2023-01-31,Premium,Active,Gold,Female,Arabic,Referral,false,Medium,2004-04-23,2024-07-28T14:08:00+00:00,522.33,1566.99
+C0876,David,Smith,david.smith876@example.com,+971574351832,UK,Manchester,2023-11-16,Basic,Active,Gold,Male,English,Social Media,true,Low,1979-07-18,2025-07-18T15:02:00+00:00,1123.41,32578.89
+C0877,Omar,Young,omar.young877@example.com,+971570177680,UK,London,2021-02-20,Enterprise,Active,Platinum,Female,Bilingual,Referral,false,Medium,1977-04-14,2025-06-05T06:40:00+00:00,644.47,1288.94
+C0878,Zain,Hill,zain.hill878@example.com,+971586014287,KSA,Jeddah,2023-09-26,Basic,Active,Platinum,Female,Bilingual,Direct,false,High,2007-05-31,2025-03-19T16:02:00+00:00,812.93,15445.67
+C0879,Noor,Brown,noor.brown879@example.com,+971515907381,Egypt,Cairo,2021-07-10,VIP,Active,Silver,Male,English,Social Media,true,Medium,1981-10-20,2025-09-23T12:17:00+00:00,497.50,1492.50
+C0880,David,Young,david.young880@example.com,+971574782142,UK,London,2021-01-02,Basic,Active,Platinum,Male,Bilingual,Partner,true,Low,2005-01-10,2024-03-08T05:54:00+00:00,83.45,2086.25
+C0881,Ethan,Wilson,ethan.wilson881@example.com,+971554372362,Qatar,Al Rayyan,2022-06-13,VIP,Suspended,Silver,Female,Bilingual,Paid Search,true,Low,1994-06-18,2025-08-13T17:35:00+00:00,1071.44,30000.32
+C0882,Sophia,Miller,sophia.miller882@example.com,+971544580161,Qatar,Al Rayyan,2023-10-19,Basic,Active,Silver,Male,Arabic,Partner,true,Low,2006-04-13,2025-02-18T01:37:00+00:00,388.40,11263.60
+C0883,Leen,Moore,leen.moore883@example.com,+971531803062,Qatar,Al Rayyan,2023-03-30,Enterprise,Active,Gold,Male,English,Partner,false,Low,1993-07-31,2025-03-05T18:21:00+00:00,386.94,3482.46
+C0884,Sophia,Ali,sophia.ali884@example.com,+971563196481,Qatar,Al Rayyan,2021-08-31,Premium,Inactive,Platinum,Male,English,Paid Search,true,Medium,1982-02-21,2024-11-11T07:31:00+00:00,1059.76,18015.92
+C0885,Ava,Wilson,ava.wilson885@example.com,+971582527294,Kuwait,Kuwait City,2021-07-26,Enterprise,Inactive,Bronze,Male,Arabic,Organic,false,Low,1976-06-19,2024-03-25T02:50:00+00:00,895.42,5372.52
+C0886,Omar,Clark,omar.clark886@example.com,+971554310874,Qatar,Al Rayyan,2024-09-26,Basic,Active,Bronze,Male,Bilingual,Organic,true,Low,1992-07-13,2025-08-08T02:02:00+00:00,231.66,2548.26
+C0887,Sophia,Hassan,sophia.hassan887@example.com,+971528604725,UK,Birmingham,2022-08-20,Basic,Inactive,Gold,Male,Bilingual,Direct,true,Medium,2002-03-16,2025-09-22T16:04:00+00:00,1004.89,11053.79
+C0888,Yousef,Clark,yousef.clark888@example.com,+971558150867,UAE,Abu Dhabi,2022-11-25,VIP,Active,Platinum,Female,Arabic,Referral,false,Low,1985-10-18,2025-11-11T05:44:00+00:00,588.29,9412.64
+C0889,Ethan,Brown,ethan.brown889@example.com,+971570253048,Egypt,Cairo,2021-06-12,Premium,Active,Bronze,Female,English,Direct,false,High,1985-09-24,2024-03-01T18:56:00+00:00,176.55,882.75
+C0890,Sophia,Martin,sophia.martin890@example.com,+971538155104,Kuwait,Kuwait City,2024-08-12,Enterprise,Active,Gold,Male,English,Paid Search,false,Low,1977-03-12,2025-11-15T21:35:00+00:00,886.08,9746.88
+C0891,Sara,Miller,sara.miller891@example.com,+971553430116,Kuwait,Kuwait City,2023-10-17,Enterprise,Active,Gold,Female,Bilingual,Referral,true,Low,1982-05-13,2025-04-19T21:25:00+00:00,949.12,27524.48
+C0892,Noor,Martin,noor.martin892@example.com,+971591057016,KSA,Jeddah,2022-11-17,Enterprise,Active,Silver,Male,English,Organic,true,High,1991-03-08,2024-05-31T01:56:00+00:00,202.80,3650.40
+C0893,Mariam,King,mariam.king893@example.com,+971537073491,Qatar,Al Rayyan,2021-01-06,Premium,Active,Gold,Female,Bilingual,Partner,true,Medium,2007-10-21,2024-04-17T15:49:00+00:00,996.22,17931.96
+C0894,Sara,Anderson,sara.anderson894@example.com,+971594160250,UK,Birmingham,2023-07-24,Basic,Inactive,Platinum,Female,Bilingual,Social Media,true,Medium,2001-07-04,2024-02-15T09:21:00+00:00,60.78,1215.60
+C0895,Yousef,Anderson,yousef.anderson895@example.com,+971562990847,UK,Manchester,2024-08-28,VIP,Active,Silver,Male,Arabic,Partner,true,Medium,1975-02-06,2024-02-09T07:42:00+00:00,1089.08,10890.80
+C0896,David,Khalid,david.khalid896@example.com,+971595901983,KSA,Jeddah,2024-01-02,VIP,Suspended,Bronze,Female,Bilingual,Paid Search,false,Low,1985-07-14,2025-07-13T13:01:00+00:00,622.03,15550.75
+C0897,Layla,Young,layla.young897@example.com,+971554127410,Qatar,Doha,2024-01-22,Premium,Inactive,Bronze,Male,Arabic,Direct,false,Low,2004-06-28,2025-11-02T06:00:00+00:00,834.70,3338.80
+C0898,Ali,Miller,ali.miller898@example.com,+971548759195,Kuwait,Kuwait City,2023-05-24,VIP,Suspended,Bronze,Male,Arabic,Organic,true,Low,1977-12-17,2024-07-27T23:10:00+00:00,459.26,11940.76
+C0899,Noor,Johnson,noor.johnson899@example.com,+971572451136,KSA,Jeddah,2022-11-23,Basic,Inactive,Gold,Male,English,Organic,false,Low,1992-05-26,2024-05-04T16:49:00+00:00,1008.82,19167.58
+C0900,Mona,Young,mona.young900@example.com,+971531520447,UK,Birmingham,2021-02-07,Premium,Inactive,Gold,Male,English,Partner,false,Low,1997-12-26,2025-09-27T02:04:00+00:00,228.26,2739.12
+C0901,Layla,Mansour,layla.mansour901@example.com,+971518979241,Egypt,Cairo,2024-06-25,Premium,Inactive,Platinum,Female,English,Direct,false,Low,1976-11-18,2025-10-14T15:49:00+00:00,720.17,17284.08
+C0902,Sara,Anderson,sara.anderson902@example.com,+971555462982,USA,New York,2024-03-15,Enterprise,Active,Gold,Female,Arabic,Paid Search,true,High,1998-05-08,2024-12-29T00:42:00+00:00,1123.35,24713.70
+C0903,Leen,Hassan,leen.hassan903@example.com,+971593878905,Egypt,Alexandria,2023-10-10,Basic,Active,Silver,Female,Bilingual,Partner,false,Low,1979-10-13,2025-07-20T17:46:00+00:00,923.44,4617.20
+C0904,Sara,Clark,sara.clark904@example.com,+971519985429,Egypt,Giza,2022-06-13,VIP,Active,Platinum,Female,Bilingual,Referral,false,Low,1976-03-04,2025-01-23T04:17:00+00:00,434.33,6514.95
+C0905,Ali,Wilson,ali.wilson905@example.com,+971558658243,Egypt,Giza,2021-07-10,Basic,Active,Gold,Female,English,Organic,true,High,1984-07-10,2024-05-20T16:38:00+00:00,735.47,3677.35
+C0906,Khalid,Smith,khalid.smith906@example.com,+971520692205,USA,New York,2022-07-21,VIP,Suspended,Gold,Male,English,Organic,false,Medium,1979-03-04,2024-11-14T17:48:00+00:00,667.92,19369.68
+C0907,Mariam,Miller,mariam.miller907@example.com,+971515707588,UAE,Dubai,2021-05-21,Enterprise,Active,Platinum,Male,English,Paid Search,true,Low,1989-12-26,2024-04-06T18:00:00+00:00,163.92,2786.64
+C0908,Lina,Johnson,lina.johnson908@example.com,+971578408689,KSA,Dammam,2021-02-04,Premium,Inactive,Bronze,Female,Bilingual,Direct,true,Medium,1999-07-25,2025-04-26T06:46:00+00:00,861.47,6030.29
+C0909,Yousef,Khalid,yousef.khalid909@example.com,+971556206851,Kuwait,Kuwait City,2024-06-09,Premium,Inactive,Platinum,Female,English,Paid Search,true,High,1993-11-06,2025-11-13T12:12:00+00:00,997.03,10967.33
+C0910,Noor,King,noor.king910@example.com,+971527205509,Bahrain,Manama,2021-08-23,Premium,Suspended,Bronze,Male,Arabic,Direct,true,Low,1986-03-19,2025-02-19T18:12:00+00:00,906.27,21750.48
+C0911,Sara,Smith,sara.smith911@example.com,+971524867878,Kuwait,Kuwait City,2022-03-23,Basic,Inactive,Bronze,Female,Arabic,Partner,true,Low,2007-06-29,2024-10-10T03:36:00+00:00,43.27,346.16
+C0912,Fatima,Taylor,fatima.taylor912@example.com,+971537051440,Qatar,Al Rayyan,2023-02-15,Premium,Active,Platinum,Female,Arabic,Direct,true,Medium,1996-12-06,2025-11-06T16:43:00+00:00,359.07,8258.61
+C0913,Noor,Martin,noor.martin913@example.com,+971517998345,UAE,Abu Dhabi,2021-01-07,Enterprise,Suspended,Gold,Male,English,Organic,false,Low,1987-09-18,2025-03-19T14:10:00+00:00,111.23,3336.90
+C0914,Noor,Johnson,noor.johnson914@example.com,+971596469773,Kuwait,Kuwait City,2023-08-28,Premium,Inactive,Silver,Female,English,Partner,false,Low,1996-07-19,2025-06-26T02:37:00+00:00,567.14,6238.54
+C0915,Yousef,Anderson,yousef.anderson915@example.com,+971578410468,Egypt,Cairo,2022-04-26,Premium,Active,Gold,Female,Bilingual,Referral,true,Medium,2004-07-12,2025-10-22T15:24:00+00:00,293.89,5583.91
+C0916,Zain,Clark,zain.clark916@example.com,+971542788611,Kuwait,Kuwait City,2021-05-09,Premium,Inactive,Bronze,Male,Arabic,Referral,false,High,1990-04-23,2025-08-03T03:15:00+00:00,1082.58,10825.80
+C0917,Ahmed,White,ahmed.white917@example.com,+971546499378,USA,New York,2021-08-11,Premium,Inactive,Gold,Male,English,Partner,true,Low,1989-07-26,2024-11-09T23:48:00+00:00,532.82,12787.68
+C0918,Sara,Wilson,sara.wilson918@example.com,+971512205381,Qatar,Al Rayyan,2022-05-09,Basic,Active,Silver,Male,English,Organic,true,Medium,1993-07-01,2025-06-29T10:31:00+00:00,303.99,5775.81
+C0919,Leen,Smith,leen.smith919@example.com,+971539322608,KSA,Dammam,2024-01-29,VIP,Active,Bronze,Female,Arabic,Social Media,false,Low,1987-07-31,2025-03-27T22:08:00+00:00,296.05,2368.40
+C0920,Khalid,Anderson,khalid.anderson920@example.com,+971590305616,USA,New York,2022-11-29,Premium,Active,Platinum,Female,Bilingual,Paid Search,true,Medium,1984-09-14,2024-08-30T19:07:00+00:00,148.47,1484.70
+C0921,David,Wilson,david.wilson921@example.com,+971567325158,KSA,Riyadh,2023-10-29,VIP,Active,Platinum,Male,Arabic,Direct,true,High,2000-08-23,2025-08-19T07:59:00+00:00,707.78,1415.56
+C0922,Ahmed,Miller,ahmed.miller922@example.com,+971538061024,USA,New York,2021-11-18,Premium,Active,Gold,Female,Arabic,Direct,false,Low,2002-10-01,2024-08-27T23:02:00+00:00,889.63,7117.04
+C0923,Omar,Khalid,omar.khalid923@example.com,+971550210777,KSA,Dammam,2025-01-22,Enterprise,Active,Bronze,Male,English,Partner,true,Low,1991-10-20,2024-07-28T11:40:00+00:00,917.64,23858.64
+C0924,Sara,Young,sara.young924@example.com,+971530634593,Egypt,Giza,2023-05-11,Enterprise,Active,Platinum,Male,Bilingual,Paid Search,false,High,1998-05-03,2024-04-21T02:48:00+00:00,222.74,890.96
+C0925,Leen,Moore,leen.moore925@example.com,+971567027276,Qatar,Al Rayyan,2021-11-19,Premium,Suspended,Platinum,Female,English,Referral,true,High,1975-11-25,2025-08-31T17:42:00+00:00,698.06,11168.96
+C0926,Mona,Thomas,mona.thomas926@example.com,+971527015981,UK,Manchester,2024-01-02,Basic,Active,Bronze,Female,English,Direct,true,Low,1998-03-27,2025-04-21T02:55:00+00:00,714.43,19289.61
+C0927,Lina,Young,lina.young927@example.com,+971519955322,USA,New York,2022-05-08,Premium,Suspended,Bronze,Female,Bilingual,Social Media,true,Medium,1986-09-18,2024-02-21T16:54:00+00:00,744.01,22320.30
+C0928,Mariam,Young,mariam.young928@example.com,+971539596058,Egypt,Cairo,2021-04-01,Basic,Suspended,Silver,Female,Arabic,Partner,true,High,1989-06-09,2025-03-13T15:54:00+00:00,1011.97,6071.82
+C0929,Ethan,Johnson,ethan.johnson929@example.com,+971513249036,UK,Manchester,2021-03-03,Basic,Active,Gold,Male,Bilingual,Direct,true,Low,2005-11-10,2024-02-03T00:49:00+00:00,71.69,1648.87
+C0930,Mona,White,mona.white930@example.com,+971591184381,KSA,Jeddah,2024-01-09,Basic,Active,Gold,Female,English,Direct,true,High,2003-12-17,2025-10-25T11:03:00+00:00,953.46,23836.50
+C0931,Ali,Clark,ali.clark931@example.com,+971573992105,UK,London,2021-06-24,VIP,Inactive,Bronze,Male,Arabic,Referral,true,Medium,1992-01-08,2025-07-12T04:38:00+00:00,815.05,15485.95
+C0932,Sophia,Khalid,sophia.khalid932@example.com,+971542965597,Kuwait,Hawalli,2021-02-23,Enterprise,Active,Gold,Male,English,Direct,false,High,1981-09-22,2024-02-15T19:03:00+00:00,43.24,432.40
+C0933,Layla,Thomas,layla.thomas933@example.com,+971559602348,KSA,Riyadh,2023-04-26,Basic,Active,Gold,Male,Bilingual,Partner,true,High,2007-01-15,2024-06-01T08:32:00+00:00,304.30,3651.60
+C0934,Sara,White,sara.white934@example.com,+971571743329,UAE,Abu Dhabi,2022-03-02,VIP,Active,Silver,Male,Arabic,Organic,false,Low,1980-06-28,2024-09-03T13:38:00+00:00,1032.99,19626.81
+C0935,Layla,Miller,layla.miller935@example.com,+971596406343,KSA,Dammam,2023-12-20,Premium,Suspended,Platinum,Female,Arabic,Social Media,true,Medium,2007-03-20,2024-01-06T08:40:00+00:00,890.61,25827.69
+C0936,Mona,Moore,mona.moore936@example.com,+971563698183,KSA,Jeddah,2022-07-03,VIP,Active,Gold,Female,English,Paid Search,true,Low,1993-10-30,2024-09-05T04:43:00+00:00,116.02,2784.48
+C0937,Omar,Taylor,omar.taylor937@example.com,+971562369622,Kuwait,Kuwait City,2021-08-02,VIP,Inactive,Silver,Female,English,Referral,true,Low,1993-02-02,2024-11-13T08:05:00+00:00,575.88,1727.64
+C0938,Yousef,Taylor,yousef.taylor938@example.com,+971560636474,Qatar,Doha,2022-08-25,VIP,Inactive,Gold,Female,Bilingual,Social Media,true,Low,2007-10-13,2024-07-15T23:01:00+00:00,815.65,13866.05
+C0939,Fatima,Taylor,fatima.taylor939@example.com,+971554500052,USA,Austin,2024-11-29,Premium,Inactive,Bronze,Female,Arabic,Referral,true,Medium,1985-09-17,2025-05-27T16:11:00+00:00,1003.28,10032.80
+C0940,Mona,Mansour,mona.mansour940@example.com,+971526398778,USA,Chicago,2022-02-02,Enterprise,Active,Silver,Male,Arabic,Organic,false,High,1995-12-04,2025-06-22T08:37:00+00:00,405.49,9731.76
+C0941,Fatima,Young,fatima.young941@example.com,+971576113110,UAE,Sharjah,2022-02-11,Premium,Active,Platinum,Female,Arabic,Organic,false,Low,2007-06-13,2024-09-03T18:05:00+00:00,771.81,6174.48
+C0942,John,Smith,john.smith942@example.com,+971584161981,Bahrain,Riffa,2023-03-09,Basic,Active,Silver,Male,Arabic,Organic,true,Medium,1993-08-13,2024-04-07T14:32:00+00:00,1035.72,26928.72
+C0943,Fatima,Young,fatima.young943@example.com,+971595474336,Egypt,Giza,2023-12-09,Enterprise,Active,Gold,Male,Bilingual,Partner,true,High,2005-07-05,2024-01-14T07:44:00+00:00,477.66,8120.22
+C0944,Mona,Thomas,mona.thomas944@example.com,+971526532086,Qatar,Al Rayyan,2021-10-02,VIP,Active,Gold,Male,Arabic,Partner,false,Medium,1976-03-08,2024-02-29T02:19:00+00:00,740.28,19987.56
+C0945,Khalid,Brown,khalid.brown945@example.com,+971519865211,Kuwait,Kuwait City,2021-12-16,Premium,Inactive,Gold,Female,English,Partner,true,Low,1986-06-12,2024-06-10T06:38:00+00:00,738.28,4429.68
+C0946,Sara,Clark,sara.clark946@example.com,+971512852691,Egypt,Giza,2024-01-03,VIP,Active,Platinum,Female,English,Partner,true,High,2006-02-12,2025-02-21T23:02:00+00:00,1002.32,22051.04
+C0947,Fatima,Hassan,fatima.hassan947@example.com,+971537270654,Egypt,Alexandria,2021-02-06,VIP,Inactive,Platinum,Male,Arabic,Partner,true,High,1995-06-10,2024-02-13T06:55:00+00:00,1188.70,21396.60
+C0948,John,Wilson,john.wilson948@example.com,+971567685899,USA,New York,2021-12-26,Premium,Inactive,Bronze,Female,Bilingual,Partner,false,High,2003-11-23,2024-08-11T08:57:00+00:00,435.02,1305.06
+C0949,Omar,King,omar.king949@example.com,+971584427853,USA,Austin,2022-06-25,Basic,Suspended,Platinum,Male,English,Referral,true,Medium,2004-12-03,2024-10-24T23:02:00+00:00,174.36,1917.96
+C0950,Leen,Moore,leen.moore950@example.com,+971526661403,Egypt,Alexandria,2021-04-05,Basic,Active,Gold,Female,Bilingual,Direct,true,High,1977-02-17,2024-08-05T07:41:00+00:00,474.19,11854.75
+C0951,Zain,Taylor,zain.taylor951@example.com,+971544258271,KSA,Jeddah,2022-08-09,Premium,Inactive,Platinum,Female,Bilingual,Referral,false,Low,1998-06-04,2025-08-10T05:59:00+00:00,58.30,932.80
+C0952,Ali,Brown,ali.brown952@example.com,+971549514706,Qatar,Al Rayyan,2024-07-28,Basic,Suspended,Gold,Male,Arabic,Paid Search,true,Low,1985-01-02,2025-08-05T07:09:00+00:00,423.21,2116.05
+C0953,Ali,Brown,ali.brown953@example.com,+971584881217,Kuwait,Hawalli,2024-02-29,Enterprise,Active,Platinum,Male,English,Partner,true,High,1994-10-29,2025-07-27T01:26:00+00:00,761.77,1523.54
+C0954,Lina,Mansour,lina.mansour954@example.com,+971598925059,UK,Birmingham,2025-01-23,VIP,Active,Silver,Male,English,Organic,false,Medium,2004-10-07,2024-08-21T16:38:00+00:00,295.66,6800.18
+C0955,Fatima,Brown,fatima.brown955@example.com,+971583081609,Kuwait,Hawalli,2021-03-03,Premium,Inactive,Gold,Male,Bilingual,Partner,false,Medium,1993-04-03,2025-07-16T04:25:00+00:00,724.99,9424.87
+C0956,John,Mansour,john.mansour956@example.com,+971529557879,UAE,Sharjah,2023-09-14,Premium,Suspended,Gold,Female,Arabic,Referral,true,Medium,1992-11-18,2025-03-12T03:43:00+00:00,1003.51,30105.30
+C0957,Leen,Brown,leen.brown957@example.com,+971513953262,USA,Austin,2022-09-29,Premium,Inactive,Silver,Male,Arabic,Direct,false,High,1992-07-10,2025-06-05T08:40:00+00:00,1082.83,31402.07
+C0958,Layla,Smith,layla.smith958@example.com,+971592126467,UAE,Dubai,2023-03-04,VIP,Active,Bronze,Male,English,Social Media,true,High,2004-01-30,2025-05-30T06:04:00+00:00,134.21,1073.68
+C0959,Noor,Smith,noor.smith959@example.com,+971533781932,UK,Birmingham,2024-05-27,Premium,Suspended,Platinum,Female,Bilingual,Paid Search,true,High,1991-07-11,2024-03-15T23:20:00+00:00,103.02,1545.30
+C0960,Yousef,Miller,yousef.miller960@example.com,+971517809055,UK,London,2023-10-12,Enterprise,Active,Platinum,Female,Bilingual,Paid Search,true,Medium,1975-11-15,2025-03-27T14:38:00+00:00,366.54,2565.78
+C0961,Leen,Smith,leen.smith961@example.com,+971518964953,Bahrain,Riffa,2023-02-27,VIP,Active,Platinum,Female,Arabic,Paid Search,true,Low,1995-05-12,2024-02-18T05:36:00+00:00,851.17,17874.57
+C0962,Yousef,Smith,yousef.smith962@example.com,+971524591250,Egypt,Alexandria,2023-01-03,Enterprise,Suspended,Bronze,Female,Arabic,Paid Search,true,High,1979-07-24,2024-06-24T06:22:00+00:00,1102.35,15432.90
+C0963,John,King,john.king963@example.com,+971578893211,Egypt,Cairo,2023-02-17,VIP,Active,Platinum,Female,Bilingual,Social Media,false,Medium,1980-06-09,2024-04-25T07:48:00+00:00,529.40,14823.20
+C0964,Mona,Mansour,mona.mansour964@example.com,+971532641668,Bahrain,Manama,2024-09-29,VIP,Active,Silver,Female,English,Social Media,true,Low,1994-05-05,2025-07-12T09:19:00+00:00,346.93,1040.79
+C0965,Noor,Clark,noor.clark965@example.com,+971573135754,UAE,Dubai,2023-07-15,Basic,Active,Platinum,Female,Bilingual,Social Media,true,Low,1978-05-16,2024-07-28T21:16:00+00:00,1005.12,14071.68
+C0966,Ahmed,Johnson,ahmed.johnson966@example.com,+971579715974,KSA,Jeddah,2024-04-21,Enterprise,Active,Gold,Female,Bilingual,Direct,false,Low,1994-02-09,2025-07-03T05:06:00+00:00,768.79,7687.90
+C0967,Yousef,Young,yousef.young967@example.com,+971513913380,USA,New York,2023-11-22,VIP,Active,Platinum,Male,English,Direct,false,Medium,2005-07-15,2024-06-30T17:43:00+00:00,1195.26,17928.90
+C0968,Fatima,Anderson,fatima.anderson968@example.com,+971529668825,Bahrain,Manama,2023-04-05,Basic,Active,Bronze,Female,Bilingual,Paid Search,true,High,1982-09-01,2025-05-23T07:57:00+00:00,509.90,13257.40
+C0969,Lina,Saleh,lina.saleh969@example.com,+971559129124,Qatar,Al Rayyan,2024-10-12,Basic,Active,Platinum,Male,Bilingual,Referral,false,High,1981-09-29,2024-06-12T02:25:00+00:00,827.35,19029.05
+C0970,John,Moore,john.moore970@example.com,+971589748303,Egypt,Cairo,2024-03-14,Basic,Suspended,Gold,Male,English,Social Media,false,High,1975-09-22,2024-05-22T10:36:00+00:00,501.60,8025.60
+C0971,Lina,Brown,lina.brown971@example.com,+971582783901,UAE,Abu Dhabi,2021-03-11,Enterprise,Suspended,Gold,Female,Bilingual,Paid Search,false,High,1990-02-24,2025-09-11T22:46:00+00:00,306.57,8583.96
+C0972,Ava,Moore,ava.moore972@example.com,+971571456344,KSA,Dammam,2021-06-22,Basic,Inactive,Bronze,Female,Arabic,Paid Search,false,Medium,1992-07-07,2024-10-17T11:28:00+00:00,766.24,13792.32
+C0973,Sophia,Mansour,sophia.mansour973@example.com,+971518520287,Egypt,Cairo,2024-06-14,Enterprise,Inactive,Platinum,Female,Bilingual,Paid Search,false,High,1997-04-21,2025-04-07T08:24:00+00:00,945.09,19846.89
+C0974,Omar,Brown,omar.brown974@example.com,+971510087862,Qatar,Doha,2023-10-09,Enterprise,Active,Silver,Female,Arabic,Direct,false,Low,2004-10-06,2024-02-09T20:34:00+00:00,409.17,7365.06
+C0975,Hassan,Thomas,hassan.thomas975@example.com,+971532537795,Kuwait,Hawalli,2024-11-05,VIP,Suspended,Silver,Female,English,Referral,false,Low,1998-06-27,2025-04-12T18:02:00+00:00,75.54,377.70
+C0976,Layla,Anderson,layla.anderson976@example.com,+971595087196,Kuwait,Kuwait City,2021-10-15,Premium,Suspended,Gold,Female,Arabic,Paid Search,true,Medium,1993-02-28,2024-12-27T19:18:00+00:00,255.40,2298.60
+C0977,Lina,Miller,lina.miller977@example.com,+971574867809,KSA,Dammam,2024-10-25,Premium,Active,Platinum,Male,Bilingual,Paid Search,false,High,1984-12-10,2024-12-01T05:34:00+00:00,923.34,23083.50
+C0978,Yousef,Wilson,yousef.wilson978@example.com,+971559097411,Qatar,Doha,2022-04-03,Basic,Inactive,Gold,Female,Bilingual,Referral,true,High,1989-05-17,2025-05-31T03:35:00+00:00,864.31,11236.03
+C0979,Sophia,Clark,sophia.clark979@example.com,+971578761110,UK,London,2021-01-16,Basic,Active,Platinum,Female,Arabic,Organic,true,High,2006-08-11,2024-07-17T09:40:00+00:00,762.89,22886.70
+C0980,Mariam,Hill,mariam.hill980@example.com,+971553653777,USA,Chicago,2021-03-19,VIP,Inactive,Bronze,Female,English,Paid Search,true,Low,2007-09-12,2024-03-29T11:13:00+00:00,497.66,1990.64
+C0981,Lina,Taylor,lina.taylor981@example.com,+971552590001,USA,Chicago,2023-09-02,Basic,Active,Gold,Male,Bilingual,Direct,true,Medium,1978-11-28,2025-06-21T03:15:00+00:00,966.61,15465.76
+C0982,Sara,Taylor,sara.taylor982@example.com,+971573469914,Egypt,Alexandria,2023-02-24,Basic,Suspended,Silver,Female,Arabic,Referral,false,Low,1985-07-17,2025-09-22T16:07:00+00:00,847.45,15254.10
+C0983,Zain,Moore,zain.moore983@example.com,+971567465557,Qatar,Al Rayyan,2021-11-30,Enterprise,Active,Gold,Female,English,Social Media,false,Medium,1988-05-25,2024-05-20T10:35:00+00:00,978.55,26420.85
+C0984,Lina,Brown,lina.brown984@example.com,+971594848743,Bahrain,Riffa,2023-11-11,VIP,Suspended,Platinum,Female,English,Direct,false,Low,1997-07-09,2024-12-11T23:57:00+00:00,816.41,15511.79
+C0985,Omar,Clark,omar.clark985@example.com,+971510839874,KSA,Riyadh,2024-11-20,Basic,Active,Silver,Female,English,Direct,true,High,2004-01-15,2025-03-14T10:01:00+00:00,197.91,5739.39
+C0986,Yousef,Smith,yousef.smith986@example.com,+971510747553,USA,New York,2024-08-09,VIP,Active,Platinum,Male,Bilingual,Paid Search,false,High,1983-03-04,2024-04-28T10:55:00+00:00,408.16,3265.28
+C0987,Fatima,Clark,fatima.clark987@example.com,+971575851164,UK,Manchester,2023-12-01,Premium,Inactive,Silver,Female,English,Direct,false,High,1988-02-17,2025-06-21T19:24:00+00:00,487.56,10238.76
+C0988,David,Brown,david.brown988@example.com,+971548643064,UAE,Dubai,2023-01-21,Premium,Active,Silver,Male,Bilingual,Social Media,true,High,1980-12-30,2025-06-11T23:45:00+00:00,234.54,3049.02
+C0989,Mona,Smith,mona.smith989@example.com,+971522429110,Egypt,Cairo,2024-05-27,Basic,Inactive,Bronze,Male,Bilingual,Paid Search,false,Medium,1996-12-16,2024-05-26T20:00:00+00:00,767.22,16111.62
+C0990,Lina,Mansour,lina.mansour990@example.com,+971521689275,Bahrain,Riffa,2021-02-19,Enterprise,Active,Silver,Female,English,Partner,false,Medium,1991-04-17,2025-06-29T05:49:00+00:00,587.13,10568.34
+C0991,Leen,Miller,leen.miller991@example.com,+971522111010,Bahrain,Manama,2023-02-16,Enterprise,Inactive,Silver,Male,English,Organic,true,High,1994-09-19,2024-06-07T18:02:00+00:00,417.50,8767.50
+C0992,Fatima,White,fatima.white992@example.com,+971539161475,Egypt,Cairo,2023-07-26,Premium,Active,Gold,Male,Arabic,Paid Search,true,High,1993-06-24,2025-12-04T06:12:00+00:00,553.76,13290.24
+C0993,Lina,Hassan,lina.hassan993@example.com,+971583908190,Kuwait,Hawalli,2024-09-08,Premium,Active,Silver,Female,Bilingual,Referral,true,High,1999-03-26,2025-08-22T02:40:00+00:00,391.71,7442.49
+C0994,Mona,Wilson,mona.wilson994@example.com,+971576183001,UK,Manchester,2023-05-06,Premium,Active,Platinum,Female,Arabic,Organic,false,Medium,1986-05-22,2024-05-05T15:46:00+00:00,787.74,19693.50
+C0995,Khalid,White,khalid.white995@example.com,+971533398252,KSA,Riyadh,2023-07-05,Enterprise,Active,Silver,Male,English,Paid Search,false,High,1997-04-29,2025-09-10T18:28:00+00:00,43.12,862.40
+C0996,Fatima,Mansour,fatima.mansour996@example.com,+971530030597,Bahrain,Riffa,2021-10-11,Basic,Active,Silver,Female,English,Direct,true,High,1983-06-15,2025-08-16T17:58:00+00:00,641.98,3851.88
+C0997,Lina,Khalid,lina.khalid997@example.com,+971572492044,UAE,Abu Dhabi,2024-02-10,Enterprise,Active,Silver,Female,Bilingual,Social Media,false,Low,1985-08-15,2025-05-15T19:51:00+00:00,1130.08,33902.40
+C0998,Leen,Thomas,leen.thomas998@example.com,+971596625040,UAE,Dubai,2022-02-18,Basic,Suspended,Gold,Male,English,Organic,false,Low,1984-06-03,2024-01-18T08:19:00+00:00,314.09,4397.26
+C0999,Khalid,Smith,khalid.smith999@example.com,+971556740994,UAE,Dubai,2024-08-09,Basic,Active,Gold,Male,English,Referral,true,Low,2002-06-16,2025-08-14T05:49:00+00:00,1115.16,22303.20
+C1000,Mona,Ali,mona.ali1000@example.com,+971525457874,Kuwait,Hawalli,2021-06-19,Premium,Inactive,Bronze,Male,Bilingual,Paid Search,true,Low,1982-01-22,2024-08-03T21:37:00+00:00,619.84,13016.64

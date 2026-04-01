@@ -10,6 +10,9 @@ credentials/
 # Python caches
 __pycache__/
 *.pyc
+.venv/
+.pytest_cache/
+.mypy_cache/
 
 # Optional: Ignore data files if they get too large
 # *.csv

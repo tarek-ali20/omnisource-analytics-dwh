@@ -1,0 +1,1001 @@
+event_id,session_id,customer_id,campaign_id,store_id,product_id,event_timestamp,event_date,event_type,page_visited,page_category,traffic_source,device_type,browser_name,operating_system,time_spent_seconds,scroll_depth_pct,is_conversion,order_id,revenue_amount
+WEB-000001,SES-000001,C0596,CMP-006,STR-001,P102,2025-01-01T00:00:00+00:00,2025-01-01,product_view,/home,Product,Social Media,Tablet,Firefox,Windows,691,75.02,false,,0.00
+WEB-000002,SES-000002,C0026,CMP-005,STR-001,P107,2025-01-01T00:07:00+00:00,2025-01-01,add_to_cart,/category,Checkout,Direct,Mobile,Chrome,Windows,534,15.48,false,,0.00
+WEB-000003,SES-000003,C0508,CMP-005,STR-003,P107,2025-01-01T00:14:00+00:00,2025-01-01,page_view,/checkout,Landing,Direct,Tablet,Safari,Android,540,16.18,false,,0.00
+WEB-000004,SES-000004,C0971,CMP-004,STR-001,P104,2025-01-01T00:21:00+00:00,2025-01-01,checkout_start,/category,Checkout,Partner,Desktop,Firefox,macOS,417,95.61,false,,0.00
+WEB-000005,SES-000005,C0065,CMP-003,STR-002,P104,2025-01-01T00:28:00+00:00,2025-01-01,page_view,/campaign-landing,Catalog,Direct,Desktop,Firefox,Android,517,57.23,false,,0.00
+WEB-000006,SES-000006,C0955,CMP-006,STR-006,P106,2025-01-01T00:35:00+00:00,2025-01-01,checkout_start,/category,Product,Social Media,Tablet,Edge,Android,153,11.81,false,,0.00
+WEB-000007,SES-000007,C0747,CMP-004,STR-002,P104,2025-01-01T00:42:00+00:00,2025-01-01,add_to_cart,/product,Checkout,Referral,Desktop,Firefox,iOS,123,52.23,false,,0.00
+WEB-000008,SES-000008,C0733,CMP-004,STR-006,P102,2025-01-01T00:49:00+00:00,2025-01-01,purchase,/campaign-landing,Catalog,Partner,Tablet,Edge,iOS,367,37.84,true,ORD-00008,920.90
+WEB-000009,SES-000009,C0473,CMP-004,STR-002,P109,2025-01-01T00:56:00+00:00,2025-01-01,checkout_start,/product,Checkout,Direct,Tablet,Chrome,macOS,666,62.91,true,ORD-00009,581.24
+WEB-000010,SES-000010,C0798,CMP-005,STR-005,P107,2025-01-01T01:03:00+00:00,2025-01-01,product_view,/category,Landing,Referral,Tablet,Chrome,Windows,130,36.39,false,,0.00
+WEB-000011,SES-000011,C0200,CMP-001,STR-003,P101,2025-01-01T01:10:00+00:00,2025-01-01,purchase,/home,Catalog,Partner,Mobile,Safari,macOS,810,93.58,false,,0.00
+WEB-000012,SES-000012,C0521,CMP-001,STR-006,P110,2025-01-01T01:17:00+00:00,2025-01-01,purchase,/campaign-landing,Catalog,Organic,Mobile,Edge,Android,56,63.14,false,,0.00
+WEB-000013,SES-000013,C0710,CMP-001,STR-005,P107,2025-01-01T01:24:00+00:00,2025-01-01,checkout_start,/product,Product,Organic,Tablet,Chrome,Windows,428,88.29,false,,0.00
+WEB-000014,SES-000014,C0933,CMP-002,STR-005,P103,2025-01-01T01:31:00+00:00,2025-01-01,add_to_cart,/campaign-landing,Landing,Partner,Tablet,Chrome,Windows,77,79.87,false,,0.00
+WEB-000015,SES-000015,C0115,CMP-004,STR-003,P102,2025-01-01T01:38:00+00:00,2025-01-01,page_view,/campaign-landing,Product,Partner,Desktop,Firefox,Android,84,14.27,false,,0.00
+WEB-000016,SES-000016,C0665,CMP-006,STR-002,P103,2025-01-01T01:45:00+00:00,2025-01-01,product_view,/checkout,Support,Referral,Mobile,Edge,macOS,639,78.05,false,,0.00
+WEB-000017,SES-000017,C0548,CMP-001,STR-002,P104,2025-01-01T01:52:00+00:00,2025-01-01,page_view,/category,Product,Partner,Desktop,Chrome,iOS,434,85.59,false,,0.00
+WEB-000018,SES-000018,C0466,CMP-001,STR-002,P107,2025-01-01T01:59:00+00:00,2025-01-01,checkout_start,/home,Checkout,Partner,Tablet,Edge,iOS,237,15.4,false,,0.00
+WEB-000019,SES-000019,C0712,CMP-002,STR-005,P101,2025-01-01T02:06:00+00:00,2025-01-01,page_view,/product,Support,Direct,Desktop,Safari,Android,375,71.5,false,,0.00
+WEB-000020,SES-000020,C0229,CMP-005,STR-002,P101,2025-01-01T02:13:00+00:00,2025-01-01,add_to_cart,/checkout,Landing,Referral,Tablet,Safari,macOS,831,47.89,false,,0.00
+WEB-000021,SES-000021,C0605,CMP-006,STR-002,P109,2025-01-01T02:20:00+00:00,2025-01-01,checkout_start,/cart,Support,Paid Search,Tablet,Edge,Windows,834,94.31,false,,0.00
+WEB-000022,SES-000022,C0819,CMP-002,STR-001,P103,2025-01-01T02:27:00+00:00,2025-01-01,purchase,/category,Product,Social Media,Desktop,Firefox,Android,261,44.22,false,,0.00
+WEB-000023,SES-000023,C0575,CMP-003,STR-003,P101,2025-01-01T02:34:00+00:00,2025-01-01,add_to_cart,/home,Catalog,Referral,Mobile,Firefox,Android,79,90.31,false,,0.00
+WEB-000024,SES-000024,C0516,CMP-004,STR-002,P106,2025-01-01T02:41:00+00:00,2025-01-01,page_view,/cart,Support,Referral,Desktop,Safari,macOS,119,9.47,true,ORD-00024,2995.14
+WEB-000025,SES-000025,C0026,CMP-002,STR-005,P107,2025-01-01T02:48:00+00:00,2025-01-01,page_view,/product,Catalog,Social Media,Mobile,Safari,iOS,864,83.82,false,,0.00
+WEB-000026,SES-000026,C0715,CMP-005,STR-005,P107,2025-01-01T02:55:00+00:00,2025-01-01,purchase,/home,Checkout,Paid Search,Desktop,Firefox,Android,77,37.0,false,,0.00
+WEB-000027,SES-000027,C0928,CMP-003,STR-003,P109,2025-01-01T03:02:00+00:00,2025-01-01,purchase,/home,Product,Referral,Mobile,Safari,Android,643,25.13,false,,0.00
+WEB-000028,SES-000028,C0240,CMP-001,STR-005,P107,2025-01-01T03:09:00+00:00,2025-01-01,product_view,/cart,Landing,Social Media,Tablet,Safari,Windows,570,67.73,false,,0.00
+WEB-000029,SES-000029,C0134,CMP-003,STR-003,P105,2025-01-01T03:16:00+00:00,2025-01-01,checkout_start,/campaign-landing,Catalog,Partner,Mobile,Chrome,Android,445,52.22,true,ORD-00029,1025.78
+WEB-000030,SES-000030,C0569,CMP-001,STR-004,P109,2025-01-01T03:23:00+00:00,2025-01-01,page_view,/cart,Support,Referral,Mobile,Edge,Android,539,22.07,false,,0.00
+WEB-000031,SES-000031,C0840,CMP-003,STR-002,P101,2025-01-01T03:30:00+00:00,2025-01-01,product_view,/home,Product,Referral,Tablet,Firefox,Android,708,91.23,false,,0.00
+WEB-000032,SES-000032,C0880,CMP-001,STR-005,P102,2025-01-01T03:37:00+00:00,2025-01-01,page_view,/product,Landing,Organic,Tablet,Chrome,macOS,632,31.6,false,,0.00
+WEB-000033,SES-000033,C0241,CMP-005,STR-003,P103,2025-01-01T03:44:00+00:00,2025-01-01,page_view,/campaign-landing,Landing,Direct,Desktop,Edge,Windows,234,98.23,false,,0.00
+WEB-000034,SES-000034,C0374,CMP-003,STR-004,P106,2025-01-01T03:51:00+00:00,2025-01-01,purchase,/product,Checkout,Partner,Desktop,Chrome,Android,628,46.54,false,,0.00
+WEB-000035,SES-000035,C0061,CMP-003,STR-004,P106,2025-01-01T03:58:00+00:00,2025-01-01,page_view,/category,Catalog,Organic,Mobile,Firefox,iOS,761,86.06,true,ORD-00035,5083.77
+WEB-000036,SES-000036,C0951,CMP-001,STR-004,P107,2025-01-01T04:05:00+00:00,2025-01-01,add_to_cart,/cart,Catalog,Partner,Tablet,Chrome,Android,659,17.16,false,,0.00
+WEB-000037,SES-000037,C0386,CMP-004,STR-006,P110,2025-01-01T04:12:00+00:00,2025-01-01,checkout_start,/category,Support,Referral,Tablet,Edge,iOS,578,32.91,false,,0.00
+WEB-000038,SES-000038,C0403,CMP-004,STR-005,P101,2025-01-01T04:19:00+00:00,2025-01-01,purchase,/category,Product,Organic,Mobile,Edge,iOS,109,29.85,false,,0.00
+WEB-000039,SES-000039,C0722,CMP-004,STR-005,P110,2025-01-01T04:26:00+00:00,2025-01-01,checkout_start,/cart,Catalog,Referral,Mobile,Firefox,macOS,707,41.11,false,,0.00
+WEB-000040,SES-000040,C0297,CMP-002,STR-004,P101,2025-01-01T04:33:00+00:00,2025-01-01,purchase,/cart,Landing,Partner,Tablet,Chrome,Android,489,98.06,false,,0.00
+WEB-000041,SES-000041,C0162,CMP-002,STR-001,P110,2025-01-01T04:40:00+00:00,2025-01-01,add_to_cart,/campaign-landing,Support,Organic,Mobile,Chrome,macOS,709,20.82,false,,0.00
+WEB-000042,SES-000042,C0622,CMP-005,STR-001,P110,2025-01-01T04:47:00+00:00,2025-01-01,purchase,/category,Product,Organic,Tablet,Firefox,macOS,776,5.49,false,,0.00
+WEB-000043,SES-000043,C0964,CMP-003,STR-004,P107,2025-01-01T04:54:00+00:00,2025-01-01,checkout_start,/cart,Product,Partner,Desktop,Firefox,Windows,607,92.7,true,ORD-00043,1446.93
+WEB-000044,SES-000044,C0467,CMP-004,STR-004,P108,2025-01-01T05:01:00+00:00,2025-01-01,checkout_start,/cart,Catalog,Social Media,Tablet,Edge,Android,768,21.48,false,,0.00
+WEB-000045,SES-000045,C0082,CMP-004,STR-004,P110,2025-01-01T05:08:00+00:00,2025-01-01,checkout_start,/cart,Product,Referral,Tablet,Chrome,macOS,93,62.02,false,,0.00
+WEB-000046,SES-000046,C0945,CMP-005,STR-006,P103,2025-01-01T05:15:00+00:00,2025-01-01,page_view,/cart,Product,Referral,Desktop,Chrome,iOS,164,31.41,false,,0.00
+WEB-000047,SES-000047,C0692,CMP-004,STR-004,P107,2025-01-01T05:22:00+00:00,2025-01-01,purchase,/product,Checkout,Partner,Tablet,Chrome,Windows,79,11.52,true,ORD-00047,3675.76
+WEB-000048,SES-000048,C0579,CMP-003,STR-001,P102,2025-01-01T05:29:00+00:00,2025-01-01,purchase,/product,Checkout,Paid Search,Desktop,Edge,macOS,829,50.88,false,,0.00
+WEB-000049,SES-000049,C0286,CMP-004,STR-001,P103,2025-01-01T05:36:00+00:00,2025-01-01,product_view,/cart,Support,Referral,Mobile,Chrome,Windows,711,71.78,false,,0.00
+WEB-000050,SES-000050,C0848,CMP-005,STR-004,P103,2025-01-01T05:43:00+00:00,2025-01-01,page_view,/home,Catalog,Paid Search,Desktop,Firefox,macOS,223,46.23,true,ORD-00050,677.62
+WEB-000051,SES-000051,C0560,CMP-005,STR-001,P103,2025-01-01T05:50:00+00:00,2025-01-01,checkout_start,/home,Catalog,Partner,Desktop,Edge,Windows,628,97.85,false,,0.00
+WEB-000052,SES-000052,C0471,CMP-006,STR-004,P101,2025-01-01T05:57:00+00:00,2025-01-01,product_view,/cart,Product,Social Media,Tablet,Firefox,Windows,87,16.92,false,,0.00
+WEB-000053,SES-000053,C0792,CMP-002,STR-001,P107,2025-01-01T06:04:00+00:00,2025-01-01,product_view,/campaign-landing,Product,Referral,Tablet,Edge,macOS,615,22.65,false,,0.00
+WEB-000054,SES-000054,C0402,CMP-005,STR-001,P104,2025-01-01T06:11:00+00:00,2025-01-01,page_view,/checkout,Catalog,Organic,Tablet,Edge,Android,877,40.53,false,,0.00
+WEB-000055,SES-000055,C0625,CMP-004,STR-004,P105,2025-01-01T06:18:00+00:00,2025-01-01,add_to_cart,/home,Support,Paid Search,Desktop,Safari,Android,639,14.84,true,ORD-00055,2575.77
+WEB-000056,SES-000056,C0666,CMP-003,STR-001,P106,2025-01-01T06:25:00+00:00,2025-01-01,purchase,/cart,Landing,Partner,Mobile,Edge,iOS,287,54.77,false,,0.00
+WEB-000057,SES-000057,C0940,CMP-002,STR-005,P109,2025-01-01T06:32:00+00:00,2025-01-01,checkout_start,/product,Catalog,Social Media,Mobile,Chrome,Android,760,82.22,false,,0.00
+WEB-000058,SES-000058,C0409,CMP-004,STR-005,P109,2025-01-01T06:39:00+00:00,2025-01-01,purchase,/home,Product,Organic,Tablet,Firefox,Windows,417,40.77,false,,0.00
+WEB-000059,SES-000059,C0973,CMP-001,STR-003,P105,2025-01-01T06:46:00+00:00,2025-01-01,purchase,/product,Landing,Social Media,Mobile,Firefox,Windows,796,33.07,false,,0.00
+WEB-000060,SES-000060,C0460,CMP-006,STR-002,P110,2025-01-01T06:53:00+00:00,2025-01-01,page_view,/cart,Landing,Referral,Tablet,Chrome,macOS,317,52.46,false,,0.00
+WEB-000061,SES-000061,C0816,CMP-004,STR-004,P106,2025-01-01T07:00:00+00:00,2025-01-01,add_to_cart,/cart,Product,Social Media,Tablet,Firefox,Windows,475,20.65,true,ORD-00061,625.04
+WEB-000062,SES-000062,C0015,CMP-001,STR-005,P104,2025-01-01T07:07:00+00:00,2025-01-01,checkout_start,/cart,Landing,Direct,Mobile,Firefox,macOS,78,30.79,false,,0.00
+WEB-000063,SES-000063,C0262,CMP-003,STR-006,P107,2025-01-01T07:14:00+00:00,2025-01-01,product_view,/cart,Support,Direct,Tablet,Edge,iOS,265,60.91,true,ORD-00063,2103.59
+WEB-000064,SES-000064,C0447,CMP-003,STR-006,P105,2025-01-01T07:21:00+00:00,2025-01-01,checkout_start,/home,Landing,Organic,Desktop,Safari,Windows,818,47.75,false,,0.00
+WEB-000065,SES-000065,C0848,CMP-002,STR-003,P106,2025-01-01T07:28:00+00:00,2025-01-01,purchase,/checkout,Landing,Referral,Tablet,Firefox,Windows,250,75.02,false,,0.00
+WEB-000066,SES-000066,C0087,CMP-005,STR-003,P104,2025-01-01T07:35:00+00:00,2025-01-01,page_view,/checkout,Catalog,Referral,Mobile,Chrome,iOS,746,18.27,false,,0.00
+WEB-000067,SES-000067,C0384,CMP-002,STR-006,P109,2025-01-01T07:42:00+00:00,2025-01-01,purchase,/checkout,Product,Referral,Tablet,Edge,iOS,820,48.73,true,ORD-00067,1098.50
+WEB-000068,SES-000068,C0412,CMP-001,STR-006,P110,2025-01-01T07:49:00+00:00,2025-01-01,product_view,/home,Catalog,Social Media,Mobile,Edge,iOS,264,48.23,false,,0.00
+WEB-000069,SES-000069,C0245,CMP-002,STR-001,P101,2025-01-01T07:56:00+00:00,2025-01-01,checkout_start,/product,Product,Direct,Tablet,Firefox,iOS,153,75.12,true,ORD-00069,2198.13
+WEB-000070,SES-000070,C0689,CMP-001,STR-005,P101,2025-01-01T08:03:00+00:00,2025-01-01,page_view,/product,Landing,Partner,Mobile,Chrome,macOS,648,24.26,false,,0.00
+WEB-000071,SES-000071,C0701,CMP-005,STR-001,P104,2025-01-01T08:10:00+00:00,2025-01-01,purchase,/cart,Product,Social Media,Tablet,Firefox,iOS,873,79.69,false,,0.00
+WEB-000072,SES-000072,C0026,CMP-006,STR-003,P106,2025-01-01T08:17:00+00:00,2025-01-01,checkout_start,/cart,Landing,Direct,Mobile,Firefox,macOS,554,5.02,false,,0.00
+WEB-000073,SES-000073,C0751,CMP-005,STR-006,P108,2025-01-01T08:24:00+00:00,2025-01-01,page_view,/category,Catalog,Organic,Mobile,Edge,iOS,187,38.96,true,ORD-00073,1768.63
+WEB-000074,SES-000074,C0517,CMP-003,STR-004,P109,2025-01-01T08:31:00+00:00,2025-01-01,page_view,/home,Support,Direct,Tablet,Chrome,Android,627,98.81,false,,0.00
+WEB-000075,SES-000075,C0204,CMP-006,STR-001,P101,2025-01-01T08:38:00+00:00,2025-01-01,page_view,/campaign-landing,Product,Referral,Mobile,Edge,macOS,178,43.87,false,,0.00
+WEB-000076,SES-000076,C0350,CMP-002,STR-006,P107,2025-01-01T08:45:00+00:00,2025-01-01,purchase,/product,Landing,Social Media,Desktop,Edge,Android,622,92.67,false,,0.00
+WEB-000077,SES-000077,C0463,CMP-001,STR-005,P106,2025-01-01T08:52:00+00:00,2025-01-01,add_to_cart,/product,Checkout,Partner,Tablet,Chrome,Windows,99,37.02,false,,0.00
+WEB-000078,SES-000078,C0214,CMP-001,STR-006,P110,2025-01-01T08:59:00+00:00,2025-01-01,product_view,/home,Support,Referral,Tablet,Chrome,Android,354,52.2,false,,0.00
+WEB-000079,SES-000079,C0014,CMP-002,STR-006,P108,2025-01-01T09:06:00+00:00,2025-01-01,page_view,/cart,Catalog,Direct,Mobile,Edge,iOS,248,86.1,false,,0.00
+WEB-000080,SES-000080,C0501,CMP-005,STR-006,P103,2025-01-01T09:13:00+00:00,2025-01-01,product_view,/checkout,Product,Paid Search,Tablet,Firefox,Android,508,44.67,false,,0.00
+WEB-000081,SES-000081,C0282,CMP-001,STR-001,P108,2025-01-01T09:20:00+00:00,2025-01-01,page_view,/campaign-landing,Product,Organic,Mobile,Chrome,iOS,757,52.33,true,ORD-00081,5224.92
+WEB-000082,SES-000082,C0977,CMP-001,STR-006,P104,2025-01-01T09:27:00+00:00,2025-01-01,product_view,/home,Landing,Partner,Tablet,Edge,Android,391,50.66,false,,0.00
+WEB-000083,SES-000083,C0860,CMP-003,STR-001,P108,2025-01-01T09:34:00+00:00,2025-01-01,checkout_start,/category,Support,Organic,Desktop,Chrome,iOS,301,69.47,false,,0.00
+WEB-000084,SES-000084,C0408,CMP-002,STR-002,P108,2025-01-01T09:41:00+00:00,2025-01-01,page_view,/home,Checkout,Paid Search,Tablet,Firefox,Windows,515,64.73,false,,0.00
+WEB-000085,SES-000085,C0441,CMP-006,STR-002,P108,2025-01-01T09:48:00+00:00,2025-01-01,page_view,/cart,Checkout,Organic,Tablet,Chrome,Windows,456,74.47,true,ORD-00085,2939.36
+WEB-000086,SES-000086,C0165,CMP-001,STR-005,P110,2025-01-01T09:55:00+00:00,2025-01-01,purchase,/category,Product,Referral,Tablet,Chrome,Windows,823,94.19,false,,0.00
+WEB-000087,SES-000087,C0786,CMP-003,STR-004,P107,2025-01-01T10:02:00+00:00,2025-01-01,checkout_start,/product,Catalog,Social Media,Tablet,Firefox,Windows,367,61.95,false,,0.00
+WEB-000088,SES-000088,C0644,CMP-006,STR-003,P108,2025-01-01T10:09:00+00:00,2025-01-01,page_view,/cart,Landing,Paid Search,Mobile,Edge,macOS,716,11.98,false,,0.00
+WEB-000089,SES-000089,C0167,CMP-001,STR-005,P104,2025-01-01T10:16:00+00:00,2025-01-01,add_to_cart,/product,Landing,Referral,Desktop,Safari,Android,23,74.51,false,,0.00
+WEB-000090,SES-000090,C0870,CMP-001,STR-001,P101,2025-01-01T10:23:00+00:00,2025-01-01,product_view,/cart,Landing,Social Media,Tablet,Safari,Android,877,49.38,true,ORD-00090,5606.50
+WEB-000091,SES-000091,C0972,CMP-002,STR-005,P107,2025-01-01T10:30:00+00:00,2025-01-01,product_view,/campaign-landing,Checkout,Social Media,Desktop,Safari,iOS,460,99.33,false,,0.00
+WEB-000092,SES-000092,C0821,CMP-004,STR-002,P103,2025-01-01T10:37:00+00:00,2025-01-01,add_to_cart,/home,Landing,Direct,Desktop,Safari,macOS,438,68.23,false,,0.00
+WEB-000093,SES-000093,C0171,CMP-005,STR-001,P106,2025-01-01T10:44:00+00:00,2025-01-01,checkout_start,/checkout,Landing,Paid Search,Desktop,Firefox,macOS,434,94.3,false,,0.00
+WEB-000094,SES-000094,C0456,CMP-006,STR-004,P102,2025-01-01T10:51:00+00:00,2025-01-01,add_to_cart,/home,Catalog,Social Media,Tablet,Firefox,iOS,760,53.1,false,,0.00
+WEB-000095,SES-000095,C0342,CMP-004,STR-004,P103,2025-01-01T10:58:00+00:00,2025-01-01,page_view,/checkout,Product,Partner,Tablet,Safari,Android,840,36.59,false,,0.00
+WEB-000096,SES-000096,C0756,CMP-001,STR-003,P105,2025-01-01T11:05:00+00:00,2025-01-01,add_to_cart,/checkout,Support,Direct,Mobile,Firefox,iOS,631,69.29,false,,0.00
+WEB-000097,SES-000097,C0352,CMP-003,STR-004,P103,2025-01-01T11:12:00+00:00,2025-01-01,product_view,/home,Product,Paid Search,Tablet,Chrome,Windows,81,42.0,false,,0.00
+WEB-000098,SES-000098,C0642,CMP-001,STR-002,P107,2025-01-01T11:19:00+00:00,2025-01-01,page_view,/category,Product,Paid Search,Tablet,Chrome,iOS,367,62.6,false,,0.00
+WEB-000099,SES-000099,C0696,CMP-006,STR-001,P108,2025-01-01T11:26:00+00:00,2025-01-01,product_view,/category,Product,Social Media,Tablet,Safari,iOS,629,12.96,false,,0.00
+WEB-000100,SES-000100,C0933,CMP-002,STR-003,P108,2025-01-01T11:33:00+00:00,2025-01-01,add_to_cart,/category,Support,Partner,Tablet,Edge,Windows,512,94.31,false,,0.00
+WEB-000101,SES-000101,C0793,CMP-001,STR-004,P105,2025-01-01T11:40:00+00:00,2025-01-01,purchase,/cart,Catalog,Direct,Desktop,Chrome,macOS,115,54.2,false,,0.00
+WEB-000102,SES-000102,C0408,CMP-006,STR-002,P101,2025-01-01T11:47:00+00:00,2025-01-01,page_view,/checkout,Checkout,Referral,Mobile,Edge,iOS,714,76.37,false,,0.00
+WEB-000103,SES-000103,C0256,CMP-004,STR-005,P106,2025-01-01T11:54:00+00:00,2025-01-01,purchase,/home,Support,Direct,Tablet,Firefox,iOS,249,46.92,false,,0.00
+WEB-000104,SES-000104,C0721,CMP-004,STR-004,P107,2025-01-01T12:01:00+00:00,2025-01-01,purchase,/checkout,Product,Social Media,Desktop,Safari,Windows,249,35.52,false,,0.00
+WEB-000105,SES-000105,C0656,CMP-002,STR-004,P104,2025-01-01T12:08:00+00:00,2025-01-01,add_to_cart,/checkout,Checkout,Direct,Tablet,Safari,macOS,481,59.87,false,,0.00
+WEB-000106,SES-000106,C0320,CMP-003,STR-005,P106,2025-01-01T12:15:00+00:00,2025-01-01,add_to_cart,/home,Support,Referral,Tablet,Safari,Android,400,12.25,false,,0.00
+WEB-000107,SES-000107,C0934,CMP-004,STR-004,P108,2025-01-01T12:22:00+00:00,2025-01-01,add_to_cart,/product,Checkout,Social Media,Desktop,Edge,macOS,567,40.57,false,,0.00
+WEB-000108,SES-000108,C0311,CMP-005,STR-004,P107,2025-01-01T12:29:00+00:00,2025-01-01,purchase,/campaign-landing,Checkout,Direct,Tablet,Safari,Windows,40,38.5,false,,0.00
+WEB-000109,SES-000109,C0381,CMP-006,STR-005,P103,2025-01-01T12:36:00+00:00,2025-01-01,purchase,/home,Support,Direct,Desktop,Chrome,Windows,658,45.15,false,,0.00
+WEB-000110,SES-000110,C0700,CMP-006,STR-005,P106,2025-01-01T12:43:00+00:00,2025-01-01,product_view,/category,Checkout,Paid Search,Tablet,Edge,Windows,512,13.05,false,,0.00
+WEB-000111,SES-000111,C0468,CMP-001,STR-004,P107,2025-01-01T12:50:00+00:00,2025-01-01,add_to_cart,/category,Product,Direct,Mobile,Chrome,iOS,593,59.69,false,,0.00
+WEB-000112,SES-000112,C0894,CMP-006,STR-002,P101,2025-01-01T12:57:00+00:00,2025-01-01,checkout_start,/campaign-landing,Product,Partner,Tablet,Chrome,macOS,733,23.2,false,,0.00
+WEB-000113,SES-000113,C0661,CMP-006,STR-001,P110,2025-01-01T13:04:00+00:00,2025-01-01,checkout_start,/campaign-landing,Product,Paid Search,Desktop,Firefox,Windows,708,90.76,true,ORD-00113,1003.17
+WEB-000114,SES-000114,C0257,CMP-005,STR-006,P105,2025-01-01T13:11:00+00:00,2025-01-01,product_view,/checkout,Support,Organic,Tablet,Firefox,Windows,351,59.01,true,ORD-00114,1008.18
+WEB-000115,SES-000115,C0347,CMP-005,STR-001,P104,2025-01-01T13:18:00+00:00,2025-01-01,page_view,/campaign-landing,Checkout,Social Media,Desktop,Chrome,macOS,206,38.16,false,,0.00
+WEB-000116,SES-000116,C0610,CMP-002,STR-005,P103,2025-01-01T13:25:00+00:00,2025-01-01,page_view,/checkout,Support,Partner,Tablet,Chrome,Android,424,12.6,false,,0.00
+WEB-000117,SES-000117,C0712,CMP-002,STR-004,P110,2025-01-01T13:32:00+00:00,2025-01-01,checkout_start,/checkout,Catalog,Social Media,Tablet,Safari,iOS,409,13.06,false,,0.00
+WEB-000118,SES-000118,C0564,CMP-003,STR-004,P107,2025-01-01T13:39:00+00:00,2025-01-01,purchase,/checkout,Product,Social Media,Tablet,Safari,Windows,143,71.2,false,,0.00
+WEB-000119,SES-000119,C0001,CMP-003,STR-002,P101,2025-01-01T13:46:00+00:00,2025-01-01,purchase,/campaign-landing,Landing,Direct,Mobile,Safari,iOS,61,76.52,false,,0.00
+WEB-000120,SES-000120,C0011,CMP-001,STR-001,P108,2025-01-01T13:53:00+00:00,2025-01-01,add_to_cart,/category,Checkout,Organic,Desktop,Safari,Android,488,43.07,false,,0.00
+WEB-000121,SES-000121,C0376,CMP-001,STR-003,P105,2025-01-01T14:00:00+00:00,2025-01-01,product_view,/cart,Catalog,Partner,Desktop,Edge,Android,240,82.39,false,,0.00
+WEB-000122,SES-000122,C0679,CMP-004,STR-002,P109,2025-01-01T14:07:00+00:00,2025-01-01,checkout_start,/checkout,Support,Referral,Desktop,Firefox,Windows,697,77.23,true,ORD-00122,5903.52
+WEB-000123,SES-000123,C0332,CMP-005,STR-001,P106,2025-01-01T14:14:00+00:00,2025-01-01,checkout_start,/category,Checkout,Partner,Tablet,Firefox,Android,23,69.35,true,ORD-00123,1093.51
+WEB-000124,SES-000124,C0914,CMP-006,STR-002,P109,2025-01-01T14:21:00+00:00,2025-01-01,checkout_start,/home,Catalog,Organic,Desktop,Edge,iOS,531,78.5,false,,0.00
+WEB-000125,SES-000125,C0984,CMP-004,STR-003,P109,2025-01-01T14:28:00+00:00,2025-01-01,add_to_cart,/home,Checkout,Paid Search,Tablet,Safari,iOS,776,91.43,false,,0.00
+WEB-000126,SES-000126,C0480,CMP-003,STR-006,P110,2025-01-01T14:35:00+00:00,2025-01-01,page_view,/campaign-landing,Checkout,Direct,Desktop,Chrome,macOS,262,61.48,false,,0.00
+WEB-000127,SES-000127,C0576,CMP-001,STR-004,P110,2025-01-01T14:42:00+00:00,2025-01-01,product_view,/category,Landing,Social Media,Mobile,Chrome,Windows,62,66.9,false,,0.00
+WEB-000128,SES-000128,C0890,CMP-004,STR-002,P103,2025-01-01T14:49:00+00:00,2025-01-01,product_view,/home,Support,Organic,Tablet,Firefox,Windows,776,96.74,false,,0.00
+WEB-000129,SES-000129,C0822,CMP-001,STR-005,P101,2025-01-01T14:56:00+00:00,2025-01-01,purchase,/category,Catalog,Partner,Desktop,Chrome,Windows,357,75.75,false,,0.00
+WEB-000130,SES-000130,C0353,CMP-006,STR-004,P106,2025-01-01T15:03:00+00:00,2025-01-01,purchase,/cart,Checkout,Paid Search,Desktop,Firefox,Windows,262,48.97,false,,0.00
+WEB-000131,SES-000131,C0800,CMP-004,STR-002,P104,2025-01-01T15:10:00+00:00,2025-01-01,product_view,/category,Catalog,Organic,Mobile,Chrome,Windows,631,26.25,false,,0.00
+WEB-000132,SES-000132,C0119,CMP-006,STR-001,P110,2025-01-01T15:17:00+00:00,2025-01-01,purchase,/cart,Landing,Referral,Desktop,Firefox,macOS,531,10.48,false,,0.00
+WEB-000133,SES-000133,C0858,CMP-005,STR-004,P105,2025-01-01T15:24:00+00:00,2025-01-01,product_view,/product,Checkout,Direct,Mobile,Safari,Android,95,17.89,false,,0.00
+WEB-000134,SES-000134,C0097,CMP-001,STR-006,P101,2025-01-01T15:31:00+00:00,2025-01-01,purchase,/home,Support,Organic,Mobile,Firefox,iOS,209,34.2,false,,0.00
+WEB-000135,SES-000135,C0200,CMP-003,STR-005,P101,2025-01-01T15:38:00+00:00,2025-01-01,page_view,/campaign-landing,Checkout,Partner,Mobile,Safari,Windows,362,22.95,false,,0.00
+WEB-000136,SES-000136,C0369,CMP-003,STR-002,P106,2025-01-01T15:45:00+00:00,2025-01-01,product_view,/product,Support,Partner,Tablet,Edge,macOS,686,52.65,false,,0.00
+WEB-000137,SES-000137,C0991,CMP-004,STR-005,P109,2025-01-01T15:52:00+00:00,2025-01-01,purchase,/home,Product,Organic,Desktop,Safari,macOS,778,53.33,false,,0.00
+WEB-000138,SES-000138,C0361,CMP-004,STR-006,P105,2025-01-01T15:59:00+00:00,2025-01-01,checkout_start,/cart,Product,Partner,Desktop,Chrome,macOS,12,6.07,false,,0.00
+WEB-000139,SES-000139,C0467,CMP-003,STR-001,P101,2025-01-01T16:06:00+00:00,2025-01-01,purchase,/category,Landing,Paid Search,Desktop,Edge,iOS,759,96.77,false,,0.00
+WEB-000140,SES-000140,C0536,CMP-005,STR-004,P102,2025-01-01T16:13:00+00:00,2025-01-01,checkout_start,/campaign-landing,Catalog,Social Media,Mobile,Edge,Windows,856,57.28,false,,0.00
+WEB-000141,SES-000141,C0589,CMP-001,STR-006,P109,2025-01-01T16:20:00+00:00,2025-01-01,product_view,/home,Catalog,Direct,Mobile,Safari,macOS,682,81.32,false,,0.00
+WEB-000142,SES-000142,C0006,CMP-006,STR-006,P102,2025-01-01T16:27:00+00:00,2025-01-01,product_view,/checkout,Product,Paid Search,Tablet,Edge,iOS,454,64.58,false,,0.00
+WEB-000143,SES-000143,C0159,CMP-001,STR-003,P108,2025-01-01T16:34:00+00:00,2025-01-01,checkout_start,/product,Checkout,Referral,Tablet,Edge,macOS,606,70.71,false,,0.00
+WEB-000144,SES-000144,C0547,CMP-002,STR-006,P110,2025-01-01T16:41:00+00:00,2025-01-01,checkout_start,/product,Product,Partner,Mobile,Firefox,iOS,370,20.6,false,,0.00
+WEB-000145,SES-000145,C0691,CMP-005,STR-003,P101,2025-01-01T16:48:00+00:00,2025-01-01,purchase,/product,Landing,Partner,Mobile,Firefox,Windows,595,39.43,false,,0.00
+WEB-000146,SES-000146,C0199,CMP-002,STR-004,P102,2025-01-01T16:55:00+00:00,2025-01-01,checkout_start,/cart,Landing,Partner,Desktop,Edge,Android,147,74.95,false,,0.00
+WEB-000147,SES-000147,C0587,CMP-003,STR-005,P106,2025-01-01T17:02:00+00:00,2025-01-01,checkout_start,/cart,Product,Paid Search,Desktop,Edge,iOS,599,69.65,false,,0.00
+WEB-000148,SES-000148,C0596,CMP-001,STR-002,P105,2025-01-01T17:09:00+00:00,2025-01-01,product_view,/home,Catalog,Partner,Desktop,Safari,Windows,6,35.35,false,,0.00
+WEB-000149,SES-000149,C0356,CMP-004,STR-001,P106,2025-01-01T17:16:00+00:00,2025-01-01,checkout_start,/home,Product,Social Media,Mobile,Firefox,macOS,423,43.71,false,,0.00
+WEB-000150,SES-000150,C0138,CMP-006,STR-001,P108,2025-01-01T17:23:00+00:00,2025-01-01,product_view,/checkout,Catalog,Paid Search,Mobile,Safari,Android,370,46.49,false,,0.00
+WEB-000151,SES-000151,C0003,CMP-004,STR-002,P108,2025-01-01T17:30:00+00:00,2025-01-01,product_view,/cart,Landing,Organic,Tablet,Chrome,Android,885,87.68,false,,0.00
+WEB-000152,SES-000152,C0076,CMP-006,STR-002,P107,2025-01-01T17:37:00+00:00,2025-01-01,checkout_start,/home,Product,Referral,Desktop,Chrome,macOS,801,64.72,true,ORD-00152,1225.13
+WEB-000153,SES-000153,C0487,CMP-006,STR-002,P103,2025-01-01T17:44:00+00:00,2025-01-01,product_view,/campaign-landing,Landing,Organic,Mobile,Safari,Windows,561,92.23,false,,0.00
+WEB-000154,SES-000154,C0342,CMP-006,STR-004,P105,2025-01-01T17:51:00+00:00,2025-01-01,add_to_cart,/home,Catalog,Social Media,Tablet,Firefox,Android,896,31.37,false,,0.00
+WEB-000155,SES-000155,C0628,CMP-001,STR-003,P101,2025-01-01T17:58:00+00:00,2025-01-01,purchase,/product,Checkout,Organic,Desktop,Firefox,Android,627,50.25,false,,0.00
+WEB-000156,SES-000156,C0429,CMP-006,STR-002,P109,2025-01-01T18:05:00+00:00,2025-01-01,product_view,/product,Product,Direct,Mobile,Firefox,iOS,615,43.27,false,,0.00
+WEB-000157,SES-000157,C0578,CMP-003,STR-005,P108,2025-01-01T18:12:00+00:00,2025-01-01,checkout_start,/cart,Catalog,Partner,Mobile,Safari,Android,178,60.31,true,ORD-00157,4463.33
+WEB-000158,SES-000158,C0639,CMP-004,STR-006,P103,2025-01-01T18:19:00+00:00,2025-01-01,checkout_start,/checkout,Landing,Organic,Mobile,Chrome,Android,238,41.25,false,,0.00
+WEB-000159,SES-000159,C0342,CMP-006,STR-004,P107,2025-01-01T18:26:00+00:00,2025-01-01,purchase,/product,Catalog,Partner,Tablet,Safari,iOS,436,86.91,false,,0.00
+WEB-000160,SES-000160,C0168,CMP-002,STR-003,P104,2025-01-01T18:33:00+00:00,2025-01-01,product_view,/cart,Checkout,Partner,Mobile,Edge,iOS,576,86.11,false,,0.00
+WEB-000161,SES-000161,C0391,CMP-003,STR-005,P104,2025-01-01T18:40:00+00:00,2025-01-01,product_view,/cart,Product,Paid Search,Desktop,Firefox,iOS,106,44.18,true,ORD-00161,7478.27
+WEB-000162,SES-000162,C0836,CMP-002,STR-002,P103,2025-01-01T18:47:00+00:00,2025-01-01,add_to_cart,/campaign-landing,Catalog,Paid Search,Tablet,Firefox,Windows,311,14.15,false,,0.00
+WEB-000163,SES-000163,C0150,CMP-006,STR-005,P105,2025-01-01T18:54:00+00:00,2025-01-01,purchase,/cart,Product,Partner,Tablet,Edge,Windows,154,7.33,false,,0.00
+WEB-000164,SES-000164,C0459,CMP-005,STR-002,P109,2025-01-01T19:01:00+00:00,2025-01-01,page_view,/category,Product,Social Media,Desktop,Edge,Android,316,53.33,false,,0.00
+WEB-000165,SES-000165,C0619,CMP-004,STR-001,P106,2025-01-01T19:08:00+00:00,2025-01-01,add_to_cart,/category,Landing,Direct,Tablet,Firefox,iOS,836,59.31,false,,0.00
+WEB-000166,SES-000166,C0058,CMP-005,STR-004,P109,2025-01-01T19:15:00+00:00,2025-01-01,purchase,/category,Support,Social Media,Mobile,Safari,Windows,165,67.72,false,,0.00
+WEB-000167,SES-000167,C0612,CMP-004,STR-002,P101,2025-01-01T19:22:00+00:00,2025-01-01,page_view,/home,Catalog,Direct,Mobile,Firefox,Android,602,90.02,false,,0.00
+WEB-000168,SES-000168,C0502,CMP-004,STR-002,P104,2025-01-01T19:29:00+00:00,2025-01-01,product_view,/checkout,Support,Partner,Desktop,Firefox,macOS,211,16.78,false,,0.00
+WEB-000169,SES-000169,C0970,CMP-002,STR-001,P109,2025-01-01T19:36:00+00:00,2025-01-01,page_view,/category,Product,Partner,Desktop,Safari,Android,597,71.46,false,,0.00
+WEB-000170,SES-000170,C0962,CMP-002,STR-006,P106,2025-01-01T19:43:00+00:00,2025-01-01,page_view,/campaign-landing,Catalog,Social Media,Desktop,Firefox,Android,7,95.11,false,,0.00
+WEB-000171,SES-000171,C0285,CMP-001,STR-002,P105,2025-01-01T19:50:00+00:00,2025-01-01,checkout_start,/product,Landing,Social Media,Tablet,Firefox,macOS,249,14.59,false,,0.00
+WEB-000172,SES-000172,C0724,CMP-006,STR-006,P104,2025-01-01T19:57:00+00:00,2025-01-01,product_view,/cart,Checkout,Referral,Desktop,Safari,Android,691,80.74,false,,0.00
+WEB-000173,SES-000173,C0361,CMP-003,STR-005,P104,2025-01-01T20:04:00+00:00,2025-01-01,add_to_cart,/checkout,Product,Partner,Desktop,Chrome,Android,825,86.86,true,ORD-00173,2155.88
+WEB-000174,SES-000174,C0781,CMP-005,STR-006,P101,2025-01-01T20:11:00+00:00,2025-01-01,checkout_start,/checkout,Landing,Direct,Desktop,Firefox,iOS,274,58.13,false,,0.00
+WEB-000175,SES-000175,C0759,CMP-001,STR-001,P104,2025-01-01T20:18:00+00:00,2025-01-01,product_view,/product,Catalog,Direct,Mobile,Firefox,iOS,807,28.52,false,,0.00
+WEB-000176,SES-000176,C0478,CMP-002,STR-006,P106,2025-01-01T20:25:00+00:00,2025-01-01,add_to_cart,/cart,Product,Direct,Mobile,Firefox,macOS,194,9.87,false,,0.00
+WEB-000177,SES-000177,C0470,CMP-006,STR-002,P101,2025-01-01T20:32:00+00:00,2025-01-01,purchase,/home,Catalog,Paid Search,Mobile,Chrome,Android,682,18.68,true,ORD-00177,2080.07
+WEB-000178,SES-000178,C0757,CMP-002,STR-006,P107,2025-01-01T20:39:00+00:00,2025-01-01,page_view,/home,Catalog,Social Media,Tablet,Chrome,macOS,169,62.23,false,,0.00
+WEB-000179,SES-000179,C0583,CMP-003,STR-004,P107,2025-01-01T20:46:00+00:00,2025-01-01,checkout_start,/campaign-landing,Checkout,Paid Search,Tablet,Safari,Android,125,59.27,false,,0.00
+WEB-000180,SES-000180,C0328,CMP-006,STR-006,P105,2025-01-01T20:53:00+00:00,2025-01-01,product_view,/cart,Checkout,Partner,Desktop,Edge,Windows,232,93.51,false,,0.00
+WEB-000181,SES-000181,C0354,CMP-006,STR-003,P103,2025-01-01T21:00:00+00:00,2025-01-01,product_view,/campaign-landing,Product,Partner,Tablet,Firefox,Android,311,88.36,false,,0.00
+WEB-000182,SES-000182,C0766,CMP-002,STR-003,P103,2025-01-01T21:07:00+00:00,2025-01-01,purchase,/category,Support,Organic,Tablet,Edge,Android,121,99.57,false,,0.00
+WEB-000183,SES-000183,C0667,CMP-003,STR-003,P107,2025-01-01T21:14:00+00:00,2025-01-01,add_to_cart,/cart,Support,Referral,Tablet,Safari,macOS,607,25.15,false,,0.00
+WEB-000184,SES-000184,C0751,CMP-001,STR-002,P101,2025-01-01T21:21:00+00:00,2025-01-01,page_view,/category,Support,Referral,Tablet,Edge,macOS,749,19.69,false,,0.00
+WEB-000185,SES-000185,C0669,CMP-001,STR-003,P101,2025-01-01T21:28:00+00:00,2025-01-01,add_to_cart,/checkout,Product,Paid Search,Mobile,Chrome,Windows,757,37.65,false,,0.00
+WEB-000186,SES-000186,C0940,CMP-002,STR-001,P110,2025-01-01T21:35:00+00:00,2025-01-01,add_to_cart,/cart,Landing,Social Media,Desktop,Chrome,Windows,877,81.98,false,,0.00
+WEB-000187,SES-000187,C0470,CMP-006,STR-003,P101,2025-01-01T21:42:00+00:00,2025-01-01,page_view,/checkout,Support,Direct,Tablet,Chrome,Android,609,8.71,false,,0.00
+WEB-000188,SES-000188,C0397,CMP-001,STR-004,P107,2025-01-01T21:49:00+00:00,2025-01-01,page_view,/checkout,Landing,Referral,Mobile,Firefox,Android,586,30.51,false,,0.00
+WEB-000189,SES-000189,C0360,CMP-003,STR-006,P102,2025-01-01T21:56:00+00:00,2025-01-01,product_view,/home,Support,Organic,Mobile,Chrome,macOS,692,7.39,false,,0.00
+WEB-000190,SES-000190,C0082,CMP-002,STR-006,P107,2025-01-01T22:03:00+00:00,2025-01-01,add_to_cart,/campaign-landing,Checkout,Paid Search,Desktop,Firefox,Android,848,24.13,false,,0.00
+WEB-000191,SES-000191,C0011,CMP-006,STR-004,P105,2025-01-01T22:10:00+00:00,2025-01-01,purchase,/cart,Landing,Referral,Mobile,Firefox,iOS,608,54.99,false,,0.00
+WEB-000192,SES-000192,C0450,CMP-003,STR-006,P103,2025-01-01T22:17:00+00:00,2025-01-01,product_view,/category,Landing,Paid Search,Mobile,Edge,Windows,294,8.64,false,,0.00
+WEB-000193,SES-000193,C0439,CMP-002,STR-003,P110,2025-01-01T22:24:00+00:00,2025-01-01,product_view,/cart,Catalog,Direct,Desktop,Firefox,macOS,762,28.4,false,,0.00
+WEB-000194,SES-000194,C0027,CMP-005,STR-006,P110,2025-01-01T22:31:00+00:00,2025-01-01,add_to_cart,/home,Catalog,Partner,Desktop,Edge,iOS,806,70.65,false,,0.00
+WEB-000195,SES-000195,C0751,CMP-003,STR-006,P102,2025-01-01T22:38:00+00:00,2025-01-01,checkout_start,/cart,Support,Organic,Mobile,Safari,Windows,238,72.27,false,,0.00
+WEB-000196,SES-000196,C0661,CMP-004,STR-002,P103,2025-01-01T22:45:00+00:00,2025-01-01,product_view,/campaign-landing,Landing,Social Media,Tablet,Edge,macOS,403,15.52,false,,0.00
+WEB-000197,SES-000197,C0072,CMP-005,STR-006,P103,2025-01-01T22:52:00+00:00,2025-01-01,page_view,/cart,Catalog,Social Media,Tablet,Safari,macOS,522,94.77,true,ORD-00197,8147.13
+WEB-000198,SES-000198,C0467,CMP-005,STR-001,P108,2025-01-01T22:59:00+00:00,2025-01-01,add_to_cart,/home,Product,Partner,Tablet,Firefox,macOS,605,28.56,false,,0.00
+WEB-000199,SES-000199,C0761,CMP-003,STR-004,P102,2025-01-01T23:06:00+00:00,2025-01-01,page_view,/checkout,Catalog,Social Media,Tablet,Edge,iOS,537,65.12,true,ORD-00199,853.67
+WEB-000200,SES-000200,C0457,CMP-005,STR-003,P103,2025-01-01T23:13:00+00:00,2025-01-01,add_to_cart,/cart,Support,Referral,Tablet,Edge,macOS,130,24.5,false,,0.00
+WEB-000201,SES-000201,C0568,CMP-001,STR-006,P105,2025-01-01T23:20:00+00:00,2025-01-01,purchase,/cart,Product,Direct,Mobile,Firefox,iOS,155,53.99,false,,0.00
+WEB-000202,SES-000202,C0428,CMP-002,STR-002,P104,2025-01-01T23:27:00+00:00,2025-01-01,checkout_start,/category,Landing,Organic,Desktop,Safari,iOS,342,44.29,false,,0.00
+WEB-000203,SES-000203,C0539,CMP-006,STR-001,P101,2025-01-01T23:34:00+00:00,2025-01-01,purchase,/campaign-landing,Catalog,Organic,Mobile,Safari,Windows,154,63.35,false,,0.00
+WEB-000204,SES-000204,C0913,CMP-003,STR-003,P107,2025-01-01T23:41:00+00:00,2025-01-01,purchase,/category,Checkout,Referral,Desktop,Firefox,macOS,333,82.81,false,,0.00
+WEB-000205,SES-000205,C0381,CMP-006,STR-002,P101,2025-01-01T23:48:00+00:00,2025-01-01,page_view,/home,Support,Referral,Mobile,Firefox,macOS,198,7.89,false,,0.00
+WEB-000206,SES-000206,C0535,CMP-005,STR-001,P105,2025-01-01T23:55:00+00:00,2025-01-01,purchase,/campaign-landing,Checkout,Partner,Tablet,Chrome,Windows,223,64.72,false,,0.00
+WEB-000207,SES-000207,C0381,CMP-006,STR-006,P101,2025-01-02T00:02:00+00:00,2025-01-02,checkout_start,/checkout,Landing,Partner,Mobile,Edge,iOS,821,17.37,false,,0.00
+WEB-000208,SES-000208,C0636,CMP-001,STR-006,P106,2025-01-02T00:09:00+00:00,2025-01-02,checkout_start,/product,Product,Referral,Desktop,Safari,macOS,274,11.45,false,,0.00
+WEB-000209,SES-000209,C0871,CMP-004,STR-004,P106,2025-01-02T00:16:00+00:00,2025-01-02,purchase,/cart,Product,Partner,Desktop,Safari,Windows,736,46.18,false,,0.00
+WEB-000210,SES-000210,C0613,CMP-004,STR-001,P103,2025-01-02T00:23:00+00:00,2025-01-02,page_view,/product,Checkout,Referral,Mobile,Chrome,macOS,181,77.05,false,,0.00
+WEB-000211,SES-000211,C0004,CMP-006,STR-002,P104,2025-01-02T00:30:00+00:00,2025-01-02,checkout_start,/category,Landing,Direct,Mobile,Safari,Windows,211,26.06,false,,0.00
+WEB-000212,SES-000212,C0501,CMP-005,STR-003,P109,2025-01-02T00:37:00+00:00,2025-01-02,page_view,/category,Catalog,Organic,Tablet,Chrome,macOS,28,50.23,false,,0.00
+WEB-000213,SES-000213,C0803,CMP-003,STR-006,P110,2025-01-02T00:44:00+00:00,2025-01-02,add_to_cart,/home,Checkout,Referral,Tablet,Chrome,Android,421,56.38,true,ORD-00213,739.22
+WEB-000214,SES-000214,C0020,CMP-003,STR-006,P106,2025-01-02T00:51:00+00:00,2025-01-02,checkout_start,/checkout,Checkout,Paid Search,Mobile,Edge,macOS,196,28.32,true,ORD-00214,2339.92
+WEB-000215,SES-000215,C0725,CMP-005,STR-003,P109,2025-01-02T00:58:00+00:00,2025-01-02,page_view,/home,Checkout,Paid Search,Desktop,Edge,Android,506,22.71,true,ORD-00215,3829.53
+WEB-000216,SES-000216,C0195,CMP-001,STR-005,P110,2025-01-02T01:05:00+00:00,2025-01-02,page_view,/campaign-landing,Support,Partner,Desktop,Firefox,macOS,91,43.36,true,ORD-00216,767.35
+WEB-000217,SES-000217,C0926,CMP-004,STR-006,P104,2025-01-02T01:12:00+00:00,2025-01-02,add_to_cart,/product,Catalog,Referral,Desktop,Edge,iOS,338,92.35,false,,0.00
+WEB-000218,SES-000218,C0772,CMP-001,STR-005,P104,2025-01-02T01:19:00+00:00,2025-01-02,purchase,/home,Support,Partner,Tablet,Chrome,macOS,474,95.29,true,ORD-00218,2258.13
+WEB-000219,SES-000219,C0868,CMP-003,STR-004,P104,2025-01-02T01:26:00+00:00,2025-01-02,checkout_start,/category,Catalog,Social Media,Tablet,Safari,Android,460,23.22,false,,0.00
+WEB-000220,SES-000220,C0091,CMP-004,STR-004,P101,2025-01-02T01:33:00+00:00,2025-01-02,product_view,/product,Landing,Referral,Mobile,Safari,Windows,814,78.88,false,,0.00
+WEB-000221,SES-000221,C0134,CMP-002,STR-005,P110,2025-01-02T01:40:00+00:00,2025-01-02,product_view,/category,Product,Organic,Tablet,Firefox,Android,145,54.05,false,,0.00
+WEB-000222,SES-000222,C0564,CMP-002,STR-005,P107,2025-01-02T01:47:00+00:00,2025-01-02,purchase,/category,Checkout,Social Media,Tablet,Safari,macOS,795,5.19,true,ORD-00222,2205.18
+WEB-000223,SES-000223,C0544,CMP-001,STR-002,P107,2025-01-02T01:54:00+00:00,2025-01-02,checkout_start,/campaign-landing,Product,Organic,Tablet,Safari,iOS,754,73.62,false,,0.00
+WEB-000224,SES-000224,C0018,CMP-005,STR-001,P108,2025-01-02T02:01:00+00:00,2025-01-02,purchase,/home,Checkout,Organic,Tablet,Safari,iOS,755,71.98,false,,0.00
+WEB-000225,SES-000225,C0829,CMP-001,STR-002,P106,2025-01-02T02:08:00+00:00,2025-01-02,product_view,/cart,Product,Referral,Tablet,Chrome,macOS,766,72.07,false,,0.00
+WEB-000226,SES-000226,C0534,CMP-003,STR-006,P102,2025-01-02T02:15:00+00:00,2025-01-02,product_view,/campaign-landing,Product,Social Media,Tablet,Edge,Android,431,22.28,false,,0.00
+WEB-000227,SES-000227,C0365,CMP-006,STR-006,P101,2025-01-02T02:22:00+00:00,2025-01-02,page_view,/product,Landing,Organic,Tablet,Edge,Windows,415,38.07,false,,0.00
+WEB-000228,SES-000228,C0815,CMP-006,STR-001,P107,2025-01-02T02:29:00+00:00,2025-01-02,page_view,/checkout,Catalog,Social Media,Tablet,Safari,Windows,443,59.07,false,,0.00
+WEB-000229,SES-000229,C0365,CMP-004,STR-006,P102,2025-01-02T02:36:00+00:00,2025-01-02,checkout_start,/checkout,Product,Referral,Desktop,Edge,macOS,770,78.29,false,,0.00
+WEB-000230,SES-000230,C0559,CMP-001,STR-004,P106,2025-01-02T02:43:00+00:00,2025-01-02,add_to_cart,/category,Product,Paid Search,Desktop,Chrome,Windows,596,57.07,false,,0.00
+WEB-000231,SES-000231,C0031,CMP-004,STR-006,P102,2025-01-02T02:50:00+00:00,2025-01-02,purchase,/home,Landing,Referral,Tablet,Firefox,Android,353,9.26,false,,0.00
+WEB-000232,SES-000232,C0693,CMP-002,STR-006,P109,2025-01-02T02:57:00+00:00,2025-01-02,page_view,/category,Checkout,Organic,Mobile,Firefox,Windows,132,88.25,false,,0.00
+WEB-000233,SES-000233,C0392,CMP-003,STR-001,P106,2025-01-02T03:04:00+00:00,2025-01-02,product_view,/product,Catalog,Partner,Mobile,Safari,Android,832,32.81,false,,0.00
+WEB-000234,SES-000234,C0799,CMP-005,STR-006,P103,2025-01-02T03:11:00+00:00,2025-01-02,page_view,/home,Landing,Direct,Desktop,Firefox,macOS,774,42.97,false,,0.00
+WEB-000235,SES-000235,C0371,CMP-002,STR-004,P107,2025-01-02T03:18:00+00:00,2025-01-02,add_to_cart,/product,Support,Paid Search,Desktop,Chrome,macOS,865,91.97,false,,0.00
+WEB-000236,SES-000236,C0243,CMP-006,STR-003,P107,2025-01-02T03:25:00+00:00,2025-01-02,purchase,/home,Support,Direct,Desktop,Safari,Android,893,25.87,false,,0.00
+WEB-000237,SES-000237,C0517,CMP-005,STR-006,P104,2025-01-02T03:32:00+00:00,2025-01-02,page_view,/product,Product,Referral,Tablet,Firefox,iOS,376,22.15,false,,0.00
+WEB-000238,SES-000238,C0554,CMP-006,STR-002,P106,2025-01-02T03:39:00+00:00,2025-01-02,add_to_cart,/product,Landing,Social Media,Tablet,Firefox,macOS,327,51.54,false,,0.00
+WEB-000239,SES-000239,C0135,CMP-005,STR-006,P110,2025-01-02T03:46:00+00:00,2025-01-02,checkout_start,/product,Support,Organic,Desktop,Safari,iOS,803,6.02,false,,0.00
+WEB-000240,SES-000240,C0716,CMP-005,STR-005,P107,2025-01-02T03:53:00+00:00,2025-01-02,page_view,/cart,Catalog,Organic,Tablet,Safari,Android,798,40.04,false,,0.00
+WEB-000241,SES-000241,C0910,CMP-006,STR-002,P105,2025-01-02T04:00:00+00:00,2025-01-02,checkout_start,/category,Support,Partner,Tablet,Safari,iOS,664,30.45,false,,0.00
+WEB-000242,SES-000242,C0088,CMP-004,STR-001,P106,2025-01-02T04:07:00+00:00,2025-01-02,purchase,/home,Product,Referral,Tablet,Edge,Android,425,40.98,false,,0.00
+WEB-000243,SES-000243,C0299,CMP-006,STR-006,P101,2025-01-02T04:14:00+00:00,2025-01-02,add_to_cart,/product,Checkout,Organic,Tablet,Safari,macOS,679,85.6,false,,0.00
+WEB-000244,SES-000244,C0742,CMP-005,STR-006,P109,2025-01-02T04:21:00+00:00,2025-01-02,add_to_cart,/checkout,Landing,Referral,Mobile,Edge,Windows,109,19.44,true,ORD-00244,5284.31
+WEB-000245,SES-000245,C0264,CMP-004,STR-006,P108,2025-01-02T04:28:00+00:00,2025-01-02,add_to_cart,/product,Landing,Direct,Tablet,Edge,macOS,723,22.89,false,,0.00
+WEB-000246,SES-000246,C0145,CMP-004,STR-005,P106,2025-01-02T04:35:00+00:00,2025-01-02,purchase,/product,Checkout,Partner,Mobile,Safari,macOS,149,19.57,false,,0.00
+WEB-000247,SES-000247,C0229,CMP-002,STR-003,P108,2025-01-02T04:42:00+00:00,2025-01-02,purchase,/cart,Landing,Partner,Mobile,Safari,Windows,851,49.82,false,,0.00
+WEB-000248,SES-000248,C0571,CMP-005,STR-003,P102,2025-01-02T04:49:00+00:00,2025-01-02,checkout_start,/cart,Support,Direct,Tablet,Edge,Android,337,42.28,false,,0.00
+WEB-000249,SES-000249,C0215,CMP-004,STR-003,P102,2025-01-02T04:56:00+00:00,2025-01-02,page_view,/category,Support,Referral,Desktop,Edge,Windows,240,30.82,false,,0.00
+WEB-000250,SES-000250,C0249,CMP-006,STR-001,P103,2025-01-02T05:03:00+00:00,2025-01-02,checkout_start,/cart,Support,Partner,Tablet,Safari,macOS,73,68.23,false,,0.00
+WEB-000251,SES-000251,C0782,CMP-004,STR-001,P108,2025-01-02T05:10:00+00:00,2025-01-02,checkout_start,/category,Catalog,Organic,Tablet,Chrome,macOS,146,87.72,false,,0.00
+WEB-000252,SES-000252,C0069,CMP-002,STR-003,P105,2025-01-02T05:17:00+00:00,2025-01-02,checkout_start,/category,Checkout,Organic,Mobile,Safari,Windows,656,42.98,false,,0.00
+WEB-000253,SES-000253,C0444,CMP-004,STR-006,P104,2025-01-02T05:24:00+00:00,2025-01-02,checkout_start,/campaign-landing,Landing,Paid Search,Desktop,Firefox,Android,436,36.73,false,,0.00
+WEB-000254,SES-000254,C0881,CMP-002,STR-005,P108,2025-01-02T05:31:00+00:00,2025-01-02,product_view,/category,Landing,Direct,Desktop,Chrome,macOS,268,62.51,false,,0.00
+WEB-000255,SES-000255,C0092,CMP-002,STR-003,P110,2025-01-02T05:38:00+00:00,2025-01-02,page_view,/home,Checkout,Social Media,Mobile,Safari,macOS,153,9.14,false,,0.00
+WEB-000256,SES-000256,C0590,CMP-006,STR-002,P110,2025-01-02T05:45:00+00:00,2025-01-02,page_view,/campaign-landing,Catalog,Paid Search,Mobile,Chrome,macOS,118,20.04,true,ORD-00256,929.18
+WEB-000257,SES-000257,C0378,CMP-006,STR-006,P101,2025-01-02T05:52:00+00:00,2025-01-02,add_to_cart,/checkout,Catalog,Organic,Desktop,Edge,macOS,691,85.86,false,,0.00
+WEB-000258,SES-000258,C0040,CMP-006,STR-001,P105,2025-01-02T05:59:00+00:00,2025-01-02,add_to_cart,/category,Checkout,Social Media,Desktop,Safari,iOS,665,97.58,false,,0.00
+WEB-000259,SES-000259,C0217,CMP-004,STR-001,P104,2025-01-02T06:06:00+00:00,2025-01-02,page_view,/campaign-landing,Support,Partner,Desktop,Firefox,Android,229,46.0,false,,0.00
+WEB-000260,SES-000260,C0084,CMP-005,STR-006,P108,2025-01-02T06:13:00+00:00,2025-01-02,product_view,/home,Checkout,Partner,Desktop,Chrome,iOS,581,71.37,false,,0.00
+WEB-000261,SES-000261,C0659,CMP-003,STR-006,P107,2025-01-02T06:20:00+00:00,2025-01-02,add_to_cart,/product,Product,Direct,Tablet,Chrome,Windows,505,41.45,false,,0.00
+WEB-000262,SES-000262,C0845,CMP-001,STR-001,P109,2025-01-02T06:27:00+00:00,2025-01-02,product_view,/checkout,Landing,Referral,Tablet,Firefox,Windows,148,60.15,false,,0.00
+WEB-000263,SES-000263,C0307,CMP-006,STR-002,P106,2025-01-02T06:34:00+00:00,2025-01-02,product_view,/cart,Catalog,Referral,Tablet,Chrome,Windows,210,92.11,false,,0.00
+WEB-000264,SES-000264,C0207,CMP-003,STR-002,P101,2025-01-02T06:41:00+00:00,2025-01-02,page_view,/cart,Product,Partner,Desktop,Firefox,macOS,79,28.36,true,ORD-00264,4109.10
+WEB-000265,SES-000265,C0422,CMP-005,STR-006,P105,2025-01-02T06:48:00+00:00,2025-01-02,checkout_start,/campaign-landing,Landing,Organic,Tablet,Edge,macOS,455,51.74,false,,0.00
+WEB-000266,SES-000266,C0914,CMP-006,STR-003,P108,2025-01-02T06:55:00+00:00,2025-01-02,purchase,/checkout,Product,Paid Search,Mobile,Edge,macOS,555,61.96,true,ORD-00266,1338.31
+WEB-000267,SES-000267,C0834,CMP-004,STR-004,P107,2025-01-02T07:02:00+00:00,2025-01-02,purchase,/campaign-landing,Catalog,Social Media,Mobile,Edge,Windows,305,68.1,true,ORD-00267,5846.56
+WEB-000268,SES-000268,C0712,CMP-005,STR-003,P104,2025-01-02T07:09:00+00:00,2025-01-02,product_view,/checkout,Product,Direct,Tablet,Safari,Windows,221,86.71,false,,0.00
+WEB-000269,SES-000269,C0810,CMP-005,STR-006,P104,2025-01-02T07:16:00+00:00,2025-01-02,page_view,/category,Product,Organic,Tablet,Safari,macOS,765,83.36,true,ORD-00269,1512.87
+WEB-000270,SES-000270,C0364,CMP-006,STR-001,P104,2025-01-02T07:23:00+00:00,2025-01-02,add_to_cart,/category,Product,Direct,Tablet,Edge,Windows,528,96.83,false,,0.00
+WEB-000271,SES-000271,C0015,CMP-001,STR-006,P106,2025-01-02T07:30:00+00:00,2025-01-02,page_view,/category,Catalog,Partner,Desktop,Edge,macOS,225,96.63,true,ORD-00271,858.44
+WEB-000272,SES-000272,C0840,CMP-003,STR-006,P106,2025-01-02T07:37:00+00:00,2025-01-02,purchase,/product,Checkout,Organic,Tablet,Firefox,Windows,546,77.28,false,,0.00
+WEB-000273,SES-000273,C0170,CMP-003,STR-002,P106,2025-01-02T07:44:00+00:00,2025-01-02,add_to_cart,/category,Landing,Paid Search,Tablet,Edge,Windows,180,47.7,false,,0.00
+WEB-000274,SES-000274,C0934,CMP-005,STR-002,P101,2025-01-02T07:51:00+00:00,2025-01-02,purchase,/category,Checkout,Partner,Mobile,Edge,Windows,520,66.51,false,,0.00
+WEB-000275,SES-000275,C0257,CMP-005,STR-004,P101,2025-01-02T07:58:00+00:00,2025-01-02,page_view,/home,Landing,Paid Search,Tablet,Chrome,macOS,706,28.9,false,,0.00
+WEB-000276,SES-000276,C0002,CMP-001,STR-002,P102,2025-01-02T08:05:00+00:00,2025-01-02,checkout_start,/home,Product,Organic,Tablet,Firefox,macOS,563,86.15,false,,0.00
+WEB-000277,SES-000277,C0192,CMP-005,STR-006,P104,2025-01-02T08:12:00+00:00,2025-01-02,page_view,/cart,Support,Organic,Tablet,Chrome,macOS,356,95.35,false,,0.00
+WEB-000278,SES-000278,C0679,CMP-006,STR-001,P110,2025-01-02T08:19:00+00:00,2025-01-02,product_view,/category,Support,Organic,Desktop,Safari,Windows,678,99.99,false,,0.00
+WEB-000279,SES-000279,C0782,CMP-002,STR-005,P105,2025-01-02T08:26:00+00:00,2025-01-02,product_view,/campaign-landing,Catalog,Referral,Tablet,Chrome,iOS,355,96.29,false,,0.00
+WEB-000280,SES-000280,C0479,CMP-001,STR-001,P105,2025-01-02T08:33:00+00:00,2025-01-02,add_to_cart,/home,Product,Direct,Desktop,Firefox,Android,659,36.22,false,,0.00
+WEB-000281,SES-000281,C0320,CMP-003,STR-006,P110,2025-01-02T08:40:00+00:00,2025-01-02,add_to_cart,/category,Landing,Social Media,Mobile,Safari,macOS,393,39.66,false,,0.00
+WEB-000282,SES-000282,C0313,CMP-003,STR-005,P103,2025-01-02T08:47:00+00:00,2025-01-02,product_view,/campaign-landing,Catalog,Direct,Tablet,Chrome,Windows,296,97.21,false,,0.00
+WEB-000283,SES-000283,C0394,CMP-001,STR-006,P106,2025-01-02T08:54:00+00:00,2025-01-02,product_view,/category,Support,Social Media,Desktop,Edge,macOS,621,15.82,false,,0.00
+WEB-000284,SES-000284,C0141,CMP-002,STR-001,P106,2025-01-02T09:01:00+00:00,2025-01-02,add_to_cart,/category,Catalog,Partner,Tablet,Edge,iOS,872,82.23,false,,0.00
+WEB-000285,SES-000285,C0435,CMP-003,STR-002,P105,2025-01-02T09:08:00+00:00,2025-01-02,purchase,/product,Support,Paid Search,Desktop,Firefox,Windows,427,10.81,true,ORD-00285,1143.96
+WEB-000286,SES-000286,C0989,CMP-001,STR-006,P108,2025-01-02T09:15:00+00:00,2025-01-02,checkout_start,/home,Product,Organic,Mobile,Edge,macOS,523,60.06,false,,0.00
+WEB-000287,SES-000287,C0413,CMP-004,STR-006,P110,2025-01-02T09:22:00+00:00,2025-01-02,page_view,/campaign-landing,Product,Partner,Tablet,Edge,macOS,190,52.87,false,,0.00
+WEB-000288,SES-000288,C0718,CMP-006,STR-004,P108,2025-01-02T09:29:00+00:00,2025-01-02,page_view,/checkout,Landing,Paid Search,Tablet,Chrome,macOS,466,65.17,false,,0.00
+WEB-000289,SES-000289,C0049,CMP-006,STR-002,P106,2025-01-02T09:36:00+00:00,2025-01-02,purchase,/cart,Landing,Paid Search,Tablet,Firefox,Android,496,90.06,false,,0.00
+WEB-000290,SES-000290,C0955,CMP-006,STR-002,P110,2025-01-02T09:43:00+00:00,2025-01-02,checkout_start,/category,Landing,Direct,Mobile,Edge,iOS,538,39.58,false,,0.00
+WEB-000291,SES-000291,C0442,CMP-006,STR-005,P107,2025-01-02T09:50:00+00:00,2025-01-02,page_view,/checkout,Product,Organic,Desktop,Firefox,macOS,353,71.46,false,,0.00
+WEB-000292,SES-000292,C0811,CMP-001,STR-003,P102,2025-01-02T09:57:00+00:00,2025-01-02,checkout_start,/home,Landing,Paid Search,Desktop,Firefox,Windows,252,25.88,false,,0.00
+WEB-000293,SES-000293,C0187,CMP-003,STR-002,P107,2025-01-02T10:04:00+00:00,2025-01-02,page_view,/checkout,Catalog,Direct,Tablet,Chrome,iOS,497,57.2,false,,0.00
+WEB-000294,SES-000294,C0832,CMP-004,STR-006,P105,2025-01-02T10:11:00+00:00,2025-01-02,purchase,/category,Checkout,Partner,Tablet,Firefox,iOS,887,18.21,true,ORD-00294,3777.08
+WEB-000295,SES-000295,C0051,CMP-002,STR-006,P101,2025-01-02T10:18:00+00:00,2025-01-02,checkout_start,/checkout,Product,Social Media,Desktop,Chrome,Android,167,14.96,true,ORD-00295,3352.52
+WEB-000296,SES-000296,C0439,CMP-003,STR-003,P101,2025-01-02T10:25:00+00:00,2025-01-02,page_view,/campaign-landing,Support,Referral,Mobile,Firefox,iOS,101,51.91,true,ORD-00296,4370.66
+WEB-000297,SES-000297,C0303,CMP-004,STR-003,P108,2025-01-02T10:32:00+00:00,2025-01-02,page_view,/category,Support,Partner,Mobile,Safari,Android,289,21.43,false,,0.00
+WEB-000298,SES-000298,C0850,CMP-001,STR-003,P109,2025-01-02T10:39:00+00:00,2025-01-02,add_to_cart,/product,Catalog,Social Media,Mobile,Chrome,macOS,137,80.19,false,,0.00
+WEB-000299,SES-000299,C0612,CMP-006,STR-001,P108,2025-01-02T10:46:00+00:00,2025-01-02,purchase,/category,Catalog,Partner,Desktop,Firefox,iOS,295,46.11,false,,0.00
+WEB-000300,SES-000300,C0028,CMP-001,STR-004,P101,2025-01-02T10:53:00+00:00,2025-01-02,add_to_cart,/checkout,Catalog,Paid Search,Desktop,Chrome,Windows,183,15.35,false,,0.00
+WEB-000301,SES-000301,C0642,CMP-003,STR-004,P109,2025-01-02T11:00:00+00:00,2025-01-02,add_to_cart,/campaign-landing,Landing,Organic,Desktop,Firefox,iOS,156,46.76,true,ORD-00301,1350.78
+WEB-000302,SES-000302,C0364,CMP-003,STR-002,P107,2025-01-02T11:07:00+00:00,2025-01-02,purchase,/home,Product,Paid Search,Desktop,Safari,macOS,77,46.61,false,,0.00
+WEB-000303,SES-000303,C0190,CMP-001,STR-003,P103,2025-01-02T11:14:00+00:00,2025-01-02,page_view,/campaign-landing,Catalog,Referral,Mobile,Chrome,macOS,796,65.01,false,,0.00
+WEB-000304,SES-000304,C0742,CMP-005,STR-004,P105,2025-01-02T11:21:00+00:00,2025-01-02,purchase,/product,Checkout,Social Media,Desktop,Safari,Android,898,33.61,false,,0.00
+WEB-000305,SES-000305,C0753,CMP-003,STR-004,P110,2025-01-02T11:28:00+00:00,2025-01-02,page_view,/campaign-landing,Checkout,Paid Search,Desktop,Edge,macOS,86,12.86,false,,0.00
+WEB-000306,SES-000306,C0938,CMP-005,STR-003,P109,2025-01-02T11:35:00+00:00,2025-01-02,checkout_start,/campaign-landing,Product,Organic,Tablet,Firefox,Windows,631,60.76,false,,0.00
+WEB-000307,SES-000307,C0034,CMP-005,STR-004,P109,2025-01-02T11:42:00+00:00,2025-01-02,page_view,/product,Product,Paid Search,Tablet,Chrome,iOS,368,59.82,true,ORD-00307,4576.81
+WEB-000308,SES-000308,C0714,CMP-003,STR-001,P108,2025-01-02T11:49:00+00:00,2025-01-02,checkout_start,/category,Checkout,Referral,Mobile,Edge,iOS,666,49.59,false,,0.00
+WEB-000309,SES-000309,C0973,CMP-006,STR-002,P105,2025-01-02T11:56:00+00:00,2025-01-02,purchase,/category,Support,Referral,Mobile,Edge,iOS,840,54.3,false,,0.00
+WEB-000310,SES-000310,C0173,CMP-002,STR-005,P103,2025-01-02T12:03:00+00:00,2025-01-02,checkout_start,/home,Landing,Social Media,Mobile,Firefox,Windows,43,31.99,false,,0.00
+WEB-000311,SES-000311,C0554,CMP-001,STR-001,P107,2025-01-02T12:10:00+00:00,2025-01-02,purchase,/category,Support,Direct,Tablet,Chrome,Windows,11,33.73,false,,0.00
+WEB-000312,SES-000312,C0066,CMP-001,STR-006,P104,2025-01-02T12:17:00+00:00,2025-01-02,page_view,/checkout,Product,Organic,Mobile,Chrome,Android,661,41.74,false,,0.00
+WEB-000313,SES-000313,C0506,CMP-001,STR-003,P106,2025-01-02T12:24:00+00:00,2025-01-02,add_to_cart,/category,Catalog,Partner,Desktop,Firefox,Windows,253,45.94,true,ORD-00313,5977.32
+WEB-000314,SES-000314,C0036,CMP-001,STR-006,P105,2025-01-02T12:31:00+00:00,2025-01-02,product_view,/home,Checkout,Referral,Desktop,Safari,Windows,360,20.76,false,,0.00
+WEB-000315,SES-000315,C0585,CMP-001,STR-002,P108,2025-01-02T12:38:00+00:00,2025-01-02,purchase,/category,Catalog,Referral,Mobile,Edge,macOS,520,57.39,false,,0.00
+WEB-000316,SES-000316,C0153,CMP-004,STR-006,P110,2025-01-02T12:45:00+00:00,2025-01-02,checkout_start,/category,Support,Referral,Desktop,Chrome,iOS,504,25.81,false,,0.00
+WEB-000317,SES-000317,C0677,CMP-004,STR-001,P107,2025-01-02T12:52:00+00:00,2025-01-02,add_to_cart,/home,Landing,Social Media,Mobile,Edge,iOS,14,77.07,false,,0.00
+WEB-000318,SES-000318,C0791,CMP-004,STR-001,P106,2025-01-02T12:59:00+00:00,2025-01-02,page_view,/checkout,Catalog,Organic,Tablet,Edge,Windows,20,34.59,false,,0.00
+WEB-000319,SES-000319,C0883,CMP-006,STR-004,P103,2025-01-02T13:06:00+00:00,2025-01-02,add_to_cart,/checkout,Catalog,Paid Search,Tablet,Safari,Windows,521,39.06,true,ORD-00319,720.26
+WEB-000320,SES-000320,C0183,CMP-001,STR-004,P110,2025-01-02T13:13:00+00:00,2025-01-02,page_view,/category,Support,Social Media,Tablet,Chrome,macOS,729,83.46,false,,0.00
+WEB-000321,SES-000321,C0454,CMP-004,STR-004,P106,2025-01-02T13:20:00+00:00,2025-01-02,add_to_cart,/cart,Landing,Referral,Mobile,Edge,macOS,155,37.36,false,,0.00
+WEB-000322,SES-000322,C0015,CMP-005,STR-005,P108,2025-01-02T13:27:00+00:00,2025-01-02,page_view,/campaign-landing,Catalog,Direct,Desktop,Firefox,macOS,91,78.56,false,,0.00
+WEB-000323,SES-000323,C0854,CMP-002,STR-004,P110,2025-01-02T13:34:00+00:00,2025-01-02,page_view,/home,Support,Direct,Tablet,Firefox,Android,286,92.44,false,,0.00
+WEB-000324,SES-000324,C0053,CMP-001,STR-002,P101,2025-01-02T13:41:00+00:00,2025-01-02,purchase,/product,Product,Paid Search,Mobile,Safari,Android,112,86.6,false,,0.00
+WEB-000325,SES-000325,C0037,CMP-002,STR-004,P104,2025-01-02T13:48:00+00:00,2025-01-02,product_view,/home,Product,Direct,Desktop,Chrome,Windows,336,69.79,false,,0.00
+WEB-000326,SES-000326,C0702,CMP-006,STR-006,P107,2025-01-02T13:55:00+00:00,2025-01-02,add_to_cart,/cart,Checkout,Referral,Desktop,Safari,macOS,641,16.13,false,,0.00
+WEB-000327,SES-000327,C0749,CMP-005,STR-002,P110,2025-01-02T14:02:00+00:00,2025-01-02,product_view,/campaign-landing,Support,Paid Search,Desktop,Chrome,iOS,398,81.17,true,ORD-00327,249.64
+WEB-000328,SES-000328,C0681,CMP-001,STR-005,P109,2025-01-02T14:09:00+00:00,2025-01-02,checkout_start,/cart,Product,Direct,Desktop,Safari,iOS,86,10.34,false,,0.00
+WEB-000329,SES-000329,C0276,CMP-003,STR-002,P105,2025-01-02T14:16:00+00:00,2025-01-02,product_view,/category,Product,Social Media,Tablet,Safari,Android,224,42.03,false,,0.00
+WEB-000330,SES-000330,C0918,CMP-001,STR-003,P103,2025-01-02T14:23:00+00:00,2025-01-02,page_view,/campaign-landing,Landing,Social Media,Desktop,Edge,iOS,483,75.39,false,,0.00
+WEB-000331,SES-000331,C0099,CMP-006,STR-006,P102,2025-01-02T14:30:00+00:00,2025-01-02,page_view,/checkout,Landing,Partner,Tablet,Edge,macOS,425,99.12,false,,0.00
+WEB-000332,SES-000332,C0803,CMP-001,STR-002,P106,2025-01-02T14:37:00+00:00,2025-01-02,product_view,/home,Catalog,Organic,Tablet,Safari,Windows,397,18.85,false,,0.00
+WEB-000333,SES-000333,C0929,CMP-001,STR-006,P108,2025-01-02T14:44:00+00:00,2025-01-02,page_view,/category,Product,Organic,Desktop,Edge,macOS,141,69.03,false,,0.00
+WEB-000334,SES-000334,C0270,CMP-003,STR-003,P107,2025-01-02T14:51:00+00:00,2025-01-02,purchase,/product,Support,Partner,Desktop,Chrome,iOS,720,65.38,false,,0.00
+WEB-000335,SES-000335,C0364,CMP-005,STR-005,P110,2025-01-02T14:58:00+00:00,2025-01-02,page_view,/category,Catalog,Organic,Tablet,Edge,macOS,685,13.27,true,ORD-00335,2722.55
+WEB-000336,SES-000336,C0282,CMP-005,STR-006,P105,2025-01-02T15:05:00+00:00,2025-01-02,add_to_cart,/home,Support,Referral,Tablet,Safari,Android,495,90.18,false,,0.00
+WEB-000337,SES-000337,C0622,CMP-004,STR-002,P102,2025-01-02T15:12:00+00:00,2025-01-02,product_view,/category,Support,Partner,Mobile,Firefox,Windows,300,46.25,false,,0.00
+WEB-000338,SES-000338,C0135,CMP-006,STR-005,P102,2025-01-02T15:19:00+00:00,2025-01-02,product_view,/checkout,Product,Partner,Mobile,Chrome,Android,382,47.51,true,ORD-00338,3068.59
+WEB-000339,SES-000339,C0465,CMP-001,STR-001,P106,2025-01-02T15:26:00+00:00,2025-01-02,add_to_cart,/home,Product,Paid Search,Mobile,Chrome,Android,436,37.25,false,,0.00
+WEB-000340,SES-000340,C0486,CMP-001,STR-003,P102,2025-01-02T15:33:00+00:00,2025-01-02,checkout_start,/product,Landing,Social Media,Mobile,Firefox,Android,832,9.25,true,ORD-00340,2277.45
+WEB-000341,SES-000341,C0714,CMP-001,STR-005,P108,2025-01-02T15:40:00+00:00,2025-01-02,product_view,/checkout,Support,Organic,Desktop,Firefox,Android,692,96.99,true,ORD-00341,1391.64
+WEB-000342,SES-000342,C0249,CMP-002,STR-003,P109,2025-01-02T15:47:00+00:00,2025-01-02,page_view,/home,Catalog,Paid Search,Tablet,Safari,iOS,89,11.3,true,ORD-00342,763.52
+WEB-000343,SES-000343,C0792,CMP-006,STR-001,P109,2025-01-02T15:54:00+00:00,2025-01-02,product_view,/checkout,Checkout,Referral,Desktop,Safari,Windows,450,71.62,true,ORD-00343,6967.55
+WEB-000344,SES-000344,C0762,CMP-003,STR-003,P103,2025-01-02T16:01:00+00:00,2025-01-02,checkout_start,/campaign-landing,Support,Direct,Desktop,Firefox,iOS,257,71.32,false,,0.00
+WEB-000345,SES-000345,C0425,CMP-006,STR-003,P108,2025-01-02T16:08:00+00:00,2025-01-02,product_view,/home,Checkout,Organic,Mobile,Safari,Android,287,59.38,false,,0.00
+WEB-000346,SES-000346,C0392,CMP-001,STR-002,P108,2025-01-02T16:15:00+00:00,2025-01-02,checkout_start,/campaign-landing,Landing,Partner,Tablet,Edge,Android,122,22.68,false,,0.00
+WEB-000347,SES-000347,C0835,CMP-003,STR-001,P110,2025-01-02T16:22:00+00:00,2025-01-02,purchase,/home,Catalog,Referral,Tablet,Firefox,iOS,664,64.89,true,ORD-00347,5998.29
+WEB-000348,SES-000348,C0628,CMP-001,STR-005,P104,2025-01-02T16:29:00+00:00,2025-01-02,page_view,/category,Product,Paid Search,Desktop,Chrome,macOS,850,93.18,true,ORD-00348,3472.77
+WEB-000349,SES-000349,C0988,CMP-001,STR-001,P105,2025-01-02T16:36:00+00:00,2025-01-02,product_view,/cart,Landing,Direct,Desktop,Chrome,Windows,754,21.46,true,ORD-00349,3412.78
+WEB-000350,SES-000350,C0115,CMP-006,STR-002,P105,2025-01-02T16:43:00+00:00,2025-01-02,checkout_start,/product,Landing,Referral,Desktop,Safari,Android,69,24.05,false,,0.00
+WEB-000351,SES-000351,C0839,CMP-006,STR-001,P110,2025-01-02T16:50:00+00:00,2025-01-02,add_to_cart,/category,Support,Partner,Mobile,Safari,Android,27,46.84,false,,0.00
+WEB-000352,SES-000352,C0522,CMP-006,STR-003,P106,2025-01-02T16:57:00+00:00,2025-01-02,checkout_start,/product,Catalog,Referral,Desktop,Edge,macOS,289,80.95,false,,0.00
+WEB-000353,SES-000353,C0222,CMP-002,STR-003,P105,2025-01-02T17:04:00+00:00,2025-01-02,product_view,/category,Landing,Referral,Desktop,Edge,iOS,136,15.88,false,,0.00
+WEB-000354,SES-000354,C0954,CMP-006,STR-006,P107,2025-01-02T17:11:00+00:00,2025-01-02,product_view,/checkout,Catalog,Referral,Tablet,Edge,macOS,73,10.65,false,,0.00
+WEB-000355,SES-000355,C0181,CMP-004,STR-001,P109,2025-01-02T17:18:00+00:00,2025-01-02,page_view,/product,Landing,Paid Search,Mobile,Firefox,macOS,442,61.27,false,,0.00
+WEB-000356,SES-000356,C0276,CMP-001,STR-004,P106,2025-01-02T17:25:00+00:00,2025-01-02,product_view,/product,Checkout,Social Media,Mobile,Chrome,iOS,655,22.83,true,ORD-00356,2427.79
+WEB-000357,SES-000357,C0342,CMP-006,STR-006,P106,2025-01-02T17:32:00+00:00,2025-01-02,checkout_start,/campaign-landing,Product,Direct,Tablet,Chrome,macOS,187,8.21,true,ORD-00357,745.99
+WEB-000358,SES-000358,C0163,CMP-003,STR-003,P102,2025-01-02T17:39:00+00:00,2025-01-02,page_view,/checkout,Support,Partner,Desktop,Edge,iOS,308,24.14,false,,0.00
+WEB-000359,SES-000359,C0268,CMP-003,STR-001,P101,2025-01-02T17:46:00+00:00,2025-01-02,checkout_start,/product,Support,Referral,Desktop,Firefox,macOS,364,33.94,false,,0.00
+WEB-000360,SES-000360,C0390,CMP-001,STR-004,P104,2025-01-02T17:53:00+00:00,2025-01-02,purchase,/home,Checkout,Organic,Tablet,Firefox,iOS,507,20.71,false,,0.00
+WEB-000361,SES-000361,C0872,CMP-001,STR-004,P105,2025-01-02T18:00:00+00:00,2025-01-02,checkout_start,/cart,Catalog,Social Media,Desktop,Safari,macOS,614,91.65,true,ORD-00361,816.25
+WEB-000362,SES-000362,C0526,CMP-005,STR-002,P103,2025-01-02T18:07:00+00:00,2025-01-02,purchase,/category,Landing,Referral,Mobile,Firefox,Windows,577,99.75,false,,0.00
+WEB-000363,SES-000363,C0802,CMP-003,STR-004,P102,2025-01-02T18:14:00+00:00,2025-01-02,page_view,/category,Checkout,Direct,Mobile,Edge,Android,686,76.08,false,,0.00
+WEB-000364,SES-000364,C0517,CMP-006,STR-005,P104,2025-01-02T18:21:00+00:00,2025-01-02,add_to_cart,/home,Landing,Partner,Desktop,Edge,Windows,632,31.64,false,,0.00
+WEB-000365,SES-000365,C0845,CMP-002,STR-002,P107,2025-01-02T18:28:00+00:00,2025-01-02,product_view,/cart,Landing,Partner,Mobile,Firefox,Windows,582,63.78,true,ORD-00365,2178.44
+WEB-000366,SES-000366,C0575,CMP-001,STR-005,P104,2025-01-02T18:35:00+00:00,2025-01-02,page_view,/home,Landing,Organic,Mobile,Safari,macOS,44,19.26,true,ORD-00366,515.45
+WEB-000367,SES-000367,C0375,CMP-002,STR-003,P110,2025-01-02T18:42:00+00:00,2025-01-02,product_view,/home,Catalog,Direct,Tablet,Safari,Windows,419,17.22,false,,0.00
+WEB-000368,SES-000368,C0114,CMP-006,STR-002,P109,2025-01-02T18:49:00+00:00,2025-01-02,add_to_cart,/category,Support,Social Media,Tablet,Edge,iOS,63,36.73,false,,0.00
+WEB-000369,SES-000369,C0541,CMP-004,STR-006,P107,2025-01-02T18:56:00+00:00,2025-01-02,page_view,/cart,Product,Social Media,Tablet,Firefox,iOS,159,9.43,true,ORD-00369,1015.00
+WEB-000370,SES-000370,C0697,CMP-001,STR-006,P108,2025-01-02T19:03:00+00:00,2025-01-02,product_view,/category,Catalog,Paid Search,Desktop,Chrome,Android,160,7.15,true,ORD-00370,7072.37
+WEB-000371,SES-000371,C0621,CMP-003,STR-003,P104,2025-01-02T19:10:00+00:00,2025-01-02,add_to_cart,/cart,Checkout,Direct,Mobile,Safari,macOS,853,28.06,true,ORD-00371,1800.52
+WEB-000372,SES-000372,C0515,CMP-005,STR-002,P105,2025-01-02T19:17:00+00:00,2025-01-02,add_to_cart,/cart,Support,Partner,Mobile,Firefox,iOS,430,17.33,false,,0.00
+WEB-000373,SES-000373,C0638,CMP-004,STR-002,P106,2025-01-02T19:24:00+00:00,2025-01-02,purchase,/category,Landing,Referral,Desktop,Firefox,macOS,757,31.72,false,,0.00
+WEB-000374,SES-000374,C0219,CMP-002,STR-004,P109,2025-01-02T19:31:00+00:00,2025-01-02,add_to_cart,/home,Catalog,Partner,Mobile,Edge,macOS,115,57.51,false,,0.00
+WEB-000375,SES-000375,C0631,CMP-006,STR-002,P110,2025-01-02T19:38:00+00:00,2025-01-02,product_view,/product,Checkout,Organic,Desktop,Firefox,iOS,680,23.51,false,,0.00
+WEB-000376,SES-000376,C0311,CMP-005,STR-003,P105,2025-01-02T19:45:00+00:00,2025-01-02,purchase,/checkout,Support,Direct,Desktop,Firefox,Windows,262,98.13,false,,0.00
+WEB-000377,SES-000377,C0740,CMP-004,STR-003,P108,2025-01-02T19:52:00+00:00,2025-01-02,add_to_cart,/checkout,Checkout,Paid Search,Desktop,Firefox,Android,420,38.44,false,,0.00
+WEB-000378,SES-000378,C0007,CMP-001,STR-006,P105,2025-01-02T19:59:00+00:00,2025-01-02,page_view,/cart,Support,Social Media,Desktop,Safari,iOS,75,51.18,false,,0.00
+WEB-000379,SES-000379,C0335,CMP-001,STR-002,P106,2025-01-02T20:06:00+00:00,2025-01-02,product_view,/campaign-landing,Support,Social Media,Tablet,Safari,Windows,23,68.69,true,ORD-00379,1373.62
+WEB-000380,SES-000380,C0816,CMP-002,STR-003,P103,2025-01-02T20:13:00+00:00,2025-01-02,add_to_cart,/checkout,Checkout,Paid Search,Desktop,Safari,iOS,533,81.76,false,,0.00
+WEB-000381,SES-000381,C0165,CMP-002,STR-002,P102,2025-01-02T20:20:00+00:00,2025-01-02,checkout_start,/category,Catalog,Organic,Mobile,Firefox,Android,490,47.83,false,,0.00
+WEB-000382,SES-000382,C0594,CMP-005,STR-006,P103,2025-01-02T20:27:00+00:00,2025-01-02,add_to_cart,/product,Catalog,Referral,Desktop,Edge,iOS,498,52.77,false,,0.00
+WEB-000383,SES-000383,C0438,CMP-004,STR-005,P104,2025-01-02T20:34:00+00:00,2025-01-02,checkout_start,/category,Checkout,Social Media,Mobile,Chrome,Windows,481,61.7,false,,0.00
+WEB-000384,SES-000384,C0367,CMP-006,STR-004,P106,2025-01-02T20:41:00+00:00,2025-01-02,checkout_start,/product,Catalog,Social Media,Tablet,Firefox,Android,217,32.06,false,,0.00
+WEB-000385,SES-000385,C0069,CMP-003,STR-005,P102,2025-01-02T20:48:00+00:00,2025-01-02,product_view,/product,Checkout,Referral,Desktop,Safari,macOS,792,78.68,false,,0.00
+WEB-000386,SES-000386,C0387,CMP-004,STR-005,P110,2025-01-02T20:55:00+00:00,2025-01-02,product_view,/home,Catalog,Organic,Desktop,Chrome,iOS,658,36.78,true,ORD-00386,1277.21
+WEB-000387,SES-000387,C0722,CMP-005,STR-003,P103,2025-01-02T21:02:00+00:00,2025-01-02,purchase,/product,Support,Partner,Tablet,Safari,Windows,817,6.92,true,ORD-00387,2769.54
+WEB-000388,SES-000388,C0162,CMP-003,STR-002,P103,2025-01-02T21:09:00+00:00,2025-01-02,product_view,/cart,Product,Organic,Mobile,Edge,Android,454,8.56,false,,0.00
+WEB-000389,SES-000389,C0388,CMP-003,STR-006,P104,2025-01-02T21:16:00+00:00,2025-01-02,product_view,/home,Catalog,Partner,Tablet,Chrome,Android,395,84.33,false,,0.00
+WEB-000390,SES-000390,C0379,CMP-005,STR-002,P109,2025-01-02T21:23:00+00:00,2025-01-02,purchase,/checkout,Catalog,Social Media,Desktop,Safari,Windows,562,12.86,false,,0.00
+WEB-000391,SES-000391,C0356,CMP-003,STR-006,P104,2025-01-02T21:30:00+00:00,2025-01-02,purchase,/checkout,Product,Referral,Mobile,Safari,Windows,898,18.37,true,ORD-00391,455.07
+WEB-000392,SES-000392,C0092,CMP-006,STR-003,P108,2025-01-02T21:37:00+00:00,2025-01-02,product_view,/checkout,Support,Direct,Tablet,Chrome,iOS,566,38.56,true,ORD-00392,2398.30
+WEB-000393,SES-000393,C0556,CMP-006,STR-001,P110,2025-01-02T21:44:00+00:00,2025-01-02,page_view,/home,Support,Organic,Tablet,Firefox,macOS,348,49.49,false,,0.00
+WEB-000394,SES-000394,C0029,CMP-005,STR-004,P106,2025-01-02T21:51:00+00:00,2025-01-02,page_view,/product,Landing,Paid Search,Mobile,Firefox,iOS,794,12.77,false,,0.00
+WEB-000395,SES-000395,C0018,CMP-003,STR-001,P109,2025-01-02T21:58:00+00:00,2025-01-02,page_view,/checkout,Checkout,Social Media,Tablet,Safari,Android,874,27.24,false,,0.00
+WEB-000396,SES-000396,C0337,CMP-006,STR-003,P101,2025-01-02T22:05:00+00:00,2025-01-02,add_to_cart,/cart,Checkout,Direct,Tablet,Edge,macOS,393,50.68,false,,0.00
+WEB-000397,SES-000397,C0857,CMP-005,STR-004,P108,2025-01-02T22:12:00+00:00,2025-01-02,page_view,/campaign-landing,Checkout,Paid Search,Desktop,Edge,macOS,13,60.5,false,,0.00
+WEB-000398,SES-000398,C0269,CMP-002,STR-004,P109,2025-01-02T22:19:00+00:00,2025-01-02,add_to_cart,/category,Checkout,Referral,Mobile,Firefox,macOS,436,31.65,false,,0.00
+WEB-000399,SES-000399,C0426,CMP-006,STR-001,P110,2025-01-02T22:26:00+00:00,2025-01-02,page_view,/cart,Landing,Social Media,Mobile,Chrome,Windows,774,11.51,false,,0.00
+WEB-000400,SES-000400,C0128,CMP-001,STR-002,P101,2025-01-02T22:33:00+00:00,2025-01-02,product_view,/home,Catalog,Direct,Tablet,Firefox,macOS,467,24.72,true,ORD-00400,3482.43
+WEB-000401,SES-000401,C0975,CMP-002,STR-006,P108,2025-01-02T22:40:00+00:00,2025-01-02,add_to_cart,/category,Support,Direct,Mobile,Edge,macOS,786,14.05,false,,0.00
+WEB-000402,SES-000402,C0710,CMP-002,STR-006,P102,2025-01-02T22:47:00+00:00,2025-01-02,purchase,/home,Support,Paid Search,Desktop,Edge,iOS,764,91.82,true,ORD-00402,4415.36
+WEB-000403,SES-000403,C0240,CMP-005,STR-003,P108,2025-01-02T22:54:00+00:00,2025-01-02,checkout_start,/product,Catalog,Referral,Mobile,Safari,Android,407,89.48,false,,0.00
+WEB-000404,SES-000404,C0502,CMP-004,STR-005,P109,2025-01-02T23:01:00+00:00,2025-01-02,product_view,/home,Checkout,Partner,Tablet,Edge,iOS,319,22.91,false,,0.00
+WEB-000405,SES-000405,C0177,CMP-005,STR-002,P101,2025-01-02T23:08:00+00:00,2025-01-02,add_to_cart,/product,Catalog,Organic,Tablet,Firefox,Windows,270,17.9,false,,0.00
+WEB-000406,SES-000406,C0902,CMP-005,STR-003,P105,2025-01-02T23:15:00+00:00,2025-01-02,product_view,/checkout,Landing,Organic,Tablet,Firefox,iOS,844,37.27,false,,0.00
+WEB-000407,SES-000407,C0524,CMP-002,STR-002,P105,2025-01-02T23:22:00+00:00,2025-01-02,add_to_cart,/product,Catalog,Direct,Mobile,Chrome,Windows,790,55.27,true,ORD-00407,746.14
+WEB-000408,SES-000408,C0264,CMP-002,STR-001,P101,2025-01-02T23:29:00+00:00,2025-01-02,purchase,/home,Product,Social Media,Tablet,Chrome,Android,622,54.22,true,ORD-00408,5833.14
+WEB-000409,SES-000409,C0118,CMP-004,STR-005,P104,2025-01-02T23:36:00+00:00,2025-01-02,purchase,/home,Landing,Direct,Tablet,Firefox,iOS,315,30.52,true,ORD-00409,199.15
+WEB-000410,SES-000410,C0180,CMP-001,STR-004,P102,2025-01-02T23:43:00+00:00,2025-01-02,add_to_cart,/checkout,Catalog,Social Media,Desktop,Chrome,iOS,540,11.42,false,,0.00
+WEB-000411,SES-000411,C0444,CMP-006,STR-006,P105,2025-01-02T23:50:00+00:00,2025-01-02,purchase,/cart,Product,Direct,Desktop,Safari,Android,753,48.28,false,,0.00
+WEB-000412,SES-000412,C0108,CMP-003,STR-003,P104,2025-01-02T23:57:00+00:00,2025-01-02,purchase,/cart,Product,Paid Search,Mobile,Safari,Windows,217,80.6,false,,0.00
+WEB-000413,SES-000413,C0293,CMP-005,STR-005,P109,2025-01-03T00:04:00+00:00,2025-01-03,purchase,/category,Product,Direct,Mobile,Edge,macOS,761,70.48,true,ORD-00413,1192.31
+WEB-000414,SES-000414,C0675,CMP-003,STR-004,P101,2025-01-03T00:11:00+00:00,2025-01-03,product_view,/category,Support,Referral,Tablet,Safari,iOS,713,76.48,true,ORD-00414,4235.76
+WEB-000415,SES-000415,C0833,CMP-003,STR-001,P107,2025-01-03T00:18:00+00:00,2025-01-03,product_view,/home,Product,Social Media,Desktop,Safari,macOS,320,68.26,false,,0.00
+WEB-000416,SES-000416,C0325,CMP-006,STR-005,P103,2025-01-03T00:25:00+00:00,2025-01-03,add_to_cart,/category,Product,Social Media,Desktop,Safari,iOS,249,64.86,false,,0.00
+WEB-000417,SES-000417,C0951,CMP-003,STR-002,P109,2025-01-03T00:32:00+00:00,2025-01-03,add_to_cart,/home,Support,Organic,Tablet,Firefox,iOS,655,47.28,false,,0.00
+WEB-000418,SES-000418,C0497,CMP-002,STR-006,P108,2025-01-03T00:39:00+00:00,2025-01-03,purchase,/checkout,Support,Partner,Desktop,Edge,Windows,77,97.95,false,,0.00
+WEB-000419,SES-000419,C0873,CMP-006,STR-002,P109,2025-01-03T00:46:00+00:00,2025-01-03,product_view,/category,Product,Direct,Mobile,Edge,iOS,207,52.94,false,,0.00
+WEB-000420,SES-000420,C0495,CMP-002,STR-004,P106,2025-01-03T00:53:00+00:00,2025-01-03,page_view,/cart,Product,Direct,Desktop,Firefox,Windows,71,48.74,false,,0.00
+WEB-000421,SES-000421,C0100,CMP-005,STR-003,P101,2025-01-03T01:00:00+00:00,2025-01-03,purchase,/product,Catalog,Partner,Mobile,Chrome,macOS,834,14.68,false,,0.00
+WEB-000422,SES-000422,C0619,CMP-003,STR-001,P105,2025-01-03T01:07:00+00:00,2025-01-03,add_to_cart,/campaign-landing,Catalog,Referral,Tablet,Edge,Android,32,78.23,false,,0.00
+WEB-000423,SES-000423,C0575,CMP-004,STR-006,P102,2025-01-03T01:14:00+00:00,2025-01-03,add_to_cart,/cart,Landing,Social Media,Desktop,Edge,iOS,707,94.33,false,,0.00
+WEB-000424,SES-000424,C0831,CMP-002,STR-002,P105,2025-01-03T01:21:00+00:00,2025-01-03,add_to_cart,/cart,Support,Social Media,Desktop,Safari,iOS,23,99.9,false,,0.00
+WEB-000425,SES-000425,C0692,CMP-002,STR-003,P104,2025-01-03T01:28:00+00:00,2025-01-03,add_to_cart,/campaign-landing,Landing,Partner,Tablet,Safari,Windows,201,36.15,false,,0.00
+WEB-000426,SES-000426,C0115,CMP-002,STR-002,P107,2025-01-03T01:35:00+00:00,2025-01-03,add_to_cart,/product,Support,Paid Search,Tablet,Edge,macOS,826,61.41,true,ORD-00426,3118.45
+WEB-000427,SES-000427,C0755,CMP-004,STR-001,P101,2025-01-03T01:42:00+00:00,2025-01-03,page_view,/category,Support,Partner,Mobile,Chrome,Android,265,18.1,false,,0.00
+WEB-000428,SES-000428,C0872,CMP-005,STR-005,P102,2025-01-03T01:49:00+00:00,2025-01-03,product_view,/product,Checkout,Paid Search,Desktop,Firefox,macOS,490,35.62,true,ORD-00428,4138.86
+WEB-000429,SES-000429,C0597,CMP-003,STR-002,P102,2025-01-03T01:56:00+00:00,2025-01-03,checkout_start,/category,Landing,Paid Search,Mobile,Firefox,Android,123,82.6,false,,0.00
+WEB-000430,SES-000430,C0954,CMP-005,STR-001,P102,2025-01-03T02:03:00+00:00,2025-01-03,add_to_cart,/campaign-landing,Product,Paid Search,Mobile,Firefox,macOS,73,69.35,false,,0.00
+WEB-000431,SES-000431,C0100,CMP-002,STR-003,P107,2025-01-03T02:10:00+00:00,2025-01-03,page_view,/home,Landing,Direct,Desktop,Chrome,Android,794,93.37,false,,0.00
+WEB-000432,SES-000432,C0600,CMP-006,STR-002,P108,2025-01-03T02:17:00+00:00,2025-01-03,checkout_start,/campaign-landing,Checkout,Direct,Desktop,Firefox,macOS,786,17.66,false,,0.00
+WEB-000433,SES-000433,C0882,CMP-002,STR-001,P101,2025-01-03T02:24:00+00:00,2025-01-03,purchase,/checkout,Product,Direct,Desktop,Safari,macOS,899,16.26,false,,0.00
+WEB-000434,SES-000434,C0611,CMP-001,STR-006,P109,2025-01-03T02:31:00+00:00,2025-01-03,add_to_cart,/campaign-landing,Product,Social Media,Desktop,Edge,Android,516,52.15,true,ORD-00434,947.63
+WEB-000435,SES-000435,C0571,CMP-006,STR-003,P103,2025-01-03T02:38:00+00:00,2025-01-03,product_view,/product,Landing,Partner,Desktop,Chrome,Windows,513,12.92,false,,0.00
+WEB-000436,SES-000436,C0228,CMP-004,STR-005,P102,2025-01-03T02:45:00+00:00,2025-01-03,purchase,/category,Support,Organic,Mobile,Chrome,Android,855,82.56,false,,0.00
+WEB-000437,SES-000437,C0163,CMP-004,STR-002,P104,2025-01-03T02:52:00+00:00,2025-01-03,purchase,/checkout,Checkout,Organic,Desktop,Safari,Android,860,86.71,false,,0.00
+WEB-000438,SES-000438,C0505,CMP-006,STR-004,P105,2025-01-03T02:59:00+00:00,2025-01-03,page_view,/campaign-landing,Product,Partner,Tablet,Chrome,iOS,834,60.06,false,,0.00
+WEB-000439,SES-000439,C0612,CMP-003,STR-002,P107,2025-01-03T03:06:00+00:00,2025-01-03,purchase,/campaign-landing,Checkout,Referral,Desktop,Firefox,Android,205,75.84,false,,0.00
+WEB-000440,SES-000440,C0298,CMP-005,STR-004,P109,2025-01-03T03:13:00+00:00,2025-01-03,add_to_cart,/checkout,Support,Direct,Desktop,Chrome,macOS,115,78.65,false,,0.00
+WEB-000441,SES-000441,C0099,CMP-003,STR-002,P106,2025-01-03T03:20:00+00:00,2025-01-03,product_view,/product,Checkout,Direct,Desktop,Safari,Windows,21,19.34,false,,0.00
+WEB-000442,SES-000442,C0824,CMP-002,STR-003,P109,2025-01-03T03:27:00+00:00,2025-01-03,add_to_cart,/category,Support,Referral,Desktop,Edge,Android,405,66.83,true,ORD-00442,6218.75
+WEB-000443,SES-000443,C0784,CMP-004,STR-005,P110,2025-01-03T03:34:00+00:00,2025-01-03,add_to_cart,/checkout,Checkout,Organic,Mobile,Edge,macOS,394,12.08,true,ORD-00443,675.28
+WEB-000444,SES-000444,C0172,CMP-003,STR-004,P108,2025-01-03T03:41:00+00:00,2025-01-03,page_view,/home,Landing,Paid Search,Tablet,Chrome,iOS,302,27.76,false,,0.00
+WEB-000445,SES-000445,C0782,CMP-002,STR-001,P106,2025-01-03T03:48:00+00:00,2025-01-03,product_view,/product,Product,Paid Search,Tablet,Chrome,macOS,478,83.8,true,ORD-00445,593.89
+WEB-000446,SES-000446,C0823,CMP-004,STR-004,P105,2025-01-03T03:55:00+00:00,2025-01-03,product_view,/product,Catalog,Paid Search,Tablet,Chrome,macOS,584,34.99,false,,0.00
+WEB-000447,SES-000447,C0899,CMP-006,STR-002,P101,2025-01-03T04:02:00+00:00,2025-01-03,product_view,/category,Catalog,Organic,Mobile,Chrome,Android,772,34.82,false,,0.00
+WEB-000448,SES-000448,C0835,CMP-001,STR-005,P103,2025-01-03T04:09:00+00:00,2025-01-03,product_view,/category,Checkout,Organic,Tablet,Firefox,iOS,40,24.91,true,ORD-00448,519.65
+WEB-000449,SES-000449,C0728,CMP-006,STR-003,P110,2025-01-03T04:16:00+00:00,2025-01-03,add_to_cart,/campaign-landing,Catalog,Partner,Tablet,Safari,iOS,409,42.45,true,ORD-00449,665.79
+WEB-000450,SES-000450,C0914,CMP-003,STR-001,P110,2025-01-03T04:23:00+00:00,2025-01-03,product_view,/product,Landing,Social Media,Mobile,Chrome,Windows,499,78.77,false,,0.00
+WEB-000451,SES-000451,C0271,CMP-004,STR-005,P107,2025-01-03T04:30:00+00:00,2025-01-03,purchase,/campaign-landing,Product,Direct,Mobile,Edge,Android,245,39.02,false,,0.00
+WEB-000452,SES-000452,C0625,CMP-004,STR-003,P103,2025-01-03T04:37:00+00:00,2025-01-03,purchase,/home,Catalog,Organic,Mobile,Edge,Android,546,49.79,false,,0.00
+WEB-000453,SES-000453,C0706,CMP-001,STR-001,P108,2025-01-03T04:44:00+00:00,2025-01-03,checkout_start,/cart,Support,Paid Search,Mobile,Edge,iOS,157,49.16,true,ORD-00453,459.87
+WEB-000454,SES-000454,C0004,CMP-003,STR-002,P109,2025-01-03T04:51:00+00:00,2025-01-03,page_view,/checkout,Catalog,Social Media,Mobile,Safari,macOS,177,78.5,false,,0.00
+WEB-000455,SES-000455,C0574,CMP-005,STR-001,P104,2025-01-03T04:58:00+00:00,2025-01-03,add_to_cart,/product,Support,Paid Search,Desktop,Edge,iOS,728,84.59,false,,0.00
+WEB-000456,SES-000456,C0115,CMP-004,STR-004,P101,2025-01-03T05:05:00+00:00,2025-01-03,product_view,/checkout,Product,Paid Search,Tablet,Chrome,Windows,647,81.03,false,,0.00
+WEB-000457,SES-000457,C0235,CMP-005,STR-002,P103,2025-01-03T05:12:00+00:00,2025-01-03,product_view,/home,Landing,Organic,Mobile,Chrome,Windows,131,93.91,false,,0.00
+WEB-000458,SES-000458,C0457,CMP-001,STR-001,P103,2025-01-03T05:19:00+00:00,2025-01-03,purchase,/checkout,Product,Paid Search,Desktop,Firefox,Windows,459,11.79,false,,0.00
+WEB-000459,SES-000459,C0946,CMP-006,STR-001,P103,2025-01-03T05:26:00+00:00,2025-01-03,checkout_start,/category,Support,Partner,Tablet,Firefox,Windows,342,84.44,true,ORD-00459,8944.66
+WEB-000460,SES-000460,C0858,CMP-001,STR-002,P106,2025-01-03T05:33:00+00:00,2025-01-03,purchase,/checkout,Product,Direct,Mobile,Edge,iOS,540,5.02,false,,0.00
+WEB-000461,SES-000461,C0645,CMP-003,STR-005,P106,2025-01-03T05:40:00+00:00,2025-01-03,checkout_start,/home,Landing,Paid Search,Tablet,Chrome,Windows,34,68.37,false,,0.00
+WEB-000462,SES-000462,C0631,CMP-001,STR-002,P103,2025-01-03T05:47:00+00:00,2025-01-03,page_view,/cart,Catalog,Direct,Desktop,Safari,macOS,312,11.93,false,,0.00
+WEB-000463,SES-000463,C0764,CMP-005,STR-001,P108,2025-01-03T05:54:00+00:00,2025-01-03,purchase,/category,Catalog,Paid Search,Mobile,Edge,Android,240,20.77,false,,0.00
+WEB-000464,SES-000464,C0888,CMP-004,STR-002,P108,2025-01-03T06:01:00+00:00,2025-01-03,page_view,/checkout,Checkout,Direct,Mobile,Chrome,Android,400,57.16,false,,0.00
+WEB-000465,SES-000465,C0812,CMP-001,STR-004,P108,2025-01-03T06:08:00+00:00,2025-01-03,page_view,/category,Catalog,Referral,Mobile,Safari,macOS,263,94.68,false,,0.00
+WEB-000466,SES-000466,C0473,CMP-002,STR-006,P102,2025-01-03T06:15:00+00:00,2025-01-03,checkout_start,/campaign-landing,Catalog,Paid Search,Mobile,Safari,macOS,62,6.71,false,,0.00
+WEB-000467,SES-000467,C0960,CMP-004,STR-004,P103,2025-01-03T06:22:00+00:00,2025-01-03,purchase,/product,Catalog,Social Media,Desktop,Safari,Windows,144,22.37,false,,0.00
+WEB-000468,SES-000468,C0351,CMP-006,STR-001,P105,2025-01-03T06:29:00+00:00,2025-01-03,add_to_cart,/campaign-landing,Checkout,Paid Search,Tablet,Chrome,macOS,356,81.1,false,,0.00
+WEB-000469,SES-000469,C0921,CMP-005,STR-005,P104,2025-01-03T06:36:00+00:00,2025-01-03,checkout_start,/cart,Product,Social Media,Tablet,Firefox,iOS,294,27.18,true,ORD-00469,504.78
+WEB-000470,SES-000470,C0829,CMP-002,STR-005,P103,2025-01-03T06:43:00+00:00,2025-01-03,product_view,/campaign-landing,Support,Paid Search,Desktop,Firefox,macOS,59,24.08,false,,0.00
+WEB-000471,SES-000471,C0239,CMP-006,STR-004,P108,2025-01-03T06:50:00+00:00,2025-01-03,add_to_cart,/campaign-landing,Landing,Referral,Desktop,Firefox,Windows,448,37.43,false,,0.00
+WEB-000472,SES-000472,C0767,CMP-001,STR-006,P109,2025-01-03T06:57:00+00:00,2025-01-03,purchase,/campaign-landing,Catalog,Partner,Tablet,Firefox,Android,894,10.9,false,,0.00
+WEB-000473,SES-000473,C0040,CMP-001,STR-004,P110,2025-01-03T07:04:00+00:00,2025-01-03,add_to_cart,/product,Checkout,Organic,Tablet,Safari,iOS,27,50.07,false,,0.00
+WEB-000474,SES-000474,C0571,CMP-001,STR-001,P102,2025-01-03T07:11:00+00:00,2025-01-03,purchase,/home,Support,Social Media,Mobile,Firefox,macOS,702,16.45,false,,0.00
+WEB-000475,SES-000475,C0580,CMP-002,STR-004,P105,2025-01-03T07:18:00+00:00,2025-01-03,product_view,/cart,Catalog,Referral,Mobile,Chrome,iOS,269,66.08,true,ORD-00475,1946.50
+WEB-000476,SES-000476,C0755,CMP-006,STR-006,P104,2025-01-03T07:25:00+00:00,2025-01-03,product_view,/category,Support,Partner,Tablet,Safari,iOS,477,95.76,false,,0.00
+WEB-000477,SES-000477,C0112,CMP-002,STR-004,P105,2025-01-03T07:32:00+00:00,2025-01-03,purchase,/product,Support,Paid Search,Desktop,Chrome,macOS,573,85.25,false,,0.00
+WEB-000478,SES-000478,C0894,CMP-004,STR-004,P102,2025-01-03T07:39:00+00:00,2025-01-03,product_view,/checkout,Product,Organic,Desktop,Firefox,Android,812,15.54,true,ORD-00478,6217.43
+WEB-000479,SES-000479,C0253,CMP-005,STR-003,P109,2025-01-03T07:46:00+00:00,2025-01-03,purchase,/category,Product,Organic,Mobile,Edge,Windows,844,89.89,false,,0.00
+WEB-000480,SES-000480,C0948,CMP-003,STR-003,P105,2025-01-03T07:53:00+00:00,2025-01-03,page_view,/checkout,Landing,Partner,Desktop,Edge,Android,303,24.86,false,,0.00
+WEB-000481,SES-000481,C0780,CMP-004,STR-005,P108,2025-01-03T08:00:00+00:00,2025-01-03,checkout_start,/checkout,Support,Direct,Desktop,Edge,Windows,797,26.24,false,,0.00
+WEB-000482,SES-000482,C1000,CMP-005,STR-002,P107,2025-01-03T08:07:00+00:00,2025-01-03,product_view,/campaign-landing,Checkout,Partner,Mobile,Safari,iOS,848,10.89,false,,0.00
+WEB-000483,SES-000483,C0965,CMP-005,STR-003,P104,2025-01-03T08:14:00+00:00,2025-01-03,product_view,/product,Checkout,Referral,Tablet,Safari,Android,575,73.93,false,,0.00
+WEB-000484,SES-000484,C0371,CMP-006,STR-004,P109,2025-01-03T08:21:00+00:00,2025-01-03,purchase,/checkout,Checkout,Social Media,Desktop,Edge,Windows,818,37.93,true,ORD-00484,411.94
+WEB-000485,SES-000485,C0374,CMP-002,STR-004,P109,2025-01-03T08:28:00+00:00,2025-01-03,add_to_cart,/home,Product,Social Media,Desktop,Chrome,Windows,522,81.49,true,ORD-00485,3579.26
+WEB-000486,SES-000486,C0567,CMP-005,STR-004,P108,2025-01-03T08:35:00+00:00,2025-01-03,page_view,/cart,Checkout,Direct,Tablet,Safari,Windows,730,29.8,false,,0.00
+WEB-000487,SES-000487,C0803,CMP-005,STR-002,P105,2025-01-03T08:42:00+00:00,2025-01-03,product_view,/checkout,Catalog,Paid Search,Mobile,Safari,iOS,342,88.77,false,,0.00
+WEB-000488,SES-000488,C0085,CMP-001,STR-006,P103,2025-01-03T08:49:00+00:00,2025-01-03,add_to_cart,/cart,Support,Direct,Desktop,Chrome,Windows,817,5.19,false,,0.00
+WEB-000489,SES-000489,C0106,CMP-002,STR-004,P106,2025-01-03T08:56:00+00:00,2025-01-03,product_view,/product,Checkout,Referral,Desktop,Firefox,macOS,533,19.3,false,,0.00
+WEB-000490,SES-000490,C0322,CMP-005,STR-003,P107,2025-01-03T09:03:00+00:00,2025-01-03,checkout_start,/category,Product,Referral,Tablet,Safari,iOS,705,33.13,false,,0.00
+WEB-000491,SES-000491,C0326,CMP-001,STR-002,P105,2025-01-03T09:10:00+00:00,2025-01-03,checkout_start,/home,Product,Partner,Mobile,Firefox,iOS,246,78.27,false,,0.00
+WEB-000492,SES-000492,C0758,CMP-005,STR-003,P102,2025-01-03T09:17:00+00:00,2025-01-03,purchase,/product,Product,Direct,Tablet,Safari,Windows,211,26.81,false,,0.00
+WEB-000493,SES-000493,C0819,CMP-005,STR-004,P110,2025-01-03T09:24:00+00:00,2025-01-03,purchase,/cart,Checkout,Partner,Desktop,Chrome,macOS,207,74.66,true,ORD-00493,5936.26
+WEB-000494,SES-000494,C0802,CMP-006,STR-004,P106,2025-01-03T09:31:00+00:00,2025-01-03,purchase,/category,Catalog,Direct,Tablet,Edge,Windows,274,59.62,false,,0.00
+WEB-000495,SES-000495,C0251,CMP-002,STR-003,P104,2025-01-03T09:38:00+00:00,2025-01-03,page_view,/campaign-landing,Support,Referral,Desktop,Firefox,Android,209,58.87,true,ORD-00495,2192.53
+WEB-000496,SES-000496,C0465,CMP-002,STR-003,P101,2025-01-03T09:45:00+00:00,2025-01-03,checkout_start,/cart,Checkout,Referral,Mobile,Edge,iOS,844,96.18,false,,0.00
+WEB-000497,SES-000497,C0084,CMP-004,STR-005,P101,2025-01-03T09:52:00+00:00,2025-01-03,checkout_start,/home,Checkout,Direct,Mobile,Chrome,macOS,310,35.7,false,,0.00
+WEB-000498,SES-000498,C0185,CMP-001,STR-006,P105,2025-01-03T09:59:00+00:00,2025-01-03,checkout_start,/category,Product,Paid Search,Tablet,Chrome,iOS,235,24.67,false,,0.00
+WEB-000499,SES-000499,C0904,CMP-005,STR-006,P102,2025-01-03T10:06:00+00:00,2025-01-03,product_view,/campaign-landing,Checkout,Social Media,Desktop,Firefox,Windows,357,58.98,false,,0.00
+WEB-000500,SES-000500,C0580,CMP-005,STR-005,P102,2025-01-03T10:13:00+00:00,2025-01-03,page_view,/home,Product,Organic,Mobile,Firefox,macOS,847,70.74,false,,0.00
+WEB-000501,SES-000501,C0869,CMP-001,STR-004,P109,2025-01-03T10:20:00+00:00,2025-01-03,checkout_start,/product,Catalog,Organic,Mobile,Safari,Windows,596,62.26,false,,0.00
+WEB-000502,SES-000502,C0422,CMP-003,STR-005,P103,2025-01-03T10:27:00+00:00,2025-01-03,page_view,/home,Product,Paid Search,Tablet,Safari,macOS,304,34.13,false,,0.00
+WEB-000503,SES-000503,C0971,CMP-002,STR-001,P108,2025-01-03T10:34:00+00:00,2025-01-03,add_to_cart,/home,Landing,Direct,Tablet,Firefox,macOS,163,32.25,false,,0.00
+WEB-000504,SES-000504,C0693,CMP-002,STR-003,P107,2025-01-03T10:41:00+00:00,2025-01-03,page_view,/product,Product,Partner,Desktop,Firefox,macOS,805,32.99,false,,0.00
+WEB-000505,SES-000505,C0642,CMP-001,STR-004,P106,2025-01-03T10:48:00+00:00,2025-01-03,checkout_start,/cart,Support,Referral,Mobile,Safari,Android,612,57.28,false,,0.00
+WEB-000506,SES-000506,C0548,CMP-006,STR-002,P102,2025-01-03T10:55:00+00:00,2025-01-03,product_view,/category,Checkout,Paid Search,Mobile,Chrome,Android,622,58.04,false,,0.00
+WEB-000507,SES-000507,C0426,CMP-004,STR-003,P109,2025-01-03T11:02:00+00:00,2025-01-03,purchase,/checkout,Catalog,Social Media,Mobile,Edge,iOS,421,62.35,false,,0.00
+WEB-000508,SES-000508,C0630,CMP-006,STR-002,P109,2025-01-03T11:09:00+00:00,2025-01-03,checkout_start,/campaign-landing,Support,Partner,Mobile,Firefox,Android,173,59.78,false,,0.00
+WEB-000509,SES-000509,C0788,CMP-003,STR-001,P102,2025-01-03T11:16:00+00:00,2025-01-03,checkout_start,/product,Support,Referral,Tablet,Safari,iOS,850,60.49,false,,0.00
+WEB-000510,SES-000510,C0503,CMP-003,STR-004,P105,2025-01-03T11:23:00+00:00,2025-01-03,product_view,/cart,Catalog,Partner,Mobile,Edge,iOS,649,86.31,false,,0.00
+WEB-000511,SES-000511,C0796,CMP-002,STR-005,P108,2025-01-03T11:30:00+00:00,2025-01-03,product_view,/category,Support,Paid Search,Mobile,Edge,macOS,886,48.65,false,,0.00
+WEB-000512,SES-000512,C0239,CMP-004,STR-004,P104,2025-01-03T11:37:00+00:00,2025-01-03,purchase,/checkout,Product,Paid Search,Desktop,Safari,iOS,799,80.15,false,,0.00
+WEB-000513,SES-000513,C0533,CMP-006,STR-001,P103,2025-01-03T11:44:00+00:00,2025-01-03,checkout_start,/category,Catalog,Direct,Desktop,Chrome,Android,82,41.06,false,,0.00
+WEB-000514,SES-000514,C0942,CMP-002,STR-006,P108,2025-01-03T11:51:00+00:00,2025-01-03,checkout_start,/campaign-landing,Checkout,Organic,Tablet,Safari,Windows,884,67.47,false,,0.00
+WEB-000515,SES-000515,C0955,CMP-004,STR-005,P105,2025-01-03T11:58:00+00:00,2025-01-03,purchase,/checkout,Checkout,Paid Search,Desktop,Safari,Android,193,58.95,false,,0.00
+WEB-000516,SES-000516,C0718,CMP-004,STR-001,P110,2025-01-03T12:05:00+00:00,2025-01-03,add_to_cart,/category,Catalog,Paid Search,Tablet,Firefox,iOS,84,35.28,false,,0.00
+WEB-000517,SES-000517,C0726,CMP-002,STR-006,P103,2025-01-03T12:12:00+00:00,2025-01-03,add_to_cart,/campaign-landing,Checkout,Social Media,Mobile,Edge,iOS,873,57.09,true,ORD-00517,108.61
+WEB-000518,SES-000518,C0878,CMP-005,STR-006,P107,2025-01-03T12:19:00+00:00,2025-01-03,page_view,/product,Product,Organic,Desktop,Safari,macOS,694,63.49,true,ORD-00518,766.44
+WEB-000519,SES-000519,C0938,CMP-003,STR-001,P103,2025-01-03T12:26:00+00:00,2025-01-03,page_view,/product,Landing,Direct,Tablet,Firefox,iOS,361,43.39,true,ORD-00519,3591.67
+WEB-000520,SES-000520,C0860,CMP-003,STR-005,P110,2025-01-03T12:33:00+00:00,2025-01-03,page_view,/product,Landing,Organic,Desktop,Edge,Windows,190,83.91,false,,0.00
+WEB-000521,SES-000521,C0169,CMP-004,STR-001,P110,2025-01-03T12:40:00+00:00,2025-01-03,checkout_start,/product,Product,Partner,Mobile,Firefox,macOS,623,21.94,false,,0.00
+WEB-000522,SES-000522,C0386,CMP-001,STR-006,P103,2025-01-03T12:47:00+00:00,2025-01-03,purchase,/category,Catalog,Referral,Tablet,Edge,iOS,591,46.13,false,,0.00
+WEB-000523,SES-000523,C0572,CMP-005,STR-006,P110,2025-01-03T12:54:00+00:00,2025-01-03,product_view,/home,Support,Referral,Tablet,Firefox,macOS,375,35.52,false,,0.00
+WEB-000524,SES-000524,C0996,CMP-002,STR-003,P101,2025-01-03T13:01:00+00:00,2025-01-03,checkout_start,/cart,Product,Direct,Desktop,Chrome,Android,243,63.23,false,,0.00
+WEB-000525,SES-000525,C0210,CMP-006,STR-002,P105,2025-01-03T13:08:00+00:00,2025-01-03,add_to_cart,/cart,Catalog,Social Media,Desktop,Chrome,iOS,61,88.78,true,ORD-00525,441.46
+WEB-000526,SES-000526,C0621,CMP-006,STR-002,P105,2025-01-03T13:15:00+00:00,2025-01-03,checkout_start,/campaign-landing,Support,Paid Search,Desktop,Firefox,macOS,398,42.6,false,,0.00
+WEB-000527,SES-000527,C0786,CMP-001,STR-006,P106,2025-01-03T13:22:00+00:00,2025-01-03,checkout_start,/home,Support,Social Media,Tablet,Firefox,Windows,667,9.87,false,,0.00
+WEB-000528,SES-000528,C0638,CMP-006,STR-006,P107,2025-01-03T13:29:00+00:00,2025-01-03,product_view,/cart,Checkout,Partner,Mobile,Edge,iOS,332,15.88,false,,0.00
+WEB-000529,SES-000529,C0924,CMP-005,STR-004,P107,2025-01-03T13:36:00+00:00,2025-01-03,product_view,/campaign-landing,Product,Paid Search,Mobile,Firefox,iOS,325,47.65,false,,0.00
+WEB-000530,SES-000530,C0590,CMP-005,STR-002,P110,2025-01-03T13:43:00+00:00,2025-01-03,add_to_cart,/campaign-landing,Landing,Direct,Mobile,Chrome,Windows,519,91.44,false,,0.00
+WEB-000531,SES-000531,C0883,CMP-002,STR-006,P107,2025-01-03T13:50:00+00:00,2025-01-03,page_view,/product,Product,Partner,Tablet,Edge,macOS,51,37.77,false,,0.00
+WEB-000532,SES-000532,C0559,CMP-005,STR-006,P108,2025-01-03T13:57:00+00:00,2025-01-03,checkout_start,/category,Checkout,Partner,Mobile,Chrome,Android,666,28.95,false,,0.00
+WEB-000533,SES-000533,C0662,CMP-005,STR-006,P105,2025-01-03T14:04:00+00:00,2025-01-03,page_view,/product,Landing,Paid Search,Desktop,Safari,Android,145,5.83,true,ORD-00533,4034.73
+WEB-000534,SES-000534,C0567,CMP-005,STR-004,P107,2025-01-03T14:11:00+00:00,2025-01-03,purchase,/product,Landing,Partner,Mobile,Firefox,iOS,298,66.9,false,,0.00
+WEB-000535,SES-000535,C0220,CMP-005,STR-002,P101,2025-01-03T14:18:00+00:00,2025-01-03,page_view,/product,Landing,Paid Search,Mobile,Safari,iOS,720,10.56,false,,0.00
+WEB-000536,SES-000536,C0472,CMP-001,STR-003,P106,2025-01-03T14:25:00+00:00,2025-01-03,purchase,/category,Product,Social Media,Desktop,Safari,Windows,330,89.86,true,ORD-00536,571.49
+WEB-000537,SES-000537,C0238,CMP-003,STR-005,P102,2025-01-03T14:32:00+00:00,2025-01-03,checkout_start,/campaign-landing,Product,Referral,Mobile,Firefox,Android,615,72.33,false,,0.00
+WEB-000538,SES-000538,C0156,CMP-001,STR-004,P109,2025-01-03T14:39:00+00:00,2025-01-03,page_view,/campaign-landing,Catalog,Referral,Tablet,Safari,iOS,767,12.64,false,,0.00
+WEB-000539,SES-000539,C0618,CMP-005,STR-004,P107,2025-01-03T14:46:00+00:00,2025-01-03,checkout_start,/checkout,Checkout,Direct,Mobile,Firefox,macOS,384,30.86,false,,0.00
+WEB-000540,SES-000540,C0457,CMP-005,STR-005,P107,2025-01-03T14:53:00+00:00,2025-01-03,purchase,/home,Landing,Referral,Mobile,Firefox,Windows,192,43.7,false,,0.00
+WEB-000541,SES-000541,C0571,CMP-005,STR-001,P107,2025-01-03T15:00:00+00:00,2025-01-03,page_view,/checkout,Checkout,Direct,Mobile,Edge,Android,636,8.78,false,,0.00
+WEB-000542,SES-000542,C0137,CMP-005,STR-005,P102,2025-01-03T15:07:00+00:00,2025-01-03,purchase,/home,Product,Social Media,Desktop,Chrome,Android,427,69.72,false,,0.00
+WEB-000543,SES-000543,C0181,CMP-005,STR-006,P110,2025-01-03T15:14:00+00:00,2025-01-03,add_to_cart,/cart,Product,Partner,Desktop,Firefox,macOS,410,27.74,false,,0.00
+WEB-000544,SES-000544,C0091,CMP-004,STR-004,P101,2025-01-03T15:21:00+00:00,2025-01-03,purchase,/home,Catalog,Referral,Desktop,Safari,macOS,217,14.69,true,ORD-00544,4429.02
+WEB-000545,SES-000545,C0546,CMP-005,STR-001,P102,2025-01-03T15:28:00+00:00,2025-01-03,checkout_start,/checkout,Support,Partner,Desktop,Chrome,Windows,749,42.77,false,,0.00
+WEB-000546,SES-000546,C0288,CMP-006,STR-004,P101,2025-01-03T15:35:00+00:00,2025-01-03,page_view,/campaign-landing,Checkout,Paid Search,Desktop,Chrome,iOS,280,56.94,false,,0.00
+WEB-000547,SES-000547,C0399,CMP-001,STR-005,P106,2025-01-03T15:42:00+00:00,2025-01-03,purchase,/home,Landing,Direct,Desktop,Edge,Windows,316,46.11,false,,0.00
+WEB-000548,SES-000548,C0410,CMP-003,STR-004,P104,2025-01-03T15:49:00+00:00,2025-01-03,product_view,/cart,Product,Social Media,Tablet,Firefox,Android,665,5.52,false,,0.00
+WEB-000549,SES-000549,C0477,CMP-005,STR-006,P103,2025-01-03T15:56:00+00:00,2025-01-03,page_view,/campaign-landing,Support,Direct,Tablet,Edge,macOS,402,20.34,false,,0.00
+WEB-000550,SES-000550,C0165,CMP-006,STR-003,P105,2025-01-03T16:03:00+00:00,2025-01-03,purchase,/product,Product,Paid Search,Tablet,Firefox,iOS,424,31.63,false,,0.00
+WEB-000551,SES-000551,C0280,CMP-003,STR-003,P104,2025-01-03T16:10:00+00:00,2025-01-03,product_view,/home,Support,Partner,Desktop,Edge,macOS,678,7.53,false,,0.00
+WEB-000552,SES-000552,C0154,CMP-002,STR-006,P103,2025-01-03T16:17:00+00:00,2025-01-03,product_view,/product,Landing,Direct,Tablet,Chrome,Android,238,63.78,false,,0.00
+WEB-000553,SES-000553,C0012,CMP-004,STR-003,P103,2025-01-03T16:24:00+00:00,2025-01-03,checkout_start,/category,Checkout,Organic,Tablet,Edge,iOS,394,96.45,false,,0.00
+WEB-000554,SES-000554,C0111,CMP-003,STR-002,P105,2025-01-03T16:31:00+00:00,2025-01-03,add_to_cart,/home,Checkout,Direct,Mobile,Edge,macOS,703,23.14,false,,0.00
+WEB-000555,SES-000555,C0056,CMP-004,STR-005,P101,2025-01-03T16:38:00+00:00,2025-01-03,add_to_cart,/cart,Landing,Social Media,Tablet,Chrome,macOS,151,98.04,false,,0.00
+WEB-000556,SES-000556,C0263,CMP-003,STR-004,P106,2025-01-03T16:45:00+00:00,2025-01-03,checkout_start,/home,Landing,Partner,Desktop,Chrome,iOS,443,52.92,false,,0.00
+WEB-000557,SES-000557,C0932,CMP-004,STR-005,P108,2025-01-03T16:52:00+00:00,2025-01-03,product_view,/home,Product,Organic,Mobile,Firefox,Windows,776,66.05,true,ORD-00557,2856.19
+WEB-000558,SES-000558,C0756,CMP-005,STR-003,P107,2025-01-03T16:59:00+00:00,2025-01-03,page_view,/campaign-landing,Catalog,Partner,Desktop,Chrome,Windows,47,46.74,true,ORD-00558,1175.32
+WEB-000559,SES-000559,C0722,CMP-006,STR-001,P109,2025-01-03T17:06:00+00:00,2025-01-03,page_view,/campaign-landing,Checkout,Paid Search,Mobile,Chrome,Windows,684,10.65,false,,0.00
+WEB-000560,SES-000560,C0136,CMP-004,STR-005,P109,2025-01-03T17:13:00+00:00,2025-01-03,checkout_start,/checkout,Catalog,Partner,Desktop,Safari,iOS,702,47.55,false,,0.00
+WEB-000561,SES-000561,C0368,CMP-003,STR-004,P101,2025-01-03T17:20:00+00:00,2025-01-03,page_view,/category,Support,Partner,Mobile,Safari,macOS,31,54.62,true,ORD-00561,6587.88
+WEB-000562,SES-000562,C0270,CMP-005,STR-001,P110,2025-01-03T17:27:00+00:00,2025-01-03,page_view,/campaign-landing,Product,Paid Search,Tablet,Edge,macOS,102,94.54,false,,0.00
+WEB-000563,SES-000563,C0657,CMP-006,STR-003,P101,2025-01-03T17:34:00+00:00,2025-01-03,page_view,/campaign-landing,Support,Paid Search,Tablet,Firefox,Windows,676,48.38,false,,0.00
+WEB-000564,SES-000564,C0402,CMP-005,STR-006,P101,2025-01-03T17:41:00+00:00,2025-01-03,add_to_cart,/checkout,Product,Referral,Mobile,Safari,Windows,824,52.28,true,ORD-00564,2618.98
+WEB-000565,SES-000565,C0428,CMP-006,STR-003,P107,2025-01-03T17:48:00+00:00,2025-01-03,add_to_cart,/home,Landing,Direct,Desktop,Edge,Windows,628,14.28,false,,0.00
+WEB-000566,SES-000566,C0439,CMP-004,STR-005,P106,2025-01-03T17:55:00+00:00,2025-01-03,product_view,/category,Product,Partner,Mobile,Chrome,Windows,478,83.38,true,ORD-00566,3159.10
+WEB-000567,SES-000567,C0898,CMP-005,STR-001,P110,2025-01-03T18:02:00+00:00,2025-01-03,checkout_start,/checkout,Catalog,Direct,Mobile,Chrome,Windows,298,87.39,true,ORD-00567,4115.44
+WEB-000568,SES-000568,C0467,CMP-003,STR-004,P107,2025-01-03T18:09:00+00:00,2025-01-03,purchase,/cart,Product,Organic,Tablet,Safari,macOS,122,62.7,true,ORD-00568,866.47
+WEB-000569,SES-000569,C0664,CMP-006,STR-002,P107,2025-01-03T18:16:00+00:00,2025-01-03,page_view,/product,Catalog,Partner,Tablet,Chrome,Windows,566,54.0,false,,0.00
+WEB-000570,SES-000570,C0379,CMP-002,STR-004,P103,2025-01-03T18:23:00+00:00,2025-01-03,page_view,/cart,Support,Referral,Tablet,Firefox,Android,337,84.65,true,ORD-00570,375.20
+WEB-000571,SES-000571,C0328,CMP-005,STR-004,P107,2025-01-03T18:30:00+00:00,2025-01-03,page_view,/product,Checkout,Referral,Tablet,Safari,macOS,895,81.25,false,,0.00
+WEB-000572,SES-000572,C0558,CMP-003,STR-004,P102,2025-01-03T18:37:00+00:00,2025-01-03,product_view,/home,Checkout,Partner,Desktop,Chrome,iOS,243,7.69,false,,0.00
+WEB-000573,SES-000573,C0465,CMP-006,STR-003,P110,2025-01-03T18:44:00+00:00,2025-01-03,product_view,/home,Catalog,Partner,Tablet,Safari,Windows,169,25.45,false,,0.00
+WEB-000574,SES-000574,C0438,CMP-001,STR-005,P107,2025-01-03T18:51:00+00:00,2025-01-03,page_view,/checkout,Checkout,Partner,Tablet,Chrome,iOS,358,92.34,false,,0.00
+WEB-000575,SES-000575,C0550,CMP-003,STR-003,P109,2025-01-03T18:58:00+00:00,2025-01-03,add_to_cart,/campaign-landing,Support,Direct,Tablet,Edge,Windows,253,14.33,false,,0.00
+WEB-000576,SES-000576,C0619,CMP-003,STR-005,P110,2025-01-03T19:05:00+00:00,2025-01-03,product_view,/checkout,Landing,Paid Search,Desktop,Firefox,Windows,11,81.31,true,ORD-00576,2073.59
+WEB-000577,SES-000577,C0391,CMP-003,STR-005,P107,2025-01-03T19:12:00+00:00,2025-01-03,page_view,/checkout,Support,Paid Search,Tablet,Firefox,macOS,804,28.25,false,,0.00
+WEB-000578,SES-000578,C0730,CMP-005,STR-001,P106,2025-01-03T19:19:00+00:00,2025-01-03,checkout_start,/checkout,Support,Partner,Tablet,Chrome,iOS,112,84.03,false,,0.00
+WEB-000579,SES-000579,C0835,CMP-004,STR-001,P102,2025-01-03T19:26:00+00:00,2025-01-03,checkout_start,/checkout,Product,Direct,Tablet,Safari,iOS,38,93.02,false,,0.00
+WEB-000580,SES-000580,C0911,CMP-004,STR-004,P102,2025-01-03T19:33:00+00:00,2025-01-03,page_view,/category,Checkout,Paid Search,Desktop,Chrome,Android,702,41.04,true,ORD-00580,4855.53
+WEB-000581,SES-000581,C0124,CMP-006,STR-006,P104,2025-01-03T19:40:00+00:00,2025-01-03,product_view,/campaign-landing,Checkout,Direct,Tablet,Safari,Windows,634,86.76,false,,0.00
+WEB-000582,SES-000582,C0625,CMP-002,STR-005,P108,2025-01-03T19:47:00+00:00,2025-01-03,checkout_start,/category,Product,Social Media,Desktop,Chrome,macOS,627,77.44,false,,0.00
+WEB-000583,SES-000583,C0153,CMP-001,STR-001,P106,2025-01-03T19:54:00+00:00,2025-01-03,product_view,/home,Catalog,Paid Search,Mobile,Edge,Windows,125,27.02,false,,0.00
+WEB-000584,SES-000584,C0982,CMP-002,STR-003,P107,2025-01-03T20:01:00+00:00,2025-01-03,purchase,/product,Landing,Paid Search,Desktop,Firefox,iOS,200,35.57,false,,0.00
+WEB-000585,SES-000585,C0932,CMP-003,STR-003,P102,2025-01-03T20:08:00+00:00,2025-01-03,page_view,/product,Checkout,Referral,Mobile,Edge,iOS,872,30.96,false,,0.00
+WEB-000586,SES-000586,C0446,CMP-004,STR-006,P102,2025-01-03T20:15:00+00:00,2025-01-03,add_to_cart,/campaign-landing,Catalog,Partner,Desktop,Chrome,iOS,425,50.01,false,,0.00
+WEB-000587,SES-000587,C0074,CMP-005,STR-001,P108,2025-01-03T20:22:00+00:00,2025-01-03,product_view,/category,Landing,Partner,Desktop,Edge,Windows,435,92.15,false,,0.00
+WEB-000588,SES-000588,C0287,CMP-006,STR-006,P110,2025-01-03T20:29:00+00:00,2025-01-03,product_view,/cart,Landing,Paid Search,Desktop,Chrome,macOS,314,6.76,false,,0.00
+WEB-000589,SES-000589,C0404,CMP-006,STR-001,P107,2025-01-03T20:36:00+00:00,2025-01-03,add_to_cart,/checkout,Checkout,Direct,Tablet,Safari,Windows,477,7.43,true,ORD-00589,855.27
+WEB-000590,SES-000590,C0201,CMP-005,STR-005,P101,2025-01-03T20:43:00+00:00,2025-01-03,page_view,/cart,Landing,Organic,Desktop,Chrome,macOS,290,14.51,false,,0.00
+WEB-000591,SES-000591,C0679,CMP-004,STR-006,P101,2025-01-03T20:50:00+00:00,2025-01-03,purchase,/cart,Landing,Direct,Tablet,Edge,macOS,753,24.31,false,,0.00
+WEB-000592,SES-000592,C0055,CMP-002,STR-004,P101,2025-01-03T20:57:00+00:00,2025-01-03,checkout_start,/home,Landing,Organic,Desktop,Firefox,Windows,504,83.21,false,,0.00
+WEB-000593,SES-000593,C0878,CMP-001,STR-003,P106,2025-01-03T21:04:00+00:00,2025-01-03,add_to_cart,/campaign-landing,Catalog,Organic,Tablet,Chrome,macOS,782,11.06,false,,0.00
+WEB-000594,SES-000594,C0336,CMP-002,STR-004,P103,2025-01-03T21:11:00+00:00,2025-01-03,add_to_cart,/checkout,Catalog,Social Media,Desktop,Safari,macOS,473,68.41,true,ORD-00594,2844.15
+WEB-000595,SES-000595,C0099,CMP-006,STR-006,P104,2025-01-03T21:18:00+00:00,2025-01-03,purchase,/checkout,Checkout,Referral,Tablet,Edge,Windows,102,74.17,false,,0.00
+WEB-000596,SES-000596,C0262,CMP-006,STR-003,P101,2025-01-03T21:25:00+00:00,2025-01-03,product_view,/campaign-landing,Product,Referral,Tablet,Edge,macOS,64,73.81,false,,0.00
+WEB-000597,SES-000597,C0376,CMP-003,STR-006,P107,2025-01-03T21:32:00+00:00,2025-01-03,product_view,/product,Checkout,Partner,Desktop,Edge,Windows,718,73.26,false,,0.00
+WEB-000598,SES-000598,C0553,CMP-006,STR-002,P110,2025-01-03T21:39:00+00:00,2025-01-03,purchase,/category,Checkout,Direct,Mobile,Firefox,macOS,181,10.89,false,,0.00
+WEB-000599,SES-000599,C0898,CMP-005,STR-002,P109,2025-01-03T21:46:00+00:00,2025-01-03,page_view,/product,Catalog,Partner,Tablet,Firefox,macOS,784,16.17,false,,0.00
+WEB-000600,SES-000600,C0408,CMP-003,STR-001,P106,2025-01-03T21:53:00+00:00,2025-01-03,checkout_start,/checkout,Landing,Partner,Mobile,Safari,iOS,399,52.72,true,ORD-00600,5910.65
+WEB-000601,SES-000601,C0418,CMP-003,STR-004,P107,2025-01-03T22:00:00+00:00,2025-01-03,page_view,/category,Support,Social Media,Mobile,Chrome,macOS,528,40.49,false,,0.00
+WEB-000602,SES-000602,C0657,CMP-002,STR-001,P105,2025-01-03T22:07:00+00:00,2025-01-03,add_to_cart,/cart,Catalog,Organic,Mobile,Firefox,iOS,651,83.62,false,,0.00
+WEB-000603,SES-000603,C0994,CMP-005,STR-006,P104,2025-01-03T22:14:00+00:00,2025-01-03,page_view,/checkout,Landing,Paid Search,Mobile,Safari,Windows,121,82.59,false,,0.00
+WEB-000604,SES-000604,C0988,CMP-003,STR-001,P102,2025-01-03T22:21:00+00:00,2025-01-03,purchase,/cart,Landing,Organic,Tablet,Safari,Android,320,55.93,false,,0.00
+WEB-000605,SES-000605,C0105,CMP-004,STR-003,P106,2025-01-03T22:28:00+00:00,2025-01-03,product_view,/cart,Support,Organic,Tablet,Chrome,macOS,835,48.48,false,,0.00
+WEB-000606,SES-000606,C0215,CMP-003,STR-003,P110,2025-01-03T22:35:00+00:00,2025-01-03,add_to_cart,/checkout,Checkout,Partner,Mobile,Edge,macOS,859,13.65,false,,0.00
+WEB-000607,SES-000607,C0269,CMP-002,STR-004,P103,2025-01-03T22:42:00+00:00,2025-01-03,page_view,/campaign-landing,Support,Paid Search,Desktop,Chrome,iOS,623,15.1,false,,0.00
+WEB-000608,SES-000608,C0345,CMP-003,STR-003,P101,2025-01-03T22:49:00+00:00,2025-01-03,add_to_cart,/category,Checkout,Partner,Desktop,Edge,macOS,182,58.03,true,ORD-00608,2940.48
+WEB-000609,SES-000609,C0103,CMP-002,STR-004,P104,2025-01-03T22:56:00+00:00,2025-01-03,checkout_start,/home,Checkout,Direct,Mobile,Safari,Android,593,86.93,false,,0.00
+WEB-000610,SES-000610,C0697,CMP-002,STR-002,P101,2025-01-03T23:03:00+00:00,2025-01-03,add_to_cart,/campaign-landing,Checkout,Paid Search,Tablet,Edge,Windows,21,49.13,false,,0.00
+WEB-000611,SES-000611,C0206,CMP-001,STR-003,P109,2025-01-03T23:10:00+00:00,2025-01-03,purchase,/campaign-landing,Support,Direct,Mobile,Chrome,macOS,167,13.87,true,ORD-00611,1598.52
+WEB-000612,SES-000612,C0901,CMP-002,STR-003,P103,2025-01-03T23:17:00+00:00,2025-01-03,purchase,/category,Support,Direct,Mobile,Safari,iOS,324,94.04,false,,0.00
+WEB-000613,SES-000613,C0494,CMP-004,STR-004,P109,2025-01-03T23:24:00+00:00,2025-01-03,page_view,/product,Checkout,Social Media,Desktop,Chrome,Windows,789,94.24,false,,0.00
+WEB-000614,SES-000614,C0399,CMP-002,STR-002,P102,2025-01-03T23:31:00+00:00,2025-01-03,product_view,/home,Checkout,Partner,Tablet,Firefox,iOS,333,39.91,true,ORD-00614,5521.63
+WEB-000615,SES-000615,C0779,CMP-002,STR-004,P107,2025-01-03T23:38:00+00:00,2025-01-03,add_to_cart,/home,Product,Direct,Desktop,Firefox,macOS,378,82.79,false,,0.00
+WEB-000616,SES-000616,C0854,CMP-002,STR-001,P105,2025-01-03T23:45:00+00:00,2025-01-03,checkout_start,/home,Product,Direct,Desktop,Safari,Android,391,65.72,true,ORD-00616,1137.52
+WEB-000617,SES-000617,C0806,CMP-004,STR-006,P110,2025-01-03T23:52:00+00:00,2025-01-03,add_to_cart,/checkout,Catalog,Organic,Tablet,Safari,iOS,497,83.06,false,,0.00
+WEB-000618,SES-000618,C0697,CMP-006,STR-002,P101,2025-01-03T23:59:00+00:00,2025-01-03,add_to_cart,/campaign-landing,Checkout,Paid Search,Mobile,Edge,iOS,122,65.94,false,,0.00
+WEB-000619,SES-000619,C0889,CMP-003,STR-002,P109,2025-01-04T00:06:00+00:00,2025-01-04,purchase,/category,Catalog,Paid Search,Desktop,Edge,Windows,552,16.24,false,,0.00
+WEB-000620,SES-000620,C0444,CMP-004,STR-002,P101,2025-01-04T00:13:00+00:00,2025-01-04,add_to_cart,/campaign-landing,Catalog,Partner,Desktop,Chrome,iOS,888,27.32,false,,0.00
+WEB-000621,SES-000621,C0818,CMP-006,STR-001,P105,2025-01-04T00:20:00+00:00,2025-01-04,checkout_start,/cart,Checkout,Social Media,Tablet,Safari,Android,798,38.94,false,,0.00
+WEB-000622,SES-000622,C0994,CMP-006,STR-004,P110,2025-01-04T00:27:00+00:00,2025-01-04,add_to_cart,/category,Catalog,Partner,Desktop,Safari,Android,364,12.54,true,ORD-00622,1468.54
+WEB-000623,SES-000623,C0717,CMP-006,STR-002,P110,2025-01-04T00:34:00+00:00,2025-01-04,add_to_cart,/home,Catalog,Social Media,Mobile,Firefox,macOS,527,34.8,false,,0.00
+WEB-000624,SES-000624,C0725,CMP-002,STR-003,P105,2025-01-04T00:41:00+00:00,2025-01-04,add_to_cart,/category,Support,Social Media,Desktop,Safari,Android,546,41.11,false,,0.00
+WEB-000625,SES-000625,C0877,CMP-001,STR-005,P103,2025-01-04T00:48:00+00:00,2025-01-04,checkout_start,/home,Support,Social Media,Desktop,Safari,macOS,883,48.83,false,,0.00
+WEB-000626,SES-000626,C0824,CMP-001,STR-002,P108,2025-01-04T00:55:00+00:00,2025-01-04,product_view,/checkout,Product,Direct,Tablet,Edge,macOS,286,19.11,false,,0.00
+WEB-000627,SES-000627,C0638,CMP-001,STR-004,P102,2025-01-04T01:02:00+00:00,2025-01-04,add_to_cart,/product,Support,Organic,Tablet,Chrome,macOS,188,18.04,false,,0.00
+WEB-000628,SES-000628,C0399,CMP-003,STR-006,P101,2025-01-04T01:09:00+00:00,2025-01-04,purchase,/home,Catalog,Direct,Tablet,Firefox,Android,495,52.67,false,,0.00
+WEB-000629,SES-000629,C0037,CMP-003,STR-002,P102,2025-01-04T01:16:00+00:00,2025-01-04,product_view,/category,Checkout,Referral,Tablet,Edge,macOS,619,87.43,false,,0.00
+WEB-000630,SES-000630,C0939,CMP-002,STR-002,P102,2025-01-04T01:23:00+00:00,2025-01-04,add_to_cart,/cart,Support,Referral,Tablet,Chrome,iOS,214,74.6,true,ORD-00630,557.35
+WEB-000631,SES-000631,C0423,CMP-002,STR-001,P107,2025-01-04T01:30:00+00:00,2025-01-04,product_view,/category,Landing,Partner,Tablet,Safari,Android,416,80.81,false,,0.00
+WEB-000632,SES-000632,C0078,CMP-004,STR-006,P106,2025-01-04T01:37:00+00:00,2025-01-04,checkout_start,/home,Catalog,Partner,Desktop,Edge,Windows,276,81.61,false,,0.00
+WEB-000633,SES-000633,C0086,CMP-003,STR-002,P105,2025-01-04T01:44:00+00:00,2025-01-04,product_view,/campaign-landing,Checkout,Social Media,Tablet,Chrome,Windows,814,99.89,false,,0.00
+WEB-000634,SES-000634,C0458,CMP-005,STR-002,P110,2025-01-04T01:51:00+00:00,2025-01-04,purchase,/campaign-landing,Landing,Partner,Tablet,Edge,macOS,651,57.01,true,ORD-00634,6373.50
+WEB-000635,SES-000635,C0686,CMP-004,STR-001,P110,2025-01-04T01:58:00+00:00,2025-01-04,page_view,/cart,Product,Referral,Desktop,Safari,iOS,709,96.23,true,ORD-00635,107.23
+WEB-000636,SES-000636,C0268,CMP-005,STR-002,P108,2025-01-04T02:05:00+00:00,2025-01-04,product_view,/category,Landing,Partner,Mobile,Firefox,iOS,468,67.79,false,,0.00
+WEB-000637,SES-000637,C0118,CMP-001,STR-001,P105,2025-01-04T02:12:00+00:00,2025-01-04,purchase,/category,Landing,Social Media,Mobile,Firefox,macOS,823,50.81,true,ORD-00637,1142.92
+WEB-000638,SES-000638,C0934,CMP-003,STR-006,P107,2025-01-04T02:19:00+00:00,2025-01-04,add_to_cart,/campaign-landing,Checkout,Referral,Desktop,Edge,iOS,372,98.72,true,ORD-00638,976.65
+WEB-000639,SES-000639,C0645,CMP-004,STR-005,P103,2025-01-04T02:26:00+00:00,2025-01-04,purchase,/home,Support,Partner,Desktop,Safari,iOS,446,73.15,false,,0.00
+WEB-000640,SES-000640,C0850,CMP-001,STR-002,P108,2025-01-04T02:33:00+00:00,2025-01-04,purchase,/campaign-landing,Product,Social Media,Mobile,Edge,Android,422,16.56,false,,0.00
+WEB-000641,SES-000641,C0316,CMP-003,STR-004,P108,2025-01-04T02:40:00+00:00,2025-01-04,page_view,/category,Support,Partner,Desktop,Firefox,iOS,404,29.47,false,,0.00
+WEB-000642,SES-000642,C0528,CMP-002,STR-005,P103,2025-01-04T02:47:00+00:00,2025-01-04,checkout_start,/campaign-landing,Support,Organic,Mobile,Chrome,iOS,816,36.27,false,,0.00
+WEB-000643,SES-000643,C0630,CMP-005,STR-002,P103,2025-01-04T02:54:00+00:00,2025-01-04,checkout_start,/product,Landing,Direct,Mobile,Firefox,macOS,384,53.82,false,,0.00
+WEB-000644,SES-000644,C0834,CMP-003,STR-006,P104,2025-01-04T03:01:00+00:00,2025-01-04,purchase,/cart,Checkout,Referral,Tablet,Chrome,iOS,736,14.49,true,ORD-00644,7112.67
+WEB-000645,SES-000645,C0026,CMP-002,STR-005,P103,2025-01-04T03:08:00+00:00,2025-01-04,purchase,/campaign-landing,Catalog,Social Media,Mobile,Firefox,macOS,520,37.72,false,,0.00
+WEB-000646,SES-000646,C0157,CMP-002,STR-001,P103,2025-01-04T03:15:00+00:00,2025-01-04,purchase,/product,Checkout,Organic,Desktop,Firefox,macOS,739,85.28,false,,0.00
+WEB-000647,SES-000647,C0597,CMP-006,STR-004,P108,2025-01-04T03:22:00+00:00,2025-01-04,product_view,/product,Catalog,Partner,Tablet,Firefox,Windows,601,71.16,true,ORD-00647,6072.32
+WEB-000648,SES-000648,C0008,CMP-006,STR-003,P109,2025-01-04T03:29:00+00:00,2025-01-04,product_view,/campaign-landing,Product,Direct,Tablet,Chrome,iOS,483,78.45,false,,0.00
+WEB-000649,SES-000649,C0386,CMP-004,STR-003,P106,2025-01-04T03:36:00+00:00,2025-01-04,page_view,/category,Catalog,Organic,Tablet,Chrome,Windows,36,88.12,false,,0.00
+WEB-000650,SES-000650,C0518,CMP-002,STR-001,P108,2025-01-04T03:43:00+00:00,2025-01-04,add_to_cart,/home,Support,Partner,Tablet,Edge,Android,151,23.94,true,ORD-00650,4072.80
+WEB-000651,SES-000651,C0920,CMP-005,STR-006,P102,2025-01-04T03:50:00+00:00,2025-01-04,checkout_start,/home,Product,Paid Search,Tablet,Firefox,Android,312,81.71,false,,0.00
+WEB-000652,SES-000652,C0772,CMP-005,STR-003,P105,2025-01-04T03:57:00+00:00,2025-01-04,add_to_cart,/product,Support,Paid Search,Tablet,Edge,macOS,120,19.53,false,,0.00
+WEB-000653,SES-000653,C0288,CMP-001,STR-004,P105,2025-01-04T04:04:00+00:00,2025-01-04,add_to_cart,/category,Checkout,Partner,Mobile,Edge,Android,493,13.77,false,,0.00
+WEB-000654,SES-000654,C0239,CMP-002,STR-005,P103,2025-01-04T04:11:00+00:00,2025-01-04,purchase,/category,Support,Direct,Desktop,Firefox,Android,702,13.79,false,,0.00
+WEB-000655,SES-000655,C0950,CMP-002,STR-004,P103,2025-01-04T04:18:00+00:00,2025-01-04,purchase,/category,Support,Organic,Mobile,Edge,Windows,308,83.09,false,,0.00
+WEB-000656,SES-000656,C0323,CMP-005,STR-001,P108,2025-01-04T04:25:00+00:00,2025-01-04,add_to_cart,/home,Landing,Referral,Mobile,Edge,iOS,223,9.05,true,ORD-00656,1683.98
+WEB-000657,SES-000657,C0061,CMP-001,STR-002,P102,2025-01-04T04:32:00+00:00,2025-01-04,page_view,/campaign-landing,Checkout,Direct,Desktop,Firefox,Windows,719,14.47,false,,0.00
+WEB-000658,SES-000658,C0847,CMP-001,STR-003,P101,2025-01-04T04:39:00+00:00,2025-01-04,page_view,/campaign-landing,Catalog,Referral,Tablet,Chrome,Windows,728,70.58,false,,0.00
+WEB-000659,SES-000659,C0985,CMP-005,STR-001,P101,2025-01-04T04:46:00+00:00,2025-01-04,checkout_start,/cart,Catalog,Direct,Desktop,Chrome,iOS,712,14.38,false,,0.00
+WEB-000660,SES-000660,C0098,CMP-005,STR-005,P107,2025-01-04T04:53:00+00:00,2025-01-04,page_view,/product,Product,Direct,Mobile,Firefox,Windows,605,10.64,true,ORD-00660,3092.63
+WEB-000661,SES-000661,C0236,CMP-004,STR-006,P105,2025-01-04T05:00:00+00:00,2025-01-04,checkout_start,/category,Product,Direct,Tablet,Chrome,iOS,297,73.85,false,,0.00
+WEB-000662,SES-000662,C0169,CMP-002,STR-001,P102,2025-01-04T05:07:00+00:00,2025-01-04,purchase,/home,Support,Referral,Tablet,Edge,Android,641,90.5,true,ORD-00662,2721.50
+WEB-000663,SES-000663,C0317,CMP-005,STR-004,P107,2025-01-04T05:14:00+00:00,2025-01-04,purchase,/checkout,Product,Referral,Desktop,Chrome,macOS,672,61.77,true,ORD-00663,5523.81
+WEB-000664,SES-000664,C0605,CMP-004,STR-005,P108,2025-01-04T05:21:00+00:00,2025-01-04,checkout_start,/product,Product,Paid Search,Mobile,Safari,Android,459,94.91,false,,0.00
+WEB-000665,SES-000665,C0220,CMP-004,STR-004,P101,2025-01-04T05:28:00+00:00,2025-01-04,purchase,/home,Support,Organic,Mobile,Edge,iOS,649,87.1,false,,0.00
+WEB-000666,SES-000666,C0816,CMP-006,STR-002,P109,2025-01-04T05:35:00+00:00,2025-01-04,product_view,/cart,Checkout,Referral,Mobile,Safari,macOS,297,87.06,false,,0.00
+WEB-000667,SES-000667,C0144,CMP-003,STR-003,P104,2025-01-04T05:42:00+00:00,2025-01-04,page_view,/category,Catalog,Referral,Mobile,Chrome,Windows,596,71.54,true,ORD-00667,547.95
+WEB-000668,SES-000668,C0420,CMP-006,STR-004,P104,2025-01-04T05:49:00+00:00,2025-01-04,add_to_cart,/cart,Product,Direct,Desktop,Chrome,Android,138,82.57,false,,0.00
+WEB-000669,SES-000669,C0916,CMP-001,STR-001,P110,2025-01-04T05:56:00+00:00,2025-01-04,page_view,/cart,Landing,Organic,Tablet,Edge,Android,365,41.09,false,,0.00
+WEB-000670,SES-000670,C0813,CMP-005,STR-005,P106,2025-01-04T06:03:00+00:00,2025-01-04,product_view,/checkout,Product,Social Media,Tablet,Chrome,Windows,625,10.82,false,,0.00
+WEB-000671,SES-000671,C0847,CMP-004,STR-003,P103,2025-01-04T06:10:00+00:00,2025-01-04,page_view,/checkout,Catalog,Social Media,Tablet,Safari,Android,80,97.36,false,,0.00
+WEB-000672,SES-000672,C0344,CMP-001,STR-001,P108,2025-01-04T06:17:00+00:00,2025-01-04,add_to_cart,/checkout,Product,Direct,Desktop,Firefox,Windows,73,49.23,true,ORD-00672,166.68
+WEB-000673,SES-000673,C0433,CMP-006,STR-005,P108,2025-01-04T06:24:00+00:00,2025-01-04,add_to_cart,/home,Landing,Social Media,Tablet,Firefox,Android,318,43.43,false,,0.00
+WEB-000674,SES-000674,C0193,CMP-005,STR-006,P106,2025-01-04T06:31:00+00:00,2025-01-04,purchase,/product,Product,Paid Search,Desktop,Safari,Windows,704,69.27,true,ORD-00674,2569.26
+WEB-000675,SES-000675,C0210,CMP-002,STR-002,P105,2025-01-04T06:38:00+00:00,2025-01-04,add_to_cart,/category,Checkout,Social Media,Mobile,Chrome,macOS,61,57.41,false,,0.00
+WEB-000676,SES-000676,C0579,CMP-003,STR-001,P101,2025-01-04T06:45:00+00:00,2025-01-04,purchase,/cart,Landing,Organic,Desktop,Chrome,Windows,204,22.12,false,,0.00
+WEB-000677,SES-000677,C0044,CMP-004,STR-003,P106,2025-01-04T06:52:00+00:00,2025-01-04,add_to_cart,/cart,Product,Organic,Desktop,Firefox,Windows,288,41.19,false,,0.00
+WEB-000678,SES-000678,C0754,CMP-005,STR-001,P110,2025-01-04T06:59:00+00:00,2025-01-04,purchase,/category,Catalog,Organic,Tablet,Edge,Windows,461,46.36,false,,0.00
+WEB-000679,SES-000679,C0773,CMP-002,STR-004,P109,2025-01-04T07:06:00+00:00,2025-01-04,page_view,/category,Catalog,Referral,Mobile,Edge,Windows,419,31.52,false,,0.00
+WEB-000680,SES-000680,C0940,CMP-003,STR-002,P108,2025-01-04T07:13:00+00:00,2025-01-04,page_view,/category,Catalog,Partner,Tablet,Firefox,iOS,500,83.93,false,,0.00
+WEB-000681,SES-000681,C0648,CMP-004,STR-005,P110,2025-01-04T07:20:00+00:00,2025-01-04,product_view,/category,Support,Referral,Tablet,Firefox,Windows,189,51.29,false,,0.00
+WEB-000682,SES-000682,C0812,CMP-004,STR-003,P109,2025-01-04T07:27:00+00:00,2025-01-04,add_to_cart,/cart,Landing,Organic,Desktop,Safari,Windows,230,83.02,true,ORD-00682,529.99
+WEB-000683,SES-000683,C0984,CMP-006,STR-003,P110,2025-01-04T07:34:00+00:00,2025-01-04,add_to_cart,/home,Landing,Paid Search,Tablet,Safari,macOS,317,47.6,false,,0.00
+WEB-000684,SES-000684,C0897,CMP-001,STR-001,P103,2025-01-04T07:41:00+00:00,2025-01-04,purchase,/cart,Product,Organic,Desktop,Safari,iOS,362,17.64,true,ORD-00684,3526.83
+WEB-000685,SES-000685,C0018,CMP-004,STR-002,P105,2025-01-04T07:48:00+00:00,2025-01-04,product_view,/campaign-landing,Support,Organic,Tablet,Edge,Windows,417,58.54,false,,0.00
+WEB-000686,SES-000686,C0938,CMP-002,STR-001,P104,2025-01-04T07:55:00+00:00,2025-01-04,add_to_cart,/cart,Landing,Partner,Desktop,Safari,macOS,100,86.28,false,,0.00
+WEB-000687,SES-000687,C0856,CMP-006,STR-001,P102,2025-01-04T08:02:00+00:00,2025-01-04,product_view,/home,Checkout,Social Media,Tablet,Safari,macOS,847,26.09,false,,0.00
+WEB-000688,SES-000688,C0580,CMP-005,STR-005,P101,2025-01-04T08:09:00+00:00,2025-01-04,product_view,/category,Landing,Partner,Mobile,Edge,Android,263,80.38,false,,0.00
+WEB-000689,SES-000689,C0020,CMP-005,STR-003,P110,2025-01-04T08:16:00+00:00,2025-01-04,product_view,/cart,Catalog,Referral,Tablet,Firefox,iOS,505,7.14,true,ORD-00689,1203.36
+WEB-000690,SES-000690,C0059,CMP-001,STR-002,P110,2025-01-04T08:23:00+00:00,2025-01-04,add_to_cart,/home,Support,Referral,Tablet,Chrome,Android,93,77.39,false,,0.00
+WEB-000691,SES-000691,C0281,CMP-003,STR-004,P102,2025-01-04T08:30:00+00:00,2025-01-04,product_view,/home,Product,Referral,Mobile,Safari,iOS,391,16.2,false,,0.00
+WEB-000692,SES-000692,C0023,CMP-001,STR-004,P103,2025-01-04T08:37:00+00:00,2025-01-04,purchase,/home,Support,Paid Search,Mobile,Safari,Android,217,46.83,false,,0.00
+WEB-000693,SES-000693,C0763,CMP-006,STR-004,P104,2025-01-04T08:44:00+00:00,2025-01-04,checkout_start,/checkout,Checkout,Referral,Desktop,Safari,iOS,183,5.57,false,,0.00
+WEB-000694,SES-000694,C0623,CMP-002,STR-002,P104,2025-01-04T08:51:00+00:00,2025-01-04,product_view,/category,Checkout,Organic,Desktop,Chrome,Android,378,31.8,false,,0.00
+WEB-000695,SES-000695,C0284,CMP-003,STR-005,P102,2025-01-04T08:58:00+00:00,2025-01-04,page_view,/checkout,Support,Social Media,Mobile,Chrome,macOS,821,29.39,true,ORD-00695,1187.57
+WEB-000696,SES-000696,C0448,CMP-005,STR-003,P106,2025-01-04T09:05:00+00:00,2025-01-04,page_view,/home,Product,Direct,Mobile,Chrome,Windows,781,74.19,false,,0.00
+WEB-000697,SES-000697,C0396,CMP-006,STR-002,P109,2025-01-04T09:12:00+00:00,2025-01-04,purchase,/product,Catalog,Social Media,Desktop,Chrome,Windows,118,99.51,false,,0.00
+WEB-000698,SES-000698,C0544,CMP-002,STR-003,P107,2025-01-04T09:19:00+00:00,2025-01-04,checkout_start,/home,Product,Paid Search,Tablet,Chrome,macOS,603,57.63,false,,0.00
+WEB-000699,SES-000699,C0977,CMP-002,STR-001,P101,2025-01-04T09:26:00+00:00,2025-01-04,product_view,/category,Catalog,Organic,Mobile,Chrome,Android,526,84.54,false,,0.00
+WEB-000700,SES-000700,C0684,CMP-005,STR-005,P109,2025-01-04T09:33:00+00:00,2025-01-04,page_view,/category,Support,Referral,Desktop,Edge,macOS,212,39.69,false,,0.00
+WEB-000701,SES-000701,C0548,CMP-004,STR-002,P105,2025-01-04T09:40:00+00:00,2025-01-04,purchase,/category,Landing,Paid Search,Tablet,Safari,macOS,524,61.16,false,,0.00
+WEB-000702,SES-000702,C0136,CMP-003,STR-001,P102,2025-01-04T09:47:00+00:00,2025-01-04,checkout_start,/campaign-landing,Product,Partner,Tablet,Firefox,Windows,503,76.2,false,,0.00
+WEB-000703,SES-000703,C0807,CMP-006,STR-003,P102,2025-01-04T09:54:00+00:00,2025-01-04,purchase,/product,Support,Partner,Desktop,Firefox,Android,260,83.4,false,,0.00
+WEB-000704,SES-000704,C0110,CMP-003,STR-006,P106,2025-01-04T10:01:00+00:00,2025-01-04,checkout_start,/home,Landing,Partner,Tablet,Edge,Android,274,95.49,false,,0.00
+WEB-000705,SES-000705,C0464,CMP-003,STR-001,P104,2025-01-04T10:08:00+00:00,2025-01-04,product_view,/cart,Support,Direct,Mobile,Edge,iOS,463,70.16,false,,0.00
+WEB-000706,SES-000706,C0513,CMP-001,STR-002,P101,2025-01-04T10:15:00+00:00,2025-01-04,product_view,/home,Catalog,Paid Search,Tablet,Firefox,Android,327,13.56,true,ORD-00706,2529.60
+WEB-000707,SES-000707,C0458,CMP-002,STR-003,P108,2025-01-04T10:22:00+00:00,2025-01-04,page_view,/campaign-landing,Product,Direct,Tablet,Safari,Windows,436,28.13,true,ORD-00707,1763.33
+WEB-000708,SES-000708,C0400,CMP-006,STR-003,P110,2025-01-04T10:29:00+00:00,2025-01-04,page_view,/category,Landing,Direct,Desktop,Chrome,iOS,477,60.52,false,,0.00
+WEB-000709,SES-000709,C0592,CMP-003,STR-005,P108,2025-01-04T10:36:00+00:00,2025-01-04,checkout_start,/checkout,Landing,Partner,Tablet,Safari,macOS,857,6.95,false,,0.00
+WEB-000710,SES-000710,C0402,CMP-005,STR-003,P110,2025-01-04T10:43:00+00:00,2025-01-04,checkout_start,/cart,Catalog,Referral,Tablet,Firefox,Android,115,31.58,false,,0.00
+WEB-000711,SES-000711,C0204,CMP-004,STR-002,P101,2025-01-04T10:50:00+00:00,2025-01-04,page_view,/campaign-landing,Product,Paid Search,Desktop,Chrome,Windows,670,53.6,false,,0.00
+WEB-000712,SES-000712,C0930,CMP-001,STR-002,P104,2025-01-04T10:57:00+00:00,2025-01-04,add_to_cart,/cart,Support,Paid Search,Desktop,Safari,Android,260,99.06,false,,0.00
+WEB-000713,SES-000713,C0529,CMP-006,STR-001,P102,2025-01-04T11:04:00+00:00,2025-01-04,product_view,/category,Catalog,Social Media,Mobile,Edge,macOS,399,7.68,false,,0.00
+WEB-000714,SES-000714,C0393,CMP-003,STR-001,P109,2025-01-04T11:11:00+00:00,2025-01-04,product_view,/cart,Catalog,Paid Search,Tablet,Safari,iOS,681,90.74,false,,0.00
+WEB-000715,SES-000715,C0488,CMP-001,STR-005,P106,2025-01-04T11:18:00+00:00,2025-01-04,add_to_cart,/campaign-landing,Landing,Partner,Desktop,Edge,Android,24,85.14,true,ORD-00715,380.07
+WEB-000716,SES-000716,C0165,CMP-004,STR-003,P107,2025-01-04T11:25:00+00:00,2025-01-04,purchase,/cart,Landing,Paid Search,Tablet,Safari,iOS,317,34.23,false,,0.00
+WEB-000717,SES-000717,C0249,CMP-006,STR-004,P108,2025-01-04T11:32:00+00:00,2025-01-04,add_to_cart,/product,Product,Social Media,Tablet,Firefox,iOS,711,42.18,false,,0.00
+WEB-000718,SES-000718,C0983,CMP-004,STR-005,P110,2025-01-04T11:39:00+00:00,2025-01-04,checkout_start,/category,Landing,Referral,Mobile,Chrome,Windows,96,19.36,true,ORD-00718,888.96
+WEB-000719,SES-000719,C0022,CMP-005,STR-001,P108,2025-01-04T11:46:00+00:00,2025-01-04,add_to_cart,/product,Checkout,Partner,Desktop,Edge,Windows,492,68.69,false,,0.00
+WEB-000720,SES-000720,C0721,CMP-003,STR-003,P103,2025-01-04T11:53:00+00:00,2025-01-04,page_view,/checkout,Landing,Referral,Mobile,Chrome,Windows,369,55.91,true,ORD-00720,3020.18
+WEB-000721,SES-000721,C0828,CMP-005,STR-004,P107,2025-01-04T12:00:00+00:00,2025-01-04,product_view,/checkout,Product,Paid Search,Mobile,Chrome,Windows,556,61.13,false,,0.00
+WEB-000722,SES-000722,C0969,CMP-004,STR-005,P105,2025-01-04T12:07:00+00:00,2025-01-04,product_view,/category,Product,Paid Search,Tablet,Edge,macOS,220,55.99,false,,0.00
+WEB-000723,SES-000723,C0388,CMP-006,STR-002,P104,2025-01-04T12:14:00+00:00,2025-01-04,page_view,/cart,Landing,Organic,Mobile,Firefox,Windows,698,73.92,false,,0.00
+WEB-000724,SES-000724,C0178,CMP-005,STR-004,P104,2025-01-04T12:21:00+00:00,2025-01-04,purchase,/campaign-landing,Support,Referral,Desktop,Chrome,Windows,487,63.43,false,,0.00
+WEB-000725,SES-000725,C0388,CMP-003,STR-005,P110,2025-01-04T12:28:00+00:00,2025-01-04,page_view,/checkout,Product,Partner,Mobile,Chrome,macOS,871,54.33,false,,0.00
+WEB-000726,SES-000726,C0147,CMP-005,STR-003,P104,2025-01-04T12:35:00+00:00,2025-01-04,add_to_cart,/home,Catalog,Direct,Desktop,Firefox,macOS,705,43.41,false,,0.00
+WEB-000727,SES-000727,C0551,CMP-002,STR-002,P103,2025-01-04T12:42:00+00:00,2025-01-04,purchase,/checkout,Product,Paid Search,Tablet,Chrome,Windows,210,85.36,false,,0.00
+WEB-000728,SES-000728,C0542,CMP-005,STR-001,P110,2025-01-04T12:49:00+00:00,2025-01-04,product_view,/cart,Product,Direct,Tablet,Safari,macOS,423,53.08,false,,0.00
+WEB-000729,SES-000729,C0845,CMP-005,STR-005,P106,2025-01-04T12:56:00+00:00,2025-01-04,add_to_cart,/home,Support,Social Media,Desktop,Chrome,iOS,175,82.08,true,ORD-00729,1388.85
+WEB-000730,SES-000730,C0735,CMP-001,STR-002,P107,2025-01-04T13:03:00+00:00,2025-01-04,purchase,/home,Checkout,Partner,Desktop,Edge,Android,551,10.0,false,,0.00
+WEB-000731,SES-000731,C0404,CMP-002,STR-006,P104,2025-01-04T13:10:00+00:00,2025-01-04,product_view,/cart,Catalog,Referral,Tablet,Firefox,macOS,310,18.44,false,,0.00
+WEB-000732,SES-000732,C0919,CMP-004,STR-005,P105,2025-01-04T13:17:00+00:00,2025-01-04,add_to_cart,/checkout,Support,Partner,Tablet,Chrome,Windows,37,85.3,false,,0.00
+WEB-000733,SES-000733,C0313,CMP-001,STR-001,P101,2025-01-04T13:24:00+00:00,2025-01-04,purchase,/home,Catalog,Partner,Mobile,Safari,Android,509,62.76,false,,0.00
+WEB-000734,SES-000734,C0018,CMP-002,STR-005,P108,2025-01-04T13:31:00+00:00,2025-01-04,product_view,/cart,Catalog,Direct,Desktop,Safari,macOS,655,61.39,true,ORD-00734,3006.54
+WEB-000735,SES-000735,C0892,CMP-006,STR-002,P104,2025-01-04T13:38:00+00:00,2025-01-04,purchase,/checkout,Product,Referral,Tablet,Chrome,Windows,250,48.97,false,,0.00
+WEB-000736,SES-000736,C0044,CMP-001,STR-001,P101,2025-01-04T13:45:00+00:00,2025-01-04,purchase,/product,Support,Referral,Tablet,Chrome,Android,142,83.35,false,,0.00
+WEB-000737,SES-000737,C0771,CMP-005,STR-002,P104,2025-01-04T13:52:00+00:00,2025-01-04,purchase,/campaign-landing,Product,Direct,Mobile,Safari,macOS,286,74.52,false,,0.00
+WEB-000738,SES-000738,C0983,CMP-006,STR-003,P106,2025-01-04T13:59:00+00:00,2025-01-04,add_to_cart,/home,Checkout,Direct,Tablet,Chrome,macOS,464,84.92,false,,0.00
+WEB-000739,SES-000739,C0113,CMP-002,STR-006,P109,2025-01-04T14:06:00+00:00,2025-01-04,checkout_start,/home,Catalog,Social Media,Mobile,Firefox,macOS,746,44.48,false,,0.00
+WEB-000740,SES-000740,C0684,CMP-006,STR-005,P104,2025-01-04T14:13:00+00:00,2025-01-04,checkout_start,/home,Catalog,Paid Search,Mobile,Firefox,Android,591,18.18,false,,0.00
+WEB-000741,SES-000741,C0974,CMP-006,STR-003,P107,2025-01-04T14:20:00+00:00,2025-01-04,product_view,/campaign-landing,Landing,Partner,Desktop,Chrome,Windows,825,73.61,true,ORD-00741,410.68
+WEB-000742,SES-000742,C0433,CMP-002,STR-004,P106,2025-01-04T14:27:00+00:00,2025-01-04,checkout_start,/cart,Landing,Partner,Tablet,Chrome,Android,635,54.67,true,ORD-00742,1323.83
+WEB-000743,SES-000743,C0547,CMP-004,STR-002,P103,2025-01-04T14:34:00+00:00,2025-01-04,page_view,/category,Landing,Partner,Mobile,Edge,iOS,132,80.31,false,,0.00
+WEB-000744,SES-000744,C0518,CMP-005,STR-004,P107,2025-01-04T14:41:00+00:00,2025-01-04,purchase,/category,Checkout,Referral,Mobile,Chrome,Android,644,58.51,false,,0.00
+WEB-000745,SES-000745,C0724,CMP-004,STR-003,P101,2025-01-04T14:48:00+00:00,2025-01-04,checkout_start,/checkout,Catalog,Referral,Mobile,Edge,macOS,107,82.0,true,ORD-00745,1930.45
+WEB-000746,SES-000746,C0116,CMP-005,STR-002,P105,2025-01-04T14:55:00+00:00,2025-01-04,add_to_cart,/campaign-landing,Landing,Paid Search,Tablet,Edge,Android,853,51.78,true,ORD-00746,4823.26
+WEB-000747,SES-000747,C0443,CMP-003,STR-003,P104,2025-01-04T15:02:00+00:00,2025-01-04,add_to_cart,/cart,Support,Organic,Desktop,Safari,iOS,163,46.28,false,,0.00
+WEB-000748,SES-000748,C0542,CMP-001,STR-001,P104,2025-01-04T15:09:00+00:00,2025-01-04,product_view,/cart,Landing,Referral,Desktop,Chrome,Windows,26,43.43,false,,0.00
+WEB-000749,SES-000749,C0632,CMP-006,STR-001,P102,2025-01-04T15:16:00+00:00,2025-01-04,add_to_cart,/cart,Landing,Organic,Mobile,Safari,Windows,104,49.1,true,ORD-00749,2786.27
+WEB-000750,SES-000750,C0959,CMP-004,STR-005,P108,2025-01-04T15:23:00+00:00,2025-01-04,add_to_cart,/cart,Catalog,Referral,Desktop,Safari,macOS,402,66.33,false,,0.00
+WEB-000751,SES-000751,C0089,CMP-004,STR-006,P108,2025-01-04T15:30:00+00:00,2025-01-04,page_view,/campaign-landing,Catalog,Organic,Mobile,Edge,Windows,446,9.44,false,,0.00
+WEB-000752,SES-000752,C0466,CMP-001,STR-004,P105,2025-01-04T15:37:00+00:00,2025-01-04,purchase,/home,Checkout,Partner,Desktop,Edge,Windows,75,47.7,false,,0.00
+WEB-000753,SES-000753,C0854,CMP-006,STR-001,P103,2025-01-04T15:44:00+00:00,2025-01-04,purchase,/category,Catalog,Organic,Desktop,Edge,macOS,281,48.68,false,,0.00
+WEB-000754,SES-000754,C0677,CMP-006,STR-001,P109,2025-01-04T15:51:00+00:00,2025-01-04,product_view,/cart,Landing,Organic,Desktop,Chrome,Windows,491,80.85,true,ORD-00754,4193.05
+WEB-000755,SES-000755,C0078,CMP-006,STR-006,P109,2025-01-04T15:58:00+00:00,2025-01-04,purchase,/campaign-landing,Product,Direct,Desktop,Chrome,Windows,299,76.4,false,,0.00
+WEB-000756,SES-000756,C0500,CMP-006,STR-005,P101,2025-01-04T16:05:00+00:00,2025-01-04,product_view,/product,Product,Organic,Desktop,Safari,iOS,325,23.1,false,,0.00
+WEB-000757,SES-000757,C0966,CMP-002,STR-006,P109,2025-01-04T16:12:00+00:00,2025-01-04,product_view,/cart,Checkout,Paid Search,Desktop,Safari,Android,737,82.87,false,,0.00
+WEB-000758,SES-000758,C0422,CMP-005,STR-001,P110,2025-01-04T16:19:00+00:00,2025-01-04,add_to_cart,/cart,Support,Partner,Tablet,Edge,iOS,149,85.06,false,,0.00
+WEB-000759,SES-000759,C0467,CMP-005,STR-006,P105,2025-01-04T16:26:00+00:00,2025-01-04,product_view,/checkout,Landing,Direct,Tablet,Firefox,Windows,687,26.83,false,,0.00
+WEB-000760,SES-000760,C0017,CMP-004,STR-003,P101,2025-01-04T16:33:00+00:00,2025-01-04,product_view,/cart,Product,Organic,Tablet,Safari,Windows,709,36.14,false,,0.00
+WEB-000761,SES-000761,C0791,CMP-006,STR-001,P105,2025-01-04T16:40:00+00:00,2025-01-04,purchase,/product,Landing,Direct,Mobile,Safari,Windows,227,94.8,false,,0.00
+WEB-000762,SES-000762,C0004,CMP-002,STR-001,P106,2025-01-04T16:47:00+00:00,2025-01-04,add_to_cart,/product,Checkout,Partner,Tablet,Safari,Android,333,13.88,false,,0.00
+WEB-000763,SES-000763,C0732,CMP-005,STR-006,P103,2025-01-04T16:54:00+00:00,2025-01-04,checkout_start,/cart,Catalog,Social Media,Desktop,Firefox,macOS,201,80.63,false,,0.00
+WEB-000764,SES-000764,C0450,CMP-006,STR-005,P110,2025-01-04T17:01:00+00:00,2025-01-04,checkout_start,/campaign-landing,Support,Direct,Desktop,Firefox,iOS,622,91.87,false,,0.00
+WEB-000765,SES-000765,C0231,CMP-003,STR-005,P105,2025-01-04T17:08:00+00:00,2025-01-04,page_view,/campaign-landing,Catalog,Paid Search,Mobile,Safari,Android,795,78.38,false,,0.00
+WEB-000766,SES-000766,C0115,CMP-002,STR-003,P108,2025-01-04T17:15:00+00:00,2025-01-04,checkout_start,/cart,Checkout,Paid Search,Mobile,Firefox,macOS,893,52.25,false,,0.00
+WEB-000767,SES-000767,C0428,CMP-006,STR-006,P103,2025-01-04T17:22:00+00:00,2025-01-04,product_view,/category,Support,Direct,Mobile,Firefox,Windows,695,74.66,false,,0.00
+WEB-000768,SES-000768,C0382,CMP-004,STR-004,P107,2025-01-04T17:29:00+00:00,2025-01-04,purchase,/checkout,Landing,Social Media,Desktop,Edge,macOS,461,31.8,false,,0.00
+WEB-000769,SES-000769,C0587,CMP-002,STR-006,P110,2025-01-04T17:36:00+00:00,2025-01-04,checkout_start,/campaign-landing,Support,Partner,Mobile,Chrome,iOS,431,62.78,false,,0.00
+WEB-000770,SES-000770,C0569,CMP-006,STR-004,P110,2025-01-04T17:43:00+00:00,2025-01-04,page_view,/checkout,Support,Paid Search,Tablet,Chrome,Android,301,86.58,false,,0.00
+WEB-000771,SES-000771,C0934,CMP-003,STR-004,P102,2025-01-04T17:50:00+00:00,2025-01-04,page_view,/product,Support,Partner,Tablet,Firefox,iOS,539,59.5,false,,0.00
+WEB-000772,SES-000772,C0764,CMP-001,STR-003,P110,2025-01-04T17:57:00+00:00,2025-01-04,page_view,/cart,Catalog,Paid Search,Mobile,Firefox,iOS,51,75.3,false,,0.00
+WEB-000773,SES-000773,C0056,CMP-003,STR-003,P108,2025-01-04T18:04:00+00:00,2025-01-04,checkout_start,/cart,Support,Referral,Mobile,Edge,Android,189,64.12,false,,0.00
+WEB-000774,SES-000774,C0408,CMP-004,STR-001,P105,2025-01-04T18:11:00+00:00,2025-01-04,checkout_start,/campaign-landing,Product,Partner,Mobile,Chrome,iOS,897,40.12,true,ORD-00774,3980.61
+WEB-000775,SES-000775,C0067,CMP-003,STR-002,P105,2025-01-04T18:18:00+00:00,2025-01-04,checkout_start,/cart,Landing,Partner,Mobile,Firefox,Windows,530,82.95,false,,0.00
+WEB-000776,SES-000776,C0202,CMP-006,STR-001,P106,2025-01-04T18:25:00+00:00,2025-01-04,purchase,/checkout,Catalog,Partner,Desktop,Edge,iOS,869,44.43,true,ORD-00776,282.75
+WEB-000777,SES-000777,C0101,CMP-002,STR-004,P104,2025-01-04T18:32:00+00:00,2025-01-04,checkout_start,/campaign-landing,Checkout,Referral,Desktop,Firefox,Android,555,96.33,true,ORD-00777,107.31
+WEB-000778,SES-000778,C0751,CMP-005,STR-001,P110,2025-01-04T18:39:00+00:00,2025-01-04,add_to_cart,/home,Checkout,Organic,Desktop,Edge,Android,176,34.44,false,,0.00
+WEB-000779,SES-000779,C0131,CMP-005,STR-002,P106,2025-01-04T18:46:00+00:00,2025-01-04,purchase,/home,Landing,Social Media,Mobile,Edge,Android,592,83.69,false,,0.00
+WEB-000780,SES-000780,C0788,CMP-001,STR-001,P104,2025-01-04T18:53:00+00:00,2025-01-04,page_view,/product,Product,Referral,Mobile,Chrome,macOS,438,94.95,false,,0.00
+WEB-000781,SES-000781,C0585,CMP-004,STR-004,P102,2025-01-04T19:00:00+00:00,2025-01-04,page_view,/checkout,Catalog,Direct,Desktop,Chrome,iOS,809,42.12,false,,0.00
+WEB-000782,SES-000782,C0234,CMP-005,STR-001,P106,2025-01-04T19:07:00+00:00,2025-01-04,purchase,/campaign-landing,Support,Paid Search,Mobile,Safari,macOS,622,18.48,false,,0.00
+WEB-000783,SES-000783,C0363,CMP-003,STR-006,P101,2025-01-04T19:14:00+00:00,2025-01-04,purchase,/home,Checkout,Partner,Tablet,Firefox,macOS,164,61.78,false,,0.00
+WEB-000784,SES-000784,C0550,CMP-003,STR-003,P103,2025-01-04T19:21:00+00:00,2025-01-04,checkout_start,/product,Catalog,Direct,Tablet,Edge,Android,536,19.21,false,,0.00
+WEB-000785,SES-000785,C0442,CMP-006,STR-006,P105,2025-01-04T19:28:00+00:00,2025-01-04,checkout_start,/category,Support,Organic,Desktop,Safari,macOS,24,35.24,false,,0.00
+WEB-000786,SES-000786,C0892,CMP-006,STR-002,P109,2025-01-04T19:35:00+00:00,2025-01-04,purchase,/category,Checkout,Direct,Mobile,Edge,Windows,850,54.14,false,,0.00
+WEB-000787,SES-000787,C0356,CMP-001,STR-003,P110,2025-01-04T19:42:00+00:00,2025-01-04,checkout_start,/cart,Support,Organic,Desktop,Safari,Windows,818,92.22,false,,0.00
+WEB-000788,SES-000788,C0601,CMP-006,STR-006,P105,2025-01-04T19:49:00+00:00,2025-01-04,add_to_cart,/campaign-landing,Product,Referral,Tablet,Safari,Windows,696,27.51,false,,0.00
+WEB-000789,SES-000789,C0679,CMP-002,STR-003,P109,2025-01-04T19:56:00+00:00,2025-01-04,purchase,/cart,Checkout,Referral,Tablet,Firefox,Windows,574,18.53,false,,0.00
+WEB-000790,SES-000790,C0735,CMP-001,STR-006,P109,2025-01-04T20:03:00+00:00,2025-01-04,product_view,/product,Landing,Referral,Tablet,Edge,Android,604,23.12,true,ORD-00790,3774.95
+WEB-000791,SES-000791,C0027,CMP-002,STR-006,P105,2025-01-04T20:10:00+00:00,2025-01-04,add_to_cart,/product,Catalog,Partner,Tablet,Safari,iOS,339,59.13,false,,0.00
+WEB-000792,SES-000792,C0120,CMP-002,STR-005,P106,2025-01-04T20:17:00+00:00,2025-01-04,checkout_start,/campaign-landing,Landing,Partner,Mobile,Firefox,Windows,301,51.25,true,ORD-00792,500.53
+WEB-000793,SES-000793,C0875,CMP-005,STR-005,P101,2025-01-04T20:24:00+00:00,2025-01-04,page_view,/product,Checkout,Social Media,Tablet,Edge,Windows,162,96.58,true,ORD-00793,628.79
+WEB-000794,SES-000794,C0201,CMP-006,STR-003,P106,2025-01-04T20:31:00+00:00,2025-01-04,add_to_cart,/category,Product,Social Media,Desktop,Firefox,Android,389,60.66,false,,0.00
+WEB-000795,SES-000795,C0089,CMP-001,STR-006,P101,2025-01-04T20:38:00+00:00,2025-01-04,page_view,/category,Catalog,Social Media,Mobile,Edge,iOS,534,78.83,true,ORD-00795,1455.26
+WEB-000796,SES-000796,C0708,CMP-002,STR-002,P105,2025-01-04T20:45:00+00:00,2025-01-04,product_view,/category,Product,Organic,Desktop,Safari,Windows,541,77.66,false,,0.00
+WEB-000797,SES-000797,C0239,CMP-005,STR-001,P108,2025-01-04T20:52:00+00:00,2025-01-04,product_view,/campaign-landing,Support,Direct,Desktop,Safari,Windows,129,11.49,false,,0.00
+WEB-000798,SES-000798,C0166,CMP-005,STR-003,P101,2025-01-04T20:59:00+00:00,2025-01-04,product_view,/campaign-landing,Product,Social Media,Mobile,Firefox,Windows,416,27.52,true,ORD-00798,495.86
+WEB-000799,SES-000799,C0592,CMP-001,STR-001,P105,2025-01-04T21:06:00+00:00,2025-01-04,checkout_start,/checkout,Product,Paid Search,Tablet,Chrome,Android,830,37.97,false,,0.00
+WEB-000800,SES-000800,C0129,CMP-005,STR-006,P106,2025-01-04T21:13:00+00:00,2025-01-04,checkout_start,/campaign-landing,Product,Direct,Mobile,Safari,macOS,807,91.76,false,,0.00
+WEB-000801,SES-000801,C0944,CMP-006,STR-004,P107,2025-01-04T21:20:00+00:00,2025-01-04,product_view,/category,Checkout,Social Media,Mobile,Safari,iOS,283,28.07,false,,0.00
+WEB-000802,SES-000802,C0807,CMP-003,STR-004,P110,2025-01-04T21:27:00+00:00,2025-01-04,add_to_cart,/category,Product,Social Media,Mobile,Firefox,macOS,544,29.75,true,ORD-00802,117.08
+WEB-000803,SES-000803,C0835,CMP-003,STR-005,P104,2025-01-04T21:34:00+00:00,2025-01-04,purchase,/product,Support,Organic,Mobile,Chrome,macOS,693,89.16,false,,0.00
+WEB-000804,SES-000804,C0986,CMP-006,STR-004,P109,2025-01-04T21:41:00+00:00,2025-01-04,product_view,/category,Catalog,Social Media,Desktop,Safari,iOS,714,83.7,false,,0.00
+WEB-000805,SES-000805,C0066,CMP-003,STR-002,P106,2025-01-04T21:48:00+00:00,2025-01-04,add_to_cart,/product,Checkout,Direct,Desktop,Safari,Windows,194,84.09,false,,0.00
+WEB-000806,SES-000806,C0334,CMP-003,STR-001,P110,2025-01-04T21:55:00+00:00,2025-01-04,add_to_cart,/home,Checkout,Referral,Tablet,Firefox,Windows,234,66.57,true,ORD-00806,723.01
+WEB-000807,SES-000807,C0923,CMP-001,STR-006,P105,2025-01-04T22:02:00+00:00,2025-01-04,product_view,/checkout,Product,Direct,Desktop,Chrome,Windows,461,72.34,true,ORD-00807,990.04
+WEB-000808,SES-000808,C0858,CMP-002,STR-002,P105,2025-01-04T22:09:00+00:00,2025-01-04,add_to_cart,/home,Product,Paid Search,Tablet,Edge,macOS,398,22.16,false,,0.00
+WEB-000809,SES-000809,C0670,CMP-003,STR-001,P106,2025-01-04T22:16:00+00:00,2025-01-04,product_view,/product,Catalog,Organic,Mobile,Chrome,macOS,497,23.5,false,,0.00
+WEB-000810,SES-000810,C0731,CMP-005,STR-005,P105,2025-01-04T22:23:00+00:00,2025-01-04,page_view,/product,Checkout,Partner,Desktop,Firefox,Android,628,10.2,false,,0.00
+WEB-000811,SES-000811,C0601,CMP-004,STR-005,P106,2025-01-04T22:30:00+00:00,2025-01-04,purchase,/product,Product,Organic,Mobile,Chrome,iOS,57,23.95,false,,0.00
+WEB-000812,SES-000812,C0295,CMP-006,STR-002,P101,2025-01-04T22:37:00+00:00,2025-01-04,page_view,/category,Catalog,Referral,Desktop,Chrome,macOS,73,85.43,false,,0.00
+WEB-000813,SES-000813,C0119,CMP-004,STR-004,P101,2025-01-04T22:44:00+00:00,2025-01-04,checkout_start,/category,Catalog,Paid Search,Tablet,Edge,Android,763,9.62,false,,0.00
+WEB-000814,SES-000814,C0392,CMP-002,STR-006,P106,2025-01-04T22:51:00+00:00,2025-01-04,checkout_start,/checkout,Support,Paid Search,Mobile,Chrome,macOS,432,76.64,false,,0.00
+WEB-000815,SES-000815,C0395,CMP-003,STR-005,P106,2025-01-04T22:58:00+00:00,2025-01-04,purchase,/home,Landing,Direct,Tablet,Safari,Windows,593,71.17,true,ORD-00815,3730.44
+WEB-000816,SES-000816,C0643,CMP-004,STR-006,P109,2025-01-04T23:05:00+00:00,2025-01-04,product_view,/checkout,Catalog,Paid Search,Desktop,Edge,macOS,672,91.42,false,,0.00
+WEB-000817,SES-000817,C0132,CMP-006,STR-002,P104,2025-01-04T23:12:00+00:00,2025-01-04,add_to_cart,/campaign-landing,Checkout,Social Media,Mobile,Edge,Android,387,28.8,false,,0.00
+WEB-000818,SES-000818,C0101,CMP-001,STR-005,P106,2025-01-04T23:19:00+00:00,2025-01-04,product_view,/category,Checkout,Partner,Tablet,Firefox,macOS,877,95.54,true,ORD-00818,5492.71
+WEB-000819,SES-000819,C0891,CMP-003,STR-005,P103,2025-01-04T23:26:00+00:00,2025-01-04,page_view,/category,Landing,Organic,Desktop,Edge,Windows,301,15.91,false,,0.00
+WEB-000820,SES-000820,C0610,CMP-001,STR-003,P107,2025-01-04T23:33:00+00:00,2025-01-04,purchase,/campaign-landing,Checkout,Social Media,Tablet,Chrome,macOS,232,48.42,true,ORD-00820,1416.10
+WEB-000821,SES-000821,C0433,CMP-006,STR-006,P103,2025-01-04T23:40:00+00:00,2025-01-04,page_view,/campaign-landing,Product,Referral,Tablet,Chrome,macOS,328,60.13,false,,0.00
+WEB-000822,SES-000822,C0400,CMP-004,STR-003,P107,2025-01-04T23:47:00+00:00,2025-01-04,purchase,/category,Landing,Organic,Mobile,Chrome,iOS,346,73.17,false,,0.00
+WEB-000823,SES-000823,C0944,CMP-005,STR-001,P106,2025-01-04T23:54:00+00:00,2025-01-04,checkout_start,/checkout,Support,Referral,Mobile,Chrome,Windows,790,76.62,false,,0.00
+WEB-000824,SES-000824,C0432,CMP-001,STR-001,P109,2025-01-05T00:01:00+00:00,2025-01-05,checkout_start,/product,Support,Direct,Desktop,Firefox,Windows,536,42.14,false,,0.00
+WEB-000825,SES-000825,C0926,CMP-001,STR-001,P107,2025-01-05T00:08:00+00:00,2025-01-05,page_view,/checkout,Checkout,Referral,Desktop,Chrome,macOS,775,35.07,true,ORD-00825,8850.67
+WEB-000826,SES-000826,C0344,CMP-002,STR-004,P105,2025-01-05T00:15:00+00:00,2025-01-05,product_view,/category,Product,Referral,Tablet,Edge,Android,471,52.07,true,ORD-00826,958.82
+WEB-000827,SES-000827,C0171,CMP-006,STR-002,P106,2025-01-05T00:22:00+00:00,2025-01-05,product_view,/home,Product,Social Media,Desktop,Firefox,iOS,864,56.47,true,ORD-00827,3445.95
+WEB-000828,SES-000828,C0116,CMP-003,STR-004,P102,2025-01-05T00:29:00+00:00,2025-01-05,page_view,/product,Product,Organic,Mobile,Safari,Windows,105,21.12,false,,0.00
+WEB-000829,SES-000829,C0957,CMP-002,STR-004,P104,2025-01-05T00:36:00+00:00,2025-01-05,page_view,/product,Landing,Direct,Mobile,Safari,macOS,864,65.87,false,,0.00
+WEB-000830,SES-000830,C0394,CMP-006,STR-005,P104,2025-01-05T00:43:00+00:00,2025-01-05,add_to_cart,/campaign-landing,Checkout,Referral,Desktop,Firefox,Android,764,54.23,false,,0.00
+WEB-000831,SES-000831,C0852,CMP-003,STR-004,P106,2025-01-05T00:50:00+00:00,2025-01-05,page_view,/home,Landing,Paid Search,Mobile,Chrome,macOS,410,89.99,false,,0.00
+WEB-000832,SES-000832,C0016,CMP-004,STR-005,P102,2025-01-05T00:57:00+00:00,2025-01-05,checkout_start,/campaign-landing,Checkout,Organic,Tablet,Safari,Android,900,79.3,true,ORD-00832,6870.43
+WEB-000833,SES-000833,C0353,CMP-004,STR-004,P104,2025-01-05T01:04:00+00:00,2025-01-05,add_to_cart,/category,Product,Organic,Desktop,Firefox,iOS,774,94.06,true,ORD-00833,693.25
+WEB-000834,SES-000834,C0349,CMP-003,STR-005,P107,2025-01-05T01:11:00+00:00,2025-01-05,purchase,/campaign-landing,Support,Social Media,Tablet,Edge,Windows,202,77.41,false,,0.00
+WEB-000835,SES-000835,C0395,CMP-002,STR-002,P105,2025-01-05T01:18:00+00:00,2025-01-05,add_to_cart,/cart,Support,Paid Search,Desktop,Safari,Android,462,50.36,false,,0.00
+WEB-000836,SES-000836,C0071,CMP-002,STR-005,P106,2025-01-05T01:25:00+00:00,2025-01-05,purchase,/category,Product,Social Media,Desktop,Safari,Android,227,23.47,false,,0.00
+WEB-000837,SES-000837,C0646,CMP-002,STR-001,P105,2025-01-05T01:32:00+00:00,2025-01-05,add_to_cart,/checkout,Support,Organic,Mobile,Chrome,iOS,614,7.74,true,ORD-00837,6837.95
+WEB-000838,SES-000838,C0979,CMP-004,STR-001,P105,2025-01-05T01:39:00+00:00,2025-01-05,purchase,/cart,Checkout,Direct,Tablet,Chrome,Windows,480,23.15,false,,0.00
+WEB-000839,SES-000839,C0022,CMP-005,STR-005,P104,2025-01-05T01:46:00+00:00,2025-01-05,product_view,/home,Checkout,Direct,Tablet,Safari,Android,591,62.96,false,,0.00
+WEB-000840,SES-000840,C0809,CMP-002,STR-003,P104,2025-01-05T01:53:00+00:00,2025-01-05,add_to_cart,/home,Landing,Paid Search,Tablet,Edge,Windows,362,95.77,false,,0.00
+WEB-000841,SES-000841,C0320,CMP-005,STR-003,P104,2025-01-05T02:00:00+00:00,2025-01-05,add_to_cart,/home,Landing,Referral,Desktop,Safari,iOS,698,80.78,false,,0.00
+WEB-000842,SES-000842,C0465,CMP-005,STR-006,P105,2025-01-05T02:07:00+00:00,2025-01-05,product_view,/home,Landing,Paid Search,Mobile,Chrome,iOS,692,46.87,false,,0.00
+WEB-000843,SES-000843,C0659,CMP-006,STR-003,P105,2025-01-05T02:14:00+00:00,2025-01-05,checkout_start,/product,Product,Referral,Mobile,Edge,Windows,753,86.11,false,,0.00
+WEB-000844,SES-000844,C0994,CMP-001,STR-006,P106,2025-01-05T02:21:00+00:00,2025-01-05,product_view,/category,Landing,Direct,Mobile,Firefox,Windows,490,73.08,false,,0.00
+WEB-000845,SES-000845,C0066,CMP-002,STR-005,P104,2025-01-05T02:28:00+00:00,2025-01-05,purchase,/home,Catalog,Social Media,Tablet,Chrome,Android,654,7.04,false,,0.00
+WEB-000846,SES-000846,C0271,CMP-006,STR-006,P106,2025-01-05T02:35:00+00:00,2025-01-05,page_view,/category,Landing,Paid Search,Mobile,Firefox,Windows,725,5.66,false,,0.00
+WEB-000847,SES-000847,C0062,CMP-006,STR-004,P110,2025-01-05T02:42:00+00:00,2025-01-05,checkout_start,/cart,Catalog,Social Media,Tablet,Safari,macOS,591,66.42,false,,0.00
+WEB-000848,SES-000848,C0577,CMP-005,STR-001,P102,2025-01-05T02:49:00+00:00,2025-01-05,page_view,/checkout,Landing,Direct,Desktop,Edge,Windows,37,49.5,false,,0.00
+WEB-000849,SES-000849,C0638,CMP-003,STR-005,P109,2025-01-05T02:56:00+00:00,2025-01-05,checkout_start,/home,Catalog,Direct,Mobile,Edge,Windows,25,68.84,false,,0.00
+WEB-000850,SES-000850,C0472,CMP-003,STR-004,P109,2025-01-05T03:03:00+00:00,2025-01-05,checkout_start,/cart,Support,Paid Search,Mobile,Chrome,macOS,166,90.36,true,ORD-00850,277.65
+WEB-000851,SES-000851,C0838,CMP-001,STR-003,P109,2025-01-05T03:10:00+00:00,2025-01-05,purchase,/home,Support,Direct,Mobile,Edge,Android,354,87.63,false,,0.00
+WEB-000852,SES-000852,C0266,CMP-006,STR-002,P107,2025-01-05T03:17:00+00:00,2025-01-05,checkout_start,/category,Landing,Direct,Tablet,Firefox,Windows,451,59.44,false,,0.00
+WEB-000853,SES-000853,C0930,CMP-006,STR-005,P110,2025-01-05T03:24:00+00:00,2025-01-05,add_to_cart,/category,Product,Organic,Mobile,Edge,Android,348,38.96,false,,0.00
+WEB-000854,SES-000854,C0580,CMP-006,STR-002,P103,2025-01-05T03:31:00+00:00,2025-01-05,purchase,/product,Catalog,Social Media,Tablet,Safari,iOS,445,73.87,false,,0.00
+WEB-000855,SES-000855,C0892,CMP-002,STR-006,P109,2025-01-05T03:38:00+00:00,2025-01-05,product_view,/product,Landing,Paid Search,Tablet,Firefox,Windows,474,23.08,true,ORD-00855,1283.83
+WEB-000856,SES-000856,C0336,CMP-005,STR-006,P105,2025-01-05T03:45:00+00:00,2025-01-05,checkout_start,/product,Support,Social Media,Desktop,Safari,Android,281,76.47,false,,0.00
+WEB-000857,SES-000857,C0939,CMP-001,STR-001,P104,2025-01-05T03:52:00+00:00,2025-01-05,purchase,/checkout,Checkout,Partner,Desktop,Chrome,Android,421,12.9,false,,0.00
+WEB-000858,SES-000858,C0437,CMP-006,STR-003,P108,2025-01-05T03:59:00+00:00,2025-01-05,purchase,/campaign-landing,Checkout,Referral,Desktop,Chrome,Android,334,45.87,false,,0.00
+WEB-000859,SES-000859,C0976,CMP-002,STR-001,P108,2025-01-05T04:06:00+00:00,2025-01-05,purchase,/cart,Product,Direct,Mobile,Chrome,Android,600,72.9,false,,0.00
+WEB-000860,SES-000860,C0844,CMP-003,STR-003,P110,2025-01-05T04:13:00+00:00,2025-01-05,add_to_cart,/category,Landing,Organic,Tablet,Safari,iOS,99,98.99,false,,0.00
+WEB-000861,SES-000861,C0154,CMP-006,STR-005,P109,2025-01-05T04:20:00+00:00,2025-01-05,add_to_cart,/product,Landing,Organic,Mobile,Firefox,Android,146,35.9,false,,0.00
+WEB-000862,SES-000862,C0752,CMP-001,STR-003,P104,2025-01-05T04:27:00+00:00,2025-01-05,checkout_start,/cart,Product,Organic,Tablet,Firefox,Windows,160,62.32,false,,0.00
+WEB-000863,SES-000863,C0654,CMP-004,STR-003,P103,2025-01-05T04:34:00+00:00,2025-01-05,purchase,/checkout,Landing,Partner,Desktop,Chrome,macOS,536,77.6,false,,0.00
+WEB-000864,SES-000864,C0584,CMP-002,STR-005,P110,2025-01-05T04:41:00+00:00,2025-01-05,checkout_start,/campaign-landing,Support,Social Media,Desktop,Safari,Windows,658,60.8,false,,0.00
+WEB-000865,SES-000865,C0886,CMP-002,STR-003,P105,2025-01-05T04:48:00+00:00,2025-01-05,add_to_cart,/checkout,Checkout,Social Media,Desktop,Safari,Android,158,83.31,false,,0.00
+WEB-000866,SES-000866,C0835,CMP-003,STR-001,P110,2025-01-05T04:55:00+00:00,2025-01-05,page_view,/home,Product,Partner,Mobile,Firefox,macOS,152,83.93,false,,0.00
+WEB-000867,SES-000867,C0408,CMP-005,STR-003,P109,2025-01-05T05:02:00+00:00,2025-01-05,page_view,/cart,Support,Referral,Tablet,Safari,Windows,383,23.37,true,ORD-00867,2944.39
+WEB-000868,SES-000868,C0103,CMP-001,STR-003,P105,2025-01-05T05:09:00+00:00,2025-01-05,page_view,/cart,Checkout,Partner,Mobile,Safari,iOS,889,41.06,false,,0.00
+WEB-000869,SES-000869,C0248,CMP-003,STR-004,P108,2025-01-05T05:16:00+00:00,2025-01-05,product_view,/campaign-landing,Landing,Social Media,Tablet,Firefox,Android,891,90.08,true,ORD-00869,3120.28
+WEB-000870,SES-000870,C0669,CMP-001,STR-004,P102,2025-01-05T05:23:00+00:00,2025-01-05,purchase,/campaign-landing,Checkout,Social Media,Mobile,Chrome,Android,637,36.24,false,,0.00
+WEB-000871,SES-000871,C0503,CMP-002,STR-003,P109,2025-01-05T05:30:00+00:00,2025-01-05,checkout_start,/home,Catalog,Social Media,Tablet,Chrome,Windows,663,20.74,true,ORD-00871,2204.08
+WEB-000872,SES-000872,C0674,CMP-005,STR-002,P109,2025-01-05T05:37:00+00:00,2025-01-05,product_view,/product,Checkout,Referral,Mobile,Safari,Android,808,78.24,false,,0.00
+WEB-000873,SES-000873,C0663,CMP-003,STR-004,P108,2025-01-05T05:44:00+00:00,2025-01-05,add_to_cart,/category,Product,Direct,Desktop,Chrome,iOS,613,80.48,false,,0.00
+WEB-000874,SES-000874,C0798,CMP-001,STR-002,P109,2025-01-05T05:51:00+00:00,2025-01-05,purchase,/cart,Product,Social Media,Mobile,Firefox,Android,347,70.29,false,,0.00
+WEB-000875,SES-000875,C0599,CMP-004,STR-005,P103,2025-01-05T05:58:00+00:00,2025-01-05,product_view,/cart,Landing,Organic,Mobile,Safari,macOS,876,8.05,true,ORD-00875,1763.16
+WEB-000876,SES-000876,C0971,CMP-004,STR-005,P103,2025-01-05T06:05:00+00:00,2025-01-05,add_to_cart,/product,Catalog,Referral,Tablet,Chrome,iOS,761,99.97,true,ORD-00876,2763.16
+WEB-000877,SES-000877,C0794,CMP-005,STR-004,P103,2025-01-05T06:12:00+00:00,2025-01-05,page_view,/home,Support,Organic,Mobile,Edge,Android,645,90.87,false,,0.00
+WEB-000878,SES-000878,C0848,CMP-006,STR-003,P105,2025-01-05T06:19:00+00:00,2025-01-05,purchase,/checkout,Checkout,Direct,Tablet,Chrome,macOS,136,73.19,true,ORD-00878,1644.89
+WEB-000879,SES-000879,C0737,CMP-004,STR-006,P106,2025-01-05T06:26:00+00:00,2025-01-05,purchase,/checkout,Catalog,Paid Search,Mobile,Safari,macOS,307,44.93,true,ORD-00879,1398.16
+WEB-000880,SES-000880,C0566,CMP-005,STR-003,P105,2025-01-05T06:33:00+00:00,2025-01-05,page_view,/cart,Landing,Partner,Mobile,Chrome,macOS,71,50.42,true,ORD-00880,7243.78
+WEB-000881,SES-000881,C0355,CMP-004,STR-006,P104,2025-01-05T06:40:00+00:00,2025-01-05,checkout_start,/category,Support,Paid Search,Desktop,Firefox,macOS,374,92.61,false,,0.00
+WEB-000882,SES-000882,C0015,CMP-005,STR-004,P103,2025-01-05T06:47:00+00:00,2025-01-05,product_view,/campaign-landing,Checkout,Partner,Mobile,Firefox,Android,804,23.51,false,,0.00
+WEB-000883,SES-000883,C0625,CMP-002,STR-002,P103,2025-01-05T06:54:00+00:00,2025-01-05,add_to_cart,/product,Checkout,Paid Search,Tablet,Edge,iOS,72,55.0,false,,0.00
+WEB-000884,SES-000884,C0234,CMP-004,STR-002,P103,2025-01-05T07:01:00+00:00,2025-01-05,purchase,/campaign-landing,Support,Organic,Mobile,Edge,macOS,769,76.16,true,ORD-00884,1284.72
+WEB-000885,SES-000885,C0599,CMP-003,STR-005,P110,2025-01-05T07:08:00+00:00,2025-01-05,purchase,/cart,Landing,Referral,Desktop,Edge,Android,328,93.77,false,,0.00
+WEB-000886,SES-000886,C0047,CMP-006,STR-001,P109,2025-01-05T07:15:00+00:00,2025-01-05,product_view,/product,Support,Paid Search,Mobile,Firefox,macOS,429,51.28,false,,0.00
+WEB-000887,SES-000887,C0798,CMP-003,STR-006,P105,2025-01-05T07:22:00+00:00,2025-01-05,purchase,/checkout,Support,Partner,Tablet,Edge,Android,834,88.68,false,,0.00
+WEB-000888,SES-000888,C0170,CMP-006,STR-003,P103,2025-01-05T07:29:00+00:00,2025-01-05,purchase,/product,Checkout,Partner,Tablet,Safari,Android,316,30.31,false,,0.00
+WEB-000889,SES-000889,C0149,CMP-001,STR-004,P101,2025-01-05T07:36:00+00:00,2025-01-05,product_view,/category,Checkout,Social Media,Desktop,Firefox,iOS,796,54.47,false,,0.00
+WEB-000890,SES-000890,C0978,CMP-003,STR-005,P109,2025-01-05T07:43:00+00:00,2025-01-05,add_to_cart,/cart,Landing,Social Media,Mobile,Chrome,iOS,217,33.79,false,,0.00
+WEB-000891,SES-000891,C0514,CMP-004,STR-005,P104,2025-01-05T07:50:00+00:00,2025-01-05,add_to_cart,/category,Support,Partner,Desktop,Edge,Android,101,19.57,false,,0.00
+WEB-000892,SES-000892,C0749,CMP-006,STR-004,P105,2025-01-05T07:57:00+00:00,2025-01-05,purchase,/product,Landing,Social Media,Mobile,Chrome,macOS,275,77.81,false,,0.00
+WEB-000893,SES-000893,C0648,CMP-002,STR-003,P107,2025-01-05T08:04:00+00:00,2025-01-05,page_view,/home,Support,Organic,Tablet,Firefox,macOS,820,61.95,true,ORD-00893,5982.90
+WEB-000894,SES-000894,C0920,CMP-002,STR-001,P108,2025-01-05T08:11:00+00:00,2025-01-05,page_view,/checkout,Support,Referral,Desktop,Chrome,iOS,106,88.02,true,ORD-00894,4874.81
+WEB-000895,SES-000895,C0466,CMP-003,STR-004,P108,2025-01-05T08:18:00+00:00,2025-01-05,add_to_cart,/category,Landing,Referral,Tablet,Edge,macOS,424,61.31,false,,0.00
+WEB-000896,SES-000896,C0718,CMP-004,STR-006,P107,2025-01-05T08:25:00+00:00,2025-01-05,product_view,/checkout,Checkout,Organic,Desktop,Edge,macOS,640,80.41,false,,0.00
+WEB-000897,SES-000897,C0942,CMP-005,STR-002,P101,2025-01-05T08:32:00+00:00,2025-01-05,purchase,/cart,Product,Paid Search,Tablet,Safari,Android,374,8.43,false,,0.00
+WEB-000898,SES-000898,C0641,CMP-001,STR-002,P104,2025-01-05T08:39:00+00:00,2025-01-05,product_view,/campaign-landing,Support,Paid Search,Tablet,Chrome,Android,822,78.45,false,,0.00
+WEB-000899,SES-000899,C0379,CMP-003,STR-005,P101,2025-01-05T08:46:00+00:00,2025-01-05,purchase,/home,Product,Social Media,Desktop,Firefox,Android,224,95.6,false,,0.00
+WEB-000900,SES-000900,C0711,CMP-006,STR-005,P103,2025-01-05T08:53:00+00:00,2025-01-05,page_view,/home,Support,Partner,Mobile,Chrome,Windows,601,99.4,true,ORD-00900,3053.78
+WEB-000901,SES-000901,C0097,CMP-004,STR-002,P101,2025-01-05T09:00:00+00:00,2025-01-05,purchase,/home,Product,Social Media,Desktop,Chrome,Windows,392,27.87,false,,0.00
+WEB-000902,SES-000902,C0070,CMP-003,STR-005,P110,2025-01-05T09:07:00+00:00,2025-01-05,product_view,/campaign-landing,Support,Direct,Desktop,Edge,iOS,405,8.3,false,,0.00
+WEB-000903,SES-000903,C0559,CMP-001,STR-001,P106,2025-01-05T09:14:00+00:00,2025-01-05,purchase,/campaign-landing,Checkout,Social Media,Mobile,Safari,iOS,443,36.31,false,,0.00
+WEB-000904,SES-000904,C0517,CMP-005,STR-004,P101,2025-01-05T09:21:00+00:00,2025-01-05,purchase,/category,Support,Paid Search,Mobile,Chrome,Android,366,96.26,false,,0.00
+WEB-000905,SES-000905,C0708,CMP-002,STR-001,P106,2025-01-05T09:28:00+00:00,2025-01-05,checkout_start,/home,Catalog,Partner,Desktop,Firefox,iOS,335,77.43,true,ORD-00905,1394.95
+WEB-000906,SES-000906,C0070,CMP-004,STR-002,P107,2025-01-05T09:35:00+00:00,2025-01-05,add_to_cart,/campaign-landing,Support,Paid Search,Tablet,Safari,Windows,469,57.29,false,,0.00
+WEB-000907,SES-000907,C0522,CMP-004,STR-001,P105,2025-01-05T09:42:00+00:00,2025-01-05,page_view,/cart,Support,Paid Search,Tablet,Safari,Android,827,66.55,false,,0.00
+WEB-000908,SES-000908,C0708,CMP-004,STR-006,P109,2025-01-05T09:49:00+00:00,2025-01-05,purchase,/home,Checkout,Paid Search,Desktop,Firefox,macOS,76,44.14,true,ORD-00908,660.25
+WEB-000909,SES-000909,C0770,CMP-004,STR-001,P104,2025-01-05T09:56:00+00:00,2025-01-05,add_to_cart,/cart,Catalog,Partner,Desktop,Edge,macOS,552,87.26,false,,0.00
+WEB-000910,SES-000910,C0871,CMP-005,STR-002,P108,2025-01-05T10:03:00+00:00,2025-01-05,checkout_start,/product,Product,Social Media,Mobile,Safari,Android,854,31.31,false,,0.00
+WEB-000911,SES-000911,C0934,CMP-002,STR-003,P103,2025-01-05T10:10:00+00:00,2025-01-05,product_view,/campaign-landing,Landing,Organic,Mobile,Safari,Android,747,49.22,false,,0.00
+WEB-000912,SES-000912,C0676,CMP-006,STR-003,P106,2025-01-05T10:17:00+00:00,2025-01-05,checkout_start,/cart,Support,Direct,Mobile,Chrome,Windows,503,21.09,true,ORD-00912,5630.20
+WEB-000913,SES-000913,C0467,CMP-001,STR-004,P105,2025-01-05T10:24:00+00:00,2025-01-05,page_view,/campaign-landing,Catalog,Partner,Desktop,Safari,Windows,218,58.97,false,,0.00
+WEB-000914,SES-000914,C0484,CMP-005,STR-005,P107,2025-01-05T10:31:00+00:00,2025-01-05,product_view,/product,Checkout,Direct,Tablet,Edge,iOS,44,43.23,false,,0.00
+WEB-000915,SES-000915,C0030,CMP-001,STR-002,P110,2025-01-05T10:38:00+00:00,2025-01-05,add_to_cart,/campaign-landing,Support,Partner,Mobile,Edge,Windows,791,26.88,false,,0.00
+WEB-000916,SES-000916,C0490,CMP-001,STR-002,P102,2025-01-05T10:45:00+00:00,2025-01-05,page_view,/product,Support,Organic,Tablet,Safari,Windows,215,92.37,false,,0.00
+WEB-000917,SES-000917,C0886,CMP-003,STR-002,P105,2025-01-05T10:52:00+00:00,2025-01-05,checkout_start,/product,Support,Organic,Mobile,Firefox,macOS,165,20.82,false,,0.00
+WEB-000918,SES-000918,C0908,CMP-001,STR-001,P103,2025-01-05T10:59:00+00:00,2025-01-05,product_view,/home,Landing,Paid Search,Mobile,Firefox,Windows,255,71.88,false,,0.00
+WEB-000919,SES-000919,C0442,CMP-005,STR-002,P108,2025-01-05T11:06:00+00:00,2025-01-05,page_view,/home,Product,Partner,Tablet,Chrome,iOS,802,47.09,false,,0.00
+WEB-000920,SES-000920,C0083,CMP-004,STR-004,P104,2025-01-05T11:13:00+00:00,2025-01-05,add_to_cart,/product,Product,Referral,Mobile,Chrome,Android,784,95.36,false,,0.00
+WEB-000921,SES-000921,C0070,CMP-002,STR-001,P110,2025-01-05T11:20:00+00:00,2025-01-05,product_view,/campaign-landing,Support,Direct,Desktop,Chrome,macOS,388,7.83,true,ORD-00921,7937.78
+WEB-000922,SES-000922,C0383,CMP-005,STR-003,P107,2025-01-05T11:27:00+00:00,2025-01-05,product_view,/cart,Support,Paid Search,Tablet,Chrome,iOS,403,59.58,false,,0.00
+WEB-000923,SES-000923,C0562,CMP-006,STR-005,P108,2025-01-05T11:34:00+00:00,2025-01-05,add_to_cart,/campaign-landing,Support,Direct,Tablet,Safari,Android,676,21.18,true,ORD-00923,433.99
+WEB-000924,SES-000924,C0678,CMP-002,STR-004,P103,2025-01-05T11:41:00+00:00,2025-01-05,product_view,/category,Product,Organic,Tablet,Chrome,macOS,173,70.08,false,,0.00
+WEB-000925,SES-000925,C0591,CMP-005,STR-002,P106,2025-01-05T11:48:00+00:00,2025-01-05,page_view,/category,Landing,Social Media,Desktop,Edge,Windows,666,21.52,false,,0.00
+WEB-000926,SES-000926,C0012,CMP-003,STR-001,P108,2025-01-05T11:55:00+00:00,2025-01-05,page_view,/checkout,Product,Referral,Desktop,Firefox,Windows,719,45.35,true,ORD-00926,1642.43
+WEB-000927,SES-000927,C0478,CMP-002,STR-005,P103,2025-01-05T12:02:00+00:00,2025-01-05,purchase,/home,Product,Paid Search,Tablet,Safari,iOS,693,45.43,false,,0.00
+WEB-000928,SES-000928,C0026,CMP-005,STR-001,P103,2025-01-05T12:09:00+00:00,2025-01-05,checkout_start,/cart,Support,Referral,Mobile,Firefox,Windows,259,17.73,true,ORD-00928,1970.38
+WEB-000929,SES-000929,C0184,CMP-005,STR-002,P103,2025-01-05T12:16:00+00:00,2025-01-05,page_view,/category,Product,Organic,Tablet,Safari,macOS,115,23.17,true,ORD-00929,3483.33
+WEB-000930,SES-000930,C0900,CMP-006,STR-004,P109,2025-01-05T12:23:00+00:00,2025-01-05,add_to_cart,/product,Landing,Paid Search,Mobile,Edge,Windows,247,15.13,false,,0.00
+WEB-000931,SES-000931,C0235,CMP-006,STR-006,P106,2025-01-05T12:30:00+00:00,2025-01-05,checkout_start,/product,Support,Partner,Tablet,Firefox,macOS,294,23.91,false,,0.00
+WEB-000932,SES-000932,C0206,CMP-003,STR-004,P102,2025-01-05T12:37:00+00:00,2025-01-05,product_view,/cart,Landing,Referral,Desktop,Edge,iOS,619,21.31,true,ORD-00932,1139.53
+WEB-000933,SES-000933,C0605,CMP-006,STR-004,P110,2025-01-05T12:44:00+00:00,2025-01-05,page_view,/checkout,Catalog,Referral,Desktop,Chrome,Android,581,13.97,false,,0.00
+WEB-000934,SES-000934,C0660,CMP-006,STR-004,P105,2025-01-05T12:51:00+00:00,2025-01-05,add_to_cart,/checkout,Checkout,Organic,Tablet,Edge,Android,446,24.86,false,,0.00
+WEB-000935,SES-000935,C0024,CMP-001,STR-005,P107,2025-01-05T12:58:00+00:00,2025-01-05,product_view,/cart,Product,Paid Search,Mobile,Edge,Windows,225,59.75,false,,0.00
+WEB-000936,SES-000936,C0723,CMP-003,STR-001,P106,2025-01-05T13:05:00+00:00,2025-01-05,add_to_cart,/home,Catalog,Social Media,Tablet,Safari,Windows,342,50.58,false,,0.00
+WEB-000937,SES-000937,C0400,CMP-005,STR-005,P107,2025-01-05T13:12:00+00:00,2025-01-05,purchase,/campaign-landing,Checkout,Referral,Desktop,Firefox,Windows,146,54.91,true,ORD-00937,566.95
+WEB-000938,SES-000938,C0244,CMP-004,STR-006,P102,2025-01-05T13:19:00+00:00,2025-01-05,purchase,/product,Catalog,Paid Search,Desktop,Firefox,macOS,97,92.28,false,,0.00
+WEB-000939,SES-000939,C0343,CMP-006,STR-005,P106,2025-01-05T13:26:00+00:00,2025-01-05,add_to_cart,/category,Support,Paid Search,Mobile,Edge,iOS,422,54.83,false,,0.00
+WEB-000940,SES-000940,C0524,CMP-005,STR-006,P106,2025-01-05T13:33:00+00:00,2025-01-05,add_to_cart,/product,Product,Partner,Tablet,Firefox,iOS,464,31.24,false,,0.00
+WEB-000941,SES-000941,C0512,CMP-004,STR-006,P110,2025-01-05T13:40:00+00:00,2025-01-05,add_to_cart,/product,Catalog,Social Media,Tablet,Chrome,macOS,98,51.39,true,ORD-00941,952.75
+WEB-000942,SES-000942,C0409,CMP-001,STR-004,P107,2025-01-05T13:47:00+00:00,2025-01-05,checkout_start,/campaign-landing,Product,Paid Search,Mobile,Chrome,macOS,660,5.31,false,,0.00
+WEB-000943,SES-000943,C0354,CMP-002,STR-006,P101,2025-01-05T13:54:00+00:00,2025-01-05,checkout_start,/cart,Support,Partner,Tablet,Edge,macOS,322,74.41,true,ORD-00943,1028.91
+WEB-000944,SES-000944,C0336,CMP-002,STR-004,P110,2025-01-05T14:01:00+00:00,2025-01-05,purchase,/campaign-landing,Support,Social Media,Tablet,Edge,Android,81,69.01,false,,0.00
+WEB-000945,SES-000945,C0544,CMP-001,STR-006,P101,2025-01-05T14:08:00+00:00,2025-01-05,purchase,/product,Checkout,Organic,Tablet,Edge,iOS,594,78.06,false,,0.00
+WEB-000946,SES-000946,C0933,CMP-003,STR-005,P107,2025-01-05T14:15:00+00:00,2025-01-05,product_view,/cart,Product,Direct,Mobile,Firefox,iOS,136,73.04,false,,0.00
+WEB-000947,SES-000947,C0875,CMP-003,STR-005,P104,2025-01-05T14:22:00+00:00,2025-01-05,purchase,/product,Product,Paid Search,Desktop,Chrome,macOS,125,18.68,false,,0.00
+WEB-000948,SES-000948,C0389,CMP-005,STR-006,P105,2025-01-05T14:29:00+00:00,2025-01-05,add_to_cart,/product,Landing,Organic,Desktop,Edge,Windows,585,54.52,false,,0.00
+WEB-000949,SES-000949,C0403,CMP-002,STR-005,P101,2025-01-05T14:36:00+00:00,2025-01-05,purchase,/checkout,Catalog,Referral,Mobile,Firefox,iOS,179,32.28,false,,0.00
+WEB-000950,SES-000950,C0068,CMP-006,STR-005,P110,2025-01-05T14:43:00+00:00,2025-01-05,add_to_cart,/category,Support,Paid Search,Desktop,Firefox,Android,212,10.63,true,ORD-00950,4020.71
+WEB-000951,SES-000951,C0086,CMP-004,STR-003,P110,2025-01-05T14:50:00+00:00,2025-01-05,product_view,/cart,Product,Organic,Desktop,Safari,macOS,83,28.81,false,,0.00
+WEB-000952,SES-000952,C0152,CMP-001,STR-002,P102,2025-01-05T14:57:00+00:00,2025-01-05,checkout_start,/checkout,Landing,Social Media,Desktop,Chrome,Android,719,87.97,false,,0.00
+WEB-000953,SES-000953,C0966,CMP-001,STR-002,P103,2025-01-05T15:04:00+00:00,2025-01-05,add_to_cart,/checkout,Landing,Paid Search,Tablet,Firefox,iOS,305,47.38,true,ORD-00953,103.04
+WEB-000954,SES-000954,C0292,CMP-004,STR-003,P109,2025-01-05T15:11:00+00:00,2025-01-05,product_view,/category,Landing,Direct,Mobile,Safari,Windows,164,45.54,false,,0.00
+WEB-000955,SES-000955,C0827,CMP-003,STR-001,P105,2025-01-05T15:18:00+00:00,2025-01-05,product_view,/cart,Catalog,Paid Search,Desktop,Chrome,Windows,476,46.45,false,,0.00
+WEB-000956,SES-000956,C0010,CMP-003,STR-006,P107,2025-01-05T15:25:00+00:00,2025-01-05,page_view,/cart,Support,Direct,Mobile,Firefox,iOS,712,73.46,false,,0.00
+WEB-000957,SES-000957,C0898,CMP-006,STR-002,P106,2025-01-05T15:32:00+00:00,2025-01-05,purchase,/category,Product,Direct,Tablet,Safari,Windows,122,21.54,true,ORD-00957,2248.18
+WEB-000958,SES-000958,C0897,CMP-002,STR-003,P104,2025-01-05T15:39:00+00:00,2025-01-05,page_view,/cart,Catalog,Social Media,Mobile,Edge,iOS,535,78.86,false,,0.00
+WEB-000959,SES-000959,C0346,CMP-004,STR-002,P101,2025-01-05T15:46:00+00:00,2025-01-05,add_to_cart,/checkout,Checkout,Paid Search,Desktop,Firefox,iOS,687,20.99,false,,0.00
+WEB-000960,SES-000960,C0435,CMP-003,STR-001,P108,2025-01-05T15:53:00+00:00,2025-01-05,page_view,/campaign-landing,Catalog,Organic,Mobile,Chrome,Windows,567,7.87,false,,0.00
+WEB-000961,SES-000961,C0599,CMP-001,STR-001,P108,2025-01-05T16:00:00+00:00,2025-01-05,purchase,/campaign-landing,Catalog,Partner,Tablet,Safari,macOS,421,76.46,false,,0.00
+WEB-000962,SES-000962,C0043,CMP-004,STR-006,P110,2025-01-05T16:07:00+00:00,2025-01-05,purchase,/home,Product,Paid Search,Tablet,Edge,iOS,211,55.65,false,,0.00
+WEB-000963,SES-000963,C0534,CMP-002,STR-002,P105,2025-01-05T16:14:00+00:00,2025-01-05,product_view,/cart,Checkout,Organic,Desktop,Firefox,Windows,220,83.51,false,,0.00
+WEB-000964,SES-000964,C0993,CMP-005,STR-002,P103,2025-01-05T16:21:00+00:00,2025-01-05,purchase,/category,Product,Paid Search,Tablet,Chrome,Windows,656,11.35,false,,0.00
+WEB-000965,SES-000965,C0287,CMP-002,STR-002,P103,2025-01-05T16:28:00+00:00,2025-01-05,page_view,/campaign-landing,Product,Direct,Desktop,Chrome,Android,29,95.75,false,,0.00
+WEB-000966,SES-000966,C0706,CMP-002,STR-006,P105,2025-01-05T16:35:00+00:00,2025-01-05,page_view,/home,Landing,Organic,Mobile,Firefox,Windows,511,8.3,false,,0.00
+WEB-000967,SES-000967,C0052,CMP-005,STR-002,P105,2025-01-05T16:42:00+00:00,2025-01-05,page_view,/campaign-landing,Support,Social Media,Desktop,Firefox,macOS,45,41.1,false,,0.00
+WEB-000968,SES-000968,C0749,CMP-002,STR-006,P108,2025-01-05T16:49:00+00:00,2025-01-05,add_to_cart,/product,Product,Partner,Tablet,Edge,macOS,626,77.44,false,,0.00
+WEB-000969,SES-000969,C0365,CMP-006,STR-004,P105,2025-01-05T16:56:00+00:00,2025-01-05,checkout_start,/home,Support,Referral,Desktop,Edge,Android,521,89.87,false,,0.00
+WEB-000970,SES-000970,C0954,CMP-003,STR-006,P102,2025-01-05T17:03:00+00:00,2025-01-05,product_view,/product,Landing,Paid Search,Tablet,Edge,Windows,94,56.87,false,,0.00
+WEB-000971,SES-000971,C0022,CMP-003,STR-001,P108,2025-01-05T17:10:00+00:00,2025-01-05,purchase,/product,Catalog,Social Media,Mobile,Safari,Windows,255,58.34,false,,0.00
+WEB-000972,SES-000972,C0641,CMP-001,STR-005,P109,2025-01-05T17:17:00+00:00,2025-01-05,page_view,/home,Product,Organic,Mobile,Chrome,Windows,481,55.37,false,,0.00
+WEB-000973,SES-000973,C0074,CMP-004,STR-002,P109,2025-01-05T17:24:00+00:00,2025-01-05,add_to_cart,/campaign-landing,Landing,Direct,Tablet,Firefox,macOS,330,71.0,false,,0.00
+WEB-000974,SES-000974,C0664,CMP-002,STR-001,P105,2025-01-05T17:31:00+00:00,2025-01-05,add_to_cart,/checkout,Catalog,Partner,Tablet,Safari,iOS,349,38.14,false,,0.00
+WEB-000975,SES-000975,C0273,CMP-003,STR-002,P104,2025-01-05T17:38:00+00:00,2025-01-05,purchase,/campaign-landing,Checkout,Direct,Tablet,Chrome,iOS,76,43.88,false,,0.00
+WEB-000976,SES-000976,C0683,CMP-002,STR-004,P104,2025-01-05T17:45:00+00:00,2025-01-05,purchase,/cart,Product,Organic,Desktop,Edge,Android,747,21.04,true,ORD-00976,1374.98
+WEB-000977,SES-000977,C0246,CMP-002,STR-003,P101,2025-01-05T17:52:00+00:00,2025-01-05,add_to_cart,/campaign-landing,Product,Partner,Mobile,Chrome,Android,707,66.92,false,,0.00
+WEB-000978,SES-000978,C0755,CMP-006,STR-006,P101,2025-01-05T17:59:00+00:00,2025-01-05,add_to_cart,/checkout,Product,Referral,Mobile,Safari,iOS,618,94.0,true,ORD-00978,1279.37
+WEB-000979,SES-000979,C0551,CMP-005,STR-002,P108,2025-01-05T18:06:00+00:00,2025-01-05,add_to_cart,/campaign-landing,Support,Referral,Desktop,Chrome,macOS,72,72.05,false,,0.00
+WEB-000980,SES-000980,C0153,CMP-003,STR-004,P106,2025-01-05T18:13:00+00:00,2025-01-05,page_view,/campaign-landing,Catalog,Organic,Desktop,Firefox,iOS,111,24.47,false,,0.00
+WEB-000981,SES-000981,C0461,CMP-003,STR-004,P107,2025-01-05T18:20:00+00:00,2025-01-05,add_to_cart,/campaign-landing,Checkout,Partner,Desktop,Edge,Windows,476,43.08,false,,0.00
+WEB-000982,SES-000982,C0303,CMP-002,STR-005,P106,2025-01-05T18:27:00+00:00,2025-01-05,page_view,/campaign-landing,Product,Paid Search,Mobile,Firefox,iOS,881,6.25,true,ORD-00982,4611.68
+WEB-000983,SES-000983,C0549,CMP-001,STR-002,P105,2025-01-05T18:34:00+00:00,2025-01-05,checkout_start,/checkout,Checkout,Organic,Mobile,Firefox,Android,698,90.21,false,,0.00
+WEB-000984,SES-000984,C0896,CMP-002,STR-003,P108,2025-01-05T18:41:00+00:00,2025-01-05,product_view,/product,Checkout,Organic,Tablet,Chrome,iOS,739,16.88,false,,0.00
+WEB-000985,SES-000985,C0451,CMP-003,STR-006,P108,2025-01-05T18:48:00+00:00,2025-01-05,add_to_cart,/cart,Checkout,Direct,Mobile,Edge,macOS,744,17.89,false,,0.00
+WEB-000986,SES-000986,C0205,CMP-001,STR-001,P108,2025-01-05T18:55:00+00:00,2025-01-05,product_view,/category,Support,Social Media,Mobile,Safari,Android,461,17.7,false,,0.00
+WEB-000987,SES-000987,C0216,CMP-005,STR-004,P105,2025-01-05T19:02:00+00:00,2025-01-05,purchase,/home,Support,Partner,Desktop,Safari,Android,890,19.15,false,,0.00
+WEB-000988,SES-000988,C0027,CMP-002,STR-004,P103,2025-01-05T19:09:00+00:00,2025-01-05,page_view,/home,Support,Direct,Mobile,Edge,Windows,50,84.01,false,,0.00
+WEB-000989,SES-000989,C0348,CMP-004,STR-006,P109,2025-01-05T19:16:00+00:00,2025-01-05,page_view,/cart,Support,Direct,Desktop,Safari,macOS,784,17.3,false,,0.00
+WEB-000990,SES-000990,C0220,CMP-002,STR-001,P105,2025-01-05T19:23:00+00:00,2025-01-05,purchase,/product,Checkout,Paid Search,Desktop,Firefox,Android,466,79.48,true,ORD-00990,2014.78
+WEB-000991,SES-000991,C0129,CMP-003,STR-006,P102,2025-01-05T19:30:00+00:00,2025-01-05,product_view,/product,Product,Partner,Tablet,Safari,Android,57,51.98,true,ORD-00991,1654.66
+WEB-000992,SES-000992,C0073,CMP-005,STR-004,P110,2025-01-05T19:37:00+00:00,2025-01-05,product_view,/home,Catalog,Direct,Desktop,Firefox,macOS,399,14.03,false,,0.00
+WEB-000993,SES-000993,C0611,CMP-004,STR-004,P107,2025-01-05T19:44:00+00:00,2025-01-05,checkout_start,/checkout,Product,Partner,Mobile,Edge,Android,700,42.28,false,,0.00
+WEB-000994,SES-000994,C0974,CMP-004,STR-002,P107,2025-01-05T19:51:00+00:00,2025-01-05,page_view,/product,Catalog,Paid Search,Tablet,Safari,iOS,217,25.94,false,,0.00
+WEB-000995,SES-000995,C0177,CMP-005,STR-004,P105,2025-01-05T19:58:00+00:00,2025-01-05,page_view,/checkout,Support,Social Media,Tablet,Safari,macOS,819,15.78,false,,0.00
+WEB-000996,SES-000996,C0381,CMP-004,STR-004,P105,2025-01-05T20:05:00+00:00,2025-01-05,add_to_cart,/product,Catalog,Direct,Desktop,Safari,iOS,892,66.31,false,,0.00
+WEB-000997,SES-000997,C0206,CMP-002,STR-003,P109,2025-01-05T20:12:00+00:00,2025-01-05,purchase,/product,Checkout,Direct,Tablet,Safari,Android,19,15.57,false,,0.00
+WEB-000998,SES-000998,C0158,CMP-006,STR-002,P103,2025-01-05T20:19:00+00:00,2025-01-05,product_view,/category,Support,Partner,Mobile,Chrome,macOS,297,98.69,false,,0.00
+WEB-000999,SES-000999,C0172,CMP-005,STR-005,P105,2025-01-05T20:26:00+00:00,2025-01-05,checkout_start,/checkout,Support,Social Media,Mobile,Safari,macOS,237,78.23,false,,0.00
+WEB-001000,SES-001000,C0689,CMP-005,STR-001,P103,2025-01-05T20:33:00+00:00,2025-01-05,product_view,/product,Catalog,Referral,Mobile,Firefox,Windows,773,68.11,false,,0.00

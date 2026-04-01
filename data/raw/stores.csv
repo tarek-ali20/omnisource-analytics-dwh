@@ -1,0 +1,1001 @@
+store_id,store_name,store_type,country,city,district,manager_name,manager_email,phone_number,area_sq_m,latitude,longitude,opening_date,closing_time,opening_time,region,warehouse_attached_flag,rent_cost_monthly,staff_count,store_status
+STR-001,Dubai Mall Flagship,Mall,UAE,Dubai,South,Sophia Thomas,manager1@example.com,+97145050622,291.97,26.091290,54.203035,2018-09-25,00:00,10:00,International,false,60204.86,108,Open
+STR-002,Mall of the Emirates,Warehouse Outlet,UAE,Dubai,North,Layla Khalid,manager2@example.com,+97147517905,2333.07,24.053296,54.702247,2019-11-10,23:00,10:00,International,false,111906.01,120,Planned
+STR-003,Riyadh Park,Warehouse Outlet,KSA,Riyadh,East,Noor Moore,manager3@example.com,+97142163271,1210.86,26.245458,54.616141,2022-03-31,22:00,08:00,GCC North,false,145648.51,8,Open
+STR-004,Cairo Festival City,Dark Store,Egypt,Cairo,North,Sophia Wilson,manager4@example.com,+97146199969,1521.15,26.022362,56.039683,2022-12-26,22:00,09:00,GCC North,true,168368.15,17,Renovation
+STR-005,Doha Festival City,Dark Store,Qatar,Doha,Central,Sara Miller,manager5@example.com,+97141396379,491.94,24.232064,54.716535,2019-03-13,22:00,09:00,Levant,false,86115.61,37,Open
+STR-006,Kuwait Avenues,Warehouse Outlet,Kuwait,Kuwait City,East,David Wilson,manager6@example.com,+97147275108,2355.1,24.572029,56.464096,2020-08-13,23:00,10:00,GCC North,true,133571.76,54,Open
+STR-001,Dubai Mall Flagship,Mall,UAE,Dubai,South,Ava Hill,manager7@example.com,+97144021783,1011.04,25.010546,54.869959,2018-01-06,00:00,09:00,GCC North,false,120091.06,66,Open
+STR-002,Mall of the Emirates,Dark Store,UAE,Dubai,North,Khalid Clark,manager8@example.com,+97148173466,1760.62,24.386926,55.266417,2019-03-02,00:00,10:00,GCC South,true,144772.57,111,Planned
+STR-003,Riyadh Park,Dark Store,KSA,Riyadh,South,Yousef King,manager9@example.com,+97143574192,2175.13,25.647133,54.970051,2021-11-30,23:00,10:00,GCC North,false,129220.21,38,Renovation
+STR-004,Cairo Festival City,Street Retail,Egypt,Cairo,Central,Sophia King,manager10@example.com,+97147551786,1145.57,24.083445,54.014659,2024-06-19,23:00,10:00,GCC North,false,158361.31,113,Renovation
+STR-005,Doha Festival City,Street Retail,Qatar,Doha,Central,Fatima Thomas,manager11@example.com,+97143285853,900.38,24.983004,56.028667,2023-03-10,00:00,10:00,GCC South,false,137519.61,58,Renovation
+STR-006,Kuwait Avenues,Street Retail,Kuwait,Kuwait City,East,Leen King,manager12@example.com,+97148513851,117.69,26.346679,55.656554,2022-06-30,00:00,10:00,Levant,false,92619.60,116,Open
+STR-001,Dubai Mall Flagship,Warehouse Outlet,UAE,Dubai,North,Sophia Hassan,manager13@example.com,+97147629008,1042.03,25.868408,56.412197,2020-08-30,23:00,09:00,GCC South,true,65975.40,87,Open
+STR-002,Mall of the Emirates,Mall,UAE,Dubai,Central,Sara Smith,manager14@example.com,+97142863712,1694.68,25.874615,54.207910,2022-05-15,23:00,09:00,GCC North,false,21970.24,82,Renovation
+STR-003,Riyadh Park,Warehouse Outlet,KSA,Riyadh,South,Ava Moore,manager15@example.com,+97142374065,417.14,24.219300,54.577470,2020-02-28,22:00,10:00,GCC South,true,100245.49,46,Planned
+STR-004,Cairo Festival City,Mall,Egypt,Cairo,East,Layla White,manager16@example.com,+97143145079,555.87,26.330419,54.183941,2022-03-18,23:00,10:00,Levant,true,93944.34,67,Planned
+STR-005,Doha Festival City,Dark Store,Qatar,Doha,South,Mariam Martin,manager17@example.com,+97142177882,1546.3,24.316113,54.179554,2020-09-30,00:00,10:00,GCC South,true,13568.51,35,Open
+STR-006,Kuwait Avenues,Dark Store,Kuwait,Kuwait City,South,Fatima White,manager18@example.com,+97147449270,232.78,25.574233,56.436869,2023-11-26,22:00,08:00,GCC South,true,80288.20,105,Open
+STR-001,Dubai Mall Flagship,Street Retail,UAE,Dubai,West,Zain Mansour,manager19@example.com,+97146316098,2289.61,25.523723,54.165294,2022-11-23,23:00,09:00,Levant,true,152222.20,26,Open
+STR-002,Mall of the Emirates,Mall,UAE,Dubai,East,Yousef Johnson,manager20@example.com,+97146759440,418.59,26.249248,54.372962,2024-06-23,00:00,09:00,International,true,39716.83,85,Open
+STR-003,Riyadh Park,Warehouse Outlet,KSA,Riyadh,East,Ava Hill,manager21@example.com,+97146383442,2126.5,24.413540,54.466250,2023-03-04,22:00,10:00,International,false,53883.49,95,Planned
+STR-004,Cairo Festival City,Street Retail,Egypt,Cairo,West,Leen Martin,manager22@example.com,+97149511008,353.38,26.429987,54.290367,2021-02-14,23:00,08:00,GCC South,true,82434.57,11,Planned
+STR-005,Doha Festival City,Mall,Qatar,Doha,South,Leen White,manager23@example.com,+97149034655,286.12,24.834859,55.756201,2023-10-30,00:00,10:00,GCC North,false,128762.07,29,Renovation
+STR-006,Kuwait Avenues,Dark Store,Kuwait,Kuwait City,East,Sara Johnson,manager24@example.com,+97146978238,1476.65,25.720239,54.039528,2023-12-14,00:00,09:00,International,true,89553.55,22,Renovation
+STR-001,Dubai Mall Flagship,Dark Store,UAE,Dubai,West,Ahmed Mansour,manager25@example.com,+97143445349,540.43,25.271800,54.181151,2020-01-02,22:00,08:00,Levant,false,121841.97,83,Planned
+STR-002,Mall of the Emirates,Dark Store,UAE,Dubai,North,Ethan Hill,manager26@example.com,+97144281042,1535.98,24.897507,55.222162,2023-06-29,00:00,09:00,Levant,true,105935.26,90,Open
+STR-003,Riyadh Park,Dark Store,KSA,Riyadh,South,John Smith,manager27@example.com,+97142080295,1240.35,24.541429,54.978784,2020-11-09,23:00,08:00,GCC South,false,35231.00,53,Renovation
+STR-004,Cairo Festival City,Dark Store,Egypt,Cairo,Central,Fatima Johnson,manager28@example.com,+97147119789,2374.34,24.729159,56.125406,2023-03-12,22:00,08:00,GCC North,true,102316.88,54,Renovation
+STR-005,Doha Festival City,Mall,Qatar,Doha,East,Omar Hill,manager29@example.com,+97143787170,1600.43,26.485566,55.396549,2020-10-17,00:00,09:00,GCC South,true,145893.07,13,Renovation
+STR-006,Kuwait Avenues,Street Retail,Kuwait,Kuwait City,Central,Lina Anderson,manager30@example.com,+97144850836,1813.37,26.453975,55.906242,2023-11-07,23:00,10:00,Levant,true,41261.64,68,Open
+STR-001,Dubai Mall Flagship,Mall,UAE,Dubai,East,Ethan Ali,manager31@example.com,+97145948048,413.3,25.174901,56.074011,2018-01-27,22:00,09:00,GCC South,false,114222.24,63,Open
+STR-002,Mall of the Emirates,Warehouse Outlet,UAE,Dubai,Central,Lina King,manager32@example.com,+97146490139,935.43,24.228436,55.773436,2022-06-09,22:00,09:00,GCC North,true,97255.49,87,Renovation
+STR-003,Riyadh Park,Warehouse Outlet,KSA,Riyadh,North,Omar Martin,manager33@example.com,+97143901086,583.34,24.119141,54.524510,2024-01-12,22:00,09:00,GCC South,true,50906.61,12,Open
+STR-004,Cairo Festival City,Street Retail,Egypt,Cairo,Central,Mona Miller,manager34@example.com,+97143388160,2202.72,25.599362,54.493728,2023-12-07,23:00,09:00,GCC South,true,176703.86,106,Planned
+STR-005,Doha Festival City,Mall,Qatar,Doha,East,Fatima Martin,manager35@example.com,+97147650409,615.09,25.055067,56.249630,2019-08-03,23:00,10:00,International,false,133570.16,47,Open
+STR-006,Kuwait Avenues,Street Retail,Kuwait,Kuwait City,Central,Noor Taylor,manager36@example.com,+97145671585,2281.91,24.160694,54.047150,2020-10-15,22:00,09:00,International,false,108648.43,8,Open
+STR-001,Dubai Mall Flagship,Warehouse Outlet,UAE,Dubai,South,Mariam Young,manager37@example.com,+97141460858,321.64,25.822170,54.237459,2024-02-17,23:00,09:00,GCC South,false,151123.04,29,Planned
+STR-002,Mall of the Emirates,Street Retail,UAE,Dubai,South,Fatima Hassan,manager38@example.com,+97147017396,94.69,26.045291,55.635492,2018-01-15,23:00,10:00,International,true,134237.34,106,Open
+STR-003,Riyadh Park,Warehouse Outlet,KSA,Riyadh,North,Mariam Taylor,manager39@example.com,+97143680952,1769.48,25.740785,54.332898,2019-05-16,00:00,08:00,Levant,true,177298.04,90,Renovation
+STR-004,Cairo Festival City,Street Retail,Egypt,Cairo,South,Noor Khalid,manager40@example.com,+97146134876,1282.6,25.011480,56.346049,2021-05-30,00:00,10:00,GCC South,false,17942.89,21,Open
+STR-005,Doha Festival City,Warehouse Outlet,Qatar,Doha,North,Mariam Wilson,manager41@example.com,+97149498370,1739.69,26.087060,55.157517,2019-04-20,00:00,10:00,GCC South,false,16864.06,18,Renovation
+STR-006,Kuwait Avenues,Mall,Kuwait,Kuwait City,North,Ahmed Miller,manager42@example.com,+97147018732,2021.67,25.334117,55.993827,2021-02-05,22:00,10:00,International,true,152250.91,63,Open
+STR-001,Dubai Mall Flagship,Street Retail,UAE,Dubai,North,Ava Saleh,manager43@example.com,+97147173615,2396.61,24.821192,55.730341,2021-06-21,23:00,10:00,Levant,true,17683.25,102,Renovation
+STR-002,Mall of the Emirates,Dark Store,UAE,Dubai,West,Mariam Anderson,manager44@example.com,+97149320247,1530.99,26.456386,54.220658,2024-04-27,00:00,08:00,International,true,13114.65,47,Renovation
+STR-003,Riyadh Park,Dark Store,KSA,Riyadh,North,Ethan Miller,manager45@example.com,+97146454918,1936.27,25.707072,54.219408,2023-03-31,23:00,08:00,Levant,false,164965.83,12,Open
+STR-004,Cairo Festival City,Street Retail,Egypt,Cairo,North,Fatima Mansour,manager46@example.com,+97144379225,996.98,25.304220,55.942131,2021-11-28,22:00,08:00,GCC South,false,87946.09,95,Planned
+STR-005,Doha Festival City,Street Retail,Qatar,Doha,East,Khalid Moore,manager47@example.com,+97144813147,97.02,26.470973,55.239605,2018-10-16,23:00,08:00,GCC North,true,134188.85,81,Planned
+STR-006,Kuwait Avenues,Street Retail,Kuwait,Kuwait City,West,Fatima Wilson,manager48@example.com,+97147609338,2342.8,26.280913,56.140752,2023-05-17,22:00,08:00,International,false,160027.52,26,Planned
+STR-001,Dubai Mall Flagship,Dark Store,UAE,Dubai,East,Fatima Young,manager49@example.com,+97145331921,1957.78,26.422886,55.168529,2022-02-06,00:00,08:00,GCC North,true,119658.48,68,Open
+STR-002,Mall of the Emirates,Warehouse Outlet,UAE,Dubai,East,Khalid King,manager50@example.com,+97145986002,1972.04,24.781582,55.709978,2023-07-27,00:00,10:00,Levant,false,57107.64,116,Open
+STR-003,Riyadh Park,Dark Store,KSA,Riyadh,East,Lina Martin,manager51@example.com,+97143272267,1013.16,25.927962,54.858400,2023-01-25,00:00,08:00,Levant,false,151158.58,80,Open
+STR-004,Cairo Festival City,Mall,Egypt,Cairo,South,Yousef Wilson,manager52@example.com,+97149646852,586.5,25.528060,54.823475,2022-05-21,00:00,10:00,GCC North,false,148103.74,98,Planned
+STR-005,Doha Festival City,Warehouse Outlet,Qatar,Doha,East,Mariam Anderson,manager53@example.com,+97149512476,1910.31,26.304832,55.242198,2022-10-24,23:00,10:00,GCC North,false,91081.73,47,Open
+STR-006,Kuwait Avenues,Mall,Kuwait,Kuwait City,West,Mona Khalid,manager54@example.com,+97148429903,1658.21,24.244654,55.716771,2021-06-09,23:00,09:00,International,true,159627.44,95,Planned
+STR-001,Dubai Mall Flagship,Warehouse Outlet,UAE,Dubai,Central,Ahmed White,manager55@example.com,+97149520494,1373.74,24.969761,54.391805,2020-03-02,22:00,08:00,Levant,false,12321.19,32,Renovation
+STR-002,Mall of the Emirates,Warehouse Outlet,UAE,Dubai,North,Leen Wilson,manager56@example.com,+97141725078,1841.87,24.560521,55.912448,2024-07-10,22:00,10:00,International,false,43246.46,66,Open
+STR-003,Riyadh Park,Warehouse Outlet,KSA,Riyadh,Central,Ali King,manager57@example.com,+97148557973,457.22,25.485589,54.134075,2021-07-08,22:00,08:00,GCC South,false,91952.14,17,Renovation
+STR-004,Cairo Festival City,Warehouse Outlet,Egypt,Cairo,Central,Khalid Saleh,manager58@example.com,+97146988373,839.79,24.861691,55.128711,2022-10-03,22:00,08:00,GCC North,true,79882.46,68,Renovation
+STR-005,Doha Festival City,Street Retail,Qatar,Doha,West,Ali Miller,manager59@example.com,+97147047367,1443.91,25.998302,55.997989,2018-10-29,22:00,08:00,GCC North,true,167619.16,84,Open
+STR-006,Kuwait Avenues,Dark Store,Kuwait,Kuwait City,Central,David Wilson,manager60@example.com,+97141497674,1138.99,25.013053,56.265317,2019-08-28,22:00,08:00,GCC South,true,71995.22,45,Renovation
+STR-001,Dubai Mall Flagship,Warehouse Outlet,UAE,Dubai,North,Ahmed Miller,manager61@example.com,+97147223984,974.71,26.028196,54.850273,2022-09-14,23:00,08:00,GCC South,false,46081.82,50,Renovation
+STR-002,Mall of the Emirates,Dark Store,UAE,Dubai,West,Sophia Young,manager62@example.com,+97146228005,2313.5,24.540969,55.615415,2018-01-28,23:00,09:00,GCC South,true,54685.00,113,Renovation
+STR-003,Riyadh Park,Mall,KSA,Riyadh,East,Lina Saleh,manager63@example.com,+97147716043,1448.67,25.802182,56.457627,2018-05-25,22:00,09:00,GCC North,true,170980.82,31,Open
+STR-004,Cairo Festival City,Dark Store,Egypt,Cairo,South,Mariam Ali,manager64@example.com,+97147717783,332.12,25.933147,54.092816,2018-09-12,00:00,09:00,GCC North,true,172551.57,94,Open
+STR-005,Doha Festival City,Mall,Qatar,Doha,Central,Mona Hill,manager65@example.com,+97144502832,691.9,25.529004,55.142740,2019-12-09,00:00,09:00,GCC South,true,75006.73,101,Open
+STR-006,Kuwait Avenues,Street Retail,Kuwait,Kuwait City,North,Yousef Hill,manager66@example.com,+97142217490,1872.33,24.393878,56.299662,2024-03-07,00:00,10:00,GCC South,true,10415.56,51,Open
+STR-001,Dubai Mall Flagship,Dark Store,UAE,Dubai,Central,Lina Johnson,manager67@example.com,+97148011249,181.94,24.139133,55.398064,2018-04-12,22:00,10:00,GCC South,false,85560.14,43,Open
+STR-002,Mall of the Emirates,Mall,UAE,Dubai,South,Ali King,manager68@example.com,+97146438342,1268.21,25.353684,56.222846,2023-02-03,22:00,10:00,GCC South,true,78038.99,27,Open
+STR-003,Riyadh Park,Mall,KSA,Riyadh,Central,Lina Martin,manager69@example.com,+97141889459,2261.72,24.646716,55.759221,2023-10-25,23:00,10:00,Levant,true,135910.78,42,Renovation
+STR-004,Cairo Festival City,Mall,Egypt,Cairo,East,David Ali,manager70@example.com,+97148156941,2224.4,26.377020,55.099902,2022-07-31,00:00,10:00,Levant,false,40070.29,67,Open
+STR-005,Doha Festival City,Dark Store,Qatar,Doha,South,Sophia White,manager71@example.com,+97149998338,711.31,25.103797,56.026159,2023-01-30,00:00,10:00,Levant,false,64073.67,67,Renovation
+STR-006,Kuwait Avenues,Dark Store,Kuwait,Kuwait City,Central,Omar King,manager72@example.com,+97149622635,1290.3,25.134401,56.303199,2018-08-05,00:00,09:00,GCC South,false,98816.95,109,Planned
+STR-001,Dubai Mall Flagship,Street Retail,UAE,Dubai,West,John Thomas,manager73@example.com,+97145314387,369.25,24.067114,54.854000,2019-07-13,23:00,08:00,International,true,66897.11,101,Planned
+STR-002,Mall of the Emirates,Mall,UAE,Dubai,North,John Thomas,manager74@example.com,+97147341769,819.59,25.179875,56.174863,2022-06-18,23:00,10:00,GCC North,true,89256.06,75,Open
+STR-003,Riyadh Park,Street Retail,KSA,Riyadh,South,Omar Young,manager75@example.com,+97147055966,656.5,24.932702,55.714182,2019-05-20,22:00,09:00,GCC North,true,108056.15,18,Planned
+STR-004,Cairo Festival City,Warehouse Outlet,Egypt,Cairo,East,Ahmed Moore,manager76@example.com,+97148381842,86.69,25.756128,55.178203,2024-03-28,00:00,10:00,International,false,158277.84,21,Renovation
+STR-005,Doha Festival City,Mall,Qatar,Doha,West,Ethan Hassan,manager77@example.com,+97141919627,1220.54,24.713080,54.712453,2019-11-30,22:00,09:00,Levant,false,111507.44,65,Planned
+STR-006,Kuwait Avenues,Warehouse Outlet,Kuwait,Kuwait City,West,John Khalid,manager78@example.com,+97146494925,2438.16,24.228977,56.315932,2019-09-14,00:00,08:00,GCC North,false,18669.37,21,Renovation
+STR-001,Dubai Mall Flagship,Warehouse Outlet,UAE,Dubai,Central,Lina Ali,manager79@example.com,+97147244882,196.32,24.870039,54.722650,2024-03-24,23:00,08:00,GCC South,true,15571.26,9,Planned
+STR-002,Mall of the Emirates,Dark Store,UAE,Dubai,South,Ava King,manager80@example.com,+97148941847,731.05,25.151781,55.732047,2019-12-07,00:00,09:00,GCC South,false,64619.49,118,Planned
+STR-003,Riyadh Park,Warehouse Outlet,KSA,Riyadh,South,Lina Taylor,manager81@example.com,+97143539196,1008.26,25.695503,55.538825,2023-01-23,00:00,09:00,GCC South,true,57817.71,59,Renovation
+STR-004,Cairo Festival City,Warehouse Outlet,Egypt,Cairo,North,Ethan Clark,manager82@example.com,+97141660172,2357.6,25.967262,56.126969,2019-04-08,22:00,08:00,GCC South,false,169363.43,86,Open
+STR-005,Doha Festival City,Dark Store,Qatar,Doha,West,Khalid King,manager83@example.com,+97148504258,997.96,24.288031,55.690149,2022-12-25,23:00,08:00,Levant,false,94388.77,19,Renovation
+STR-006,Kuwait Avenues,Mall,Kuwait,Kuwait City,South,Zain Clark,manager84@example.com,+97147559647,1329.23,24.197102,54.682175,2021-05-18,00:00,08:00,GCC North,true,172520.44,110,Renovation
+STR-001,Dubai Mall Flagship,Dark Store,UAE,Dubai,North,Ali Khalid,manager85@example.com,+97146964044,1154.99,24.663833,54.067023,2023-08-24,00:00,10:00,International,true,41051.75,55,Open
+STR-002,Mall of the Emirates,Street Retail,UAE,Dubai,West,Khalid Hassan,manager86@example.com,+97142630262,2261.3,24.226323,56.406995,2021-07-23,00:00,10:00,Levant,true,173567.18,40,Renovation
+STR-003,Riyadh Park,Warehouse Outlet,KSA,Riyadh,East,Yousef Johnson,manager87@example.com,+97142281345,667.49,26.066882,55.030125,2022-10-04,00:00,10:00,GCC South,true,149184.82,66,Planned
+STR-004,Cairo Festival City,Warehouse Outlet,Egypt,Cairo,East,Ahmed Khalid,manager88@example.com,+97143620544,437.67,26.146065,54.661743,2020-03-24,23:00,10:00,International,true,11470.82,116,Renovation
+STR-005,Doha Festival City,Street Retail,Qatar,Doha,East,Zain White,manager89@example.com,+97142710850,1818.19,24.352266,54.160594,2021-04-29,23:00,09:00,Levant,false,85965.60,57,Open
+STR-006,Kuwait Avenues,Street Retail,Kuwait,Kuwait City,East,Yousef Anderson,manager90@example.com,+97142739690,1245.91,25.369108,54.630175,2021-04-22,23:00,08:00,GCC North,false,83062.61,66,Open
+STR-001,Dubai Mall Flagship,Warehouse Outlet,UAE,Dubai,East,Sara Miller,manager91@example.com,+97146773662,2017.48,25.553737,56.242639,2023-08-07,23:00,09:00,International,false,110245.65,77,Planned
+STR-002,Mall of the Emirates,Dark Store,UAE,Dubai,South,Ali Miller,manager92@example.com,+97146526237,1320.78,26.208694,55.896229,2023-03-04,22:00,08:00,Levant,true,29642.93,86,Open
+STR-003,Riyadh Park,Street Retail,KSA,Riyadh,West,Ahmed Wilson,manager93@example.com,+97148297488,520.43,25.134196,55.658721,2024-07-08,22:00,10:00,GCC South,false,74069.07,39,Planned
+STR-004,Cairo Festival City,Mall,Egypt,Cairo,North,Noor Moore,manager94@example.com,+97145804034,1986.05,25.196293,54.606003,2018-04-22,00:00,10:00,Levant,false,30200.84,16,Renovation
+STR-005,Doha Festival City,Dark Store,Qatar,Doha,North,Omar Saleh,manager95@example.com,+97142041906,2417.93,26.028475,54.070557,2022-08-05,23:00,09:00,Levant,true,157286.13,37,Open
+STR-006,Kuwait Avenues,Mall,Kuwait,Kuwait City,North,Omar Anderson,manager96@example.com,+97146024928,663.88,24.132144,56.092492,2022-04-01,00:00,08:00,International,true,101272.27,89,Planned
+STR-001,Dubai Mall Flagship,Warehouse Outlet,UAE,Dubai,South,Ethan Taylor,manager97@example.com,+97148019080,535.09,24.156568,56.016210,2019-10-26,22:00,10:00,GCC North,true,102413.08,9,Renovation
+STR-002,Mall of the Emirates,Street Retail,UAE,Dubai,East,Sophia Young,manager98@example.com,+97141796684,2272.93,25.040491,54.797375,2024-02-09,23:00,09:00,Levant,false,74040.53,53,Renovation
+STR-003,Riyadh Park,Warehouse Outlet,KSA,Riyadh,Central,Zain Ali,manager99@example.com,+97143772390,1600.92,25.377438,55.305634,2021-08-28,23:00,08:00,GCC North,true,165527.93,74,Planned
+STR-004,Cairo Festival City,Dark Store,Egypt,Cairo,West,Khalid Khalid,manager100@example.com,+97146303258,2098.72,25.533632,54.975283,2024-01-23,00:00,10:00,Levant,true,101265.67,28,Planned
+STR-005,Doha Festival City,Warehouse Outlet,Qatar,Doha,West,Sara Wilson,manager101@example.com,+97143585627,187.58,24.198106,54.550548,2023-12-22,00:00,08:00,International,true,144753.80,104,Open
+STR-006,Kuwait Avenues,Street Retail,Kuwait,Kuwait City,Central,Mona Martin,manager102@example.com,+97147402777,1345.55,26.450407,54.316940,2020-05-08,23:00,10:00,International,false,33151.28,77,Planned
+STR-001,Dubai Mall Flagship,Street Retail,UAE,Dubai,West,Omar Moore,manager103@example.com,+97148763965,1867.85,26.453893,55.805938,2021-10-16,22:00,08:00,International,false,105376.48,114,Renovation
+STR-002,Mall of the Emirates,Mall,UAE,Dubai,Central,David Johnson,manager104@example.com,+97144817755,2073.79,24.664899,55.583238,2022-11-28,00:00,10:00,Levant,false,51262.04,62,Open
+STR-003,Riyadh Park,Street Retail,KSA,Riyadh,West,Sophia Khalid,manager105@example.com,+97141938428,696.35,24.532414,55.326851,2020-03-01,00:00,10:00,International,true,20352.26,24,Renovation
+STR-004,Cairo Festival City,Street Retail,Egypt,Cairo,North,Leen Taylor,manager106@example.com,+97148518914,2313.13,24.056613,55.772964,2020-06-22,23:00,08:00,GCC South,false,68171.10,45,Renovation
+STR-005,Doha Festival City,Street Retail,Qatar,Doha,East,Ethan Anderson,manager107@example.com,+97141648901,789.48,24.259997,55.191690,2023-11-05,00:00,10:00,GCC North,false,144081.55,61,Planned
+STR-006,Kuwait Avenues,Dark Store,Kuwait,Kuwait City,West,Yousef Moore,manager108@example.com,+97147559458,2116.21,26.466237,54.858174,2021-03-15,00:00,08:00,Levant,false,97532.88,41,Planned
+STR-001,Dubai Mall Flagship,Dark Store,UAE,Dubai,North,Mona Johnson,manager109@example.com,+97143991642,1589.11,24.176383,55.724459,2022-11-02,23:00,10:00,Levant,false,100892.04,96,Renovation
+STR-002,Mall of the Emirates,Mall,UAE,Dubai,West,Lina Saleh,manager110@example.com,+97145391778,2354.84,25.456709,55.482062,2018-04-29,23:00,08:00,International,false,15401.54,60,Open
+STR-003,Riyadh Park,Warehouse Outlet,KSA,Riyadh,North,Sara Smith,manager111@example.com,+97143160461,2364.61,24.117996,56.148637,2024-03-23,22:00,10:00,GCC North,true,51025.06,72,Renovation
+STR-004,Cairo Festival City,Dark Store,Egypt,Cairo,North,Leen Saleh,manager112@example.com,+97145156573,941.17,25.374309,54.133353,2019-01-09,00:00,08:00,GCC North,true,170929.78,54,Open
+STR-005,Doha Festival City,Dark Store,Qatar,Doha,South,Mona Wilson,manager113@example.com,+97147772965,1189.29,24.323251,55.639843,2020-04-26,23:00,08:00,International,true,179657.36,56,Renovation
+STR-006,Kuwait Avenues,Warehouse Outlet,Kuwait,Kuwait City,West,Khalid Clark,manager114@example.com,+97146929961,2404.93,24.851567,54.858149,2022-11-03,00:00,09:00,Levant,true,161475.49,49,Planned
+STR-001,Dubai Mall Flagship,Dark Store,UAE,Dubai,North,Khalid Smith,manager115@example.com,+97148434159,357.65,25.284865,56.188329,2020-09-10,23:00,08:00,GCC South,false,170150.16,96,Renovation
+STR-002,Mall of the Emirates,Warehouse Outlet,UAE,Dubai,North,Sara Anderson,manager116@example.com,+97149885104,1641.48,25.251559,55.937105,2019-06-21,22:00,09:00,Levant,true,158523.26,86,Planned
+STR-003,Riyadh Park,Mall,KSA,Riyadh,South,Hassan White,manager117@example.com,+97145955926,1799.49,24.799174,54.150106,2020-01-28,22:00,08:00,GCC South,false,117214.76,105,Planned
+STR-004,Cairo Festival City,Dark Store,Egypt,Cairo,North,Ahmed Moore,manager118@example.com,+97143373918,806.45,24.141709,56.056336,2020-12-09,23:00,10:00,GCC South,true,132994.22,19,Open
+STR-005,Doha Festival City,Warehouse Outlet,Qatar,Doha,Central,Lina Hill,manager119@example.com,+97144360057,2496.78,25.091270,54.723904,2021-03-11,22:00,10:00,Levant,true,39924.66,99,Open
+STR-006,Kuwait Avenues,Mall,Kuwait,Kuwait City,South,Lina Taylor,manager120@example.com,+97149022784,1463.45,25.457486,54.152827,2024-03-09,22:00,09:00,International,false,25051.91,110,Planned
+STR-001,Dubai Mall Flagship,Street Retail,UAE,Dubai,South,Ali Martin,manager121@example.com,+97141136920,288.95,26.250111,54.217401,2020-08-27,22:00,08:00,Levant,true,54537.64,72,Planned
+STR-002,Mall of the Emirates,Dark Store,UAE,Dubai,Central,Mona Mansour,manager122@example.com,+97148254557,1754.41,26.231234,55.068797,2022-02-11,23:00,08:00,GCC South,false,50666.83,112,Open
+STR-003,Riyadh Park,Mall,KSA,Riyadh,North,Ahmed Johnson,manager123@example.com,+97142448081,2216.5,25.769374,55.256252,2019-04-21,22:00,08:00,GCC North,false,110650.71,47,Planned
+STR-004,Cairo Festival City,Street Retail,Egypt,Cairo,East,Zain King,manager124@example.com,+97141851264,1425.66,25.611812,55.778512,2018-05-21,00:00,09:00,International,false,147626.82,28,Open
+STR-005,Doha Festival City,Mall,Qatar,Doha,East,Khalid Khalid,manager125@example.com,+97149609009,452.87,25.676753,54.480483,2019-04-25,23:00,10:00,GCC South,true,85185.67,27,Open
+STR-006,Kuwait Avenues,Dark Store,Kuwait,Kuwait City,West,Sara Clark,manager126@example.com,+97142161062,2285.31,24.212690,56.145644,2022-11-01,22:00,10:00,GCC North,true,160935.61,109,Renovation
+STR-001,Dubai Mall Flagship,Mall,UAE,Dubai,South,Ahmed Hassan,manager127@example.com,+97145012736,1827.67,25.954304,54.057316,2021-04-05,22:00,09:00,Levant,false,83075.75,71,Open
+STR-002,Mall of the Emirates,Dark Store,UAE,Dubai,West,Hassan Khalid,manager128@example.com,+97149320349,1178.15,25.877823,54.383740,2020-11-14,00:00,10:00,International,true,48435.92,113,Renovation
+STR-003,Riyadh Park,Mall,KSA,Riyadh,West,Ahmed Mansour,manager129@example.com,+97149346046,2402.43,25.259571,54.192073,2020-05-05,00:00,10:00,GCC North,false,140992.35,96,Renovation
+STR-004,Cairo Festival City,Street Retail,Egypt,Cairo,East,Ava Thomas,manager130@example.com,+97144452319,226.23,24.997343,55.154142,2018-05-07,22:00,09:00,Levant,false,165379.55,118,Renovation
+STR-005,Doha Festival City,Street Retail,Qatar,Doha,North,Yousef Mansour,manager131@example.com,+97148737862,223.42,25.232881,55.855474,2022-06-15,23:00,10:00,GCC North,true,108599.62,118,Open
+STR-006,Kuwait Avenues,Mall,Kuwait,Kuwait City,East,David Mansour,manager132@example.com,+97145188384,521.91,24.745611,56.110950,2021-01-28,23:00,09:00,International,false,58503.41,97,Planned
+STR-001,Dubai Mall Flagship,Street Retail,UAE,Dubai,East,Lina Saleh,manager133@example.com,+97148853755,890.83,25.830521,56.101824,2023-11-26,23:00,08:00,GCC South,false,165266.82,115,Planned
+STR-002,Mall of the Emirates,Warehouse Outlet,UAE,Dubai,East,Mariam Miller,manager134@example.com,+97146973875,845.6,26.175667,54.528932,2019-08-03,22:00,10:00,International,true,173855.40,47,Planned
+STR-003,Riyadh Park,Street Retail,KSA,Riyadh,West,Sophia Young,manager135@example.com,+97144459323,1405.69,25.222598,54.990948,2019-11-08,00:00,10:00,GCC South,true,171984.07,76,Open
+STR-004,Cairo Festival City,Warehouse Outlet,Egypt,Cairo,North,David Miller,manager136@example.com,+97148364790,961.1,24.778002,55.052729,2018-05-14,23:00,10:00,International,false,170434.13,42,Open
+STR-005,Doha Festival City,Street Retail,Qatar,Doha,West,John Brown,manager137@example.com,+97141647451,1048.79,24.264123,54.832291,2022-05-29,22:00,10:00,International,false,77938.09,23,Renovation
+STR-006,Kuwait Avenues,Warehouse Outlet,Kuwait,Kuwait City,Central,Zain Hassan,manager138@example.com,+97142860729,1893.3,24.673387,55.998133,2022-01-07,23:00,09:00,GCC South,true,130144.71,99,Open
+STR-001,Dubai Mall Flagship,Mall,UAE,Dubai,Central,David Young,manager139@example.com,+97147395628,366.2,24.767289,56.293582,2022-04-03,22:00,09:00,GCC North,true,97787.49,29,Renovation
+STR-002,Mall of the Emirates,Warehouse Outlet,UAE,Dubai,South,Mariam Miller,manager140@example.com,+97147359971,2430.66,26.274417,54.438625,2018-04-01,23:00,10:00,GCC South,false,96114.72,40,Open
+STR-003,Riyadh Park,Dark Store,KSA,Riyadh,Central,Noor Ali,manager141@example.com,+97144328676,781.96,25.998240,54.681728,2023-08-10,00:00,09:00,Levant,false,154091.93,53,Planned
+STR-004,Cairo Festival City,Dark Store,Egypt,Cairo,Central,Ahmed Saleh,manager142@example.com,+97141116522,2139.97,24.231790,56.388203,2022-08-08,00:00,08:00,GCC South,false,141824.17,36,Planned
+STR-005,Doha Festival City,Dark Store,Qatar,Doha,South,Omar Hassan,manager143@example.com,+97148466209,1879.86,26.007304,54.976447,2022-03-22,00:00,08:00,Levant,true,170191.18,49,Planned
+STR-006,Kuwait Avenues,Mall,Kuwait,Kuwait City,East,Mona Miller,manager144@example.com,+97141492858,1969.76,25.511398,54.212584,2023-01-22,00:00,09:00,GCC North,true,21837.64,60,Planned
+STR-001,Dubai Mall Flagship,Mall,UAE,Dubai,North,Noor Moore,manager145@example.com,+97145225804,1439.97,24.472049,55.863763,2020-11-29,23:00,09:00,GCC North,true,127474.65,30,Renovation
+STR-002,Mall of the Emirates,Warehouse Outlet,UAE,Dubai,East,Mariam Hassan,manager146@example.com,+97146115053,2043.35,25.484794,54.888499,2024-05-25,23:00,10:00,International,false,107933.21,45,Open
+STR-003,Riyadh Park,Dark Store,KSA,Riyadh,South,David Brown,manager147@example.com,+97148963316,909.56,25.251224,56.418073,2018-12-13,22:00,09:00,GCC North,false,44797.92,47,Renovation
+STR-004,Cairo Festival City,Warehouse Outlet,Egypt,Cairo,South,Khalid Johnson,manager148@example.com,+97144929809,837.57,24.293858,55.023248,2024-07-03,22:00,10:00,GCC South,true,81835.64,101,Planned
+STR-005,Doha Festival City,Mall,Qatar,Doha,Central,Sara Smith,manager149@example.com,+97148465123,110.88,25.390464,56.364858,2023-06-16,22:00,10:00,Levant,false,86240.17,17,Planned
+STR-006,Kuwait Avenues,Mall,Kuwait,Kuwait City,South,Khalid Clark,manager150@example.com,+97145728518,297.47,26.302504,54.721049,2020-09-07,00:00,10:00,GCC South,false,131317.61,107,Open
+STR-001,Dubai Mall Flagship,Street Retail,UAE,Dubai,North,Sophia Johnson,manager151@example.com,+97149973716,2039.42,25.782354,56.148613,2024-01-29,00:00,09:00,GCC North,true,18207.23,25,Renovation
+STR-002,Mall of the Emirates,Dark Store,UAE,Dubai,South,Ethan White,manager152@example.com,+97142608201,2083.61,24.854128,55.400919,2021-08-27,00:00,10:00,GCC North,false,173163.60,94,Planned
+STR-003,Riyadh Park,Mall,KSA,Riyadh,Central,Sophia Hill,manager153@example.com,+97143027043,360.7,25.041305,54.190166,2021-02-11,23:00,09:00,Levant,false,131135.88,18,Open
+STR-004,Cairo Festival City,Street Retail,Egypt,Cairo,Central,Khalid Anderson,manager154@example.com,+97147094170,2016.59,24.431155,55.918616,2024-07-14,23:00,08:00,Levant,true,50999.82,100,Planned
+STR-005,Doha Festival City,Warehouse Outlet,Qatar,Doha,East,Sophia Anderson,manager155@example.com,+97141079387,216.74,25.400794,56.218390,2023-06-01,00:00,08:00,Levant,true,39338.92,20,Open
+STR-006,Kuwait Avenues,Mall,Kuwait,Kuwait City,East,Lina Johnson,manager156@example.com,+97147814551,1249.03,26.428973,54.151007,2018-12-21,23:00,10:00,International,false,133762.19,26,Planned
+STR-001,Dubai Mall Flagship,Warehouse Outlet,UAE,Dubai,North,Leen Mansour,manager157@example.com,+97147056694,1191.69,25.024668,55.006278,2022-10-29,00:00,10:00,GCC South,true,140651.11,8,Open
+STR-002,Mall of the Emirates,Dark Store,UAE,Dubai,Central,Khalid Ali,manager158@example.com,+97148499717,192.88,24.614918,55.300468,2020-02-13,22:00,10:00,International,false,137748.22,82,Open
+STR-003,Riyadh Park,Mall,KSA,Riyadh,West,Sara Hill,manager159@example.com,+97149637743,647.68,25.261518,55.484670,2019-11-04,00:00,10:00,International,false,132831.18,77,Renovation
+STR-004,Cairo Festival City,Street Retail,Egypt,Cairo,East,David Taylor,manager160@example.com,+97141994304,2142.86,25.996108,55.682994,2022-08-04,23:00,09:00,International,false,85079.10,62,Renovation
+STR-005,Doha Festival City,Warehouse Outlet,Qatar,Doha,South,John King,manager161@example.com,+97149553548,467.59,24.257407,56.494839,2022-06-07,23:00,09:00,International,false,10593.71,111,Open
+STR-006,Kuwait Avenues,Warehouse Outlet,Kuwait,Kuwait City,South,Omar Brown,manager162@example.com,+97142023580,529.88,26.437421,54.993005,2020-03-04,22:00,08:00,GCC South,true,153676.63,57,Planned
+STR-001,Dubai Mall Flagship,Warehouse Outlet,UAE,Dubai,North,Hassan Anderson,manager163@example.com,+97144735959,664.48,25.529469,55.789368,2020-11-13,22:00,09:00,Levant,true,134514.93,37,Renovation
+STR-002,Mall of the Emirates,Dark Store,UAE,Dubai,East,Mariam Brown,manager164@example.com,+97143491173,737.67,24.999280,55.196589,2018-12-21,22:00,08:00,Levant,true,91971.91,89,Planned
+STR-003,Riyadh Park,Mall,KSA,Riyadh,South,Mona Thomas,manager165@example.com,+97147848369,1533.16,24.522165,54.340008,2018-04-12,23:00,08:00,GCC South,false,32018.14,76,Renovation
+STR-004,Cairo Festival City,Street Retail,Egypt,Cairo,East,Yousef Anderson,manager166@example.com,+97143345670,2246.41,26.082249,56.034230,2022-06-28,23:00,10:00,GCC South,true,67293.16,82,Open
+STR-005,Doha Festival City,Mall,Qatar,Doha,North,Yousef White,manager167@example.com,+97141892659,96.71,25.732316,54.780485,2019-02-22,00:00,08:00,Levant,true,44750.37,65,Open
+STR-006,Kuwait Avenues,Street Retail,Kuwait,Kuwait City,North,Yousef Mansour,manager168@example.com,+97143076843,1610.06,25.343515,56.026744,2020-12-30,22:00,10:00,Levant,false,77766.02,106,Open
+STR-001,Dubai Mall Flagship,Warehouse Outlet,UAE,Dubai,West,Leen Ali,manager169@example.com,+97145519483,1204.67,25.099720,55.481105,2019-06-08,00:00,10:00,Levant,true,91178.15,61,Planned
+STR-002,Mall of the Emirates,Mall,UAE,Dubai,West,Ali Taylor,manager170@example.com,+97146981786,823.33,25.819766,55.727902,2022-04-29,22:00,09:00,International,true,88806.46,93,Open
+STR-003,Riyadh Park,Warehouse Outlet,KSA,Riyadh,Central,Mariam Mansour,manager171@example.com,+97143440574,1602.76,25.125756,55.619232,2022-11-18,00:00,09:00,Levant,true,54722.57,24,Planned
+STR-004,Cairo Festival City,Street Retail,Egypt,Cairo,East,Sara Saleh,manager172@example.com,+97148664070,1564.93,25.517972,56.284263,2024-03-27,00:00,10:00,GCC South,true,23651.45,55,Open
+STR-005,Doha Festival City,Street Retail,Qatar,Doha,Central,Ava Moore,manager173@example.com,+97147276875,1913.3,26.060687,55.051515,2020-09-01,23:00,09:00,GCC North,true,31720.35,9,Renovation
+STR-006,Kuwait Avenues,Dark Store,Kuwait,Kuwait City,East,Layla Khalid,manager174@example.com,+97147765788,1643.88,24.557885,54.744161,2022-11-21,23:00,09:00,GCC North,false,150902.49,81,Planned
+STR-001,Dubai Mall Flagship,Dark Store,UAE,Dubai,North,Omar Young,manager175@example.com,+97147012532,1832.46,24.222567,55.826783,2023-12-19,22:00,10:00,Levant,true,62771.32,117,Renovation
+STR-002,Mall of the Emirates,Street Retail,UAE,Dubai,North,Fatima Wilson,manager176@example.com,+97146913459,1449.67,25.001102,56.268861,2022-04-11,23:00,09:00,GCC South,false,48734.86,85,Renovation
+STR-003,Riyadh Park,Warehouse Outlet,KSA,Riyadh,Central,Mona Young,manager177@example.com,+97146836228,855.33,25.860247,55.036895,2021-10-11,23:00,10:00,Levant,true,22662.69,15,Planned
+STR-004,Cairo Festival City,Street Retail,Egypt,Cairo,Central,Sara Brown,manager178@example.com,+97142527394,117.99,24.366178,56.016663,2023-07-03,23:00,08:00,International,false,47646.05,103,Open
+STR-005,Doha Festival City,Dark Store,Qatar,Doha,West,Mona Johnson,manager179@example.com,+97143852325,2371.92,24.511263,56.295310,2021-12-08,23:00,09:00,GCC South,true,82434.37,58,Open
+STR-006,Kuwait Avenues,Mall,Kuwait,Kuwait City,Central,Ava Ali,manager180@example.com,+97146072821,1407.89,25.076978,55.799994,2019-01-29,00:00,08:00,International,true,175947.65,103,Open
+STR-001,Dubai Mall Flagship,Warehouse Outlet,UAE,Dubai,South,Ethan Young,manager181@example.com,+97144316893,1688.03,25.285245,55.535094,2022-08-21,00:00,09:00,GCC North,false,178592.34,109,Open
+STR-002,Mall of the Emirates,Street Retail,UAE,Dubai,West,Fatima Martin,manager182@example.com,+97145909612,2295.01,25.927909,55.642332,2018-04-06,23:00,10:00,GCC North,true,58545.90,104,Renovation
+STR-003,Riyadh Park,Warehouse Outlet,KSA,Riyadh,West,David Hill,manager183@example.com,+97146035632,696.96,25.234394,54.533520,2020-10-08,22:00,10:00,International,true,136514.05,108,Planned
+STR-004,Cairo Festival City,Street Retail,Egypt,Cairo,East,Khalid Ali,manager184@example.com,+97146565925,1021.36,24.861926,56.468415,2021-08-26,00:00,08:00,International,false,135825.52,64,Open
+STR-005,Doha Festival City,Street Retail,Qatar,Doha,West,Noor Saleh,manager185@example.com,+97145429570,938.52,25.515575,55.008192,2023-12-06,23:00,10:00,GCC South,true,77162.13,103,Renovation
+STR-006,Kuwait Avenues,Street Retail,Kuwait,Kuwait City,North,Sara Moore,manager186@example.com,+97147542015,758.61,26.005538,56.380755,2018-08-25,22:00,09:00,GCC South,false,141669.84,37,Renovation
+STR-001,Dubai Mall Flagship,Dark Store,UAE,Dubai,East,Mariam Johnson,manager187@example.com,+97142880692,531.73,24.255307,54.889173,2020-10-25,22:00,08:00,International,true,10868.54,77,Open
+STR-002,Mall of the Emirates,Warehouse Outlet,UAE,Dubai,South,David King,manager188@example.com,+97145877764,1003.86,24.001729,54.749137,2020-05-08,22:00,08:00,International,false,54124.69,43,Renovation
+STR-003,Riyadh Park,Mall,KSA,Riyadh,Central,David Smith,manager189@example.com,+97144124969,509.35,26.031224,54.110699,2022-10-29,22:00,10:00,International,false,176435.85,78,Renovation
+STR-004,Cairo Festival City,Mall,Egypt,Cairo,East,Sara Khalid,manager190@example.com,+97146078428,376.75,25.302834,54.554027,2023-08-22,22:00,09:00,GCC South,false,131490.29,92,Renovation
+STR-005,Doha Festival City,Mall,Qatar,Doha,North,Zain Wilson,manager191@example.com,+97146295785,1893.08,25.916050,54.064780,2018-01-06,00:00,09:00,International,true,144269.13,9,Open
+STR-006,Kuwait Avenues,Mall,Kuwait,Kuwait City,North,Ali Taylor,manager192@example.com,+97148813111,309.12,25.354943,56.278052,2018-05-08,00:00,08:00,International,true,111615.36,85,Planned
+STR-001,Dubai Mall Flagship,Mall,UAE,Dubai,North,Layla Taylor,manager193@example.com,+97141607033,2202.55,24.840107,55.438967,2024-06-27,00:00,10:00,GCC South,false,100483.31,18,Planned
+STR-002,Mall of the Emirates,Dark Store,UAE,Dubai,Central,Sophia Ali,manager194@example.com,+97149997083,107.75,24.777972,56.369801,2022-11-09,00:00,08:00,GCC South,false,12936.34,97,Open
+STR-003,Riyadh Park,Mall,KSA,Riyadh,North,Khalid Saleh,manager195@example.com,+97144481871,2046.93,24.185564,54.486783,2022-09-27,00:00,09:00,GCC South,true,17155.51,119,Renovation
+STR-004,Cairo Festival City,Mall,Egypt,Cairo,North,Sophia Smith,manager196@example.com,+97148905166,1280.38,25.305376,54.871891,2018-06-19,22:00,10:00,International,false,101953.22,57,Renovation
+STR-005,Doha Festival City,Mall,Qatar,Doha,North,David Brown,manager197@example.com,+97141550711,1652.19,26.292125,56.486693,2019-03-12,00:00,09:00,GCC North,false,64060.15,94,Open
+STR-006,Kuwait Avenues,Mall,Kuwait,Kuwait City,Central,Leen Martin,manager198@example.com,+97141806418,2092.14,24.158681,54.204672,2019-11-20,22:00,10:00,GCC South,true,158716.27,86,Planned
+STR-001,Dubai Mall Flagship,Street Retail,UAE,Dubai,Central,Lina Wilson,manager199@example.com,+97146992439,1492.59,25.863850,55.922465,2020-06-26,00:00,10:00,GCC South,true,82962.48,27,Open
+STR-002,Mall of the Emirates,Warehouse Outlet,UAE,Dubai,South,Ava Martin,manager200@example.com,+97149470736,1776.7,26.491107,56.038646,2019-04-17,22:00,10:00,International,true,107022.49,59,Planned
+STR-003,Riyadh Park,Warehouse Outlet,KSA,Riyadh,South,Ahmed Taylor,manager201@example.com,+97143739338,295.51,24.352454,54.122383,2018-07-18,22:00,09:00,GCC North,true,78841.20,43,Open
+STR-004,Cairo Festival City,Mall,Egypt,Cairo,South,Noor Martin,manager202@example.com,+97141713050,2200.99,25.753673,55.729480,2024-03-30,23:00,08:00,Levant,true,146755.20,78,Open
+STR-005,Doha Festival City,Dark Store,Qatar,Doha,East,Mariam Miller,manager203@example.com,+97145705832,1449.81,24.880992,56.050567,2021-01-23,22:00,10:00,Levant,true,80375.05,24,Planned
+STR-006,Kuwait Avenues,Warehouse Outlet,Kuwait,Kuwait City,South,Layla Martin,manager204@example.com,+97144698345,1735.9,25.594195,56.286381,2023-02-14,23:00,10:00,GCC North,false,53841.57,85,Renovation
+STR-001,Dubai Mall Flagship,Warehouse Outlet,UAE,Dubai,North,Ava Ali,manager205@example.com,+97145871363,1581.12,25.135752,56.148487,2018-11-17,00:00,09:00,International,true,63753.33,32,Planned
+STR-002,Mall of the Emirates,Warehouse Outlet,UAE,Dubai,West,Layla Thomas,manager206@example.com,+97142435715,2205.09,26.016055,54.488128,2023-12-26,22:00,09:00,Levant,false,33627.27,88,Renovation
+STR-003,Riyadh Park,Dark Store,KSA,Riyadh,South,Layla Moore,manager207@example.com,+97146371540,1489.53,24.035810,56.415218,2019-05-21,00:00,09:00,GCC South,false,172743.53,18,Open
+STR-004,Cairo Festival City,Dark Store,Egypt,Cairo,North,Leen Thomas,manager208@example.com,+97148304569,99.06,24.474102,55.491910,2022-05-18,22:00,09:00,International,false,92129.87,13,Open
+STR-005,Doha Festival City,Warehouse Outlet,Qatar,Doha,West,Lina White,manager209@example.com,+97149238811,2068.08,24.738381,54.395343,2022-06-10,23:00,09:00,GCC South,true,24745.28,26,Renovation
+STR-006,Kuwait Avenues,Warehouse Outlet,Kuwait,Kuwait City,North,Mona Wilson,manager210@example.com,+97143539593,906.6,25.856929,56.077856,2019-08-30,22:00,10:00,Levant,false,112034.58,120,Open
+STR-001,Dubai Mall Flagship,Street Retail,UAE,Dubai,Central,Hassan Khalid,manager211@example.com,+97146695515,1949.97,24.020637,54.899951,2023-01-28,00:00,08:00,Levant,true,140482.15,32,Planned
+STR-002,Mall of the Emirates,Warehouse Outlet,UAE,Dubai,South,David Ali,manager212@example.com,+97146526199,1562.54,26.073303,54.574839,2019-05-03,00:00,08:00,GCC South,true,31568.81,99,Planned
+STR-003,Riyadh Park,Mall,KSA,Riyadh,East,John Brown,manager213@example.com,+97145544401,2297.73,26.222765,54.565552,2019-05-22,22:00,09:00,GCC North,false,156560.33,111,Planned
+STR-004,Cairo Festival City,Street Retail,Egypt,Cairo,South,Mona Anderson,manager214@example.com,+97149081810,1512.01,25.359979,55.722937,2023-06-12,23:00,08:00,GCC South,true,167754.95,62,Planned
+STR-005,Doha Festival City,Street Retail,Qatar,Doha,Central,Mona White,manager215@example.com,+97149674575,275.56,24.272623,54.038731,2019-08-27,22:00,10:00,International,true,156457.61,28,Renovation
+STR-006,Kuwait Avenues,Dark Store,Kuwait,Kuwait City,East,Ava Martin,manager216@example.com,+97144641400,1723.86,24.904055,55.183678,2021-11-09,23:00,09:00,GCC South,false,46245.18,97,Renovation
+STR-001,Dubai Mall Flagship,Street Retail,UAE,Dubai,North,Sophia Brown,manager217@example.com,+97146277562,832.18,25.869630,54.320654,2023-08-20,23:00,08:00,Levant,true,21493.43,67,Planned
+STR-002,Mall of the Emirates,Street Retail,UAE,Dubai,East,Ahmed Wilson,manager218@example.com,+97141772799,2463.47,24.629413,54.913808,2024-03-31,00:00,10:00,GCC South,false,37002.43,41,Renovation
+STR-003,Riyadh Park,Dark Store,KSA,Riyadh,West,Layla Thomas,manager219@example.com,+97141742572,1368.11,25.350839,56.424672,2022-06-13,23:00,09:00,International,true,132903.02,24,Open
+STR-004,Cairo Festival City,Warehouse Outlet,Egypt,Cairo,North,John Mansour,manager220@example.com,+97147543549,1424.18,25.510443,54.256807,2023-04-20,00:00,08:00,International,true,26197.90,91,Open
+STR-005,Doha Festival City,Warehouse Outlet,Qatar,Doha,Central,Noor Miller,manager221@example.com,+97144688768,89.18,26.047597,54.038063,2023-05-24,23:00,08:00,Levant,false,70430.24,83,Planned
+STR-006,Kuwait Avenues,Warehouse Outlet,Kuwait,Kuwait City,South,Ethan Clark,manager222@example.com,+97145550332,2334.41,24.533834,55.487898,2022-04-14,00:00,09:00,GCC North,true,126199.28,54,Open
+STR-001,Dubai Mall Flagship,Street Retail,UAE,Dubai,South,Khalid Anderson,manager223@example.com,+97143761993,1585.78,26.105001,55.168508,2020-07-19,22:00,08:00,GCC North,true,144609.99,46,Open
+STR-002,Mall of the Emirates,Warehouse Outlet,UAE,Dubai,East,Ava White,manager224@example.com,+97147111882,1868.12,25.356845,54.889862,2021-04-21,00:00,10:00,International,true,134722.49,75,Planned
+STR-003,Riyadh Park,Dark Store,KSA,Riyadh,East,Layla Khalid,manager225@example.com,+97143195026,359.76,25.431719,54.383616,2019-01-14,00:00,09:00,GCC South,false,84307.84,36,Planned
+STR-004,Cairo Festival City,Dark Store,Egypt,Cairo,South,Khalid Khalid,manager226@example.com,+97144534222,598.81,24.400445,54.465542,2019-06-07,00:00,09:00,Levant,true,167994.42,64,Open
+STR-005,Doha Festival City,Dark Store,Qatar,Doha,North,Fatima Clark,manager227@example.com,+97149814085,608.39,24.990857,55.158309,2021-04-02,23:00,09:00,International,false,11084.21,10,Open
+STR-006,Kuwait Avenues,Dark Store,Kuwait,Kuwait City,West,Hassan Thomas,manager228@example.com,+97141210079,89.03,26.417448,54.944063,2022-07-08,00:00,08:00,GCC South,true,30424.86,31,Planned
+STR-001,Dubai Mall Flagship,Street Retail,UAE,Dubai,Central,Khalid Mansour,manager229@example.com,+97149446410,1085.12,26.395967,54.412583,2024-01-16,00:00,09:00,International,true,82532.49,98,Open
+STR-002,Mall of the Emirates,Street Retail,UAE,Dubai,Central,Ali Taylor,manager230@example.com,+97148229112,1459.21,25.655644,54.091710,2020-04-23,23:00,09:00,International,true,160865.53,77,Renovation
+STR-003,Riyadh Park,Mall,KSA,Riyadh,North,Mona Miller,manager231@example.com,+97145439652,577.51,24.850129,56.028431,2020-08-06,23:00,10:00,GCC North,true,174319.73,92,Renovation
+STR-004,Cairo Festival City,Warehouse Outlet,Egypt,Cairo,Central,Omar Miller,manager232@example.com,+97144041970,366.41,26.182295,55.873404,2022-11-09,23:00,10:00,GCC North,false,138714.17,10,Renovation
+STR-005,Doha Festival City,Street Retail,Qatar,Doha,West,Noor Moore,manager233@example.com,+97142591276,281.26,25.026924,54.845126,2024-04-09,23:00,09:00,Levant,false,38376.38,87,Open
+STR-006,Kuwait Avenues,Street Retail,Kuwait,Kuwait City,Central,Mona Martin,manager234@example.com,+97144245070,2281.21,24.984693,55.440501,2023-08-09,22:00,09:00,International,false,82703.85,71,Renovation
+STR-001,Dubai Mall Flagship,Warehouse Outlet,UAE,Dubai,East,Mona Taylor,manager235@example.com,+97148132755,254.0,26.083623,54.771496,2023-06-23,23:00,09:00,GCC North,false,47410.00,112,Planned
+STR-002,Mall of the Emirates,Warehouse Outlet,UAE,Dubai,North,David White,manager236@example.com,+97143185690,544.61,25.519514,54.032465,2018-04-07,23:00,09:00,GCC North,false,157200.71,12,Open
+STR-003,Riyadh Park,Mall,KSA,Riyadh,North,Ava Hassan,manager237@example.com,+97146608829,825.23,26.417543,54.769544,2018-11-04,22:00,10:00,GCC South,false,175209.41,71,Planned
+STR-004,Cairo Festival City,Mall,Egypt,Cairo,South,Khalid King,manager238@example.com,+97141214182,290.61,26.160017,55.311436,2019-10-03,23:00,08:00,International,false,150338.15,98,Planned
+STR-005,Doha Festival City,Warehouse Outlet,Qatar,Doha,East,Khalid Smith,manager239@example.com,+97146748327,2454.6,25.203019,55.325789,2018-03-17,22:00,09:00,International,false,88504.29,37,Renovation
+STR-006,Kuwait Avenues,Street Retail,Kuwait,Kuwait City,Central,Khalid Thomas,manager240@example.com,+97142982588,189.03,24.453064,54.484179,2023-01-26,22:00,09:00,Levant,true,124686.55,15,Renovation
+STR-001,Dubai Mall Flagship,Dark Store,UAE,Dubai,East,Khalid Anderson,manager241@example.com,+97143654684,2247.85,26.277929,55.551125,2023-09-16,23:00,08:00,Levant,false,165550.92,64,Planned
+STR-002,Mall of the Emirates,Street Retail,UAE,Dubai,West,Ethan Ali,manager242@example.com,+97142988854,359.83,24.839107,55.694572,2020-03-11,22:00,09:00,International,true,116309.57,31,Planned
+STR-003,Riyadh Park,Mall,KSA,Riyadh,East,David Moore,manager243@example.com,+97146709818,1063.25,25.379562,55.340102,2022-08-22,00:00,10:00,International,true,15938.68,104,Planned
+STR-004,Cairo Festival City,Dark Store,Egypt,Cairo,North,Hassan Moore,manager244@example.com,+97147350213,2466.87,25.197123,56.074883,2021-11-06,00:00,09:00,GCC South,true,178786.09,60,Renovation
+STR-005,Doha Festival City,Dark Store,Qatar,Doha,Central,Lina Thomas,manager245@example.com,+97144368270,443.92,24.989033,55.231987,2021-01-17,23:00,09:00,International,false,135009.82,74,Renovation
+STR-006,Kuwait Avenues,Dark Store,Kuwait,Kuwait City,East,Noor Hill,manager246@example.com,+97145447266,2433.32,25.861454,54.872176,2022-05-06,00:00,10:00,GCC South,false,155123.69,40,Renovation
+STR-001,Dubai Mall Flagship,Street Retail,UAE,Dubai,South,Ahmed Taylor,manager247@example.com,+97145048971,1151.29,24.424133,55.618634,2018-05-28,00:00,10:00,Levant,false,63519.50,37,Planned
+STR-002,Mall of the Emirates,Warehouse Outlet,UAE,Dubai,Central,Yousef Anderson,manager248@example.com,+97146861919,756.77,26.167249,54.081345,2020-11-25,23:00,10:00,GCC North,false,49027.25,35,Open
+STR-003,Riyadh Park,Warehouse Outlet,KSA,Riyadh,West,Khalid Mansour,manager249@example.com,+97144129448,1826.31,24.302164,55.017704,2023-12-26,23:00,09:00,GCC North,false,147941.81,11,Renovation
+STR-004,Cairo Festival City,Dark Store,Egypt,Cairo,North,Sara Miller,manager250@example.com,+97142465676,931.23,25.804277,54.965810,2020-06-25,22:00,10:00,Levant,true,63418.43,13,Planned
+STR-005,Doha Festival City,Dark Store,Qatar,Doha,South,Zain Saleh,manager251@example.com,+97149941635,1173.73,25.453565,54.514939,2019-08-02,23:00,09:00,International,false,120112.20,42,Planned
+STR-006,Kuwait Avenues,Dark Store,Kuwait,Kuwait City,Central,Yousef Mansour,manager252@example.com,+97143289931,2266.3,24.491415,55.959476,2022-06-03,00:00,09:00,Levant,true,67064.64,26,Open
+STR-001,Dubai Mall Flagship,Warehouse Outlet,UAE,Dubai,Central,Sara Smith,manager253@example.com,+97141354809,513.28,25.223083,54.112302,2024-06-15,00:00,08:00,Levant,true,76595.83,74,Renovation
+STR-002,Mall of the Emirates,Dark Store,UAE,Dubai,East,Sophia Mansour,manager254@example.com,+97149696799,555.08,24.590148,56.086317,2023-03-06,23:00,08:00,Levant,false,46543.69,49,Renovation
+STR-003,Riyadh Park,Warehouse Outlet,KSA,Riyadh,West,Zain Hill,manager255@example.com,+97144529481,2149.13,24.057317,56.021405,2022-03-01,23:00,10:00,GCC South,false,15389.73,105,Renovation
+STR-004,Cairo Festival City,Dark Store,Egypt,Cairo,East,Sophia Wilson,manager256@example.com,+97148259722,1910.05,24.151156,54.212991,2018-04-29,00:00,10:00,GCC North,true,111951.42,38,Planned
+STR-005,Doha Festival City,Mall,Qatar,Doha,North,Khalid Hassan,manager257@example.com,+97143137014,534.0,25.154302,54.909789,2022-06-23,00:00,10:00,Levant,true,128980.06,34,Open
+STR-006,Kuwait Avenues,Dark Store,Kuwait,Kuwait City,East,Ethan Ali,manager258@example.com,+97146611410,2298.33,25.262561,56.448028,2023-08-03,23:00,10:00,GCC North,true,116754.65,104,Renovation
+STR-001,Dubai Mall Flagship,Mall,UAE,Dubai,Central,David Miller,manager259@example.com,+97141685000,1280.22,26.414045,55.319276,2022-01-28,00:00,10:00,Levant,false,100254.37,42,Planned
+STR-002,Mall of the Emirates,Mall,UAE,Dubai,North,Noor Moore,manager260@example.com,+97146893319,1199.11,25.082149,56.165173,2020-03-14,00:00,09:00,GCC North,false,159198.96,87,Open
+STR-003,Riyadh Park,Street Retail,KSA,Riyadh,East,Sara King,manager261@example.com,+97141165941,537.72,26.167178,55.385203,2023-05-17,00:00,08:00,International,false,51769.76,18,Renovation
+STR-004,Cairo Festival City,Warehouse Outlet,Egypt,Cairo,East,Zain Miller,manager262@example.com,+97145380404,2485.11,26.221894,55.377065,2023-07-11,00:00,10:00,Levant,true,14072.35,31,Planned
+STR-005,Doha Festival City,Dark Store,Qatar,Doha,South,David Ali,manager263@example.com,+97146742471,453.93,25.548284,55.953095,2018-05-18,22:00,10:00,Levant,true,45142.85,91,Open
+STR-006,Kuwait Avenues,Dark Store,Kuwait,Kuwait City,West,Mona Saleh,manager264@example.com,+97141357871,2401.74,26.056302,54.412831,2019-06-18,22:00,09:00,International,false,55005.32,8,Open
+STR-001,Dubai Mall Flagship,Dark Store,UAE,Dubai,East,Khalid Hassan,manager265@example.com,+97146926041,745.93,25.987125,54.150303,2018-05-01,22:00,10:00,International,true,167146.54,11,Open
+STR-002,Mall of the Emirates,Warehouse Outlet,UAE,Dubai,North,John Young,manager266@example.com,+97146475377,90.6,24.730516,54.501195,2019-08-21,00:00,10:00,GCC South,true,138870.80,96,Renovation
+STR-003,Riyadh Park,Street Retail,KSA,Riyadh,Central,Ali Moore,manager267@example.com,+97143087855,1971.86,24.081332,54.593785,2023-10-20,22:00,09:00,Levant,false,130498.82,35,Planned
+STR-004,Cairo Festival City,Dark Store,Egypt,Cairo,West,Ava Anderson,manager268@example.com,+97144432174,1500.33,25.313588,55.871173,2022-01-10,23:00,10:00,Levant,false,50239.37,114,Open
+STR-005,Doha Festival City,Mall,Qatar,Doha,East,Lina White,manager269@example.com,+97143438394,2160.14,24.469485,55.288050,2022-03-15,22:00,09:00,Levant,true,109769.86,119,Open
+STR-006,Kuwait Avenues,Warehouse Outlet,Kuwait,Kuwait City,North,Hassan Taylor,manager270@example.com,+97148835596,1739.06,25.935013,55.958606,2023-08-29,00:00,10:00,GCC North,false,163894.83,83,Open
+STR-001,Dubai Mall Flagship,Mall,UAE,Dubai,East,Fatima Hill,manager271@example.com,+97148100485,1841.59,26.130980,55.551439,2020-09-25,23:00,09:00,International,false,27563.40,110,Renovation
+STR-002,Mall of the Emirates,Warehouse Outlet,UAE,Dubai,East,Leen Clark,manager272@example.com,+97142931538,2221.16,26.113267,55.842736,2018-03-03,00:00,10:00,GCC South,false,58978.16,99,Renovation
+STR-003,Riyadh Park,Street Retail,KSA,Riyadh,South,Ahmed Anderson,manager273@example.com,+97147928542,1521.5,24.902780,55.959636,2018-06-18,00:00,10:00,GCC South,false,156360.26,73,Planned
+STR-004,Cairo Festival City,Mall,Egypt,Cairo,East,Omar Brown,manager274@example.com,+97148493320,1141.51,24.824338,55.117570,2018-11-15,23:00,10:00,International,false,56156.60,81,Open
+STR-005,Doha Festival City,Warehouse Outlet,Qatar,Doha,Central,Omar Mansour,manager275@example.com,+97149628763,1162.65,26.128815,55.841652,2022-02-24,22:00,09:00,International,true,12894.57,15,Planned
+STR-006,Kuwait Avenues,Warehouse Outlet,Kuwait,Kuwait City,South,Ava Clark,manager276@example.com,+97146209989,1457.44,25.843029,55.154613,2021-03-13,23:00,10:00,GCC North,false,82483.16,33,Planned
+STR-001,Dubai Mall Flagship,Warehouse Outlet,UAE,Dubai,West,Sophia Hassan,manager277@example.com,+97143584329,878.34,25.465308,54.858765,2024-04-27,22:00,08:00,International,false,85947.75,87,Planned
+STR-002,Mall of the Emirates,Dark Store,UAE,Dubai,South,Fatima Brown,manager278@example.com,+97143567643,1267.78,25.698850,54.993252,2018-03-27,22:00,08:00,Levant,false,171234.05,96,Planned
+STR-003,Riyadh Park,Warehouse Outlet,KSA,Riyadh,Central,Sophia Khalid,manager279@example.com,+97141937547,900.34,26.400956,54.840975,2020-04-07,22:00,09:00,Levant,false,115822.80,51,Renovation
+STR-004,Cairo Festival City,Street Retail,Egypt,Cairo,Central,David Young,manager280@example.com,+97144601894,572.56,25.985830,56.319481,2022-11-18,23:00,10:00,International,false,96525.69,79,Planned
+STR-005,Doha Festival City,Mall,Qatar,Doha,South,Khalid Smith,manager281@example.com,+97141502801,1296.64,25.897831,54.127038,2021-12-29,22:00,08:00,International,true,72994.65,50,Planned
+STR-006,Kuwait Avenues,Warehouse Outlet,Kuwait,Kuwait City,North,John Hill,manager282@example.com,+97148663691,1491.03,24.557669,55.389970,2023-04-16,22:00,10:00,GCC South,true,123599.04,61,Open
+STR-001,Dubai Mall Flagship,Warehouse Outlet,UAE,Dubai,Central,John Khalid,manager283@example.com,+97147183307,979.77,25.906179,54.492259,2023-11-15,22:00,08:00,GCC North,false,153007.23,30,Open
+STR-002,Mall of the Emirates,Dark Store,UAE,Dubai,South,Sara Khalid,manager284@example.com,+97144185312,1740.05,25.833919,55.769037,2019-10-25,00:00,09:00,GCC South,false,109864.04,31,Open
+STR-003,Riyadh Park,Dark Store,KSA,Riyadh,East,Lina Smith,manager285@example.com,+97149930441,1568.15,25.320533,54.708316,2020-08-25,23:00,10:00,GCC North,false,141397.22,63,Renovation
+STR-004,Cairo Festival City,Warehouse Outlet,Egypt,Cairo,North,Ahmed Young,manager286@example.com,+97144902139,803.53,25.748399,54.463985,2020-10-14,22:00,10:00,International,false,59657.34,43,Open
+STR-005,Doha Festival City,Warehouse Outlet,Qatar,Doha,South,Ahmed Miller,manager287@example.com,+97148769529,1648.75,24.485311,55.710560,2022-08-19,22:00,09:00,International,false,50735.04,84,Planned
+STR-006,Kuwait Avenues,Mall,Kuwait,Kuwait City,East,Sophia Anderson,manager288@example.com,+97146072636,739.76,25.416196,54.777750,2021-09-02,00:00,09:00,GCC North,false,168484.88,40,Renovation
+STR-001,Dubai Mall Flagship,Warehouse Outlet,UAE,Dubai,North,John Wilson,manager289@example.com,+97146541198,2035.57,25.008438,55.633986,2020-06-08,22:00,10:00,Levant,true,170063.22,88,Renovation
+STR-002,Mall of the Emirates,Mall,UAE,Dubai,East,Khalid Thomas,manager290@example.com,+97145500806,1932.93,25.472875,54.976182,2024-07-17,00:00,10:00,GCC North,true,122418.99,76,Open
+STR-003,Riyadh Park,Street Retail,KSA,Riyadh,North,Omar Miller,manager291@example.com,+97147437563,1435.65,24.343427,56.258290,2019-07-24,22:00,09:00,GCC South,true,92614.97,79,Renovation
+STR-004,Cairo Festival City,Dark Store,Egypt,Cairo,Central,Mona Moore,manager292@example.com,+97147940293,1270.49,24.752004,56.208127,2018-08-07,00:00,09:00,International,true,18747.82,41,Renovation
+STR-005,Doha Festival City,Dark Store,Qatar,Doha,South,Ethan Thomas,manager293@example.com,+97147238439,2078.13,25.150937,54.963433,2021-09-04,00:00,08:00,GCC North,false,67345.11,116,Planned
+STR-006,Kuwait Avenues,Dark Store,Kuwait,Kuwait City,West,David Miller,manager294@example.com,+97145285710,2356.35,24.659919,56.420288,2019-06-24,22:00,08:00,International,true,72499.66,21,Renovation
+STR-001,Dubai Mall Flagship,Warehouse Outlet,UAE,Dubai,North,Noor Miller,manager295@example.com,+97143979157,182.39,24.729598,54.219450,2022-11-15,00:00,10:00,International,false,52510.20,99,Open
+STR-002,Mall of the Emirates,Street Retail,UAE,Dubai,Central,Yousef Wilson,manager296@example.com,+97142389523,1608.4,24.231721,56.427528,2022-02-19,23:00,10:00,GCC North,false,79504.15,88,Open
+STR-003,Riyadh Park,Street Retail,KSA,Riyadh,South,Leen Wilson,manager297@example.com,+97141833191,1395.08,25.564770,56.472227,2020-08-22,22:00,08:00,International,false,79828.62,34,Open
+STR-004,Cairo Festival City,Mall,Egypt,Cairo,South,Omar Mansour,manager298@example.com,+97144430189,1406.08,24.003910,54.101393,2023-06-30,00:00,10:00,GCC North,false,17347.02,54,Open
+STR-005,Doha Festival City,Mall,Qatar,Doha,East,Noor Taylor,manager299@example.com,+97148702890,2258.44,25.635785,56.083647,2019-06-04,23:00,10:00,International,false,115082.88,10,Renovation
+STR-006,Kuwait Avenues,Dark Store,Kuwait,Kuwait City,Central,Lina Taylor,manager300@example.com,+97148201024,311.55,24.282661,54.724830,2019-06-28,23:00,10:00,GCC South,true,63058.91,119,Open
+STR-001,Dubai Mall Flagship,Dark Store,UAE,Dubai,South,Fatima Saleh,manager301@example.com,+97141673579,1116.02,24.027099,55.877927,2023-06-06,22:00,08:00,International,false,58875.12,110,Open
+STR-002,Mall of the Emirates,Mall,UAE,Dubai,South,Ethan Saleh,manager302@example.com,+97143600427,185.82,24.614573,55.523973,2023-02-27,23:00,09:00,GCC South,true,40534.59,62,Renovation
+STR-003,Riyadh Park,Dark Store,KSA,Riyadh,Central,Lina Saleh,manager303@example.com,+97144376352,1052.13,26.260820,56.420054,2021-12-10,23:00,10:00,GCC North,false,139681.94,40,Renovation
+STR-004,Cairo Festival City,Warehouse Outlet,Egypt,Cairo,South,Omar Martin,manager304@example.com,+97148665557,2355.23,26.235619,55.686130,2021-08-27,23:00,10:00,International,true,34475.48,100,Renovation
+STR-005,Doha Festival City,Mall,Qatar,Doha,Central,Hassan Martin,manager305@example.com,+97149177688,180.84,25.447618,54.798017,2019-04-07,22:00,08:00,GCC South,true,128630.13,19,Renovation
+STR-006,Kuwait Avenues,Street Retail,Kuwait,Kuwait City,North,Yousef Taylor,manager306@example.com,+97144147796,1469.93,24.574091,55.740654,2023-02-02,22:00,08:00,Levant,false,100053.28,101,Planned
+STR-001,Dubai Mall Flagship,Mall,UAE,Dubai,West,Mariam White,manager307@example.com,+97141940615,2249.25,25.454204,54.470864,2021-08-02,22:00,10:00,GCC South,true,35143.96,30,Renovation
+STR-002,Mall of the Emirates,Dark Store,UAE,Dubai,East,Mariam Wilson,manager308@example.com,+97142851681,1467.96,24.356711,54.086303,2020-12-21,22:00,10:00,GCC North,false,130716.13,77,Planned
+STR-003,Riyadh Park,Warehouse Outlet,KSA,Riyadh,Central,Sara King,manager309@example.com,+97144713763,540.67,24.978377,54.912562,2018-05-15,22:00,08:00,International,true,139872.00,8,Renovation
+STR-004,Cairo Festival City,Warehouse Outlet,Egypt,Cairo,South,Mona Anderson,manager310@example.com,+97141888105,87.01,26.049079,56.249271,2023-05-29,22:00,09:00,Levant,true,86642.33,65,Open
+STR-005,Doha Festival City,Mall,Qatar,Doha,West,Ahmed Miller,manager311@example.com,+97148396003,228.8,26.047288,54.852523,2019-08-24,00:00,10:00,GCC South,true,156643.43,88,Planned
+STR-006,Kuwait Avenues,Mall,Kuwait,Kuwait City,West,Leen Taylor,manager312@example.com,+97147386788,1360.63,25.135033,55.512825,2023-04-12,23:00,08:00,Levant,true,93908.72,102,Open
+STR-001,Dubai Mall Flagship,Street Retail,UAE,Dubai,Central,John Khalid,manager313@example.com,+97146824399,1825.08,26.231200,55.474155,2024-04-24,23:00,10:00,GCC South,true,131970.66,17,Renovation
+STR-002,Mall of the Emirates,Dark Store,UAE,Dubai,South,Sophia Ali,manager314@example.com,+97149709592,1537.22,26.041554,55.806707,2020-05-17,22:00,09:00,Levant,false,167772.99,119,Renovation
+STR-003,Riyadh Park,Warehouse Outlet,KSA,Riyadh,East,Mona Taylor,manager315@example.com,+97148836378,131.92,25.243657,56.351242,2019-09-04,23:00,09:00,GCC North,false,76632.79,119,Open
+STR-004,Cairo Festival City,Warehouse Outlet,Egypt,Cairo,West,Omar Johnson,manager316@example.com,+97148552545,347.8,25.654095,54.400288,2023-04-05,22:00,08:00,International,true,30617.78,63,Planned
+STR-005,Doha Festival City,Mall,Qatar,Doha,Central,Ava Saleh,manager317@example.com,+97148314955,2109.02,25.469088,54.170008,2018-03-23,23:00,10:00,GCC North,true,121125.69,14,Open
+STR-006,Kuwait Avenues,Street Retail,Kuwait,Kuwait City,West,Layla Johnson,manager318@example.com,+97149847996,138.38,26.322667,56.005666,2020-03-15,00:00,10:00,International,false,149957.71,116,Renovation
+STR-001,Dubai Mall Flagship,Mall,UAE,Dubai,South,Khalid Anderson,manager319@example.com,+97143250355,1768.34,25.266301,56.202353,2018-07-23,22:00,08:00,Levant,false,120071.52,106,Planned
+STR-002,Mall of the Emirates,Warehouse Outlet,UAE,Dubai,West,Ahmed White,manager320@example.com,+97148543005,569.52,24.794837,55.486565,2022-07-02,23:00,10:00,GCC North,true,35380.39,53,Open
+STR-003,Riyadh Park,Warehouse Outlet,KSA,Riyadh,West,Yousef Hill,manager321@example.com,+97148710198,2008.94,25.826517,55.956089,2020-04-18,00:00,08:00,Levant,true,18280.34,53,Open
+STR-004,Cairo Festival City,Dark Store,Egypt,Cairo,South,Zain Martin,manager322@example.com,+97148933671,537.71,25.353350,55.377492,2022-10-05,00:00,08:00,International,false,54563.84,65,Renovation
+STR-005,Doha Festival City,Dark Store,Qatar,Doha,East,Yousef Taylor,manager323@example.com,+97146588362,1664.14,24.767237,55.342617,2023-08-07,23:00,09:00,International,true,40165.44,26,Open
+STR-006,Kuwait Avenues,Street Retail,Kuwait,Kuwait City,Central,Layla Miller,manager324@example.com,+97148143499,1629.8,24.307722,54.953809,2018-11-25,23:00,08:00,GCC North,false,173567.95,81,Open
+STR-001,Dubai Mall Flagship,Warehouse Outlet,UAE,Dubai,North,Sara Mansour,manager325@example.com,+97142280131,673.66,25.387783,55.392028,2020-05-13,22:00,09:00,International,true,97651.93,102,Planned
+STR-002,Mall of the Emirates,Warehouse Outlet,UAE,Dubai,North,Yousef Wilson,manager326@example.com,+97146561358,510.61,25.723865,54.133158,2023-05-10,00:00,10:00,Levant,false,53108.79,72,Open
+STR-003,Riyadh Park,Street Retail,KSA,Riyadh,East,Lina Thomas,manager327@example.com,+97144304572,782.73,24.920975,55.130144,2019-04-11,00:00,08:00,GCC South,true,108431.55,18,Renovation
+STR-004,Cairo Festival City,Dark Store,Egypt,Cairo,South,Ahmed Saleh,manager328@example.com,+97145645661,1739.3,26.027790,55.098443,2023-02-28,00:00,10:00,GCC North,false,65361.65,69,Planned
+STR-005,Doha Festival City,Dark Store,Qatar,Doha,East,John Anderson,manager329@example.com,+97146044163,573.29,26.286571,55.673293,2023-07-21,22:00,09:00,Levant,true,69456.17,72,Planned
+STR-006,Kuwait Avenues,Mall,Kuwait,Kuwait City,South,Sophia Taylor,manager330@example.com,+97141531126,2154.06,24.351806,56.421725,2018-11-10,22:00,08:00,Levant,true,134622.39,32,Renovation
+STR-001,Dubai Mall Flagship,Dark Store,UAE,Dubai,South,David Johnson,manager331@example.com,+97145304732,556.93,25.441545,55.017342,2022-03-09,23:00,09:00,GCC North,false,65167.22,59,Planned
+STR-002,Mall of the Emirates,Street Retail,UAE,Dubai,East,Noor Miller,manager332@example.com,+97142780987,226.27,25.792135,54.039104,2021-01-20,22:00,09:00,International,false,115779.74,52,Renovation
+STR-003,Riyadh Park,Street Retail,KSA,Riyadh,Central,Ahmed Hassan,manager333@example.com,+97149800849,2015.27,25.262325,56.193228,2024-07-22,00:00,09:00,GCC North,true,173095.49,105,Planned
+STR-004,Cairo Festival City,Warehouse Outlet,Egypt,Cairo,West,Mariam Mansour,manager334@example.com,+97149869600,822.18,25.256993,55.585402,2020-10-02,22:00,08:00,Levant,false,16389.23,32,Renovation
+STR-005,Doha Festival City,Warehouse Outlet,Qatar,Doha,West,Sara Smith,manager335@example.com,+97147912820,772.83,26.332553,55.717790,2023-02-20,23:00,08:00,Levant,false,164460.55,44,Renovation
+STR-006,Kuwait Avenues,Mall,Kuwait,Kuwait City,North,Fatima Saleh,manager336@example.com,+97146732482,1795.9,25.982617,55.557459,2019-10-29,00:00,08:00,GCC South,true,106834.71,8,Renovation
+STR-001,Dubai Mall Flagship,Dark Store,UAE,Dubai,North,Ali Saleh,manager337@example.com,+97145633780,1011.51,26.282674,56.295816,2018-12-08,00:00,09:00,Levant,false,126480.68,100,Planned
+STR-002,Mall of the Emirates,Dark Store,UAE,Dubai,Central,Yousef Hill,manager338@example.com,+97149816250,2144.82,24.192479,55.103742,2018-07-27,23:00,08:00,International,true,67340.49,17,Renovation
+STR-003,Riyadh Park,Street Retail,KSA,Riyadh,Central,Lina Johnson,manager339@example.com,+97145883263,1612.12,25.219011,54.998400,2018-12-16,23:00,10:00,GCC North,false,84140.84,93,Open
+STR-004,Cairo Festival City,Warehouse Outlet,Egypt,Cairo,South,Fatima Mansour,manager340@example.com,+97144663001,1711.35,25.086876,54.899141,2023-12-06,22:00,08:00,Levant,true,65885.66,63,Planned
+STR-005,Doha Festival City,Mall,Qatar,Doha,West,Ava Hassan,manager341@example.com,+97147261430,1839.41,25.372011,55.414549,2021-08-01,00:00,09:00,GCC South,false,110750.28,29,Open
+STR-006,Kuwait Avenues,Mall,Kuwait,Kuwait City,Central,Ali Johnson,manager342@example.com,+97145535463,1299.14,24.725483,54.710609,2024-07-23,22:00,08:00,Levant,false,163217.68,82,Open
+STR-001,Dubai Mall Flagship,Mall,UAE,Dubai,South,Lina Martin,manager343@example.com,+97146392993,452.28,26.264412,56.072121,2024-07-05,00:00,08:00,GCC North,false,61335.03,13,Open
+STR-002,Mall of the Emirates,Warehouse Outlet,UAE,Dubai,South,David King,manager344@example.com,+97149442235,1322.65,25.301430,55.008114,2018-07-31,00:00,09:00,GCC North,true,88769.69,110,Planned
+STR-003,Riyadh Park,Street Retail,KSA,Riyadh,West,Ethan Wilson,manager345@example.com,+97142707604,2289.8,24.780428,54.682777,2019-05-26,00:00,10:00,GCC North,false,42536.09,27,Planned
+STR-004,Cairo Festival City,Mall,Egypt,Cairo,Central,Fatima Mansour,manager346@example.com,+97142034085,1332.07,26.206672,54.544321,2019-04-11,23:00,09:00,GCC South,true,59269.35,77,Renovation
+STR-005,Doha Festival City,Street Retail,Qatar,Doha,North,Noor Thomas,manager347@example.com,+97143921842,2361.26,25.191534,54.204183,2018-02-20,22:00,08:00,GCC North,true,63232.90,114,Renovation
+STR-006,Kuwait Avenues,Street Retail,Kuwait,Kuwait City,East,David Anderson,manager348@example.com,+97141660259,2048.77,25.185217,54.074095,2019-10-13,22:00,10:00,GCC South,false,118764.59,62,Planned
+STR-001,Dubai Mall Flagship,Dark Store,UAE,Dubai,South,Sara Young,manager349@example.com,+97149375299,1258.04,24.335234,54.099293,2022-06-07,00:00,09:00,GCC South,false,153282.42,14,Open
+STR-002,Mall of the Emirates,Street Retail,UAE,Dubai,Central,Hassan Smith,manager350@example.com,+97141313231,1744.77,26.035939,55.885819,2020-09-14,00:00,09:00,GCC South,false,145707.40,110,Open
+STR-003,Riyadh Park,Warehouse Outlet,KSA,Riyadh,North,David Taylor,manager351@example.com,+97145854314,2222.58,25.092170,56.027057,2021-11-12,00:00,10:00,GCC South,true,92517.34,116,Renovation
+STR-004,Cairo Festival City,Warehouse Outlet,Egypt,Cairo,North,Yousef Young,manager352@example.com,+97142734731,2027.95,24.423149,56.319764,2020-08-16,00:00,08:00,International,true,174941.88,88,Open
+STR-005,Doha Festival City,Dark Store,Qatar,Doha,East,Ahmed White,manager353@example.com,+97141666585,743.56,25.626784,54.580623,2023-02-25,23:00,10:00,GCC South,true,98580.95,85,Renovation
+STR-006,Kuwait Avenues,Street Retail,Kuwait,Kuwait City,Central,John Martin,manager354@example.com,+97144138788,1712.2,25.627002,54.796871,2024-06-28,23:00,10:00,International,true,68850.76,112,Renovation
+STR-001,Dubai Mall Flagship,Dark Store,UAE,Dubai,West,Hassan Ali,manager355@example.com,+97145991775,1450.55,25.646556,55.523554,2018-01-14,23:00,08:00,Levant,false,74240.41,61,Planned
+STR-002,Mall of the Emirates,Street Retail,UAE,Dubai,Central,Yousef Young,manager356@example.com,+97141192682,2044.72,26.279882,54.896007,2022-08-26,00:00,09:00,Levant,false,57243.68,29,Open
+STR-003,Riyadh Park,Warehouse Outlet,KSA,Riyadh,South,Fatima Mansour,manager357@example.com,+97144169690,1793.32,25.856240,55.530834,2022-02-27,23:00,09:00,GCC North,false,45388.75,96,Renovation
+STR-004,Cairo Festival City,Mall,Egypt,Cairo,Central,Ava Martin,manager358@example.com,+97149353110,826.87,24.268137,54.575981,2019-03-26,23:00,08:00,International,false,134802.89,9,Renovation
+STR-005,Doha Festival City,Warehouse Outlet,Qatar,Doha,Central,Sophia Saleh,manager359@example.com,+97149332027,2216.62,26.264024,54.351667,2018-05-05,23:00,08:00,International,false,153357.27,108,Renovation
+STR-006,Kuwait Avenues,Street Retail,Kuwait,Kuwait City,North,Mona Young,manager360@example.com,+97142879666,418.62,24.200446,54.157821,2018-06-11,00:00,10:00,GCC South,false,170570.77,47,Planned
+STR-001,Dubai Mall Flagship,Warehouse Outlet,UAE,Dubai,North,Fatima Smith,manager361@example.com,+97143705014,1147.79,24.792934,55.453360,2022-12-21,22:00,09:00,GCC South,true,24905.52,85,Open
+STR-002,Mall of the Emirates,Mall,UAE,Dubai,Central,Leen Moore,manager362@example.com,+97147757023,471.98,24.601845,56.041028,2020-09-04,00:00,09:00,Levant,true,14547.68,112,Planned
+STR-003,Riyadh Park,Mall,KSA,Riyadh,North,David Clark,manager363@example.com,+97147244866,1810.94,25.693776,56.294238,2019-01-27,22:00,08:00,GCC South,false,22886.46,40,Open
+STR-004,Cairo Festival City,Mall,Egypt,Cairo,West,Sara Brown,manager364@example.com,+97149687172,713.53,25.056642,55.061530,2024-02-07,00:00,09:00,International,true,41231.85,16,Renovation
+STR-005,Doha Festival City,Dark Store,Qatar,Doha,Central,Mona Brown,manager365@example.com,+97141345608,757.85,25.610568,55.660729,2024-05-15,23:00,08:00,GCC South,false,61924.01,21,Open
+STR-006,Kuwait Avenues,Warehouse Outlet,Kuwait,Kuwait City,Central,Sara Ali,manager366@example.com,+97145936339,2121.16,24.004861,54.029967,2022-08-12,23:00,08:00,GCC South,true,49850.19,54,Renovation
+STR-001,Dubai Mall Flagship,Warehouse Outlet,UAE,Dubai,North,Sara White,manager367@example.com,+97143461908,1736.81,24.319758,54.580054,2023-02-08,23:00,09:00,International,true,121679.22,70,Renovation
+STR-002,Mall of the Emirates,Dark Store,UAE,Dubai,East,Ethan White,manager368@example.com,+97148105475,1232.21,25.094886,54.927663,2018-11-11,22:00,08:00,International,false,121567.90,24,Open
+STR-003,Riyadh Park,Mall,KSA,Riyadh,East,Khalid Saleh,manager369@example.com,+97148658321,1636.6,25.999703,54.104299,2024-01-09,00:00,09:00,GCC South,true,56734.83,22,Planned
+STR-004,Cairo Festival City,Warehouse Outlet,Egypt,Cairo,South,Zain Martin,manager370@example.com,+97149553124,2036.54,24.211236,55.841361,2020-11-01,23:00,10:00,GCC South,false,29289.77,79,Planned
+STR-005,Doha Festival City,Dark Store,Qatar,Doha,East,Layla Clark,manager371@example.com,+97141671929,680.1,25.584204,54.267358,2018-05-06,23:00,09:00,Levant,true,164219.35,21,Planned
+STR-006,Kuwait Avenues,Street Retail,Kuwait,Kuwait City,West,Omar Khalid,manager372@example.com,+97147068270,2259.28,26.068097,55.502377,2021-08-25,22:00,10:00,GCC South,false,23795.53,80,Renovation
+STR-001,Dubai Mall Flagship,Mall,UAE,Dubai,West,Yousef Moore,manager373@example.com,+97146268270,2130.8,26.241013,54.021083,2020-10-27,22:00,10:00,International,true,140513.80,33,Renovation
+STR-002,Mall of the Emirates,Warehouse Outlet,UAE,Dubai,North,Sara Taylor,manager374@example.com,+97147023714,1731.51,24.870606,54.841439,2024-04-08,22:00,10:00,Levant,false,58010.64,105,Open
+STR-003,Riyadh Park,Dark Store,KSA,Riyadh,West,Ethan Moore,manager375@example.com,+97149818663,1382.07,26.006234,56.317822,2023-01-18,22:00,10:00,GCC South,true,139588.62,12,Planned
+STR-004,Cairo Festival City,Dark Store,Egypt,Cairo,North,Ahmed Miller,manager376@example.com,+97141363463,1941.05,25.546376,55.236225,2018-06-08,22:00,08:00,GCC South,false,78430.52,96,Renovation
+STR-005,Doha Festival City,Dark Store,Qatar,Doha,East,Ahmed Miller,manager377@example.com,+97142590116,2361.12,24.057464,55.735141,2022-02-12,23:00,10:00,International,false,92190.81,74,Renovation
+STR-006,Kuwait Avenues,Warehouse Outlet,Kuwait,Kuwait City,North,David Brown,manager378@example.com,+97145904727,807.5,26.368042,55.243913,2020-11-19,00:00,09:00,International,false,23967.92,111,Open
+STR-001,Dubai Mall Flagship,Dark Store,UAE,Dubai,West,Ahmed Saleh,manager379@example.com,+97145063232,460.01,25.158110,54.117515,2019-04-27,23:00,10:00,Levant,true,143591.14,11,Renovation
+STR-002,Mall of the Emirates,Street Retail,UAE,Dubai,South,Layla Martin,manager380@example.com,+97149893796,1450.43,25.533911,55.207212,2020-09-27,23:00,10:00,GCC North,true,118644.83,15,Renovation
+STR-003,Riyadh Park,Mall,KSA,Riyadh,West,Ethan King,manager381@example.com,+97149392150,2339.07,25.433539,54.652804,2020-07-21,00:00,08:00,Levant,false,13796.31,117,Planned
+STR-004,Cairo Festival City,Mall,Egypt,Cairo,North,Sara Smith,manager382@example.com,+97149584189,1110.93,26.443992,54.612653,2019-05-12,22:00,08:00,Levant,false,127187.76,112,Renovation
+STR-005,Doha Festival City,Mall,Qatar,Doha,North,Ethan Taylor,manager383@example.com,+97142353481,2252.04,25.186574,54.053935,2019-02-01,23:00,08:00,International,false,43627.78,115,Open
+STR-006,Kuwait Avenues,Dark Store,Kuwait,Kuwait City,West,Ali Ali,manager384@example.com,+97146546609,588.16,24.345181,54.228524,2021-12-21,00:00,10:00,GCC South,true,30990.27,113,Renovation
+STR-001,Dubai Mall Flagship,Mall,UAE,Dubai,Central,Fatima Hill,manager385@example.com,+97141453303,1628.99,24.069420,54.028951,2020-11-22,22:00,08:00,International,true,18968.87,12,Renovation
+STR-002,Mall of the Emirates,Street Retail,UAE,Dubai,Central,Ali Miller,manager386@example.com,+97143750627,1645.08,25.059579,56.318637,2019-06-11,00:00,08:00,Levant,true,105291.48,93,Open
+STR-003,Riyadh Park,Dark Store,KSA,Riyadh,Central,Fatima Martin,manager387@example.com,+97142823142,2411.24,24.781675,55.911119,2021-07-18,00:00,10:00,Levant,false,134874.90,60,Planned
+STR-004,Cairo Festival City,Warehouse Outlet,Egypt,Cairo,South,Mariam Mansour,manager388@example.com,+97148358291,1926.92,26.491900,54.791826,2018-12-16,22:00,09:00,GCC South,false,20204.48,21,Renovation
+STR-005,Doha Festival City,Warehouse Outlet,Qatar,Doha,Central,Lina Mansour,manager389@example.com,+97143240872,551.55,25.387901,55.482905,2024-07-05,23:00,10:00,GCC North,true,171331.05,102,Planned
+STR-006,Kuwait Avenues,Street Retail,Kuwait,Kuwait City,East,Zain Ali,manager390@example.com,+97146638205,147.8,26.014663,54.790381,2021-09-27,23:00,10:00,GCC North,false,147410.19,54,Renovation
+STR-001,Dubai Mall Flagship,Street Retail,UAE,Dubai,South,Lina Miller,manager391@example.com,+97148941680,1271.46,25.206059,54.713186,2021-04-22,23:00,10:00,International,false,145035.03,39,Open
+STR-002,Mall of the Emirates,Dark Store,UAE,Dubai,South,Sara Khalid,manager392@example.com,+97148294079,101.08,25.420750,56.184474,2021-06-07,22:00,09:00,Levant,false,31404.01,102,Planned
+STR-003,Riyadh Park,Warehouse Outlet,KSA,Riyadh,South,Mona White,manager393@example.com,+97148761761,1516.74,25.962893,56.038937,2023-02-17,00:00,09:00,Levant,false,13518.61,20,Open
+STR-004,Cairo Festival City,Mall,Egypt,Cairo,South,Ahmed Anderson,manager394@example.com,+97143636707,2160.49,24.633203,56.444407,2019-05-12,00:00,08:00,International,true,25738.58,63,Open
+STR-005,Doha Festival City,Street Retail,Qatar,Doha,North,Noor Anderson,manager395@example.com,+97141521470,1145.67,24.358310,56.380498,2024-06-07,23:00,10:00,GCC North,false,60430.29,23,Planned
+STR-006,Kuwait Avenues,Mall,Kuwait,Kuwait City,North,Omar Taylor,manager396@example.com,+97141985114,1650.79,24.577848,55.700994,2022-06-03,00:00,10:00,Levant,true,124577.72,84,Planned
+STR-001,Dubai Mall Flagship,Warehouse Outlet,UAE,Dubai,South,Omar Anderson,manager397@example.com,+97146997646,455.81,26.311618,55.068449,2023-12-16,23:00,10:00,Levant,false,133404.48,51,Renovation
+STR-002,Mall of the Emirates,Warehouse Outlet,UAE,Dubai,West,Zain Hassan,manager398@example.com,+97143907503,1165.67,24.482614,54.272987,2021-12-22,00:00,09:00,GCC South,false,133989.07,75,Open
+STR-003,Riyadh Park,Street Retail,KSA,Riyadh,South,Ahmed Johnson,manager399@example.com,+97144578198,1531.28,24.521671,56.156242,2019-06-28,22:00,09:00,International,true,88483.85,112,Renovation
+STR-004,Cairo Festival City,Warehouse Outlet,Egypt,Cairo,Central,Noor Thomas,manager400@example.com,+97146643124,1686.35,24.248248,54.408426,2018-05-05,23:00,08:00,GCC North,true,174020.06,52,Open
+STR-005,Doha Festival City,Street Retail,Qatar,Doha,East,Ava Johnson,manager401@example.com,+97141635203,1233.92,25.624624,55.697927,2019-07-11,23:00,10:00,Levant,true,144834.07,75,Planned
+STR-006,Kuwait Avenues,Dark Store,Kuwait,Kuwait City,West,Sophia White,manager402@example.com,+97145578628,521.8,25.562375,54.795864,2019-07-07,23:00,08:00,GCC South,false,42899.47,108,Open
+STR-001,Dubai Mall Flagship,Street Retail,UAE,Dubai,East,David Hill,manager403@example.com,+97144139132,273.14,26.396292,54.299234,2022-12-10,22:00,08:00,International,true,93251.91,104,Open
+STR-002,Mall of the Emirates,Warehouse Outlet,UAE,Dubai,North,Noor Moore,manager404@example.com,+97147465371,2394.52,25.423127,55.968243,2018-10-05,23:00,08:00,International,true,71402.67,53,Renovation
+STR-003,Riyadh Park,Mall,KSA,Riyadh,Central,Hassan Johnson,manager405@example.com,+97141072165,1435.96,25.398581,54.163733,2020-10-15,23:00,08:00,GCC North,false,18795.73,87,Open
+STR-004,Cairo Festival City,Dark Store,Egypt,Cairo,West,Yousef Hassan,manager406@example.com,+97143184037,1561.77,26.472260,56.222721,2020-08-12,23:00,08:00,Levant,false,18784.12,106,Open
+STR-005,Doha Festival City,Warehouse Outlet,Qatar,Doha,East,Ahmed Moore,manager407@example.com,+97143506140,1076.98,25.790454,54.000647,2023-02-03,22:00,09:00,GCC South,true,14678.26,91,Planned
+STR-006,Kuwait Avenues,Mall,Kuwait,Kuwait City,North,Fatima Moore,manager408@example.com,+97145685484,920.15,24.613277,56.489915,2023-05-11,00:00,09:00,International,true,32338.83,34,Open
+STR-001,Dubai Mall Flagship,Dark Store,UAE,Dubai,South,Fatima Anderson,manager409@example.com,+97147052857,1158.06,25.552638,54.494252,2021-09-04,22:00,08:00,GCC North,false,156833.10,85,Renovation
+STR-002,Mall of the Emirates,Dark Store,UAE,Dubai,South,Ahmed Johnson,manager410@example.com,+97145692181,374.67,24.552588,54.060047,2018-10-02,23:00,10:00,International,false,120436.41,74,Planned
+STR-003,Riyadh Park,Warehouse Outlet,KSA,Riyadh,South,Leen Wilson,manager411@example.com,+97141081973,1502.24,25.437601,54.242415,2023-06-08,23:00,08:00,Levant,false,39915.84,39,Renovation
+STR-004,Cairo Festival City,Warehouse Outlet,Egypt,Cairo,West,Omar Anderson,manager412@example.com,+97143986032,1294.13,26.388587,54.260960,2022-08-16,22:00,09:00,GCC South,true,62438.96,36,Planned
+STR-005,Doha Festival City,Warehouse Outlet,Qatar,Doha,South,Sara Miller,manager413@example.com,+97147733805,433.89,25.217485,54.965165,2024-03-16,00:00,08:00,Levant,true,155913.40,44,Open
+STR-006,Kuwait Avenues,Dark Store,Kuwait,Kuwait City,West,Noor Khalid,manager414@example.com,+97148409150,1425.31,25.696961,55.680039,2022-10-10,00:00,09:00,Levant,false,85908.17,87,Open
+STR-001,Dubai Mall Flagship,Mall,UAE,Dubai,West,David Anderson,manager415@example.com,+97143537322,2447.58,24.724242,54.229120,2018-12-19,23:00,10:00,GCC South,false,101455.76,48,Open
+STR-002,Mall of the Emirates,Dark Store,UAE,Dubai,Central,John Johnson,manager416@example.com,+97145676475,1471.48,26.197036,54.273787,2023-02-05,00:00,09:00,Levant,true,167471.37,41,Open
+STR-003,Riyadh Park,Mall,KSA,Riyadh,South,Ethan Ali,manager417@example.com,+97145911117,175.05,25.570665,54.502265,2022-12-02,23:00,08:00,International,false,76965.08,82,Open
+STR-004,Cairo Festival City,Street Retail,Egypt,Cairo,Central,Yousef Johnson,manager418@example.com,+97148878965,2385.85,26.409750,55.940786,2022-11-05,22:00,08:00,Levant,false,161474.40,31,Open
+STR-005,Doha Festival City,Street Retail,Qatar,Doha,Central,Ahmed Young,manager419@example.com,+97146727967,1187.96,25.264869,55.440268,2019-09-25,00:00,08:00,Levant,true,34116.46,47,Open
+STR-006,Kuwait Avenues,Dark Store,Kuwait,Kuwait City,West,Ahmed Ali,manager420@example.com,+97141014095,2198.62,24.834111,55.227763,2021-10-26,00:00,08:00,International,true,128623.19,34,Open
+STR-001,Dubai Mall Flagship,Warehouse Outlet,UAE,Dubai,Central,Yousef Thomas,manager421@example.com,+97146677037,1663.25,24.312525,55.288957,2020-04-08,23:00,10:00,Levant,false,157176.29,110,Renovation
+STR-002,Mall of the Emirates,Dark Store,UAE,Dubai,Central,David Khalid,manager422@example.com,+97141417651,1286.9,26.346603,54.248283,2018-04-24,23:00,08:00,GCC South,false,15335.76,14,Renovation
+STR-003,Riyadh Park,Dark Store,KSA,Riyadh,South,Ali Mansour,manager423@example.com,+97147501494,1434.76,24.206120,55.820522,2018-11-21,23:00,08:00,International,false,41697.95,18,Renovation
+STR-004,Cairo Festival City,Dark Store,Egypt,Cairo,South,Ahmed Wilson,manager424@example.com,+97145277631,2432.81,26.083350,55.092817,2023-05-12,22:00,10:00,GCC South,false,139253.20,100,Renovation
+STR-005,Doha Festival City,Mall,Qatar,Doha,South,Lina White,manager425@example.com,+97149487669,954.95,24.584666,54.158800,2021-06-13,22:00,10:00,International,true,81105.03,98,Renovation
+STR-006,Kuwait Avenues,Street Retail,Kuwait,Kuwait City,Central,Lina Brown,manager426@example.com,+97144438563,1807.29,25.440605,55.463078,2024-05-31,00:00,08:00,GCC North,false,105741.78,11,Open
+STR-001,Dubai Mall Flagship,Mall,UAE,Dubai,North,Omar Ali,manager427@example.com,+97145856472,1818.47,26.370188,54.646419,2023-03-04,23:00,09:00,International,false,22082.10,114,Planned
+STR-002,Mall of the Emirates,Mall,UAE,Dubai,West,Layla Thomas,manager428@example.com,+97141118553,798.02,25.044224,55.472741,2020-12-25,22:00,10:00,GCC North,true,78317.80,112,Planned
+STR-003,Riyadh Park,Warehouse Outlet,KSA,Riyadh,West,Layla White,manager429@example.com,+97148551752,1899.44,24.998746,54.931107,2021-06-24,23:00,10:00,International,false,78148.02,40,Renovation
+STR-004,Cairo Festival City,Mall,Egypt,Cairo,East,Hassan Brown,manager430@example.com,+97141141275,1290.32,25.843480,54.855057,2022-06-03,00:00,08:00,International,false,66020.49,49,Open
+STR-005,Doha Festival City,Dark Store,Qatar,Doha,South,Sara Clark,manager431@example.com,+97149714211,1278.16,24.335899,55.395779,2018-10-17,23:00,08:00,International,false,60844.66,43,Open
+STR-006,Kuwait Avenues,Mall,Kuwait,Kuwait City,West,John Young,manager432@example.com,+97147070254,1755.47,25.035385,55.518311,2019-11-14,00:00,10:00,International,true,119710.31,63,Planned
+STR-001,Dubai Mall Flagship,Mall,UAE,Dubai,Central,Layla White,manager433@example.com,+97143343653,818.8,26.152101,55.079481,2021-02-02,00:00,08:00,GCC South,true,146017.07,19,Renovation
+STR-002,Mall of the Emirates,Mall,UAE,Dubai,North,John Young,manager434@example.com,+97144186303,2499.58,26.051903,54.597663,2020-10-09,22:00,08:00,GCC North,true,146165.13,73,Renovation
+STR-003,Riyadh Park,Dark Store,KSA,Riyadh,South,Noor Moore,manager435@example.com,+97149921738,862.59,25.307676,54.799456,2018-03-29,22:00,10:00,Levant,false,36091.55,58,Open
+STR-004,Cairo Festival City,Mall,Egypt,Cairo,South,Mona Martin,manager436@example.com,+97148674889,2346.09,24.866105,55.768778,2021-11-08,00:00,08:00,Levant,true,169368.09,81,Planned
+STR-005,Doha Festival City,Dark Store,Qatar,Doha,Central,Yousef Wilson,manager437@example.com,+97146856884,2424.69,26.388101,56.284668,2020-03-29,23:00,08:00,GCC South,false,130800.44,103,Planned
+STR-006,Kuwait Avenues,Warehouse Outlet,Kuwait,Kuwait City,Central,Ethan Young,manager438@example.com,+97143363347,871.39,25.706292,56.259895,2022-11-27,00:00,08:00,GCC North,false,31914.54,118,Renovation
+STR-001,Dubai Mall Flagship,Dark Store,UAE,Dubai,West,Lina Hill,manager439@example.com,+97144287096,1031.87,26.213313,56.339647,2021-06-09,23:00,08:00,International,false,152206.69,70,Planned
+STR-002,Mall of the Emirates,Street Retail,UAE,Dubai,West,Sophia Hill,manager440@example.com,+97141815567,298.9,26.194314,54.327790,2023-02-18,23:00,08:00,GCC North,false,155530.48,102,Planned
+STR-003,Riyadh Park,Mall,KSA,Riyadh,North,Leen Anderson,manager441@example.com,+97143664984,324.08,24.321515,55.939614,2019-06-06,23:00,10:00,GCC North,true,117764.97,53,Planned
+STR-004,Cairo Festival City,Street Retail,Egypt,Cairo,South,Noor Martin,manager442@example.com,+97144068086,444.22,24.234626,54.841454,2022-04-17,23:00,08:00,GCC South,true,177519.89,53,Open
+STR-005,Doha Festival City,Street Retail,Qatar,Doha,South,Mona Brown,manager443@example.com,+97147430050,390.31,24.601456,55.346150,2023-11-08,23:00,08:00,GCC South,true,119344.85,48,Renovation
+STR-006,Kuwait Avenues,Warehouse Outlet,Kuwait,Kuwait City,Central,Noor Johnson,manager444@example.com,+97142028247,421.57,24.707706,54.743814,2023-11-29,23:00,08:00,International,false,72742.34,105,Planned
+STR-001,Dubai Mall Flagship,Street Retail,UAE,Dubai,North,Zain Khalid,manager445@example.com,+97148811985,139.15,24.662496,54.009774,2020-05-19,22:00,08:00,GCC North,true,89569.74,20,Planned
+STR-002,Mall of the Emirates,Street Retail,UAE,Dubai,North,Mariam Saleh,manager446@example.com,+97143167929,1910.71,25.222408,55.573999,2024-04-01,22:00,09:00,International,false,68335.08,64,Renovation
+STR-003,Riyadh Park,Dark Store,KSA,Riyadh,North,Ethan Taylor,manager447@example.com,+97148982855,2371.77,24.843883,54.774962,2018-09-23,22:00,09:00,International,true,40553.16,57,Renovation
+STR-004,Cairo Festival City,Mall,Egypt,Cairo,South,Yousef Hill,manager448@example.com,+97144643269,2012.7,25.442752,56.174904,2022-10-20,00:00,09:00,GCC South,false,130326.47,114,Open
+STR-005,Doha Festival City,Warehouse Outlet,Qatar,Doha,Central,Fatima Mansour,manager449@example.com,+97145272877,2089.83,24.556459,54.623902,2018-10-10,22:00,09:00,GCC South,false,115184.12,102,Planned
+STR-006,Kuwait Avenues,Street Retail,Kuwait,Kuwait City,South,Ethan White,manager450@example.com,+97144169951,600.83,26.211414,55.412430,2021-09-15,22:00,10:00,GCC North,true,86486.78,22,Planned
+STR-001,Dubai Mall Flagship,Street Retail,UAE,Dubai,West,Hassan King,manager451@example.com,+97145067139,1453.01,25.968781,54.787646,2019-03-26,00:00,08:00,Levant,true,24326.88,102,Open
+STR-002,Mall of the Emirates,Street Retail,UAE,Dubai,North,Sara Thomas,manager452@example.com,+97146455993,1527.26,24.114645,55.792854,2022-09-23,23:00,08:00,International,false,159013.90,58,Renovation
+STR-003,Riyadh Park,Warehouse Outlet,KSA,Riyadh,North,Lina Hill,manager453@example.com,+97148019638,1503.54,24.632206,54.390775,2021-04-03,00:00,08:00,GCC North,false,116972.73,29,Renovation
+STR-004,Cairo Festival City,Street Retail,Egypt,Cairo,South,Lina Anderson,manager454@example.com,+97149533099,193.64,25.568000,56.256148,2022-06-19,23:00,10:00,Levant,false,28092.01,85,Open
+STR-005,Doha Festival City,Warehouse Outlet,Qatar,Doha,North,Sara Ali,manager455@example.com,+97141731452,1502.96,26.248781,55.664004,2020-02-11,22:00,10:00,GCC South,false,97461.42,118,Renovation
+STR-006,Kuwait Avenues,Dark Store,Kuwait,Kuwait City,South,Ali Thomas,manager456@example.com,+97147202136,1414.7,24.301489,54.414246,2023-05-04,00:00,09:00,International,true,51025.97,43,Renovation
+STR-001,Dubai Mall Flagship,Street Retail,UAE,Dubai,North,Ali Thomas,manager457@example.com,+97146934219,1649.39,26.430346,55.675382,2020-06-06,00:00,09:00,GCC North,false,60436.67,60,Planned
+STR-002,Mall of the Emirates,Warehouse Outlet,UAE,Dubai,Central,Ethan Wilson,manager458@example.com,+97149306069,573.71,26.432169,55.890744,2020-04-02,00:00,09:00,GCC North,false,77300.16,94,Renovation
+STR-003,Riyadh Park,Warehouse Outlet,KSA,Riyadh,East,David Wilson,manager459@example.com,+97147909546,110.51,25.964103,55.601414,2022-01-10,22:00,10:00,GCC South,false,136472.42,27,Open
+STR-004,Cairo Festival City,Dark Store,Egypt,Cairo,South,Zain Miller,manager460@example.com,+97143343303,293.63,25.409884,54.460029,2024-05-21,22:00,09:00,GCC North,false,67546.95,69,Planned
+STR-005,Doha Festival City,Street Retail,Qatar,Doha,West,Omar Saleh,manager461@example.com,+97149131461,1039.53,24.112685,54.175217,2022-02-17,22:00,09:00,Levant,true,19761.00,87,Renovation
+STR-006,Kuwait Avenues,Mall,Kuwait,Kuwait City,North,Sophia Brown,manager462@example.com,+97144002078,1508.62,24.356859,54.040352,2018-07-09,22:00,09:00,GCC South,false,161723.64,93,Open
+STR-001,Dubai Mall Flagship,Street Retail,UAE,Dubai,East,Hassan Khalid,manager463@example.com,+97142458765,1813.44,25.684270,56.360478,2019-09-18,23:00,10:00,International,true,104688.63,11,Renovation
+STR-002,Mall of the Emirates,Warehouse Outlet,UAE,Dubai,North,Ava Khalid,manager464@example.com,+97148849014,1383.16,24.531044,56.496803,2022-11-07,23:00,09:00,International,false,126796.47,11,Open
+STR-003,Riyadh Park,Street Retail,KSA,Riyadh,South,Ali Thomas,manager465@example.com,+97148230000,2452.91,24.943214,54.771519,2022-12-01,00:00,08:00,International,true,125601.24,80,Planned
+STR-004,Cairo Festival City,Street Retail,Egypt,Cairo,East,David Moore,manager466@example.com,+97143663703,2206.69,25.858508,56.263555,2021-06-20,22:00,10:00,Levant,false,108477.84,50,Planned
+STR-005,Doha Festival City,Street Retail,Qatar,Doha,East,Sophia Johnson,manager467@example.com,+97147325070,1000.38,25.876953,54.365857,2022-10-16,22:00,09:00,International,true,92933.08,88,Renovation
+STR-006,Kuwait Avenues,Street Retail,Kuwait,Kuwait City,West,Sara Miller,manager468@example.com,+97148843765,507.94,25.952393,55.699843,2022-08-19,23:00,10:00,Levant,false,80751.89,21,Open
+STR-001,Dubai Mall Flagship,Mall,UAE,Dubai,South,Ava Thomas,manager469@example.com,+97142458512,1403.37,26.450801,56.175222,2021-12-18,23:00,08:00,International,false,170249.92,86,Open
+STR-002,Mall of the Emirates,Warehouse Outlet,UAE,Dubai,East,Noor Ali,manager470@example.com,+97145123999,1726.04,25.990785,55.625026,2021-01-18,00:00,09:00,GCC North,false,115669.14,49,Renovation
+STR-003,Riyadh Park,Street Retail,KSA,Riyadh,South,Noor Khalid,manager471@example.com,+97144822824,1762.88,24.588338,54.253742,2018-12-22,22:00,10:00,GCC North,true,77157.14,102,Open
+STR-004,Cairo Festival City,Dark Store,Egypt,Cairo,West,Khalid Smith,manager472@example.com,+97143268615,1641.87,25.974964,54.508728,2021-01-02,23:00,10:00,GCC South,true,25480.02,94,Open
+STR-005,Doha Festival City,Mall,Qatar,Doha,Central,Layla Mansour,manager473@example.com,+97142607260,1292.84,24.917659,54.077698,2019-10-18,00:00,08:00,GCC South,true,71848.11,35,Open
+STR-006,Kuwait Avenues,Street Retail,Kuwait,Kuwait City,West,Mona Smith,manager474@example.com,+97145883659,1938.62,25.484118,54.443583,2020-03-09,22:00,09:00,GCC North,true,51549.07,78,Planned
+STR-001,Dubai Mall Flagship,Dark Store,UAE,Dubai,North,Sara Hassan,manager475@example.com,+97144069097,1586.27,25.510988,56.243914,2022-10-13,22:00,08:00,International,false,118052.67,59,Planned
+STR-002,Mall of the Emirates,Mall,UAE,Dubai,Central,Fatima Hill,manager476@example.com,+97142328461,2381.95,24.940545,54.856884,2018-02-26,22:00,08:00,Levant,false,100031.86,40,Open
+STR-003,Riyadh Park,Dark Store,KSA,Riyadh,Central,Hassan Smith,manager477@example.com,+97146244828,768.92,25.232033,55.088408,2023-09-22,22:00,08:00,International,true,162644.58,96,Planned
+STR-004,Cairo Festival City,Mall,Egypt,Cairo,North,Sophia Brown,manager478@example.com,+97149942905,2421.02,26.265284,56.109415,2023-01-27,22:00,08:00,GCC South,true,156378.09,77,Planned
+STR-005,Doha Festival City,Warehouse Outlet,Qatar,Doha,East,Fatima Johnson,manager479@example.com,+97144437571,485.91,24.951099,55.703158,2020-04-07,22:00,09:00,GCC South,true,55100.77,17,Planned
+STR-006,Kuwait Avenues,Street Retail,Kuwait,Kuwait City,South,Lina Anderson,manager480@example.com,+97147448833,467.63,24.368889,56.172363,2020-08-14,22:00,08:00,GCC South,true,26783.79,67,Planned
+STR-001,Dubai Mall Flagship,Warehouse Outlet,UAE,Dubai,North,Zain Mansour,manager481@example.com,+97143809601,2235.1,25.235269,54.066431,2021-11-19,00:00,08:00,International,false,95941.23,22,Renovation
+STR-002,Mall of the Emirates,Dark Store,UAE,Dubai,North,Ava Ali,manager482@example.com,+97144011818,854.06,24.832732,55.268003,2023-04-03,23:00,08:00,International,false,49756.52,10,Open
+STR-003,Riyadh Park,Mall,KSA,Riyadh,East,Khalid Clark,manager483@example.com,+97142403738,1249.65,26.017299,56.357052,2019-12-02,22:00,10:00,GCC North,false,170722.05,9,Renovation
+STR-004,Cairo Festival City,Mall,Egypt,Cairo,East,Zain Miller,manager484@example.com,+97142245874,226.77,24.856794,55.118397,2020-03-19,23:00,08:00,Levant,false,37848.83,45,Renovation
+STR-005,Doha Festival City,Dark Store,Qatar,Doha,Central,Yousef White,manager485@example.com,+97149459200,686.22,25.130211,55.230344,2023-06-28,00:00,08:00,GCC South,true,120569.97,58,Renovation
+STR-006,Kuwait Avenues,Mall,Kuwait,Kuwait City,South,Zain Saleh,manager486@example.com,+97146401100,872.97,26.239495,54.210527,2021-04-19,22:00,09:00,GCC South,false,119010.95,64,Open
+STR-001,Dubai Mall Flagship,Street Retail,UAE,Dubai,East,Ahmed Hassan,manager487@example.com,+97144963753,395.66,24.902516,54.224977,2019-07-18,22:00,08:00,GCC South,false,14707.03,33,Renovation
+STR-002,Mall of the Emirates,Mall,UAE,Dubai,Central,Ava King,manager488@example.com,+97141663375,960.58,24.446925,54.103644,2023-12-28,23:00,08:00,GCC North,false,118466.26,114,Renovation
+STR-003,Riyadh Park,Mall,KSA,Riyadh,Central,Ethan Khalid,manager489@example.com,+97147591382,737.07,24.879109,56.029992,2023-04-29,23:00,10:00,International,false,171861.86,88,Planned
+STR-004,Cairo Festival City,Street Retail,Egypt,Cairo,South,Sara Anderson,manager490@example.com,+97141423454,825.13,24.744406,55.711850,2019-01-02,22:00,10:00,GCC North,true,165365.38,20,Renovation
+STR-005,Doha Festival City,Dark Store,Qatar,Doha,West,Layla Anderson,manager491@example.com,+97148364830,1086.94,24.178067,56.151279,2021-10-05,22:00,09:00,International,true,26393.66,12,Planned
+STR-006,Kuwait Avenues,Mall,Kuwait,Kuwait City,West,David Clark,manager492@example.com,+97146555039,261.75,26.248742,56.175004,2019-09-20,23:00,08:00,GCC South,true,123131.71,79,Open
+STR-001,Dubai Mall Flagship,Warehouse Outlet,UAE,Dubai,North,Ali Anderson,manager493@example.com,+97149469165,2195.02,25.101070,55.642796,2020-10-27,23:00,08:00,GCC South,true,114935.67,53,Planned
+STR-002,Mall of the Emirates,Warehouse Outlet,UAE,Dubai,East,Khalid Young,manager494@example.com,+97148957456,1976.89,24.901902,55.255078,2020-01-18,22:00,09:00,GCC South,true,46543.25,100,Renovation
+STR-003,Riyadh Park,Mall,KSA,Riyadh,North,Noor Ali,manager495@example.com,+97145071469,1472.29,25.002210,55.059220,2023-04-20,00:00,10:00,Levant,false,58650.91,44,Renovation
+STR-004,Cairo Festival City,Dark Store,Egypt,Cairo,North,Khalid Young,manager496@example.com,+97144901015,852.21,25.896989,55.990161,2019-07-09,23:00,08:00,GCC South,true,104022.52,78,Renovation
+STR-005,Doha Festival City,Dark Store,Qatar,Doha,North,Omar White,manager497@example.com,+97145176325,887.05,26.451561,54.564369,2023-02-03,22:00,09:00,GCC North,false,117230.68,15,Open
+STR-006,Kuwait Avenues,Dark Store,Kuwait,Kuwait City,North,Yousef Miller,manager498@example.com,+97141991544,362.39,25.727891,54.332981,2022-08-11,23:00,09:00,GCC South,false,159980.60,51,Open
+STR-001,Dubai Mall Flagship,Street Retail,UAE,Dubai,West,Lina Moore,manager499@example.com,+97148039553,520.31,24.542873,54.911093,2022-08-30,22:00,09:00,Levant,false,71847.07,110,Planned
+STR-002,Mall of the Emirates,Warehouse Outlet,UAE,Dubai,North,Noor Clark,manager500@example.com,+97143471253,283.41,24.263132,54.848835,2019-04-26,00:00,09:00,Levant,false,91268.71,44,Open
+STR-003,Riyadh Park,Warehouse Outlet,KSA,Riyadh,North,Ali Thomas,manager501@example.com,+97144986887,1303.71,26.248078,54.186486,2018-11-28,00:00,08:00,GCC North,false,56428.83,70,Planned
+STR-004,Cairo Festival City,Warehouse Outlet,Egypt,Cairo,West,Ali Johnson,manager502@example.com,+97149407200,2477.49,24.433824,55.102318,2019-12-13,22:00,09:00,GCC South,false,73691.72,90,Planned
+STR-005,Doha Festival City,Warehouse Outlet,Qatar,Doha,North,Ahmed Khalid,manager503@example.com,+97148796669,844.92,24.298073,54.921460,2019-04-30,00:00,08:00,GCC South,false,91618.19,80,Open
+STR-006,Kuwait Avenues,Mall,Kuwait,Kuwait City,South,Ethan Young,manager504@example.com,+97143877565,709.38,25.850376,56.494105,2020-08-18,22:00,10:00,GCC North,true,52668.99,46,Open
+STR-001,Dubai Mall Flagship,Dark Store,UAE,Dubai,North,Ali Mansour,manager505@example.com,+97141796008,2470.44,25.589223,56.302290,2023-05-14,00:00,09:00,GCC North,false,81522.12,103,Planned
+STR-002,Mall of the Emirates,Mall,UAE,Dubai,Central,Layla King,manager506@example.com,+97147932687,666.48,25.114685,54.773779,2022-05-14,22:00,08:00,GCC North,false,111612.62,97,Planned
+STR-003,Riyadh Park,Dark Store,KSA,Riyadh,South,Ahmed Martin,manager507@example.com,+97142300680,2135.8,24.665650,54.208811,2018-06-01,00:00,08:00,GCC North,true,163066.62,48,Open
+STR-004,Cairo Festival City,Street Retail,Egypt,Cairo,Central,David Khalid,manager508@example.com,+97141027644,2281.65,25.903850,54.468116,2019-07-23,23:00,08:00,International,true,118608.19,22,Open
+STR-005,Doha Festival City,Dark Store,Qatar,Doha,Central,Noor King,manager509@example.com,+97145955264,421.24,24.091716,55.155233,2018-09-04,23:00,09:00,International,false,37867.53,15,Planned
+STR-006,Kuwait Avenues,Warehouse Outlet,Kuwait,Kuwait City,Central,Noor Miller,manager510@example.com,+97143288663,702.88,24.034601,55.189214,2018-10-04,23:00,08:00,GCC South,false,21514.05,53,Planned
+STR-001,Dubai Mall Flagship,Street Retail,UAE,Dubai,East,Mariam King,manager511@example.com,+97145584551,1185.84,24.809171,55.176345,2022-02-17,23:00,08:00,International,true,110815.68,11,Renovation
+STR-002,Mall of the Emirates,Dark Store,UAE,Dubai,West,Khalid White,manager512@example.com,+97149969806,2133.65,24.522439,55.108945,2021-07-11,22:00,09:00,Levant,true,16861.40,83,Open
+STR-003,Riyadh Park,Mall,KSA,Riyadh,South,Ahmed Miller,manager513@example.com,+97144856837,1458.92,26.438102,54.852500,2021-01-21,23:00,10:00,GCC North,true,100225.63,106,Planned
+STR-004,Cairo Festival City,Dark Store,Egypt,Cairo,West,Ahmed King,manager514@example.com,+97148032065,591.78,24.768135,55.170007,2022-08-06,23:00,08:00,International,false,153694.29,110,Open
+STR-005,Doha Festival City,Mall,Qatar,Doha,Central,Zain Clark,manager515@example.com,+97143173163,1022.4,25.658214,54.949224,2018-12-23,00:00,09:00,GCC North,true,158996.35,24,Renovation
+STR-006,Kuwait Avenues,Warehouse Outlet,Kuwait,Kuwait City,Central,Zain Taylor,manager516@example.com,+97144928098,858.39,24.933753,54.840915,2021-11-15,23:00,10:00,GCC South,false,141390.02,105,Planned
+STR-001,Dubai Mall Flagship,Mall,UAE,Dubai,West,David Taylor,manager517@example.com,+97146414742,1190.17,24.558773,56.188709,2021-09-17,23:00,10:00,Levant,true,66143.86,29,Open
+STR-002,Mall of the Emirates,Warehouse Outlet,UAE,Dubai,West,Ethan Hill,manager518@example.com,+97141861987,279.14,25.229435,54.811552,2021-09-17,22:00,08:00,International,true,115598.15,80,Planned
+STR-003,Riyadh Park,Warehouse Outlet,KSA,Riyadh,North,Mona King,manager519@example.com,+97147667408,1281.17,25.696609,55.462002,2022-10-20,00:00,10:00,GCC North,true,20237.49,36,Planned
+STR-004,Cairo Festival City,Warehouse Outlet,Egypt,Cairo,South,Sara Anderson,manager520@example.com,+97141015459,222.42,24.655570,54.224191,2023-10-19,00:00,10:00,GCC North,true,58087.65,61,Planned
+STR-005,Doha Festival City,Dark Store,Qatar,Doha,South,Yousef Young,manager521@example.com,+97146716143,247.44,26.482976,55.689287,2021-08-03,00:00,09:00,International,true,66730.60,86,Renovation
+STR-006,Kuwait Avenues,Mall,Kuwait,Kuwait City,South,Omar Martin,manager522@example.com,+97143811508,132.67,24.148877,54.885418,2022-09-05,22:00,09:00,GCC South,true,54788.42,60,Open
+STR-001,Dubai Mall Flagship,Dark Store,UAE,Dubai,East,Sophia Mansour,manager523@example.com,+97148530009,428.29,24.448895,54.955994,2018-10-10,23:00,10:00,GCC South,true,127562.41,13,Renovation
+STR-002,Mall of the Emirates,Mall,UAE,Dubai,West,John Thomas,manager524@example.com,+97141809831,2481.57,24.505831,56.070680,2019-02-24,00:00,08:00,GCC North,false,59618.83,19,Planned
+STR-003,Riyadh Park,Street Retail,KSA,Riyadh,West,David Khalid,manager525@example.com,+97144032219,1718.3,25.576153,56.295076,2021-05-19,22:00,08:00,International,true,134297.41,95,Open
+STR-004,Cairo Festival City,Street Retail,Egypt,Cairo,West,Sophia Martin,manager526@example.com,+97149366306,2353.69,25.957806,55.137298,2018-05-09,23:00,09:00,International,false,62895.83,52,Renovation
+STR-005,Doha Festival City,Mall,Qatar,Doha,North,Noor Moore,manager527@example.com,+97142859364,1564.38,26.014807,55.739524,2021-09-17,22:00,09:00,GCC North,true,163296.25,25,Renovation
+STR-006,Kuwait Avenues,Warehouse Outlet,Kuwait,Kuwait City,South,Mona Saleh,manager528@example.com,+97141827389,1380.4,25.828959,54.338235,2020-04-16,00:00,08:00,GCC South,true,44981.75,94,Planned
+STR-001,Dubai Mall Flagship,Warehouse Outlet,UAE,Dubai,East,Mariam Wilson,manager529@example.com,+97141478014,1204.11,24.358140,54.625998,2018-10-14,23:00,08:00,International,true,75536.23,44,Planned
+STR-002,Mall of the Emirates,Warehouse Outlet,UAE,Dubai,Central,Ali Clark,manager530@example.com,+97149506803,1235.58,24.392966,56.331364,2019-03-11,23:00,09:00,GCC South,false,122353.43,66,Planned
+STR-003,Riyadh Park,Dark Store,KSA,Riyadh,North,Sara Johnson,manager531@example.com,+97145729054,209.91,25.416964,56.062632,2024-06-29,22:00,09:00,GCC South,true,36806.13,102,Renovation
+STR-004,Cairo Festival City,Street Retail,Egypt,Cairo,West,Ethan Hassan,manager532@example.com,+97143697911,985.66,24.451842,54.661169,2023-09-09,00:00,10:00,GCC North,false,151125.73,53,Open
+STR-005,Doha Festival City,Warehouse Outlet,Qatar,Doha,East,Khalid Smith,manager533@example.com,+97145635519,838.83,26.041249,55.642028,2022-04-23,23:00,09:00,International,false,140467.39,26,Open
+STR-006,Kuwait Avenues,Mall,Kuwait,Kuwait City,Central,Noor Smith,manager534@example.com,+97147214302,491.1,26.182556,56.445733,2024-07-20,00:00,10:00,International,false,101518.64,50,Renovation
+STR-001,Dubai Mall Flagship,Mall,UAE,Dubai,Central,Zain Hill,manager535@example.com,+97148884051,1924.26,25.497791,54.866625,2023-07-16,22:00,08:00,Levant,false,86742.57,13,Planned
+STR-002,Mall of the Emirates,Dark Store,UAE,Dubai,West,Omar Wilson,manager536@example.com,+97141745932,1877.83,26.268967,55.744197,2020-07-24,22:00,10:00,Levant,true,88442.46,99,Open
+STR-003,Riyadh Park,Street Retail,KSA,Riyadh,South,David Khalid,manager537@example.com,+97145163938,336.15,24.244360,55.659057,2023-07-22,22:00,10:00,International,true,146321.56,103,Open
+STR-004,Cairo Festival City,Warehouse Outlet,Egypt,Cairo,South,Sophia Wilson,manager538@example.com,+97143977736,1260.47,24.721453,54.447956,2022-04-28,00:00,10:00,GCC South,true,139247.72,104,Renovation
+STR-005,Doha Festival City,Warehouse Outlet,Qatar,Doha,Central,Hassan Khalid,manager539@example.com,+97148095167,2275.59,24.978154,56.338842,2023-06-30,22:00,09:00,Levant,false,28667.98,49,Renovation
+STR-006,Kuwait Avenues,Dark Store,Kuwait,Kuwait City,Central,David Martin,manager540@example.com,+97146058601,2452.46,25.414183,55.051444,2022-08-31,00:00,08:00,International,false,79246.47,9,Renovation
+STR-001,Dubai Mall Flagship,Warehouse Outlet,UAE,Dubai,South,Fatima Martin,manager541@example.com,+97142955671,2169.96,24.179378,54.517626,2024-05-18,23:00,09:00,GCC South,true,32388.81,55,Open
+STR-002,Mall of the Emirates,Street Retail,UAE,Dubai,South,Layla King,manager542@example.com,+97147779519,243.05,24.321648,56.371988,2023-09-24,00:00,10:00,International,false,153763.01,47,Planned
+STR-003,Riyadh Park,Dark Store,KSA,Riyadh,East,Ali Moore,manager543@example.com,+97149082170,1461.99,26.068193,55.568683,2022-05-08,23:00,10:00,GCC South,true,107181.10,36,Open
+STR-004,Cairo Festival City,Street Retail,Egypt,Cairo,West,Sara Miller,manager544@example.com,+97144437076,1020.61,26.187634,56.473071,2021-11-24,22:00,09:00,GCC North,false,52574.74,38,Open
+STR-005,Doha Festival City,Street Retail,Qatar,Doha,West,Ali Thomas,manager545@example.com,+97141167461,347.64,24.976133,56.432566,2019-05-09,00:00,08:00,International,true,89337.46,95,Planned
+STR-006,Kuwait Avenues,Warehouse Outlet,Kuwait,Kuwait City,South,Yousef Thomas,manager546@example.com,+97141074339,1096.55,24.374765,54.481620,2018-03-11,23:00,08:00,Levant,false,89976.49,90,Planned
+STR-001,Dubai Mall Flagship,Dark Store,UAE,Dubai,West,Hassan Thomas,manager547@example.com,+97145854173,482.21,25.519964,54.773470,2021-12-16,22:00,08:00,Levant,true,152476.31,98,Open
+STR-002,Mall of the Emirates,Street Retail,UAE,Dubai,West,Mona Ali,manager548@example.com,+97144657459,1900.8,24.771345,55.309402,2020-06-08,00:00,09:00,Levant,false,45193.18,109,Renovation
+STR-003,Riyadh Park,Street Retail,KSA,Riyadh,South,David Smith,manager549@example.com,+97142945081,1427.43,25.726255,54.378117,2019-06-06,22:00,10:00,GCC North,false,155681.08,94,Planned
+STR-004,Cairo Festival City,Warehouse Outlet,Egypt,Cairo,East,David Brown,manager550@example.com,+97142125874,1440.48,24.499677,55.623595,2024-07-14,00:00,08:00,GCC North,true,121496.42,28,Planned
+STR-005,Doha Festival City,Dark Store,Qatar,Doha,West,Ava Ali,manager551@example.com,+97144508080,1622.87,25.059747,54.983110,2018-11-18,23:00,10:00,Levant,false,39781.77,17,Planned
+STR-006,Kuwait Avenues,Street Retail,Kuwait,Kuwait City,West,Mariam Hill,manager552@example.com,+97149647339,757.31,24.025427,54.502629,2020-10-05,00:00,09:00,GCC North,true,123533.32,84,Renovation
+STR-001,Dubai Mall Flagship,Street Retail,UAE,Dubai,West,Hassan Mansour,manager553@example.com,+97146788746,1611.72,24.494838,55.855665,2018-05-07,00:00,08:00,GCC South,false,135738.70,24,Planned
+STR-002,Mall of the Emirates,Warehouse Outlet,UAE,Dubai,West,Ethan Hassan,manager554@example.com,+97146742901,194.8,26.015595,55.959182,2023-01-10,22:00,08:00,Levant,false,95225.29,79,Open
+STR-003,Riyadh Park,Mall,KSA,Riyadh,North,Layla Wilson,manager555@example.com,+97143546156,767.37,26.135791,54.730275,2023-02-12,00:00,10:00,GCC North,false,37195.51,100,Planned
+STR-004,Cairo Festival City,Street Retail,Egypt,Cairo,East,Zain Johnson,manager556@example.com,+97141066735,2274.78,24.184593,54.302010,2023-09-01,00:00,09:00,International,false,80321.51,81,Open
+STR-005,Doha Festival City,Dark Store,Qatar,Doha,Central,David Taylor,manager557@example.com,+97148389750,1081.71,24.865947,55.270360,2020-10-04,22:00,08:00,International,true,152745.79,91,Renovation
+STR-006,Kuwait Avenues,Mall,Kuwait,Kuwait City,North,Khalid Clark,manager558@example.com,+97145421473,1484.57,24.741256,55.677257,2021-01-06,00:00,09:00,Levant,false,91643.85,111,Renovation
+STR-001,Dubai Mall Flagship,Mall,UAE,Dubai,North,Leen Young,manager559@example.com,+97148330458,910.69,24.849841,55.942359,2022-06-07,22:00,10:00,GCC North,false,111037.44,100,Renovation
+STR-002,Mall of the Emirates,Street Retail,UAE,Dubai,North,Mona Hill,manager560@example.com,+97147116865,2401.44,25.891982,55.891537,2022-12-22,23:00,08:00,GCC North,false,24783.26,89,Renovation
+STR-003,Riyadh Park,Dark Store,KSA,Riyadh,West,Fatima Young,manager561@example.com,+97146489157,1704.68,25.024406,55.763683,2018-05-06,23:00,10:00,GCC North,false,33088.07,93,Open
+STR-004,Cairo Festival City,Street Retail,Egypt,Cairo,North,Leen Young,manager562@example.com,+97142681041,2363.28,24.394858,55.895879,2018-04-30,00:00,10:00,International,false,154912.62,62,Open
+STR-005,Doha Festival City,Street Retail,Qatar,Doha,Central,Mona Anderson,manager563@example.com,+97144750466,794.48,24.625552,54.559472,2022-12-20,23:00,09:00,International,false,10163.42,89,Open
+STR-006,Kuwait Avenues,Mall,Kuwait,Kuwait City,South,Layla Wilson,manager564@example.com,+97149227271,2029.38,26.097484,56.116284,2024-06-30,00:00,09:00,International,false,15774.44,41,Renovation
+STR-001,Dubai Mall Flagship,Street Retail,UAE,Dubai,East,Yousef Smith,manager565@example.com,+97147584555,688.04,25.492481,55.475859,2023-01-20,00:00,09:00,Levant,false,162025.15,91,Planned
+STR-002,Mall of the Emirates,Street Retail,UAE,Dubai,Central,Hassan Moore,manager566@example.com,+97149432458,1117.59,24.311280,56.124587,2023-07-22,23:00,08:00,GCC North,true,174494.08,110,Open
+STR-003,Riyadh Park,Dark Store,KSA,Riyadh,North,Mariam Miller,manager567@example.com,+97149310389,1961.2,26.236465,55.716052,2022-09-27,00:00,09:00,GCC North,false,12401.98,19,Renovation
+STR-004,Cairo Festival City,Mall,Egypt,Cairo,South,Ava Anderson,manager568@example.com,+97141218038,178.94,24.175849,55.449767,2022-05-01,22:00,08:00,International,true,98238.94,48,Renovation
+STR-005,Doha Festival City,Dark Store,Qatar,Doha,North,Ali White,manager569@example.com,+97145748912,670.51,25.004712,55.431138,2022-05-27,00:00,10:00,GCC North,false,27787.87,21,Planned
+STR-006,Kuwait Avenues,Warehouse Outlet,Kuwait,Kuwait City,East,Layla White,manager570@example.com,+97142135541,1347.3,24.358629,54.502820,2023-12-16,22:00,09:00,Levant,true,168527.49,77,Planned
+STR-001,Dubai Mall Flagship,Street Retail,UAE,Dubai,South,John Hassan,manager571@example.com,+97142452681,2418.87,25.457312,54.104624,2020-11-02,23:00,10:00,Levant,true,108229.99,29,Planned
+STR-002,Mall of the Emirates,Warehouse Outlet,UAE,Dubai,Central,Lina Wilson,manager572@example.com,+97148524258,1583.9,25.845827,55.474068,2024-06-23,00:00,10:00,GCC South,true,51973.43,77,Planned
+STR-003,Riyadh Park,Dark Store,KSA,Riyadh,West,Layla Martin,manager573@example.com,+97141608572,2484.86,24.968106,54.413297,2023-01-08,00:00,10:00,Levant,true,162021.43,107,Renovation
+STR-004,Cairo Festival City,Street Retail,Egypt,Cairo,East,Ava White,manager574@example.com,+97144655209,1371.68,24.716925,55.672803,2018-03-10,00:00,08:00,GCC North,true,96790.69,60,Open
+STR-005,Doha Festival City,Street Retail,Qatar,Doha,East,Ethan Ali,manager575@example.com,+97144025947,1011.29,24.954698,55.274498,2019-10-22,22:00,09:00,GCC North,false,168678.82,79,Open
+STR-006,Kuwait Avenues,Warehouse Outlet,Kuwait,Kuwait City,Central,Yousef Saleh,manager576@example.com,+97142768980,267.98,25.174760,55.037403,2024-03-06,23:00,09:00,International,false,153176.73,71,Open
+STR-001,Dubai Mall Flagship,Street Retail,UAE,Dubai,Central,Yousef Khalid,manager577@example.com,+97143618679,1364.21,26.456415,55.109777,2019-07-14,23:00,09:00,GCC North,false,95591.85,104,Open
+STR-002,Mall of the Emirates,Mall,UAE,Dubai,North,David Ali,manager578@example.com,+97147342985,1139.73,25.324661,54.276911,2020-09-02,00:00,08:00,Levant,false,122606.34,30,Renovation
+STR-003,Riyadh Park,Warehouse Outlet,KSA,Riyadh,West,John Mansour,manager579@example.com,+97147792680,761.97,26.103819,55.191562,2021-08-18,23:00,10:00,Levant,true,128045.28,47,Renovation
+STR-004,Cairo Festival City,Dark Store,Egypt,Cairo,South,Lina Taylor,manager580@example.com,+97148439058,1820.41,26.431405,54.742928,2020-07-26,00:00,10:00,GCC South,false,33714.31,61,Planned
+STR-005,Doha Festival City,Mall,Qatar,Doha,Central,Zain Taylor,manager581@example.com,+97142748663,1923.79,24.257564,54.280543,2024-06-06,00:00,09:00,International,true,143848.90,77,Renovation
+STR-006,Kuwait Avenues,Warehouse Outlet,Kuwait,Kuwait City,West,David Clark,manager582@example.com,+97148054145,1276.56,24.092693,54.920673,2018-11-02,00:00,09:00,GCC North,true,95680.83,34,Open
+STR-001,Dubai Mall Flagship,Street Retail,UAE,Dubai,South,David Wilson,manager583@example.com,+97142015565,509.5,25.212170,55.272864,2024-07-15,23:00,08:00,GCC South,false,136914.20,52,Renovation
+STR-002,Mall of the Emirates,Street Retail,UAE,Dubai,North,Leen Hill,manager584@example.com,+97143528827,670.99,25.559170,56.214342,2020-04-10,22:00,09:00,Levant,false,19111.41,17,Renovation
+STR-003,Riyadh Park,Dark Store,KSA,Riyadh,East,Omar Thomas,manager585@example.com,+97144227575,1375.7,24.018891,55.599591,2021-10-13,22:00,09:00,GCC South,false,25074.45,22,Planned
+STR-004,Cairo Festival City,Dark Store,Egypt,Cairo,North,Zain Thomas,manager586@example.com,+97148762701,2399.77,24.627343,55.044917,2023-11-22,22:00,08:00,International,true,45550.02,79,Renovation
+STR-005,Doha Festival City,Dark Store,Qatar,Doha,East,Ethan Johnson,manager587@example.com,+97147932482,1354.39,25.426994,56.169536,2021-02-17,22:00,10:00,GCC South,true,133063.68,43,Open
+STR-006,Kuwait Avenues,Street Retail,Kuwait,Kuwait City,North,Zain Ali,manager588@example.com,+97147572601,528.74,24.601632,55.449414,2019-12-21,00:00,08:00,Levant,false,68093.42,43,Open
+STR-001,Dubai Mall Flagship,Street Retail,UAE,Dubai,South,Leen Moore,manager589@example.com,+97145010366,287.0,25.914556,54.127915,2024-01-18,22:00,09:00,International,true,14758.31,28,Planned
+STR-002,Mall of the Emirates,Dark Store,UAE,Dubai,West,Mona Wilson,manager590@example.com,+97146079546,2188.01,24.022679,56.459635,2019-09-10,00:00,10:00,International,false,85314.90,62,Planned
+STR-003,Riyadh Park,Dark Store,KSA,Riyadh,North,John Mansour,manager591@example.com,+97143478986,1966.29,25.984390,54.149206,2024-07-20,23:00,08:00,International,false,75608.89,88,Open
+STR-004,Cairo Festival City,Dark Store,Egypt,Cairo,West,Sara Moore,manager592@example.com,+97143933311,590.38,25.441549,56.127596,2021-05-05,00:00,09:00,GCC South,false,77160.24,120,Planned
+STR-005,Doha Festival City,Dark Store,Qatar,Doha,North,John Thomas,manager593@example.com,+97144394993,670.69,26.129825,54.733783,2020-05-24,22:00,08:00,International,true,136517.36,27,Planned
+STR-006,Kuwait Avenues,Street Retail,Kuwait,Kuwait City,North,Layla Clark,manager594@example.com,+97141823786,1327.67,26.024853,55.957224,2018-02-28,00:00,09:00,Levant,true,117387.03,63,Open
+STR-001,Dubai Mall Flagship,Street Retail,UAE,Dubai,Central,Yousef Hassan,manager595@example.com,+97142024468,1806.26,25.724184,54.970473,2020-11-06,22:00,09:00,International,true,177404.54,26,Planned
+STR-002,Mall of the Emirates,Warehouse Outlet,UAE,Dubai,South,Ali Smith,manager596@example.com,+97145867142,1895.32,25.333555,54.828227,2021-01-27,00:00,09:00,GCC South,true,162160.97,53,Open
+STR-003,Riyadh Park,Mall,KSA,Riyadh,East,Ali Moore,manager597@example.com,+97148163695,273.11,24.956624,56.456072,2019-03-03,23:00,10:00,GCC North,true,41051.54,57,Open
+STR-004,Cairo Festival City,Dark Store,Egypt,Cairo,East,Ahmed Hassan,manager598@example.com,+97148418843,713.67,25.650306,54.498129,2021-04-28,00:00,10:00,GCC North,false,161505.36,25,Renovation
+STR-005,Doha Festival City,Mall,Qatar,Doha,Central,David Thomas,manager599@example.com,+97149247788,1400.57,24.719726,56.466878,2021-02-10,22:00,08:00,GCC North,false,69354.79,119,Open
+STR-006,Kuwait Avenues,Street Retail,Kuwait,Kuwait City,North,Zain Hill,manager600@example.com,+97144272264,918.64,25.856339,56.117844,2021-01-26,22:00,09:00,GCC North,true,119180.65,9,Planned
+STR-001,Dubai Mall Flagship,Street Retail,UAE,Dubai,East,Zain Taylor,manager601@example.com,+97141402287,488.81,25.653058,54.063836,2023-03-16,23:00,10:00,GCC North,false,83732.59,20,Renovation
+STR-002,Mall of the Emirates,Warehouse Outlet,UAE,Dubai,North,Yousef Mansour,manager602@example.com,+97143047807,1289.07,24.201447,55.137704,2024-01-25,23:00,09:00,Levant,true,39019.78,110,Planned
+STR-003,Riyadh Park,Warehouse Outlet,KSA,Riyadh,East,Lina Johnson,manager603@example.com,+97141097082,2066.07,24.449757,56.395518,2019-11-11,00:00,08:00,Levant,true,18084.97,83,Planned
+STR-004,Cairo Festival City,Street Retail,Egypt,Cairo,Central,Ethan Thomas,manager604@example.com,+97141060153,370.88,26.038367,55.042639,2021-12-21,23:00,08:00,Levant,true,154676.38,105,Open
+STR-005,Doha Festival City,Street Retail,Qatar,Doha,North,Noor King,manager605@example.com,+97142062926,640.67,25.501961,54.596524,2023-05-09,22:00,10:00,GCC South,false,17790.67,104,Open
+STR-006,Kuwait Avenues,Warehouse Outlet,Kuwait,Kuwait City,East,Layla Brown,manager606@example.com,+97145021642,1437.99,25.264571,54.704286,2023-06-16,22:00,10:00,GCC South,false,119200.95,53,Renovation
+STR-001,Dubai Mall Flagship,Warehouse Outlet,UAE,Dubai,North,Leen Taylor,manager607@example.com,+97149800406,126.36,24.561911,54.065751,2020-05-12,23:00,10:00,Levant,true,58871.98,60,Planned
+STR-002,Mall of the Emirates,Street Retail,UAE,Dubai,East,Sara Moore,manager608@example.com,+97146357357,2045.37,24.831750,54.143065,2020-10-03,23:00,10:00,International,true,66878.58,11,Renovation
+STR-003,Riyadh Park,Street Retail,KSA,Riyadh,North,Ethan White,manager609@example.com,+97143858761,333.55,25.535723,55.208256,2019-04-28,23:00,09:00,International,true,106560.01,96,Open
+STR-004,Cairo Festival City,Mall,Egypt,Cairo,West,Noor Ali,manager610@example.com,+97141495979,564.99,24.640500,54.986212,2023-04-16,00:00,10:00,Levant,false,66024.16,70,Open
+STR-005,Doha Festival City,Warehouse Outlet,Qatar,Doha,South,Ava Thomas,manager611@example.com,+97147792445,992.43,24.012280,54.337751,2023-05-16,23:00,09:00,GCC North,false,154704.23,109,Renovation
+STR-006,Kuwait Avenues,Mall,Kuwait,Kuwait City,North,Ahmed Young,manager612@example.com,+97142772073,1394.62,24.482402,55.291895,2020-12-14,22:00,10:00,GCC South,false,152832.98,24,Planned
+STR-001,Dubai Mall Flagship,Warehouse Outlet,UAE,Dubai,Central,Ali Mansour,manager613@example.com,+97145145090,1952.39,24.292417,54.045536,2024-07-26,23:00,10:00,Levant,false,175626.49,55,Open
+STR-002,Mall of the Emirates,Dark Store,UAE,Dubai,East,Ali Young,manager614@example.com,+97141861002,605.21,25.851413,55.068384,2022-10-30,23:00,09:00,GCC North,false,63566.82,41,Planned
+STR-003,Riyadh Park,Mall,KSA,Riyadh,North,Mariam Saleh,manager615@example.com,+97149178636,1012.85,24.669080,55.524535,2024-03-17,00:00,08:00,GCC South,true,45562.78,87,Renovation
+STR-004,Cairo Festival City,Warehouse Outlet,Egypt,Cairo,North,Layla Khalid,manager616@example.com,+97149756341,1661.38,26.454211,54.470515,2020-09-11,00:00,10:00,International,true,59347.56,118,Open
+STR-005,Doha Festival City,Mall,Qatar,Doha,South,Ava King,manager617@example.com,+97149201294,2102.56,24.761451,56.445686,2019-01-16,23:00,10:00,International,true,124233.58,91,Renovation
+STR-006,Kuwait Avenues,Mall,Kuwait,Kuwait City,South,Khalid King,manager618@example.com,+97141668591,1473.74,25.042528,55.335024,2023-03-13,00:00,09:00,Levant,false,176032.61,51,Planned
+STR-001,Dubai Mall Flagship,Dark Store,UAE,Dubai,North,Ava Thomas,manager619@example.com,+97142578606,1967.1,24.078298,54.501427,2023-05-18,00:00,09:00,GCC North,false,89924.14,59,Planned
+STR-002,Mall of the Emirates,Mall,UAE,Dubai,Central,Zain Ali,manager620@example.com,+97145921393,2041.07,25.764404,55.242282,2024-07-05,23:00,09:00,Levant,true,15388.49,117,Planned
+STR-003,Riyadh Park,Mall,KSA,Riyadh,East,Zain Anderson,manager621@example.com,+97148615569,2020.54,25.693575,55.060858,2019-10-24,00:00,10:00,GCC North,false,64446.70,67,Open
+STR-004,Cairo Festival City,Dark Store,Egypt,Cairo,North,Ali Smith,manager622@example.com,+97142991702,157.56,25.345072,54.829534,2020-08-06,00:00,10:00,International,false,168617.58,22,Open
+STR-005,Doha Festival City,Warehouse Outlet,Qatar,Doha,West,Lina Young,manager623@example.com,+97142118635,1418.81,24.358927,55.925497,2022-04-27,22:00,08:00,International,false,165005.36,29,Renovation
+STR-006,Kuwait Avenues,Mall,Kuwait,Kuwait City,East,Layla Ali,manager624@example.com,+97149889042,787.13,25.797607,54.869187,2024-06-23,00:00,09:00,Levant,true,89083.89,37,Open
+STR-001,Dubai Mall Flagship,Street Retail,UAE,Dubai,West,David Mansour,manager625@example.com,+97143080016,1361.66,24.921025,55.008899,2021-02-13,23:00,08:00,International,true,83985.22,87,Renovation
+STR-002,Mall of the Emirates,Mall,UAE,Dubai,South,Ali Ali,manager626@example.com,+97141080160,223.05,25.835587,54.090523,2020-11-11,23:00,09:00,International,true,35329.52,107,Open
+STR-003,Riyadh Park,Dark Store,KSA,Riyadh,South,Sara Anderson,manager627@example.com,+97149158212,464.55,25.027810,55.851461,2018-07-28,22:00,10:00,Levant,false,36157.70,34,Planned
+STR-004,Cairo Festival City,Warehouse Outlet,Egypt,Cairo,East,Sophia Hill,manager628@example.com,+97143503192,2248.63,24.937085,55.992406,2020-12-31,00:00,10:00,International,true,148116.13,60,Planned
+STR-005,Doha Festival City,Warehouse Outlet,Qatar,Doha,West,Hassan Moore,manager629@example.com,+97148741709,2103.88,25.755616,56.350051,2021-08-10,00:00,08:00,International,true,164743.96,115,Planned
+STR-006,Kuwait Avenues,Street Retail,Kuwait,Kuwait City,East,Omar Taylor,manager630@example.com,+97141925152,2006.55,25.733005,55.238913,2021-08-14,22:00,10:00,Levant,true,131501.61,8,Planned
+STR-001,Dubai Mall Flagship,Dark Store,UAE,Dubai,South,Yousef Ali,manager631@example.com,+97145314848,228.27,26.311811,54.875486,2019-03-14,22:00,08:00,Levant,true,44166.29,20,Renovation
+STR-002,Mall of the Emirates,Dark Store,UAE,Dubai,West,Hassan Brown,manager632@example.com,+97149058043,1958.91,24.001494,54.276248,2022-06-14,22:00,09:00,International,true,84643.35,35,Planned
+STR-003,Riyadh Park,Mall,KSA,Riyadh,West,Ali Johnson,manager633@example.com,+97148692675,460.63,25.801750,56.291935,2021-08-27,00:00,09:00,GCC South,true,92803.73,100,Renovation
+STR-004,Cairo Festival City,Dark Store,Egypt,Cairo,North,Lina Anderson,manager634@example.com,+97141581256,428.08,24.869352,54.616437,2023-03-07,22:00,09:00,GCC South,true,64156.45,47,Renovation
+STR-005,Doha Festival City,Dark Store,Qatar,Doha,North,Mariam Martin,manager635@example.com,+97141908971,2079.31,24.959875,55.168483,2021-01-22,00:00,08:00,GCC North,true,84092.27,10,Renovation
+STR-006,Kuwait Avenues,Warehouse Outlet,Kuwait,Kuwait City,South,Sara Johnson,manager636@example.com,+97147591281,2282.89,24.593895,54.073779,2019-03-17,00:00,09:00,GCC South,true,157073.37,27,Planned
+STR-001,Dubai Mall Flagship,Dark Store,UAE,Dubai,West,Ethan Martin,manager637@example.com,+97147810625,2427.74,24.716218,54.010637,2018-08-16,22:00,10:00,GCC South,false,36651.28,91,Open
+STR-002,Mall of the Emirates,Warehouse Outlet,UAE,Dubai,North,Mariam Saleh,manager638@example.com,+97143796166,2367.02,25.251448,55.085840,2022-08-15,22:00,09:00,GCC North,false,104183.49,16,Open
+STR-003,Riyadh Park,Mall,KSA,Riyadh,South,Ethan Saleh,manager639@example.com,+97144133831,360.1,24.945410,56.016138,2023-10-29,00:00,10:00,International,false,70672.68,114,Renovation
+STR-004,Cairo Festival City,Dark Store,Egypt,Cairo,Central,Mariam Hassan,manager640@example.com,+97141506208,1145.93,26.482258,54.869452,2019-07-01,23:00,09:00,GCC North,false,173883.35,28,Planned
+STR-005,Doha Festival City,Mall,Qatar,Doha,East,Layla Young,manager641@example.com,+97149266335,2232.55,24.667341,54.231525,2022-03-10,22:00,09:00,International,true,168572.18,48,Planned
+STR-006,Kuwait Avenues,Street Retail,Kuwait,Kuwait City,West,Yousef Wilson,manager642@example.com,+97148229060,140.39,24.957189,54.467716,2022-06-15,00:00,09:00,GCC North,false,24856.72,110,Planned
+STR-001,Dubai Mall Flagship,Warehouse Outlet,UAE,Dubai,Central,Khalid Mansour,manager643@example.com,+97148962835,2203.54,24.626160,54.836439,2023-01-04,22:00,08:00,International,true,55410.09,119,Renovation
+STR-002,Mall of the Emirates,Mall,UAE,Dubai,Central,Ava White,manager644@example.com,+97148098614,1744.28,24.279996,56.344794,2021-10-01,23:00,08:00,International,false,126151.34,17,Renovation
+STR-003,Riyadh Park,Dark Store,KSA,Riyadh,South,Yousef Brown,manager645@example.com,+97143367892,388.57,25.687870,54.654275,2019-09-02,23:00,08:00,GCC North,true,28225.89,75,Planned
+STR-004,Cairo Festival City,Street Retail,Egypt,Cairo,East,Ethan Smith,manager646@example.com,+97149979905,739.38,25.935985,55.388891,2019-03-19,00:00,09:00,GCC South,false,140569.20,46,Planned
+STR-005,Doha Festival City,Street Retail,Qatar,Doha,West,Zain Hassan,manager647@example.com,+97149179455,1904.86,25.503685,54.020715,2019-05-05,22:00,10:00,GCC North,false,97547.46,111,Planned
+STR-006,Kuwait Avenues,Warehouse Outlet,Kuwait,Kuwait City,East,Sara Young,manager648@example.com,+97143025651,728.01,24.481476,54.706549,2018-02-18,22:00,09:00,GCC North,true,128129.29,14,Renovation
+STR-001,Dubai Mall Flagship,Street Retail,UAE,Dubai,South,Zain Martin,manager649@example.com,+97141638146,1616.13,26.403576,55.944733,2022-03-23,22:00,08:00,International,false,106627.26,61,Open
+STR-002,Mall of the Emirates,Mall,UAE,Dubai,North,Ali Martin,manager650@example.com,+97148516480,2087.29,25.939449,54.360467,2019-07-16,22:00,08:00,Levant,true,77411.63,28,Open
+STR-003,Riyadh Park,Warehouse Outlet,KSA,Riyadh,East,Zain Young,manager651@example.com,+97145420122,1495.19,25.725606,54.802579,2023-02-16,22:00,08:00,International,true,156536.52,27,Open
+STR-004,Cairo Festival City,Street Retail,Egypt,Cairo,Central,Noor Martin,manager652@example.com,+97147198245,1089.75,25.717121,55.238591,2020-09-29,22:00,09:00,International,false,93464.67,118,Planned
+STR-005,Doha Festival City,Street Retail,Qatar,Doha,Central,Ali Hill,manager653@example.com,+97146794239,2135.46,24.758016,56.317794,2019-01-31,00:00,10:00,International,false,120371.70,58,Renovation
+STR-006,Kuwait Avenues,Mall,Kuwait,Kuwait City,East,Layla Brown,manager654@example.com,+97146418402,539.87,26.219219,55.922158,2021-12-11,22:00,08:00,International,true,178846.99,101,Planned
+STR-001,Dubai Mall Flagship,Dark Store,UAE,Dubai,South,Fatima Johnson,manager655@example.com,+97147932695,318.94,24.543925,56.166018,2023-06-27,23:00,09:00,International,false,64501.13,58,Open
+STR-002,Mall of the Emirates,Mall,UAE,Dubai,South,Zain Mansour,manager656@example.com,+97145117131,835.75,26.410909,55.295195,2023-08-27,23:00,09:00,Levant,true,124805.91,68,Planned
+STR-003,Riyadh Park,Warehouse Outlet,KSA,Riyadh,East,Leen Moore,manager657@example.com,+97143096889,1506.62,24.037944,55.529781,2023-12-13,23:00,09:00,GCC South,true,72977.50,84,Renovation
+STR-004,Cairo Festival City,Dark Store,Egypt,Cairo,West,Lina Brown,manager658@example.com,+97145026409,1082.65,24.589891,56.015501,2019-08-05,23:00,09:00,GCC South,false,30870.19,34,Planned
+STR-005,Doha Festival City,Warehouse Outlet,Qatar,Doha,West,Leen Khalid,manager659@example.com,+97143701118,2270.31,25.958562,56.054756,2021-11-11,22:00,10:00,GCC North,true,156351.93,71,Open
+STR-006,Kuwait Avenues,Dark Store,Kuwait,Kuwait City,North,Khalid Clark,manager660@example.com,+97147087691,2179.46,24.044325,55.872251,2018-04-20,00:00,10:00,Levant,false,87321.32,107,Renovation
+STR-001,Dubai Mall Flagship,Warehouse Outlet,UAE,Dubai,Central,Ali Saleh,manager661@example.com,+97142228485,154.17,24.542406,56.374451,2020-05-24,00:00,10:00,GCC North,false,152456.46,103,Renovation
+STR-002,Mall of the Emirates,Mall,UAE,Dubai,West,David White,manager662@example.com,+97145311871,1219.08,25.614749,54.339358,2023-04-04,22:00,10:00,GCC North,true,122517.47,15,Renovation
+STR-003,Riyadh Park,Street Retail,KSA,Riyadh,East,Noor Saleh,manager663@example.com,+97148856352,2127.77,24.433542,54.044609,2018-01-07,22:00,10:00,International,false,130966.90,108,Planned
+STR-004,Cairo Festival City,Street Retail,Egypt,Cairo,North,Ali Brown,manager664@example.com,+97143235572,865.3,25.478682,56.352939,2021-11-17,22:00,08:00,Levant,true,71214.18,105,Renovation
+STR-005,Doha Festival City,Dark Store,Qatar,Doha,North,Ethan Anderson,manager665@example.com,+97145232121,956.31,25.686132,54.119754,2023-05-08,22:00,10:00,Levant,true,25849.86,44,Planned
+STR-006,Kuwait Avenues,Dark Store,Kuwait,Kuwait City,Central,Yousef Thomas,manager666@example.com,+97144181033,1365.61,25.456090,54.990590,2021-06-19,00:00,09:00,Levant,true,147927.01,10,Planned
+STR-001,Dubai Mall Flagship,Dark Store,UAE,Dubai,South,Khalid Young,manager667@example.com,+97145136994,971.79,25.257421,55.485147,2021-03-14,23:00,09:00,GCC North,false,107958.81,100,Open
+STR-002,Mall of the Emirates,Warehouse Outlet,UAE,Dubai,North,Omar Khalid,manager668@example.com,+97143520163,2477.69,26.334276,54.776216,2019-12-29,22:00,09:00,International,false,79956.60,64,Planned
+STR-003,Riyadh Park,Mall,KSA,Riyadh,East,Khalid Moore,manager669@example.com,+97148290007,600.9,25.035662,56.298770,2023-01-27,22:00,10:00,Levant,false,142645.56,49,Planned
+STR-004,Cairo Festival City,Mall,Egypt,Cairo,Central,Leen Wilson,manager670@example.com,+97148352238,498.46,26.382135,54.830471,2019-07-08,00:00,08:00,GCC North,false,88306.47,71,Renovation
+STR-005,Doha Festival City,Dark Store,Qatar,Doha,North,Layla Mansour,manager671@example.com,+97149475540,2294.96,25.458532,56.208352,2024-05-27,23:00,09:00,International,false,106932.69,98,Renovation
+STR-006,Kuwait Avenues,Street Retail,Kuwait,Kuwait City,North,Ahmed Khalid,manager672@example.com,+97143069052,136.24,24.075396,55.855887,2024-03-19,22:00,10:00,International,false,111345.60,58,Open
+STR-001,Dubai Mall Flagship,Mall,UAE,Dubai,South,Sophia Wilson,manager673@example.com,+97146707521,340.59,26.167602,55.918048,2021-08-02,22:00,10:00,International,false,26686.34,97,Planned
+STR-002,Mall of the Emirates,Mall,UAE,Dubai,Central,Noor Taylor,manager674@example.com,+97149637655,1761.01,26.250527,54.682243,2018-02-27,00:00,08:00,International,false,159016.91,100,Planned
+STR-003,Riyadh Park,Dark Store,KSA,Riyadh,South,Omar King,manager675@example.com,+97145989728,2054.99,24.495937,54.112184,2022-06-03,23:00,08:00,International,true,109675.03,27,Planned
+STR-004,Cairo Festival City,Mall,Egypt,Cairo,North,Mona Miller,manager676@example.com,+97144450602,1916.46,24.587539,54.580034,2021-09-21,23:00,09:00,Levant,false,125573.74,71,Renovation
+STR-005,Doha Festival City,Warehouse Outlet,Qatar,Doha,North,Layla Wilson,manager677@example.com,+97149926023,2147.18,24.806677,54.517043,2020-05-21,22:00,08:00,Levant,false,111875.14,40,Open
+STR-006,Kuwait Avenues,Dark Store,Kuwait,Kuwait City,Central,Lina Moore,manager678@example.com,+97141500734,2392.48,25.032339,56.350927,2023-04-11,00:00,10:00,GCC North,false,153202.73,58,Renovation
+STR-001,Dubai Mall Flagship,Dark Store,UAE,Dubai,South,Sophia Brown,manager679@example.com,+97142511667,1191.9,25.876747,54.425696,2022-08-16,22:00,09:00,International,false,95076.84,111,Open
+STR-002,Mall of the Emirates,Street Retail,UAE,Dubai,North,Hassan Mansour,manager680@example.com,+97147490389,2331.17,26.118917,55.432054,2018-07-26,00:00,08:00,Levant,false,100443.21,101,Planned
+STR-003,Riyadh Park,Dark Store,KSA,Riyadh,North,Mariam Ali,manager681@example.com,+97148961607,2426.4,25.898176,55.865294,2022-04-05,00:00,09:00,GCC South,true,120917.96,46,Renovation
+STR-004,Cairo Festival City,Warehouse Outlet,Egypt,Cairo,West,John Johnson,manager682@example.com,+97147356509,293.37,25.523483,55.597527,2022-05-01,00:00,08:00,International,true,28243.84,81,Renovation
+STR-005,Doha Festival City,Dark Store,Qatar,Doha,South,Layla Clark,manager683@example.com,+97145289373,619.58,26.168721,54.095625,2019-12-23,23:00,08:00,Levant,false,161074.58,59,Open
+STR-006,Kuwait Avenues,Mall,Kuwait,Kuwait City,West,Mona Thomas,manager684@example.com,+97143434258,1800.64,24.295301,56.476480,2018-03-09,23:00,10:00,GCC North,false,54026.04,65,Planned
+STR-001,Dubai Mall Flagship,Mall,UAE,Dubai,South,Zain Hassan,manager685@example.com,+97142516759,574.85,25.635090,55.912869,2023-03-09,22:00,10:00,International,true,112739.85,54,Open
+STR-002,Mall of the Emirates,Street Retail,UAE,Dubai,East,Mariam Hill,manager686@example.com,+97147586181,1146.41,25.172033,54.152973,2023-06-01,23:00,09:00,GCC North,false,25159.20,31,Planned
+STR-003,Riyadh Park,Mall,KSA,Riyadh,South,Ali Young,manager687@example.com,+97144071584,2436.97,26.351950,54.023664,2022-04-23,00:00,08:00,GCC South,true,141908.16,113,Open
+STR-004,Cairo Festival City,Street Retail,Egypt,Cairo,West,Zain Hill,manager688@example.com,+97144272157,1219.74,24.654550,54.049279,2020-05-18,22:00,08:00,International,false,22876.21,71,Renovation
+STR-005,Doha Festival City,Street Retail,Qatar,Doha,East,John Moore,manager689@example.com,+97145461276,498.13,25.563510,54.936025,2018-12-09,00:00,10:00,Levant,false,137991.01,68,Renovation
+STR-006,Kuwait Avenues,Warehouse Outlet,Kuwait,Kuwait City,East,Ava Johnson,manager690@example.com,+97143602792,612.68,24.921504,56.207275,2022-02-02,00:00,10:00,Levant,false,123590.75,119,Renovation
+STR-001,Dubai Mall Flagship,Mall,UAE,Dubai,North,Omar Young,manager691@example.com,+97143975201,1552.21,24.556992,54.588844,2020-03-09,22:00,10:00,International,false,27657.92,100,Open
+STR-002,Mall of the Emirates,Dark Store,UAE,Dubai,South,Sophia Johnson,manager692@example.com,+97147887693,1353.52,24.774507,55.843799,2021-12-07,23:00,09:00,Levant,false,64563.00,66,Planned
+STR-003,Riyadh Park,Street Retail,KSA,Riyadh,Central,Ahmed Hassan,manager693@example.com,+97146929450,1836.86,24.123201,55.365827,2019-09-11,00:00,09:00,Levant,false,135805.88,112,Renovation
+STR-004,Cairo Festival City,Warehouse Outlet,Egypt,Cairo,East,Fatima Ali,manager694@example.com,+97146369723,1362.07,24.272181,55.405030,2018-04-15,00:00,10:00,International,false,111071.93,110,Renovation
+STR-005,Doha Festival City,Dark Store,Qatar,Doha,West,John Hill,manager695@example.com,+97144559209,1160.62,26.028298,55.824683,2020-11-04,23:00,09:00,GCC South,false,143587.01,45,Renovation
+STR-006,Kuwait Avenues,Street Retail,Kuwait,Kuwait City,North,Yousef Clark,manager696@example.com,+97148452671,1151.3,25.859383,55.021060,2021-09-15,22:00,08:00,International,true,36556.89,118,Planned
+STR-001,Dubai Mall Flagship,Street Retail,UAE,Dubai,East,Fatima King,manager697@example.com,+97142245952,914.73,24.453295,55.212308,2022-10-29,22:00,10:00,International,true,59010.90,48,Open
+STR-002,Mall of the Emirates,Street Retail,UAE,Dubai,Central,Ava Clark,manager698@example.com,+97141145511,853.17,25.583488,54.631246,2021-08-16,22:00,09:00,GCC North,false,156930.64,90,Planned
+STR-003,Riyadh Park,Street Retail,KSA,Riyadh,East,John Miller,manager699@example.com,+97146962669,2377.73,25.217030,54.590607,2022-10-16,23:00,09:00,GCC North,false,108702.05,85,Planned
+STR-004,Cairo Festival City,Dark Store,Egypt,Cairo,South,Sophia Saleh,manager700@example.com,+97147524104,1134.73,24.512465,55.103051,2019-01-17,00:00,10:00,Levant,false,147060.61,72,Planned
+STR-005,Doha Festival City,Warehouse Outlet,Qatar,Doha,West,Fatima Saleh,manager701@example.com,+97142899709,2015.49,25.530185,54.632913,2021-11-19,23:00,09:00,International,true,166199.23,39,Planned
+STR-006,Kuwait Avenues,Street Retail,Kuwait,Kuwait City,South,Sophia Miller,manager702@example.com,+97149010644,1233.69,24.694170,55.096471,2021-08-04,22:00,08:00,GCC South,true,96290.15,73,Renovation
+STR-001,Dubai Mall Flagship,Warehouse Outlet,UAE,Dubai,West,John King,manager703@example.com,+97142365387,2325.21,25.889885,56.081516,2022-12-26,23:00,09:00,Levant,false,110746.66,93,Planned
+STR-002,Mall of the Emirates,Street Retail,UAE,Dubai,North,Ava Khalid,manager704@example.com,+97141477613,2301.91,24.809218,54.030738,2020-06-23,23:00,09:00,GCC North,false,49119.50,49,Planned
+STR-003,Riyadh Park,Warehouse Outlet,KSA,Riyadh,Central,Mariam Hill,manager705@example.com,+97142126711,1463.4,24.693123,56.313896,2022-02-01,23:00,09:00,GCC South,false,27535.30,25,Open
+STR-004,Cairo Festival City,Street Retail,Egypt,Cairo,Central,David Wilson,manager706@example.com,+97144971929,569.27,26.193205,54.486873,2020-08-17,00:00,09:00,International,false,168559.42,113,Planned
+STR-005,Doha Festival City,Mall,Qatar,Doha,East,Layla Johnson,manager707@example.com,+97149451843,529.89,25.759815,55.486028,2024-01-28,22:00,10:00,International,false,139864.21,49,Planned
+STR-006,Kuwait Avenues,Street Retail,Kuwait,Kuwait City,West,Mona Anderson,manager708@example.com,+97148129030,679.07,25.469974,55.172157,2023-04-12,22:00,10:00,GCC South,false,153742.42,60,Open
+STR-001,Dubai Mall Flagship,Dark Store,UAE,Dubai,East,Sophia Moore,manager709@example.com,+97146467748,2330.44,26.440205,55.977408,2024-05-20,22:00,10:00,Levant,false,179312.08,92,Open
+STR-002,Mall of the Emirates,Street Retail,UAE,Dubai,East,Layla Johnson,manager710@example.com,+97141456381,1740.77,24.043044,55.103608,2022-12-23,22:00,10:00,GCC South,true,78809.45,26,Renovation
+STR-003,Riyadh Park,Street Retail,KSA,Riyadh,South,Ali Thomas,manager711@example.com,+97144986296,117.99,25.552880,55.676778,2023-10-18,00:00,09:00,International,false,30581.39,66,Renovation
+STR-004,Cairo Festival City,Street Retail,Egypt,Cairo,East,Leen Anderson,manager712@example.com,+97143761369,752.67,25.593773,55.384039,2021-08-01,00:00,10:00,International,true,176977.25,93,Planned
+STR-005,Doha Festival City,Mall,Qatar,Doha,West,Mariam Wilson,manager713@example.com,+97144363522,1751.45,26.016035,54.911416,2021-05-30,00:00,09:00,Levant,false,34128.98,74,Open
+STR-006,Kuwait Avenues,Mall,Kuwait,Kuwait City,West,Ahmed Taylor,manager714@example.com,+97142376926,2009.96,26.130139,55.021865,2022-02-28,23:00,09:00,GCC South,true,142511.95,76,Open
+STR-001,Dubai Mall Flagship,Dark Store,UAE,Dubai,East,Yousef Young,manager715@example.com,+97148548108,1970.96,26.069860,54.457903,2021-07-24,00:00,09:00,GCC South,false,106757.60,112,Planned
+STR-002,Mall of the Emirates,Mall,UAE,Dubai,South,Khalid Johnson,manager716@example.com,+97146203954,284.42,25.182835,55.198607,2019-09-30,22:00,09:00,GCC South,true,150909.10,75,Renovation
+STR-003,Riyadh Park,Street Retail,KSA,Riyadh,Central,David Young,manager717@example.com,+97145375568,1733.99,25.254650,56.444444,2023-12-14,23:00,10:00,GCC North,false,85317.72,33,Planned
+STR-004,Cairo Festival City,Dark Store,Egypt,Cairo,South,David Khalid,manager718@example.com,+97147695628,1229.02,24.928484,56.335085,2022-06-05,00:00,09:00,International,true,134952.24,104,Renovation
+STR-005,Doha Festival City,Mall,Qatar,Doha,Central,Mariam Anderson,manager719@example.com,+97149076397,2258.49,24.327096,56.443052,2021-04-05,23:00,08:00,GCC South,false,127035.78,110,Planned
+STR-006,Kuwait Avenues,Mall,Kuwait,Kuwait City,Central,Leen Wilson,manager720@example.com,+97146458188,1359.21,24.378122,54.856531,2023-12-24,00:00,09:00,Levant,false,116978.22,13,Planned
+STR-001,Dubai Mall Flagship,Street Retail,UAE,Dubai,South,Fatima Ali,manager721@example.com,+97145802618,287.27,24.148168,55.167288,2018-03-29,23:00,10:00,GCC South,true,79031.43,9,Planned
+STR-002,Mall of the Emirates,Dark Store,UAE,Dubai,Central,John Wilson,manager722@example.com,+97147152608,1603.84,26.423017,54.223331,2019-05-02,00:00,09:00,GCC North,false,84876.61,91,Renovation
+STR-003,Riyadh Park,Mall,KSA,Riyadh,Central,Ali Wilson,manager723@example.com,+97146047745,162.08,25.601804,55.467902,2018-07-04,22:00,10:00,International,true,79043.41,81,Planned
+STR-004,Cairo Festival City,Dark Store,Egypt,Cairo,South,Ava Clark,manager724@example.com,+97145060021,883.52,25.622811,55.847755,2018-06-02,00:00,10:00,GCC North,true,144046.79,58,Open
+STR-005,Doha Festival City,Street Retail,Qatar,Doha,West,Ali White,manager725@example.com,+97143350566,2187.4,24.761003,54.813019,2024-04-22,00:00,10:00,GCC North,false,16524.85,101,Open
+STR-006,Kuwait Avenues,Warehouse Outlet,Kuwait,Kuwait City,Central,Ali Johnson,manager726@example.com,+97145372725,738.6,25.590129,55.958570,2020-08-23,00:00,10:00,International,false,129399.18,93,Planned
+STR-001,Dubai Mall Flagship,Mall,UAE,Dubai,Central,Noor Taylor,manager727@example.com,+97144552052,1511.91,26.370292,55.371932,2018-05-25,23:00,10:00,International,false,117434.28,115,Renovation
+STR-002,Mall of the Emirates,Warehouse Outlet,UAE,Dubai,Central,Khalid Thomas,manager728@example.com,+97142836929,1867.75,24.127324,55.448874,2019-03-04,23:00,08:00,GCC North,false,150187.92,83,Planned
+STR-003,Riyadh Park,Dark Store,KSA,Riyadh,West,Leen Young,manager729@example.com,+97142722135,619.37,24.044546,56.144827,2019-04-19,00:00,09:00,International,true,125491.83,78,Open
+STR-004,Cairo Festival City,Mall,Egypt,Cairo,Central,Layla Miller,manager730@example.com,+97146461235,711.88,25.022135,56.488320,2022-02-03,23:00,09:00,GCC South,true,36313.88,52,Open
+STR-005,Doha Festival City,Mall,Qatar,Doha,North,Ethan Thomas,manager731@example.com,+97149398315,1174.88,24.430538,56.167327,2022-09-24,00:00,09:00,International,false,93008.03,54,Open
+STR-006,Kuwait Avenues,Mall,Kuwait,Kuwait City,East,Zain King,manager732@example.com,+97148572438,369.75,26.259358,55.630073,2024-03-24,22:00,09:00,International,true,168582.23,12,Renovation
+STR-001,Dubai Mall Flagship,Dark Store,UAE,Dubai,Central,Noor Miller,manager733@example.com,+97148512792,291.9,25.043482,54.092230,2019-12-08,23:00,09:00,GCC North,false,41510.38,41,Renovation
+STR-002,Mall of the Emirates,Street Retail,UAE,Dubai,East,David King,manager734@example.com,+97145795036,1842.73,24.922776,54.215778,2021-11-14,00:00,10:00,GCC North,true,168444.55,112,Renovation
+STR-003,Riyadh Park,Mall,KSA,Riyadh,South,Ava Moore,manager735@example.com,+97149138731,2084.95,24.337592,55.507351,2024-04-03,00:00,08:00,International,true,111019.00,49,Planned
+STR-004,Cairo Festival City,Warehouse Outlet,Egypt,Cairo,North,Sophia Martin,manager736@example.com,+97141040779,1786.18,25.214607,55.649739,2019-11-06,22:00,09:00,International,false,153625.86,42,Open
+STR-005,Doha Festival City,Dark Store,Qatar,Doha,Central,Mona Taylor,manager737@example.com,+97144209174,763.44,24.813875,54.853716,2019-11-29,22:00,10:00,GCC South,true,148933.37,63,Planned
+STR-006,Kuwait Avenues,Mall,Kuwait,Kuwait City,North,Leen Miller,manager738@example.com,+97143061601,2168.67,24.900213,54.180985,2019-09-17,22:00,10:00,Levant,false,168054.64,119,Planned
+STR-001,Dubai Mall Flagship,Street Retail,UAE,Dubai,West,Mariam Ali,manager739@example.com,+97147170509,1052.75,25.352918,55.596532,2022-01-22,00:00,09:00,GCC South,true,84562.30,68,Open
+STR-002,Mall of the Emirates,Dark Store,UAE,Dubai,North,Mona Clark,manager740@example.com,+97141547257,1755.28,24.460827,55.545758,2019-09-12,23:00,10:00,GCC North,true,35745.85,68,Open
+STR-003,Riyadh Park,Street Retail,KSA,Riyadh,North,Omar Martin,manager741@example.com,+97143103430,1166.16,26.289725,55.073861,2023-01-23,23:00,09:00,Levant,true,108707.80,116,Renovation
+STR-004,Cairo Festival City,Dark Store,Egypt,Cairo,West,Ali Hill,manager742@example.com,+97143534174,2441.03,24.723822,55.517743,2022-04-26,22:00,08:00,GCC South,false,93127.24,89,Renovation
+STR-005,Doha Festival City,Dark Store,Qatar,Doha,West,Zain Miller,manager743@example.com,+97141076788,2281.78,24.825835,55.010844,2019-10-06,23:00,09:00,GCC South,true,15397.26,17,Renovation
+STR-006,Kuwait Avenues,Street Retail,Kuwait,Kuwait City,Central,Sophia Anderson,manager744@example.com,+97141248534,906.54,24.756018,56.287848,2019-05-21,00:00,10:00,GCC South,true,43949.95,91,Renovation
+STR-001,Dubai Mall Flagship,Mall,UAE,Dubai,Central,Layla Thomas,manager745@example.com,+97145690029,1388.13,24.028329,54.623827,2019-01-28,22:00,10:00,GCC North,true,158121.69,36,Planned
+STR-002,Mall of the Emirates,Warehouse Outlet,UAE,Dubai,North,John Hassan,manager746@example.com,+97146932615,748.0,26.213239,56.235235,2023-12-05,00:00,09:00,GCC North,false,92396.83,41,Open
+STR-003,Riyadh Park,Mall,KSA,Riyadh,Central,Layla Martin,manager747@example.com,+97141206563,1290.26,26.115080,54.589201,2021-07-24,23:00,09:00,GCC North,false,77520.27,26,Renovation
+STR-004,Cairo Festival City,Street Retail,Egypt,Cairo,South,Sophia Young,manager748@example.com,+97143211698,429.95,26.309079,54.842227,2019-12-17,00:00,10:00,GCC South,false,173483.35,20,Open
+STR-005,Doha Festival City,Mall,Qatar,Doha,West,Omar Smith,manager749@example.com,+97142012429,1361.07,24.082915,54.807695,2021-10-13,23:00,10:00,International,true,77096.25,98,Planned
+STR-006,Kuwait Avenues,Mall,Kuwait,Kuwait City,Central,Khalid King,manager750@example.com,+97149013030,1635.01,24.459839,56.390039,2023-11-15,00:00,09:00,International,false,18434.99,76,Open
+STR-001,Dubai Mall Flagship,Mall,UAE,Dubai,West,Leen Johnson,manager751@example.com,+97142907748,784.0,25.106312,54.565089,2022-09-12,22:00,08:00,International,true,167000.07,104,Open
+STR-002,Mall of the Emirates,Mall,UAE,Dubai,North,Ava Ali,manager752@example.com,+97143601371,143.32,24.130123,56.113798,2024-06-27,00:00,10:00,International,true,77626.68,13,Renovation
+STR-003,Riyadh Park,Street Retail,KSA,Riyadh,South,Sophia Clark,manager753@example.com,+97149617883,2077.29,26.232031,55.122210,2018-01-30,00:00,10:00,GCC South,true,49276.21,67,Open
+STR-004,Cairo Festival City,Mall,Egypt,Cairo,South,Lina Brown,manager754@example.com,+97144476458,498.47,25.437242,55.676553,2023-12-23,22:00,09:00,Levant,true,29062.71,83,Planned
+STR-005,Doha Festival City,Warehouse Outlet,Qatar,Doha,West,Hassan Clark,manager755@example.com,+97144938022,1630.94,25.264650,55.004546,2020-10-16,23:00,09:00,Levant,false,102833.29,15,Renovation
+STR-006,Kuwait Avenues,Street Retail,Kuwait,Kuwait City,South,David Mansour,manager756@example.com,+97147707249,1074.84,25.496633,55.308102,2024-06-09,23:00,09:00,Levant,false,120215.07,43,Renovation
+STR-001,Dubai Mall Flagship,Street Retail,UAE,Dubai,East,Sophia Taylor,manager757@example.com,+97141649151,112.94,25.854210,55.869193,2024-02-07,22:00,10:00,GCC North,true,29646.82,109,Open
+STR-002,Mall of the Emirates,Mall,UAE,Dubai,North,Hassan Hill,manager758@example.com,+97149394046,85.72,24.482365,54.591192,2019-01-25,23:00,10:00,International,false,54989.15,22,Open
+STR-003,Riyadh Park,Warehouse Outlet,KSA,Riyadh,West,Ahmed Smith,manager759@example.com,+97144353703,2473.34,26.296495,54.817190,2018-12-08,22:00,09:00,GCC South,true,147606.90,57,Open
+STR-004,Cairo Festival City,Street Retail,Egypt,Cairo,Central,Layla Miller,manager760@example.com,+97143188636,1920.49,24.996520,56.342195,2024-05-11,22:00,08:00,International,true,59781.95,78,Open
+STR-005,Doha Festival City,Mall,Qatar,Doha,Central,John White,manager761@example.com,+97142438060,1752.46,24.302690,55.984876,2020-02-19,23:00,09:00,International,false,17854.20,105,Open
+STR-006,Kuwait Avenues,Warehouse Outlet,Kuwait,Kuwait City,Central,Leen Smith,manager762@example.com,+97141194860,93.74,26.075115,56.034690,2024-06-03,23:00,09:00,GCC South,false,36740.61,61,Open
+STR-001,Dubai Mall Flagship,Warehouse Outlet,UAE,Dubai,Central,Sophia Martin,manager763@example.com,+97145003566,954.86,24.659332,54.599520,2022-02-03,22:00,08:00,GCC South,false,91419.31,20,Open
+STR-002,Mall of the Emirates,Dark Store,UAE,Dubai,South,David Ali,manager764@example.com,+97143827490,793.54,24.419024,54.483174,2022-06-14,23:00,09:00,International,false,23796.07,46,Planned
+STR-003,Riyadh Park,Warehouse Outlet,KSA,Riyadh,West,John White,manager765@example.com,+97146656119,543.78,24.321263,55.239975,2018-06-29,00:00,10:00,International,false,37746.49,23,Renovation
+STR-004,Cairo Festival City,Dark Store,Egypt,Cairo,East,Ava Moore,manager766@example.com,+97142935186,1050.53,25.821741,56.154667,2023-11-29,22:00,09:00,GCC North,false,157180.77,22,Open
+STR-005,Doha Festival City,Warehouse Outlet,Qatar,Doha,North,Noor Hassan,manager767@example.com,+97143637613,788.49,26.014915,54.779385,2018-10-01,23:00,09:00,International,false,46861.70,94,Open
+STR-006,Kuwait Avenues,Mall,Kuwait,Kuwait City,West,Noor Smith,manager768@example.com,+97141009163,1731.39,25.005718,54.802941,2022-12-23,23:00,10:00,GCC North,false,90849.62,112,Open
+STR-001,Dubai Mall Flagship,Warehouse Outlet,UAE,Dubai,Central,Fatima Smith,manager769@example.com,+97149269834,1056.03,26.265891,55.153766,2020-02-26,23:00,08:00,GCC South,true,29270.39,94,Open
+STR-002,Mall of the Emirates,Street Retail,UAE,Dubai,East,Yousef Smith,manager770@example.com,+97149763534,1608.15,25.624943,55.137693,2023-01-26,22:00,08:00,Levant,false,109812.32,53,Renovation
+STR-003,Riyadh Park,Mall,KSA,Riyadh,Central,John Hill,manager771@example.com,+97142070806,1691.0,26.130215,56.324715,2020-11-29,23:00,09:00,GCC South,false,132875.72,98,Renovation
+STR-004,Cairo Festival City,Street Retail,Egypt,Cairo,South,John Hassan,manager772@example.com,+97148065653,2185.57,24.514438,55.905754,2024-03-14,22:00,09:00,GCC North,true,53091.41,68,Renovation
+STR-005,Doha Festival City,Dark Store,Qatar,Doha,West,Omar Miller,manager773@example.com,+97149861210,432.97,24.572061,56.107397,2021-04-09,00:00,09:00,Levant,true,136198.44,109,Open
+STR-006,Kuwait Avenues,Warehouse Outlet,Kuwait,Kuwait City,West,Sara Saleh,manager774@example.com,+97149699312,2032.2,26.353520,56.022372,2022-09-28,22:00,10:00,Levant,true,50471.21,96,Renovation
+STR-001,Dubai Mall Flagship,Warehouse Outlet,UAE,Dubai,North,John White,manager775@example.com,+97145808757,1107.75,24.811879,55.903125,2022-05-21,22:00,08:00,International,false,108682.99,48,Open
+STR-002,Mall of the Emirates,Mall,UAE,Dubai,South,Ali Hassan,manager776@example.com,+97142612767,1752.29,24.532987,56.450999,2022-10-28,00:00,08:00,GCC South,false,118930.45,103,Open
+STR-003,Riyadh Park,Mall,KSA,Riyadh,West,Leen King,manager777@example.com,+97141763581,1626.32,25.338822,55.441507,2019-03-07,00:00,10:00,Levant,false,137107.62,14,Open
+STR-004,Cairo Festival City,Street Retail,Egypt,Cairo,Central,Noor Hassan,manager778@example.com,+97146414185,1614.28,26.417274,55.596814,2024-04-02,23:00,09:00,International,true,50480.05,97,Open
+STR-005,Doha Festival City,Dark Store,Qatar,Doha,North,David King,manager779@example.com,+97149016414,163.32,25.662134,55.254908,2022-03-01,23:00,08:00,Levant,true,23005.54,111,Planned
+STR-006,Kuwait Avenues,Warehouse Outlet,Kuwait,Kuwait City,Central,Noor Ali,manager780@example.com,+97144594798,1226.52,24.206516,55.869085,2023-06-05,00:00,09:00,International,false,55673.16,10,Planned
+STR-001,Dubai Mall Flagship,Street Retail,UAE,Dubai,East,Ahmed Wilson,manager781@example.com,+97146944309,158.67,24.875252,56.304252,2022-01-08,22:00,10:00,GCC North,false,85975.14,27,Renovation
+STR-002,Mall of the Emirates,Mall,UAE,Dubai,West,Mona King,manager782@example.com,+97143884191,777.01,25.065052,55.588619,2022-06-20,22:00,10:00,Levant,false,15989.73,96,Planned
+STR-003,Riyadh Park,Street Retail,KSA,Riyadh,West,Zain King,manager783@example.com,+97141435029,1315.46,25.331852,55.839268,2022-04-11,00:00,08:00,International,true,25135.09,23,Open
+STR-004,Cairo Festival City,Dark Store,Egypt,Cairo,East,Mariam King,manager784@example.com,+97143341165,2205.24,24.371300,56.064996,2019-04-28,22:00,08:00,GCC South,true,41514.09,57,Renovation
+STR-005,Doha Festival City,Street Retail,Qatar,Doha,South,Ahmed Mansour,manager785@example.com,+97149709107,2140.18,26.357187,56.229800,2023-08-04,22:00,09:00,GCC South,false,128881.67,41,Open
+STR-006,Kuwait Avenues,Warehouse Outlet,Kuwait,Kuwait City,North,Sophia White,manager786@example.com,+97144164668,428.42,24.788871,55.229744,2020-02-16,00:00,09:00,Levant,true,164394.32,20,Planned
+STR-001,Dubai Mall Flagship,Street Retail,UAE,Dubai,Central,Ava Miller,manager787@example.com,+97144106062,163.94,25.484797,56.240958,2021-06-21,23:00,08:00,Levant,false,21135.94,98,Planned
+STR-002,Mall of the Emirates,Street Retail,UAE,Dubai,South,Sara Wilson,manager788@example.com,+97143280721,1684.67,26.117288,54.825018,2021-03-23,00:00,08:00,Levant,false,127144.82,102,Planned
+STR-003,Riyadh Park,Dark Store,KSA,Riyadh,West,Ava King,manager789@example.com,+97144753691,1036.82,25.678515,54.455337,2024-02-21,22:00,09:00,Levant,false,35323.56,74,Planned
+STR-004,Cairo Festival City,Dark Store,Egypt,Cairo,Central,Omar Hill,manager790@example.com,+97143492894,285.86,24.801549,54.254944,2019-02-12,00:00,08:00,GCC South,true,18623.23,11,Renovation
+STR-005,Doha Festival City,Street Retail,Qatar,Doha,South,Sara Johnson,manager791@example.com,+97145364321,1060.11,25.441930,56.386697,2021-09-06,23:00,10:00,GCC North,true,45891.96,113,Planned
+STR-006,Kuwait Avenues,Street Retail,Kuwait,Kuwait City,North,Lina Khalid,manager792@example.com,+97149121780,1980.55,25.309306,54.804385,2019-06-01,00:00,09:00,GCC North,false,45223.92,114,Open
+STR-001,Dubai Mall Flagship,Dark Store,UAE,Dubai,Central,Zain Taylor,manager793@example.com,+97148375373,2400.27,24.512755,55.544926,2020-10-15,22:00,08:00,GCC North,false,148678.82,102,Planned
+STR-002,Mall of the Emirates,Street Retail,UAE,Dubai,West,Sara Moore,manager794@example.com,+97141109449,1573.8,26.024270,54.522851,2020-02-01,22:00,09:00,GCC North,true,22667.22,65,Planned
+STR-003,Riyadh Park,Warehouse Outlet,KSA,Riyadh,East,Leen Young,manager795@example.com,+97145133107,1387.56,24.493356,55.594874,2021-05-20,00:00,09:00,GCC South,true,26272.05,109,Open
+STR-004,Cairo Festival City,Mall,Egypt,Cairo,South,Khalid Miller,manager796@example.com,+97147638551,489.1,26.105785,54.782899,2022-12-30,22:00,09:00,International,true,12637.53,37,Renovation
+STR-005,Doha Festival City,Street Retail,Qatar,Doha,North,Noor Young,manager797@example.com,+97142696473,1694.47,25.947637,54.068584,2021-08-11,00:00,08:00,GCC South,false,19853.02,25,Planned
+STR-006,Kuwait Avenues,Warehouse Outlet,Kuwait,Kuwait City,West,Sophia Hill,manager798@example.com,+97143784517,2406.9,25.288613,55.840803,2024-01-01,22:00,09:00,GCC North,false,82448.66,45,Open
+STR-001,Dubai Mall Flagship,Street Retail,UAE,Dubai,North,Sara Anderson,manager799@example.com,+97141270732,1002.81,25.040232,56.229254,2021-08-08,22:00,10:00,International,true,140143.60,37,Open
+STR-002,Mall of the Emirates,Mall,UAE,Dubai,West,John Hassan,manager800@example.com,+97146576567,895.44,24.550546,55.487425,2019-02-14,23:00,08:00,GCC North,true,53457.72,15,Open
+STR-003,Riyadh Park,Dark Store,KSA,Riyadh,East,John Anderson,manager801@example.com,+97141141285,1952.98,24.537273,55.430591,2023-06-21,00:00,08:00,GCC North,false,26578.85,76,Planned
+STR-004,Cairo Festival City,Mall,Egypt,Cairo,Central,Ali Taylor,manager802@example.com,+97149679856,393.61,25.192045,56.016127,2019-07-16,23:00,08:00,Levant,false,175541.62,46,Open
+STR-005,Doha Festival City,Dark Store,Qatar,Doha,East,Noor White,manager803@example.com,+97145090862,436.78,26.197695,56.302456,2021-05-07,22:00,09:00,Levant,true,107840.68,85,Open
+STR-006,Kuwait Avenues,Street Retail,Kuwait,Kuwait City,West,Ethan King,manager804@example.com,+97143007345,393.11,26.036112,56.466529,2021-10-05,00:00,10:00,GCC North,false,91036.61,112,Planned
+STR-001,Dubai Mall Flagship,Street Retail,UAE,Dubai,South,Mariam Ali,manager805@example.com,+97142656180,1455.46,25.883824,55.974066,2018-04-03,23:00,10:00,Levant,false,64711.67,49,Planned
+STR-002,Mall of the Emirates,Mall,UAE,Dubai,West,Noor Clark,manager806@example.com,+97144111331,161.35,24.786486,54.138830,2023-01-04,00:00,09:00,GCC North,false,166950.93,93,Renovation
+STR-003,Riyadh Park,Dark Store,KSA,Riyadh,South,Ahmed Hill,manager807@example.com,+97143924090,197.38,25.823363,55.614972,2022-09-16,23:00,10:00,GCC South,true,167208.45,11,Open
+STR-004,Cairo Festival City,Warehouse Outlet,Egypt,Cairo,Central,Ali Khalid,manager808@example.com,+97146857170,1865.3,25.347111,54.968996,2020-07-06,23:00,08:00,GCC North,false,143182.76,42,Renovation
+STR-005,Doha Festival City,Warehouse Outlet,Qatar,Doha,East,Noor Ali,manager809@example.com,+97141822483,112.79,26.223650,54.093525,2022-01-11,23:00,10:00,International,false,154373.32,40,Planned
+STR-006,Kuwait Avenues,Dark Store,Kuwait,Kuwait City,East,Mona Clark,manager810@example.com,+97149984022,2039.54,24.877517,54.903204,2023-03-08,22:00,09:00,GCC South,false,77373.62,25,Renovation
+STR-001,Dubai Mall Flagship,Dark Store,UAE,Dubai,Central,John Mansour,manager811@example.com,+97149897700,175.64,25.176282,54.828504,2022-12-22,22:00,08:00,GCC North,true,123489.88,21,Renovation
+STR-002,Mall of the Emirates,Street Retail,UAE,Dubai,South,Sara Young,manager812@example.com,+97142971351,970.89,24.824753,54.056239,2021-12-16,22:00,08:00,Levant,true,84662.72,115,Open
+STR-003,Riyadh Park,Warehouse Outlet,KSA,Riyadh,Central,David Miller,manager813@example.com,+97149070296,2377.56,25.210482,55.915602,2023-07-30,00:00,10:00,International,true,149154.95,114,Open
+STR-004,Cairo Festival City,Street Retail,Egypt,Cairo,North,Yousef Hassan,manager814@example.com,+97148693470,1052.84,24.144777,54.905554,2018-06-13,23:00,08:00,International,false,166507.15,43,Renovation
+STR-005,Doha Festival City,Warehouse Outlet,Qatar,Doha,South,Zain King,manager815@example.com,+97144020122,688.13,24.770777,56.353685,2022-09-14,00:00,08:00,GCC South,true,157357.91,117,Open
+STR-006,Kuwait Avenues,Street Retail,Kuwait,Kuwait City,South,Noor White,manager816@example.com,+97143636016,1970.36,25.143896,55.792599,2022-12-24,00:00,08:00,Levant,false,175139.55,81,Renovation
+STR-001,Dubai Mall Flagship,Mall,UAE,Dubai,East,Ali Thomas,manager817@example.com,+97146700176,2138.78,26.159836,54.637672,2018-03-23,23:00,08:00,GCC South,false,105259.48,115,Planned
+STR-002,Mall of the Emirates,Mall,UAE,Dubai,West,Yousef White,manager818@example.com,+97147665541,1691.91,25.683933,55.193352,2023-07-18,23:00,10:00,International,true,86969.94,13,Renovation
+STR-003,Riyadh Park,Warehouse Outlet,KSA,Riyadh,North,Hassan Hassan,manager819@example.com,+97142671275,2149.11,25.136446,55.058636,2020-10-13,00:00,10:00,International,false,85061.78,111,Renovation
+STR-004,Cairo Festival City,Dark Store,Egypt,Cairo,West,Sara King,manager820@example.com,+97142369258,1503.75,25.503471,56.235320,2022-11-07,22:00,09:00,Levant,true,68226.97,92,Planned
+STR-005,Doha Festival City,Mall,Qatar,Doha,West,David Hill,manager821@example.com,+97149325145,2126.02,26.117080,55.327368,2020-05-12,23:00,09:00,International,false,107777.52,11,Planned
+STR-006,Kuwait Avenues,Dark Store,Kuwait,Kuwait City,North,Khalid Martin,manager822@example.com,+97149135888,192.31,24.757527,54.693682,2022-03-16,23:00,09:00,International,true,56187.60,53,Renovation
+STR-001,Dubai Mall Flagship,Mall,UAE,Dubai,North,Hassan Ali,manager823@example.com,+97142435321,951.14,26.406778,54.640119,2023-04-02,23:00,08:00,Levant,false,148081.22,24,Renovation
+STR-002,Mall of the Emirates,Street Retail,UAE,Dubai,West,Noor Miller,manager824@example.com,+97145514526,943.79,25.831407,55.773797,2022-05-15,00:00,09:00,International,false,45788.69,113,Renovation
+STR-003,Riyadh Park,Street Retail,KSA,Riyadh,Central,Mariam Ali,manager825@example.com,+97146728769,2383.87,25.950867,55.714565,2021-01-17,22:00,09:00,International,true,99755.28,98,Planned
+STR-004,Cairo Festival City,Dark Store,Egypt,Cairo,West,Khalid Wilson,manager826@example.com,+97149514601,2211.37,25.244949,56.366892,2019-08-09,00:00,10:00,Levant,true,135014.78,90,Renovation
+STR-005,Doha Festival City,Mall,Qatar,Doha,North,David Martin,manager827@example.com,+97141521984,1986.86,24.468501,55.161710,2022-07-10,00:00,09:00,Levant,true,119042.23,106,Planned
+STR-006,Kuwait Avenues,Street Retail,Kuwait,Kuwait City,South,Sara Khalid,manager828@example.com,+97149085712,1539.64,24.995258,54.256526,2021-03-15,23:00,08:00,International,false,158013.89,67,Planned
+STR-001,Dubai Mall Flagship,Warehouse Outlet,UAE,Dubai,North,Noor White,manager829@example.com,+97142781252,1096.58,24.719817,56.487439,2023-11-23,00:00,08:00,International,true,170623.49,62,Planned
+STR-002,Mall of the Emirates,Mall,UAE,Dubai,West,Lina Wilson,manager830@example.com,+97143951648,913.13,24.247771,55.516095,2021-09-28,23:00,09:00,International,true,91660.91,73,Open
+STR-003,Riyadh Park,Mall,KSA,Riyadh,West,Sara Ali,manager831@example.com,+97149789345,233.22,24.539397,56.124919,2020-05-02,23:00,10:00,GCC North,true,45445.05,106,Renovation
+STR-004,Cairo Festival City,Street Retail,Egypt,Cairo,North,David Hill,manager832@example.com,+97143945917,1914.1,24.696771,54.703517,2021-05-12,00:00,08:00,GCC North,false,124365.90,89,Renovation
+STR-005,Doha Festival City,Mall,Qatar,Doha,North,Khalid Clark,manager833@example.com,+97148055321,2260.69,24.098566,54.170428,2019-04-28,22:00,10:00,GCC South,false,178894.41,20,Renovation
+STR-006,Kuwait Avenues,Warehouse Outlet,Kuwait,Kuwait City,East,Hassan Hassan,manager834@example.com,+97142377560,1661.53,24.068737,54.471414,2022-11-16,22:00,10:00,GCC North,false,112465.39,57,Renovation
+STR-001,Dubai Mall Flagship,Warehouse Outlet,UAE,Dubai,North,Mona Hill,manager835@example.com,+97145866752,2081.56,25.394061,54.519520,2022-11-08,23:00,09:00,Levant,true,100083.20,46,Renovation
+STR-002,Mall of the Emirates,Dark Store,UAE,Dubai,West,Yousef Clark,manager836@example.com,+97146444267,209.98,24.609101,56.040736,2020-09-19,00:00,08:00,International,false,144358.17,95,Open
+STR-003,Riyadh Park,Street Retail,KSA,Riyadh,Central,Layla Johnson,manager837@example.com,+97147002049,192.73,26.103587,54.881251,2023-02-03,22:00,09:00,International,true,57246.53,115,Planned
+STR-004,Cairo Festival City,Street Retail,Egypt,Cairo,West,Omar Thomas,manager838@example.com,+97148740454,1924.76,25.218540,56.212632,2021-06-04,00:00,10:00,Levant,true,146227.24,117,Planned
+STR-005,Doha Festival City,Dark Store,Qatar,Doha,North,Zain White,manager839@example.com,+97149055193,702.21,25.971132,54.958875,2022-11-22,00:00,08:00,GCC North,false,13062.04,56,Planned
+STR-006,Kuwait Avenues,Dark Store,Kuwait,Kuwait City,East,Layla Wilson,manager840@example.com,+97144064207,2100.34,24.704246,55.859139,2019-11-09,23:00,08:00,GCC North,true,33923.34,44,Open
+STR-001,Dubai Mall Flagship,Mall,UAE,Dubai,Central,Ethan Hassan,manager841@example.com,+97142158656,405.86,25.938979,54.699576,2020-12-16,00:00,08:00,International,true,178024.35,31,Renovation
+STR-002,Mall of the Emirates,Dark Store,UAE,Dubai,East,Fatima Clark,manager842@example.com,+97147638035,617.28,24.894011,54.074911,2022-02-01,00:00,08:00,Levant,true,163448.73,92,Open
+STR-003,Riyadh Park,Mall,KSA,Riyadh,South,Zain Clark,manager843@example.com,+97147197143,1037.51,26.108361,56.385980,2018-05-05,22:00,08:00,International,true,128048.98,100,Planned
+STR-004,Cairo Festival City,Dark Store,Egypt,Cairo,South,Khalid Mansour,manager844@example.com,+97142548126,2270.56,25.127529,55.037132,2018-09-26,22:00,09:00,GCC South,true,41430.50,21,Planned
+STR-005,Doha Festival City,Street Retail,Qatar,Doha,West,Mona Saleh,manager845@example.com,+97149071084,2043.31,25.647413,54.208568,2022-12-29,22:00,08:00,Levant,true,80334.35,17,Planned
+STR-006,Kuwait Avenues,Street Retail,Kuwait,Kuwait City,South,Ahmed Ali,manager846@example.com,+97147978121,267.18,25.310545,54.836599,2019-10-10,00:00,10:00,International,false,19010.40,91,Renovation
+STR-001,Dubai Mall Flagship,Warehouse Outlet,UAE,Dubai,North,Mariam Young,manager847@example.com,+97141695012,2099.59,26.071677,54.208651,2018-12-15,00:00,10:00,GCC North,true,172665.22,51,Open
+STR-002,Mall of the Emirates,Warehouse Outlet,UAE,Dubai,North,John Hassan,manager848@example.com,+97146502557,1559.22,26.278281,56.405224,2018-12-06,00:00,09:00,GCC North,true,91926.24,84,Open
+STR-003,Riyadh Park,Dark Store,KSA,Riyadh,West,Ava Martin,manager849@example.com,+97147998435,200.24,24.818337,56.281919,2021-01-27,23:00,09:00,GCC South,false,90273.17,9,Renovation
+STR-004,Cairo Festival City,Street Retail,Egypt,Cairo,South,Layla Miller,manager850@example.com,+97141954560,1016.03,26.191818,55.657312,2019-11-24,00:00,10:00,International,true,142661.27,105,Renovation
+STR-005,Doha Festival City,Warehouse Outlet,Qatar,Doha,Central,Zain Johnson,manager851@example.com,+97149365839,1960.76,24.273426,54.289522,2021-10-14,00:00,10:00,GCC North,false,19437.83,79,Open
+STR-006,Kuwait Avenues,Dark Store,Kuwait,Kuwait City,South,Hassan White,manager852@example.com,+97141705290,1427.11,25.003734,55.845042,2018-11-06,23:00,09:00,GCC North,false,56041.40,45,Open
+STR-001,Dubai Mall Flagship,Warehouse Outlet,UAE,Dubai,North,Ava Miller,manager853@example.com,+97143431866,1891.9,25.234213,55.572890,2021-05-09,00:00,10:00,GCC North,false,154168.33,16,Renovation
+STR-002,Mall of the Emirates,Street Retail,UAE,Dubai,West,Zain Martin,manager854@example.com,+97143965861,1073.91,24.630166,55.543560,2019-05-23,23:00,08:00,Levant,true,53313.72,60,Planned
+STR-003,Riyadh Park,Mall,KSA,Riyadh,South,Omar Ali,manager855@example.com,+97148470645,2441.56,25.648664,54.196490,2024-04-26,00:00,08:00,GCC North,false,100928.71,41,Open
+STR-004,Cairo Festival City,Warehouse Outlet,Egypt,Cairo,East,Sophia Brown,manager856@example.com,+97144785464,1522.24,25.626393,55.168820,2022-10-11,23:00,10:00,GCC North,true,63191.13,23,Renovation
+STR-005,Doha Festival City,Warehouse Outlet,Qatar,Doha,Central,Ahmed White,manager857@example.com,+97148254796,113.64,25.719529,56.176775,2018-12-09,23:00,08:00,GCC North,true,162850.80,68,Planned
+STR-006,Kuwait Avenues,Street Retail,Kuwait,Kuwait City,East,Ali Taylor,manager858@example.com,+97147083243,1184.86,24.256615,55.562830,2020-10-22,23:00,09:00,GCC North,false,82737.83,24,Planned
+STR-001,Dubai Mall Flagship,Street Retail,UAE,Dubai,North,Leen Saleh,manager859@example.com,+97146022979,1498.59,24.293301,54.513254,2019-01-14,00:00,10:00,GCC South,true,71604.66,65,Open
+STR-002,Mall of the Emirates,Dark Store,UAE,Dubai,East,Yousef Mansour,manager860@example.com,+97148093820,2388.04,25.159668,56.432463,2022-01-29,00:00,08:00,GCC North,true,126785.59,13,Renovation
+STR-003,Riyadh Park,Warehouse Outlet,KSA,Riyadh,South,Ethan Thomas,manager861@example.com,+97149949043,2473.29,25.348749,54.226510,2024-07-20,00:00,08:00,Levant,false,145591.54,15,Planned
+STR-004,Cairo Festival City,Dark Store,Egypt,Cairo,Central,Ahmed Young,manager862@example.com,+97141642597,439.91,25.227223,55.645450,2020-06-04,22:00,09:00,GCC South,true,134988.14,58,Planned
+STR-005,Doha Festival City,Dark Store,Qatar,Doha,Central,Yousef Taylor,manager863@example.com,+97146654777,1578.11,26.212496,55.556870,2020-09-13,23:00,08:00,International,false,162831.83,104,Open
+STR-006,Kuwait Avenues,Dark Store,Kuwait,Kuwait City,North,Khalid Thomas,manager864@example.com,+97146825384,1390.88,24.991419,56.183680,2022-11-20,22:00,09:00,GCC North,true,142693.22,39,Renovation
+STR-001,Dubai Mall Flagship,Dark Store,UAE,Dubai,North,Omar Khalid,manager865@example.com,+97143485914,510.25,26.182729,54.898967,2023-10-05,00:00,08:00,International,false,13118.03,64,Planned
+STR-002,Mall of the Emirates,Street Retail,UAE,Dubai,East,Sophia Hassan,manager866@example.com,+97149989514,2293.74,25.589998,54.718770,2023-03-12,22:00,08:00,GCC North,true,84292.99,49,Planned
+STR-003,Riyadh Park,Warehouse Outlet,KSA,Riyadh,North,Khalid Saleh,manager867@example.com,+97141458360,1910.65,24.691633,54.154944,2021-04-14,00:00,09:00,International,true,130516.45,85,Planned
+STR-004,Cairo Festival City,Mall,Egypt,Cairo,West,Noor Hill,manager868@example.com,+97145110017,1218.15,25.559547,54.013287,2023-07-27,23:00,09:00,GCC North,false,137088.02,113,Open
+STR-005,Doha Festival City,Warehouse Outlet,Qatar,Doha,West,Ahmed Brown,manager869@example.com,+97149196900,1664.75,25.442375,54.399515,2018-08-25,23:00,09:00,Levant,false,29308.97,32,Open
+STR-006,Kuwait Avenues,Warehouse Outlet,Kuwait,Kuwait City,Central,Fatima King,manager870@example.com,+97146499106,2295.65,24.821008,55.205492,2018-07-15,00:00,10:00,GCC North,false,40591.44,47,Open
+STR-001,Dubai Mall Flagship,Street Retail,UAE,Dubai,East,Lina Moore,manager871@example.com,+97146461031,1977.42,25.111031,54.861186,2022-04-17,22:00,08:00,GCC North,false,127889.61,76,Renovation
+STR-002,Mall of the Emirates,Warehouse Outlet,UAE,Dubai,South,Sara Hassan,manager872@example.com,+97144163015,877.33,24.632230,54.201552,2018-10-26,23:00,10:00,International,false,12287.98,54,Open
+STR-003,Riyadh Park,Mall,KSA,Riyadh,East,Noor Smith,manager873@example.com,+97149604731,139.32,25.871644,56.054295,2020-05-03,22:00,08:00,GCC North,true,93744.28,88,Open
+STR-004,Cairo Festival City,Warehouse Outlet,Egypt,Cairo,Central,Mariam Martin,manager874@example.com,+97144570879,603.37,25.929218,55.182055,2021-01-30,00:00,10:00,GCC South,false,105498.42,82,Renovation
+STR-005,Doha Festival City,Street Retail,Qatar,Doha,East,Ethan King,manager875@example.com,+97144406862,181.74,26.339183,55.685963,2023-01-10,22:00,08:00,GCC North,false,176389.23,54,Renovation
+STR-006,Kuwait Avenues,Dark Store,Kuwait,Kuwait City,Central,Ethan Smith,manager876@example.com,+97143494972,810.04,26.032542,54.307746,2020-03-24,23:00,08:00,Levant,true,33273.60,48,Planned
+STR-001,Dubai Mall Flagship,Street Retail,UAE,Dubai,West,Layla Hill,manager877@example.com,+97145817822,2184.51,25.076698,54.518906,2018-10-12,23:00,09:00,GCC South,true,121823.84,102,Renovation
+STR-002,Mall of the Emirates,Warehouse Outlet,UAE,Dubai,West,Leen Hassan,manager878@example.com,+97147176698,156.78,25.357624,54.799036,2021-02-20,22:00,09:00,International,true,144261.52,21,Planned
+STR-003,Riyadh Park,Dark Store,KSA,Riyadh,West,Yousef Saleh,manager879@example.com,+97141777932,391.52,24.019587,54.389136,2023-01-08,22:00,08:00,GCC South,true,27619.61,80,Renovation
+STR-004,Cairo Festival City,Street Retail,Egypt,Cairo,South,Ahmed King,manager880@example.com,+97143576306,1279.5,24.646264,54.060627,2018-01-17,23:00,08:00,International,false,82886.03,46,Renovation
+STR-005,Doha Festival City,Dark Store,Qatar,Doha,North,Layla Khalid,manager881@example.com,+97143687579,1203.14,25.191580,55.265599,2018-06-14,23:00,09:00,GCC South,false,95589.15,53,Open
+STR-006,Kuwait Avenues,Street Retail,Kuwait,Kuwait City,East,Sara Young,manager882@example.com,+97149822484,2442.17,24.368085,54.474768,2023-06-12,22:00,10:00,International,true,25872.50,110,Planned
+STR-001,Dubai Mall Flagship,Street Retail,UAE,Dubai,South,Ethan White,manager883@example.com,+97141845166,1606.79,25.166781,54.248189,2024-01-30,00:00,09:00,GCC South,true,10540.76,72,Planned
+STR-002,Mall of the Emirates,Street Retail,UAE,Dubai,West,Ethan Moore,manager884@example.com,+97143917003,1303.28,25.625428,56.198399,2022-08-23,00:00,10:00,International,true,12341.18,107,Renovation
+STR-003,Riyadh Park,Mall,KSA,Riyadh,North,Sophia Hill,manager885@example.com,+97141787685,834.02,26.163968,54.923713,2023-08-28,00:00,10:00,Levant,false,64829.31,10,Renovation
+STR-004,Cairo Festival City,Mall,Egypt,Cairo,West,Ava Brown,manager886@example.com,+97143630379,1607.74,24.252158,55.527866,2024-02-15,23:00,10:00,International,true,46880.44,13,Planned
+STR-005,Doha Festival City,Street Retail,Qatar,Doha,South,Leen Ali,manager887@example.com,+97146800654,2221.78,24.646196,56.270822,2018-09-13,23:00,10:00,GCC North,false,162554.76,76,Open
+STR-006,Kuwait Avenues,Warehouse Outlet,Kuwait,Kuwait City,West,Mariam Young,manager888@example.com,+97147327471,2301.41,25.144674,55.840574,2020-02-28,22:00,09:00,GCC North,true,26993.00,16,Planned
+STR-001,Dubai Mall Flagship,Mall,UAE,Dubai,West,David Martin,manager889@example.com,+97145993646,215.79,26.304750,55.514601,2023-08-28,00:00,09:00,Levant,true,118858.70,75,Renovation
+STR-002,Mall of the Emirates,Mall,UAE,Dubai,North,Ethan Moore,manager890@example.com,+97143902089,2312.08,25.606038,54.836070,2024-03-26,22:00,09:00,GCC North,true,81105.60,120,Planned
+STR-003,Riyadh Park,Dark Store,KSA,Riyadh,Central,Ali Smith,manager891@example.com,+97146597445,1983.38,24.800083,55.351281,2023-12-01,00:00,08:00,GCC South,false,44048.71,17,Renovation
+STR-004,Cairo Festival City,Mall,Egypt,Cairo,West,Mariam Thomas,manager892@example.com,+97143307293,733.64,25.485501,54.688858,2019-11-16,00:00,09:00,GCC South,true,151961.39,71,Planned
+STR-005,Doha Festival City,Dark Store,Qatar,Doha,North,Sara Taylor,manager893@example.com,+97149012676,1068.58,24.337156,55.319692,2019-10-14,22:00,09:00,Levant,false,53021.32,9,Open
+STR-006,Kuwait Avenues,Dark Store,Kuwait,Kuwait City,West,Ali Martin,manager894@example.com,+97147479277,416.17,25.499747,55.744928,2021-09-22,00:00,10:00,Levant,false,68300.59,24,Renovation
+STR-001,Dubai Mall Flagship,Warehouse Outlet,UAE,Dubai,North,Noor Wilson,manager895@example.com,+97148078489,1052.6,24.436309,54.446639,2021-11-08,00:00,08:00,International,true,32996.04,99,Renovation
+STR-002,Mall of the Emirates,Warehouse Outlet,UAE,Dubai,Central,David Ali,manager896@example.com,+97142659151,840.93,25.933791,54.260534,2023-04-19,00:00,08:00,International,true,104706.71,93,Planned
+STR-003,Riyadh Park,Street Retail,KSA,Riyadh,North,Ava Brown,manager897@example.com,+97144403907,2099.05,25.666022,55.514557,2023-11-23,23:00,08:00,GCC South,false,119972.84,40,Renovation
+STR-004,Cairo Festival City,Dark Store,Egypt,Cairo,North,Khalid Martin,manager898@example.com,+97148226445,2458.75,24.150989,54.901006,2023-08-15,23:00,09:00,Levant,true,105125.26,47,Open
+STR-005,Doha Festival City,Mall,Qatar,Doha,South,Khalid Johnson,manager899@example.com,+97147885681,432.49,24.579536,54.914081,2023-07-03,00:00,09:00,GCC North,true,134056.70,27,Renovation
+STR-006,Kuwait Avenues,Warehouse Outlet,Kuwait,Kuwait City,West,Sara Hill,manager900@example.com,+97148280297,262.64,25.512171,54.090649,2022-08-17,22:00,08:00,GCC North,true,83047.23,53,Planned
+STR-001,Dubai Mall Flagship,Warehouse Outlet,UAE,Dubai,South,Ali Saleh,manager901@example.com,+97141650015,212.32,25.186426,55.297318,2021-08-16,23:00,09:00,GCC South,false,133620.39,118,Planned
+STR-002,Mall of the Emirates,Mall,UAE,Dubai,South,Lina Brown,manager902@example.com,+97146702153,1689.82,25.374808,55.266117,2019-10-03,23:00,10:00,GCC South,true,94842.73,33,Open
+STR-003,Riyadh Park,Dark Store,KSA,Riyadh,West,Hassan Thomas,manager903@example.com,+97142778176,190.95,25.118586,55.567996,2019-03-23,00:00,10:00,International,true,156970.20,112,Renovation
+STR-004,Cairo Festival City,Street Retail,Egypt,Cairo,South,Ahmed Brown,manager904@example.com,+97146999526,161.13,24.056117,54.674336,2019-01-17,22:00,09:00,International,false,51683.89,114,Planned
+STR-005,Doha Festival City,Dark Store,Qatar,Doha,South,Omar Martin,manager905@example.com,+97146974905,227.31,24.799702,54.481159,2021-06-09,23:00,09:00,Levant,true,23887.93,60,Open
+STR-006,Kuwait Avenues,Warehouse Outlet,Kuwait,Kuwait City,East,Hassan Mansour,manager906@example.com,+97149363994,910.94,25.498764,56.250654,2019-10-05,23:00,09:00,GCC South,true,54256.00,16,Planned
+STR-001,Dubai Mall Flagship,Warehouse Outlet,UAE,Dubai,North,Zain Johnson,manager907@example.com,+97144832149,200.36,26.155578,54.998416,2021-11-11,23:00,10:00,GCC South,true,164749.23,39,Planned
+STR-002,Mall of the Emirates,Dark Store,UAE,Dubai,West,Noor Clark,manager908@example.com,+97145819528,629.98,25.939265,56.438163,2019-07-03,00:00,10:00,Levant,false,125447.89,75,Renovation
+STR-003,Riyadh Park,Warehouse Outlet,KSA,Riyadh,Central,Ali White,manager909@example.com,+97148623883,393.34,25.590726,55.911295,2023-08-06,00:00,09:00,International,true,143806.50,109,Planned
+STR-004,Cairo Festival City,Street Retail,Egypt,Cairo,South,Fatima Hill,manager910@example.com,+97141170666,1072.37,25.569548,55.980593,2023-09-20,22:00,08:00,GCC North,false,105036.18,45,Open
+STR-005,Doha Festival City,Street Retail,Qatar,Doha,East,Khalid Saleh,manager911@example.com,+97142107765,997.83,24.649183,54.302755,2023-09-12,00:00,08:00,International,false,96006.49,85,Renovation
+STR-006,Kuwait Avenues,Street Retail,Kuwait,Kuwait City,South,Zain Hill,manager912@example.com,+97142198545,84.27,25.608135,55.173931,2018-07-26,00:00,10:00,GCC North,false,140393.23,114,Planned
+STR-001,Dubai Mall Flagship,Street Retail,UAE,Dubai,South,Hassan Thomas,manager913@example.com,+97146876690,2406.25,25.626641,56.484751,2020-12-05,22:00,09:00,GCC South,false,56789.59,99,Renovation
+STR-002,Mall of the Emirates,Mall,UAE,Dubai,West,Mona Smith,manager914@example.com,+97145015464,1510.03,25.525878,54.731149,2018-04-20,23:00,09:00,Levant,false,115294.18,103,Renovation
+STR-003,Riyadh Park,Mall,KSA,Riyadh,North,Zain Johnson,manager915@example.com,+97142230176,1621.96,25.985370,54.456220,2020-05-07,23:00,10:00,GCC South,true,175261.07,73,Open
+STR-004,Cairo Festival City,Warehouse Outlet,Egypt,Cairo,South,Sophia Young,manager916@example.com,+97149476188,1492.37,25.918037,55.589118,2021-08-01,23:00,08:00,International,true,72886.70,11,Renovation
+STR-005,Doha Festival City,Warehouse Outlet,Qatar,Doha,Central,Layla Brown,manager917@example.com,+97147456375,1698.33,24.463756,55.011660,2018-04-13,23:00,10:00,GCC South,true,82660.13,65,Open
+STR-006,Kuwait Avenues,Dark Store,Kuwait,Kuwait City,East,Zain Khalid,manager918@example.com,+97145283799,1867.68,24.100233,55.283560,2018-01-14,00:00,10:00,GCC South,false,112725.19,74,Renovation
+STR-001,Dubai Mall Flagship,Warehouse Outlet,UAE,Dubai,North,Mona King,manager919@example.com,+97148292352,2102.64,24.487911,55.414281,2023-07-20,22:00,10:00,Levant,false,57108.82,21,Planned
+STR-002,Mall of the Emirates,Street Retail,UAE,Dubai,East,Hassan Anderson,manager920@example.com,+97143577182,1356.09,24.999426,54.367019,2024-02-12,00:00,08:00,GCC North,false,146556.27,53,Open
+STR-003,Riyadh Park,Warehouse Outlet,KSA,Riyadh,North,Sophia Clark,manager921@example.com,+97148488227,2142.48,25.358489,55.852458,2021-07-17,23:00,08:00,Levant,false,134877.65,32,Open
+STR-004,Cairo Festival City,Dark Store,Egypt,Cairo,East,Yousef Smith,manager922@example.com,+97144576301,1631.57,26.043206,54.823670,2018-10-17,23:00,08:00,International,true,156092.97,56,Renovation
+STR-005,Doha Festival City,Street Retail,Qatar,Doha,Central,Ahmed Ali,manager923@example.com,+97141727068,495.1,25.320860,54.769230,2018-07-27,00:00,10:00,Levant,false,19588.19,8,Renovation
+STR-006,Kuwait Avenues,Street Retail,Kuwait,Kuwait City,South,Yousef Moore,manager924@example.com,+97141896023,2196.5,25.963937,54.483203,2019-05-10,00:00,10:00,GCC North,false,163057.66,71,Renovation
+STR-001,Dubai Mall Flagship,Street Retail,UAE,Dubai,East,Ethan Hill,manager925@example.com,+97143814626,1795.58,26.313809,55.244849,2020-05-02,00:00,09:00,GCC South,true,77187.78,73,Planned
+STR-002,Mall of the Emirates,Warehouse Outlet,UAE,Dubai,North,John Smith,manager926@example.com,+97146837016,475.72,24.650369,55.983021,2023-05-03,00:00,09:00,GCC South,true,85560.41,65,Planned
+STR-003,Riyadh Park,Mall,KSA,Riyadh,South,Ali Miller,manager927@example.com,+97145490514,2038.29,25.998224,55.484288,2020-02-29,00:00,09:00,Levant,false,174742.40,81,Planned
+STR-004,Cairo Festival City,Street Retail,Egypt,Cairo,South,Mona Young,manager928@example.com,+97145663288,95.35,25.436748,56.330476,2022-04-24,22:00,09:00,International,true,153445.39,65,Open
+STR-005,Doha Festival City,Warehouse Outlet,Qatar,Doha,Central,Ethan Khalid,manager929@example.com,+97146376993,1710.85,26.239248,54.390137,2022-08-23,22:00,10:00,GCC North,true,169408.82,19,Planned
+STR-006,Kuwait Avenues,Dark Store,Kuwait,Kuwait City,West,Omar Ali,manager930@example.com,+97149000416,939.41,24.263535,54.694557,2023-12-17,00:00,09:00,International,false,171714.96,17,Planned
+STR-001,Dubai Mall Flagship,Dark Store,UAE,Dubai,West,Layla Ali,manager931@example.com,+97142547607,1822.21,24.136481,54.675793,2022-07-30,23:00,08:00,GCC North,true,177831.11,58,Planned
+STR-002,Mall of the Emirates,Warehouse Outlet,UAE,Dubai,West,Layla Clark,manager932@example.com,+97148741643,975.74,26.110393,56.114981,2022-03-04,23:00,09:00,International,true,133269.97,83,Planned
+STR-003,Riyadh Park,Dark Store,KSA,Riyadh,South,John Khalid,manager933@example.com,+97146663356,86.57,25.299130,55.535769,2023-05-07,00:00,08:00,GCC South,true,19267.62,108,Renovation
+STR-004,Cairo Festival City,Street Retail,Egypt,Cairo,Central,Ali White,manager934@example.com,+97141393023,2170.43,26.094643,56.094238,2022-10-12,23:00,08:00,International,true,152181.28,109,Open
+STR-005,Doha Festival City,Street Retail,Qatar,Doha,South,Lina Young,manager935@example.com,+97141001172,2381.27,25.773354,54.175755,2021-08-11,23:00,08:00,GCC South,true,168874.12,110,Planned
+STR-006,Kuwait Avenues,Mall,Kuwait,Kuwait City,South,Sara White,manager936@example.com,+97142871551,2157.85,24.126203,54.995198,2022-03-28,23:00,10:00,GCC North,true,83689.08,119,Renovation
+STR-001,Dubai Mall Flagship,Warehouse Outlet,UAE,Dubai,East,Sara Miller,manager937@example.com,+97142986648,369.49,25.642299,55.435300,2018-08-25,00:00,09:00,International,false,124704.61,21,Planned
+STR-002,Mall of the Emirates,Warehouse Outlet,UAE,Dubai,West,Ethan Khalid,manager938@example.com,+97147496849,1708.9,25.373760,54.677863,2024-06-14,23:00,08:00,GCC South,true,112864.66,73,Open
+STR-003,Riyadh Park,Dark Store,KSA,Riyadh,East,Zain Clark,manager939@example.com,+97148870044,1174.61,25.407963,55.271101,2018-03-17,00:00,08:00,Levant,true,87395.78,87,Renovation
+STR-004,Cairo Festival City,Dark Store,Egypt,Cairo,East,David Johnson,manager940@example.com,+97148499274,2467.36,26.301492,54.468490,2023-12-16,00:00,08:00,GCC North,true,106879.68,64,Open
+STR-005,Doha Festival City,Warehouse Outlet,Qatar,Doha,West,Mariam Hill,manager941@example.com,+97146954783,118.61,26.031031,54.485998,2021-08-21,22:00,09:00,International,true,133559.95,19,Open
+STR-006,Kuwait Avenues,Dark Store,Kuwait,Kuwait City,West,Zain Smith,manager942@example.com,+97145647681,122.99,24.398452,55.336775,2021-09-03,23:00,09:00,Levant,true,118921.13,65,Open
+STR-001,Dubai Mall Flagship,Warehouse Outlet,UAE,Dubai,Central,Khalid Miller,manager943@example.com,+97143813045,1686.66,25.956549,55.651656,2022-09-17,23:00,10:00,International,true,89761.20,76,Open
+STR-002,Mall of the Emirates,Mall,UAE,Dubai,East,John Taylor,manager944@example.com,+97142781875,1320.63,24.186402,54.603272,2020-07-01,00:00,08:00,GCC North,false,163459.72,84,Open
+STR-003,Riyadh Park,Dark Store,KSA,Riyadh,South,Ali King,manager945@example.com,+97145390923,225.16,24.867792,56.013525,2021-05-29,22:00,09:00,GCC North,true,114758.64,27,Renovation
+STR-004,Cairo Festival City,Mall,Egypt,Cairo,Central,Ava Johnson,manager946@example.com,+97148281563,1990.85,25.337263,54.135868,2024-04-11,00:00,10:00,International,true,118883.65,113,Planned
+STR-005,Doha Festival City,Warehouse Outlet,Qatar,Doha,South,John Martin,manager947@example.com,+97148157847,2188.03,24.971848,54.257066,2018-10-25,23:00,10:00,GCC South,false,37742.68,8,Renovation
+STR-006,Kuwait Avenues,Mall,Kuwait,Kuwait City,East,Ahmed Wilson,manager948@example.com,+97149705337,1880.57,24.861599,54.383943,2023-04-05,00:00,08:00,Levant,false,92369.67,95,Planned
+STR-001,Dubai Mall Flagship,Dark Store,UAE,Dubai,North,Ali Ali,manager949@example.com,+97141561731,637.74,24.493240,54.913751,2021-08-13,00:00,10:00,International,true,86044.96,83,Planned
+STR-002,Mall of the Emirates,Street Retail,UAE,Dubai,North,Ali King,manager950@example.com,+97146096066,1613.48,25.170616,54.659921,2022-11-18,22:00,10:00,Levant,false,156853.66,35,Open
+STR-003,Riyadh Park,Mall,KSA,Riyadh,East,Khalid Khalid,manager951@example.com,+97142388317,104.25,26.152198,56.024523,2022-01-26,22:00,08:00,Levant,true,177162.80,64,Renovation
+STR-004,Cairo Festival City,Mall,Egypt,Cairo,East,Mariam Hill,manager952@example.com,+97146132886,2137.81,24.413562,55.265385,2023-04-24,22:00,10:00,Levant,false,54866.29,96,Renovation
+STR-005,Doha Festival City,Street Retail,Qatar,Doha,Central,Yousef Moore,manager953@example.com,+97141070189,363.6,24.783374,56.144236,2020-11-14,23:00,09:00,Levant,true,124274.06,55,Open
+STR-006,Kuwait Avenues,Warehouse Outlet,Kuwait,Kuwait City,South,Yousef Johnson,manager954@example.com,+97144435679,1218.74,24.034812,55.895236,2020-05-13,00:00,09:00,GCC South,true,88683.74,29,Renovation
+STR-001,Dubai Mall Flagship,Street Retail,UAE,Dubai,North,Noor Saleh,manager955@example.com,+97145213016,1770.78,24.240009,54.511291,2019-09-05,23:00,10:00,International,false,65402.32,63,Open
+STR-002,Mall of the Emirates,Mall,UAE,Dubai,West,Mona Saleh,manager956@example.com,+97147271085,125.99,25.050792,54.647571,2024-03-09,00:00,09:00,Levant,true,179832.97,47,Planned
+STR-003,Riyadh Park,Warehouse Outlet,KSA,Riyadh,Central,Sophia Young,manager957@example.com,+97143671536,1336.93,24.467955,55.836678,2019-12-01,00:00,09:00,GCC South,true,157439.44,103,Renovation
+STR-004,Cairo Festival City,Dark Store,Egypt,Cairo,North,Hassan Moore,manager958@example.com,+97148768407,1831.96,24.951323,55.308941,2018-04-06,23:00,09:00,GCC South,true,81071.07,104,Open
+STR-005,Doha Festival City,Dark Store,Qatar,Doha,West,Hassan Ali,manager959@example.com,+97142065625,284.14,24.494916,54.339197,2018-12-05,23:00,10:00,GCC North,true,152042.62,106,Open
+STR-006,Kuwait Avenues,Dark Store,Kuwait,Kuwait City,West,Mariam Thomas,manager960@example.com,+97149545034,1765.76,25.053574,55.840276,2021-03-15,22:00,08:00,International,false,11343.25,11,Planned
+STR-001,Dubai Mall Flagship,Street Retail,UAE,Dubai,East,Lina Young,manager961@example.com,+97142262586,2011.39,25.761137,55.636792,2021-09-25,22:00,10:00,International,false,86993.15,103,Renovation
+STR-002,Mall of the Emirates,Dark Store,UAE,Dubai,West,Noor Clark,manager962@example.com,+97146572975,355.33,25.565659,56.316904,2020-03-10,22:00,08:00,GCC South,true,102080.88,120,Planned
+STR-003,Riyadh Park,Warehouse Outlet,KSA,Riyadh,West,Noor Miller,manager963@example.com,+97143206381,1503.17,25.718046,54.966610,2020-04-21,22:00,10:00,GCC North,false,22779.20,94,Renovation
+STR-004,Cairo Festival City,Dark Store,Egypt,Cairo,East,Khalid Mansour,manager964@example.com,+97145412292,902.48,24.092346,54.960837,2018-07-01,00:00,08:00,GCC South,true,22002.55,26,Planned
+STR-005,Doha Festival City,Dark Store,Qatar,Doha,Central,Ali Johnson,manager965@example.com,+97149132648,1306.57,25.752747,55.987481,2023-10-16,22:00,08:00,GCC South,false,120657.84,89,Open
+STR-006,Kuwait Avenues,Dark Store,Kuwait,Kuwait City,East,Mariam Martin,manager966@example.com,+97143956266,844.67,24.086405,55.453176,2022-01-15,00:00,09:00,GCC North,true,46423.76,29,Planned
+STR-001,Dubai Mall Flagship,Mall,UAE,Dubai,East,Zain Moore,manager967@example.com,+97147435731,1925.31,25.313212,54.229405,2023-12-06,22:00,09:00,GCC North,false,111292.68,30,Open
+STR-002,Mall of the Emirates,Mall,UAE,Dubai,North,David Moore,manager968@example.com,+97141492334,1308.38,24.834235,55.395878,2022-06-28,00:00,09:00,Levant,false,45601.43,114,Renovation
+STR-003,Riyadh Park,Mall,KSA,Riyadh,North,Lina Martin,manager969@example.com,+97149293832,2484.46,26.134196,54.531035,2019-07-05,00:00,08:00,GCC North,true,126271.30,72,Open
+STR-004,Cairo Festival City,Street Retail,Egypt,Cairo,East,Ali Saleh,manager970@example.com,+97141782776,1946.16,26.458434,55.424987,2021-05-31,23:00,09:00,International,false,40018.01,79,Open
+STR-005,Doha Festival City,Mall,Qatar,Doha,Central,Zain White,manager971@example.com,+97145685432,1199.62,25.495966,55.783502,2024-03-27,00:00,08:00,GCC North,true,37113.15,57,Renovation
+STR-006,Kuwait Avenues,Warehouse Outlet,Kuwait,Kuwait City,West,Ahmed Mansour,manager972@example.com,+97141960694,397.37,24.531279,54.332328,2022-12-11,23:00,10:00,GCC North,false,143713.70,10,Renovation
+STR-001,Dubai Mall Flagship,Street Retail,UAE,Dubai,North,Sophia Wilson,manager973@example.com,+97149822849,1397.55,24.229731,54.198388,2019-12-29,23:00,10:00,GCC South,true,80465.85,11,Renovation
+STR-002,Mall of the Emirates,Dark Store,UAE,Dubai,South,Omar Anderson,manager974@example.com,+97143809588,2201.9,24.223577,56.220482,2019-04-22,22:00,08:00,Levant,true,26466.86,13,Open
+STR-003,Riyadh Park,Dark Store,KSA,Riyadh,East,Lina Wilson,manager975@example.com,+97142081049,625.72,26.168603,54.424743,2018-10-12,22:00,10:00,GCC North,true,46605.94,65,Open
+STR-004,Cairo Festival City,Mall,Egypt,Cairo,East,Leen Smith,manager976@example.com,+97146230063,91.82,26.163946,55.888918,2019-12-25,23:00,10:00,International,true,157102.04,38,Renovation
+STR-005,Doha Festival City,Dark Store,Qatar,Doha,West,Omar White,manager977@example.com,+97143629316,167.91,25.857478,54.911154,2018-05-27,00:00,10:00,GCC North,false,135089.59,34,Planned
+STR-006,Kuwait Avenues,Street Retail,Kuwait,Kuwait City,North,Mona Taylor,manager978@example.com,+97141456716,351.12,25.005625,54.468734,2021-12-08,22:00,09:00,GCC North,true,63092.56,114,Planned
+STR-001,Dubai Mall Flagship,Dark Store,UAE,Dubai,Central,Sophia Saleh,manager979@example.com,+97141595516,2205.94,24.907965,54.186546,2021-01-19,00:00,09:00,GCC North,true,47627.62,24,Open
+STR-002,Mall of the Emirates,Dark Store,UAE,Dubai,North,Sara Hill,manager980@example.com,+97143513725,790.07,24.000301,54.773499,2022-06-10,00:00,08:00,Levant,false,80528.44,38,Open
+STR-003,Riyadh Park,Mall,KSA,Riyadh,North,Layla Saleh,manager981@example.com,+97149681841,2393.37,24.904759,54.694876,2024-04-26,22:00,10:00,GCC North,false,158510.78,10,Planned
+STR-004,Cairo Festival City,Mall,Egypt,Cairo,East,Ali Hassan,manager982@example.com,+97147574123,422.7,24.942985,54.901449,2018-02-17,22:00,10:00,Levant,false,98317.57,90,Open
+STR-005,Doha Festival City,Dark Store,Qatar,Doha,South,Ahmed Ali,manager983@example.com,+97144777372,1477.66,25.921345,56.260055,2021-01-02,23:00,09:00,Levant,false,156259.16,44,Planned
+STR-006,Kuwait Avenues,Mall,Kuwait,Kuwait City,Central,Zain Hassan,manager984@example.com,+97141356625,419.88,24.422956,54.237306,2019-10-23,23:00,08:00,GCC North,false,136502.01,115,Planned
+STR-001,Dubai Mall Flagship,Dark Store,UAE,Dubai,South,Sara Anderson,manager985@example.com,+97146763740,370.36,26.457812,55.445923,2019-04-05,22:00,09:00,International,false,117779.60,110,Open
+STR-002,Mall of the Emirates,Dark Store,UAE,Dubai,Central,Layla Johnson,manager986@example.com,+97143438855,1710.21,26.268692,55.568236,2021-02-23,23:00,08:00,International,false,82245.91,120,Planned
+STR-003,Riyadh Park,Dark Store,KSA,Riyadh,North,Ahmed Brown,manager987@example.com,+97141058643,702.16,26.424588,55.389274,2024-04-04,23:00,08:00,GCC North,true,75187.10,94,Renovation
+STR-004,Cairo Festival City,Warehouse Outlet,Egypt,Cairo,West,Layla Clark,manager988@example.com,+97142482893,691.1,25.962987,55.806456,2020-07-20,00:00,10:00,International,true,126658.76,82,Renovation
+STR-005,Doha Festival City,Warehouse Outlet,Qatar,Doha,North,John Clark,manager989@example.com,+97147095631,1484.73,24.887826,56.392979,2021-04-25,22:00,08:00,GCC South,true,176610.68,100,Planned
+STR-006,Kuwait Avenues,Warehouse Outlet,Kuwait,Kuwait City,West,Mona Wilson,manager990@example.com,+97148125708,2285.28,24.635692,56.028626,2021-12-04,00:00,08:00,Levant,true,80181.32,19,Open
+STR-001,Dubai Mall Flagship,Street Retail,UAE,Dubai,South,Mariam Khalid,manager991@example.com,+97149749598,361.76,25.774414,55.662535,2018-04-12,23:00,08:00,GCC South,true,81118.22,64,Renovation
+STR-002,Mall of the Emirates,Dark Store,UAE,Dubai,Central,David Ali,manager992@example.com,+97143808649,499.77,24.424499,54.807500,2019-04-06,22:00,10:00,GCC North,true,53282.98,19,Renovation
+STR-003,Riyadh Park,Street Retail,KSA,Riyadh,North,Leen Ali,manager993@example.com,+97146812098,803.99,24.173160,54.924941,2022-09-22,00:00,08:00,GCC North,false,52045.11,65,Planned
+STR-004,Cairo Festival City,Warehouse Outlet,Egypt,Cairo,East,Noor Young,manager994@example.com,+97143763597,1419.98,25.114028,55.533912,2018-05-29,22:00,10:00,International,true,14471.04,105,Planned
+STR-005,Doha Festival City,Dark Store,Qatar,Doha,South,David Hassan,manager995@example.com,+97143292068,2045.49,25.953603,56.356346,2019-11-02,23:00,09:00,Levant,false,152242.07,69,Renovation
+STR-006,Kuwait Avenues,Dark Store,Kuwait,Kuwait City,East,Hassan Thomas,manager996@example.com,+97143844964,880.76,24.119344,54.653709,2020-11-29,23:00,08:00,GCC North,false,52128.27,114,Planned
+STR-001,Dubai Mall Flagship,Street Retail,UAE,Dubai,South,Ethan Ali,manager997@example.com,+97143862726,1325.43,24.299515,54.360636,2024-07-05,23:00,10:00,Levant,true,52650.33,75,Planned
+STR-002,Mall of the Emirates,Warehouse Outlet,UAE,Dubai,South,Omar Ali,manager998@example.com,+97145129123,529.29,26.313748,56.172560,2019-09-20,00:00,09:00,Levant,true,101242.84,23,Planned
+STR-003,Riyadh Park,Mall,KSA,Riyadh,South,Lina Moore,manager999@example.com,+97144441975,2038.56,25.928427,56.204414,2023-12-08,23:00,08:00,GCC North,false,93127.66,9,Planned
+STR-004,Cairo Festival City,Street Retail,Egypt,Cairo,Central,Yousef Young,manager1000@example.com,+97149846527,780.61,24.261509,55.076915,2024-01-27,23:00,09:00,International,true,128328.96,119,Open
